@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:testXamarin"
+             x:Class="testXamarin.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+
+
+      
+
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Entry x:Name="myEntry" Placeholder="Type Name" />
+
+        <Label x:Name="myLabel"  Text="Test"
+             HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="This"
+                
+                Clicked="Button_Clicked"
+                StyleClass="Danger"
+                />
+
+  
+
+
+
+
+
+
+    </StackLayout>
+
+    
+</ContentPage>
