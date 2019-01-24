@@ -13,17 +13,17 @@ namespace testXamarin.UWP
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
-        private global::testXamarin.UWP.testXamarin_UWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::testXamarin.UWP.xamarinFitnessApp_UWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::testXamarin.UWP.testXamarin_UWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::testXamarin.UWP.xamarinFitnessApp_UWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::testXamarin.UWP.testXamarin_UWP_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::testXamarin.UWP.xamarinFitnessApp_UWP_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace testXamarin.UWP
     }
 }
 
-namespace testXamarin.UWP.testXamarin_UWP_XamlTypeInfo
+namespace testXamarin.UWP.xamarinFitnessApp_UWP_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace testXamarin.UWP.testXamarin_UWP_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::testXamarin.UWP.testXamarin_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::testXamarin.UWP.xamarinFitnessApp_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::testXamarin.UWP.testXamarin_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::testXamarin.UWP.xamarinFitnessApp_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::testXamarin.UWP.testXamarin_UWP_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::testXamarin.UWP.xamarinFitnessApp_UWP_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

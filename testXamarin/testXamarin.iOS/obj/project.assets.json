@@ -197,7 +197,7 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -207,10 +207,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -410,7 +410,7 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -420,10 +420,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -623,7 +623,7 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -633,10 +633,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -836,7 +836,7 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -846,10 +846,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     }
@@ -1113,10 +1113,10 @@
         "xamarin.forms.theme.light.nuspec"
       ]
     },
-    "testXamarin/1.0.0": {
+    "xamarinFitnessApp/1.0.0": {
       "type": "project",
-      "path": "../testXamarin/testXamarin.csproj",
-      "msbuildProject": "../testXamarin/testXamarin.csproj"
+      "path": "../testXamarin/xamarinFitnessApp.csproj",
+      "msbuildProject": "../testXamarin/xamarinFitnessApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1125,7 +1125,7 @@
       "Xamarin.Forms.Theme.Base >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Dark >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Light >= 1.0.0.43-pre1",
-      "testXamarin >= 1.0.0"
+      "xamarinFitnessApp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1134,9 +1134,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.iOS\\testXamarin.iOS.csproj",
-      "projectName": "testXamarin.iOS",
-      "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.iOS\\testXamarin.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.iOS\\xamarinFitnessApp.iOS.csproj",
+      "projectName": "xamarinFitnessApp.iOS",
+      "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.iOS\\xamarinFitnessApp.iOS.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.iOS\\obj\\",
       "projectStyle": "PackageReference",
@@ -1155,8 +1155,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin\\testXamarin.csproj": {
-              "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin\\testXamarin.csproj"
+            "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin\\xamarinFitnessApp.csproj": {
+              "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin\\xamarinFitnessApp.csproj"
             }
           }
         }
@@ -1201,7 +1201,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.4.0.1008975. Reference the package directly from the project to select a different version. \r\n testXamarin.iOS -> testXamarin -> Xamarin.Forms (>= 3.4.0.1009999) \r\n testXamarin.iOS -> Xamarin.Forms (>= 3.4.0.1008975)",
+      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.4.0.1008975. Reference the package directly from the project to select a different version. \r\n xamarinFitnessApp.iOS -> xamarinFitnessApp -> Xamarin.Forms (>= 3.4.0.1009999) \r\n xamarinFitnessApp.iOS -> Xamarin.Forms (>= 3.4.0.1008975)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

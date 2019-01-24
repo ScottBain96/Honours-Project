@@ -402,7 +402,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -412,10 +412,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -997,7 +997,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1007,10 +1007,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -1593,7 +1593,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1603,10 +1603,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -2189,7 +2189,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2199,10 +2199,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -2784,7 +2784,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2794,10 +2794,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -3380,7 +3380,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3390,10 +3390,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -3975,7 +3975,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3985,10 +3985,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     },
@@ -4571,7 +4571,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
-      "testXamarin/1.0.0": {
+      "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4581,10 +4581,10 @@
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
         },
         "compile": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/testXamarin.dll": {}
+          "bin/placeholder/xamarinFitnessApp.dll": {}
         }
       }
     }
@@ -9250,10 +9250,10 @@
         "xamarin.forms.theme.light.nuspec"
       ]
     },
-    "testXamarin/1.0.0": {
+    "xamarinFitnessApp/1.0.0": {
       "type": "project",
-      "path": "../testXamarin/testXamarin.csproj",
-      "msbuildProject": "../testXamarin/testXamarin.csproj"
+      "path": "../testXamarin/xamarinFitnessApp.csproj",
+      "msbuildProject": "../testXamarin/xamarinFitnessApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9263,7 +9263,7 @@
       "Xamarin.Forms.Theme.Base >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Dark >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Light >= 1.0.0.43-pre1",
-      "testXamarin >= 1.0.0"
+      "xamarinFitnessApp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9273,9 +9273,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.UWP\\testXamarin.UWP.csproj",
-      "projectName": "testXamarin.UWP",
-      "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.UWP\\testXamarin.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.UWP\\xamarinFitnessApp.UWP.csproj",
+      "projectName": "xamarinFitnessApp.UWP",
+      "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.UWP\\xamarinFitnessApp.UWP.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin.UWP\\obj\\",
       "projectStyle": "PackageReference",
@@ -9297,8 +9297,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin\\testXamarin.csproj": {
-              "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin\\testXamarin.csproj"
+            "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin\\xamarinFitnessApp.csproj": {
+              "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\testXamarin\\testXamarin\\xamarinFitnessApp.csproj"
             }
           }
         }
@@ -9381,7 +9381,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.4.0.1008975. Reference the package directly from the project to select a different version. \r\n testXamarin.UWP -> testXamarin -> Xamarin.Forms (>= 3.4.0.1009999) \r\n testXamarin.UWP -> Xamarin.Forms (>= 3.4.0.1008975)",
+      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1009999 to 3.4.0.1008975. Reference the package directly from the project to select a different version. \r\n xamarinFitnessApp.UWP -> xamarinFitnessApp -> Xamarin.Forms (>= 3.4.0.1009999) \r\n xamarinFitnessApp.UWP -> Xamarin.Forms (>= 3.4.0.1008975)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "UAP,Version=v10.0.16299",

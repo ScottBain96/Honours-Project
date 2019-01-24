@@ -111,7 +111,6 @@ class MonoPackageManager_Resources {
 		"ModernHttpClient.dll",
 		"Newtonsoft.Json.dll",
 		"OkHttp.dll",
-		"testXamarin.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -140,6 +139,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Theme.Dark.dll",
 		"Xamarin.Forms.Theme.Light.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"xamarinFitnessApp.dll",
+		"testXamarin.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

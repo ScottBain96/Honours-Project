@@ -144,8 +144,6 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\bin\
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\bin\x86\Debug\Xamarin.Forms.Theme.Dark.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\bin\x86\Debug\Xamarin.Forms.Theme.Light.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\bin\x86\Debug\testXamarin.dll
-C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\bin\x86\Debug\testXamarin.pdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\obj\x86\Debug\App.g.i.cs
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\obj\x86\Debug\App.g.cs
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\obj\x86\Debug\MainPage.g.i.cs
@@ -178,3 +176,5 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\obj\
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758552200000000.json
+C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\bin\x86\Debug\xamarinFitnessApp.dll
+C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\bin\x86\Debug\xamarinFitnessApp.pdb
