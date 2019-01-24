@@ -1,1 +1,0 @@
-C:\Users\Scott\Documents\GitHub\Honours-Project\testXamarin\testXamarin.UWP\xamarinFitnessApp.UWP.csproj;x86
