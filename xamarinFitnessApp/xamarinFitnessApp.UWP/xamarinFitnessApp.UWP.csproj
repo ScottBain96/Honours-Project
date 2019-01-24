@@ -130,6 +130,7 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="calis.jpg" />
     <Content Include="dumbellpic.png" />
     <Content Include="placeholder1.png" />
     <Content Include="placeholder2.png" />

@@ -5,36 +5,49 @@
     <ContentPage.Content>
 
 
+        
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="33*" />
+                <RowDefinition Height="33*" />
+                <RowDefinition Height="33*" />
+                
+            </Grid.RowDefinitions>
+            <ImageButton Aspect="Fill" Source="weight.jpg" Grid.Row="0" Clicked="ImageButton_Clicked" ></ImageButton>
+            <ImageButton Aspect="Fill" Source="calisresize.jpg" Grid.Row="1" Clicked="ImageButton_Clicked"></ImageButton>
+            <ImageButton Aspect="Fill" Source="weight.jpg" Grid.Row="2" Clicked="ImageButton_Clicked_Tools"></ImageButton>
 
-        <StackLayout>
-
-            <ImageButton Aspect="AspectFit" Source="placeholder1.png"
+                        <!--<ScrollView IsVisible="True">
+            <StackLayout>
+          
+                <ImageButton Aspect="AspectFit" Source="weight.jpg"
               HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand" 
                    Clicked="ImageButton_Clicked"
                          />
 
-            <ImageButton Aspect="AspectFit" Source="placeholder2.png"
+                <ImageButton Aspect="AspectFit" Source="calisresize.jpg"
                      HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
                    Clicked="ImageButton_Clicked"
                          />
 
 
-            <ImageButton Aspect="AspectFit" Source="placeholder3.png"
+                <ImageButton Aspect="AspectFit" Source="weight.jpg"
                      HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
                    Clicked="ImageButton_Clicked_Tools"
+                             
                          />
 
+   </ScrollView>
+            </StackLayout>-->
+
+
+        </Grid>
 
 
 
-
-
-
-
-        </StackLayout>
 
 
 
