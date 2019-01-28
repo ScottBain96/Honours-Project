@@ -1,8 +1,9 @@
+System.Runtime
+xamarinFitnessApp
 FormsViewGroup
 ModernHttpClient
 Newtonsoft.Json
 OkHttp
-System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -31,7 +32,6 @@ Xamarin.Forms.Theme.Base
 Xamarin.Forms.Theme.Dark
 Xamarin.Forms.Theme.Light
 Xamarin.Forms.Xaml
-xamarinFitnessApp
 netstandard
 System.Reflection.Extensions
 System.Diagnostics.Tools
