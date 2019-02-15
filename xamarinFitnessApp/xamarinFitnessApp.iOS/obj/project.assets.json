@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microcharts/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        }
+      },
       "modernhttpclient/2.4.2": {
         "type": "package",
         "compile": {
@@ -18,6 +47,118 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.SQLite/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "sqlite-net-pcl": "1.1.1"
+        }
+      },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win7-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.6.258-beta": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "Xamarin.Forms/3.4.0.1008975": {
@@ -201,10 +342,14 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "Microcharts.Forms": "0.8.3-pre",
+          "Plugin.SQLite": "1.0.4",
           "Xamarin.Forms": "3.4.0.1008975",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
-          "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
+          "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
+          "sqlite-net-pcl": "1.6.258-beta"
         },
         "compile": {
           "bin/placeholder/xamarinFitnessApp.dll": {}
@@ -215,6 +360,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microcharts/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        }
+      },
       "modernhttpclient/2.4.2": {
         "type": "package",
         "compile": {
@@ -231,6 +405,104 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.SQLite/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "sqlite-net-pcl": "1.1.1"
+        }
+      },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.6.258-beta": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "Xamarin.Forms/3.4.0.1008975": {
@@ -414,10 +686,14 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "Microcharts.Forms": "0.8.3-pre",
+          "Plugin.SQLite": "1.0.4",
           "Xamarin.Forms": "3.4.0.1008975",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
-          "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
+          "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
+          "sqlite-net-pcl": "1.6.258-beta"
         },
         "compile": {
           "bin/placeholder/xamarinFitnessApp.dll": {}
@@ -428,6 +704,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microcharts/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        }
+      },
       "modernhttpclient/2.4.2": {
         "type": "package",
         "compile": {
@@ -444,6 +749,104 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.SQLite/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "sqlite-net-pcl": "1.1.1"
+        }
+      },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.6.258-beta": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "Xamarin.Forms/3.4.0.1008975": {
@@ -627,10 +1030,14 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "Microcharts.Forms": "0.8.3-pre",
+          "Plugin.SQLite": "1.0.4",
           "Xamarin.Forms": "3.4.0.1008975",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
-          "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
+          "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
+          "sqlite-net-pcl": "1.6.258-beta"
         },
         "compile": {
           "bin/placeholder/xamarinFitnessApp.dll": {}
@@ -641,6 +1048,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microcharts/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.8.3-pre": {
+        "type": "package",
+        "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microcharts.Forms.dll": {}
+        }
+      },
       "modernhttpclient/2.4.2": {
         "type": "package",
         "compile": {
@@ -657,6 +1093,104 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.SQLite/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "sqlite-net-pcl": "1.1.1"
+        }
+      },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.6.258-beta": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "Xamarin.Forms/3.4.0.1008975": {
@@ -840,10 +1374,14 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microcharts": "0.8.3-pre",
+          "Microcharts.Forms": "0.8.3-pre",
+          "Plugin.SQLite": "1.0.4",
           "Xamarin.Forms": "3.4.0.1008975",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
-          "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
+          "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
+          "sqlite-net-pcl": "1.6.258-beta"
         },
         "compile": {
           "bin/placeholder/xamarinFitnessApp.dll": {}
@@ -855,6 +1393,40 @@
     }
   },
   "libraries": {
+    "Microcharts/0.8.3-pre": {
+      "sha512": "7Fxobh9+TOxiKoCjKwbgh9z4deJXvD3A7TvCd7fc8NTyDtqD8aS4rVEjxVBSV8A6sGMNbXbzNIQtqda70ZdNvA==",
+      "type": "package",
+      "path": "microcharts/0.8.3-pre",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Microcharts.Droid.dll",
+        "lib/MonoAndroid10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.iOS.dll",
+        "lib/netstandard1.3/Microcharts.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microcharts.dll",
+        "lib/uap/Microcharts.Uwp.dll",
+        "lib/uap/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.macOS.dll",
+        "microcharts.0.8.3-pre.nupkg.sha512",
+        "microcharts.nuspec"
+      ]
+    },
+    "Microcharts.Forms/0.8.3-pre": {
+      "sha512": "TyhvKCcIdjBgAoKsdvYS7Hv822oQ1ZyJ/OGsPHo5gon4GyqkBNAZIPapL9F4PW6s3IO7iSRlKRMerYk5HuZjZA==",
+      "type": "package",
+      "path": "microcharts.forms/0.8.3-pre",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.3/Microcharts.Forms.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microcharts.Forms.dll",
+        "microcharts.forms.0.8.3-pre.nupkg.sha512",
+        "microcharts.forms.nuspec"
+      ]
+    },
     "modernhttpclient/2.4.2": {
       "sha512": "9BX22+C/WFPvPKj2gxtYxn0X0IbbyGqvwzexu38Mr2dzsp1lzKeD5JH67uQGHkhEg122+W8gv9f7WmyykPhb6Q==",
       "type": "package",
@@ -902,6 +1474,250 @@
         "newtonsoft.json.6.0.4.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Plugin.SQLite/1.0.4": {
+      "sha512": "+QqbFV09oixZnl7lO3HGb6W1WrEisTepADQQqM6WVru/YEKlv5uqzOb1gLdNlQUpUdsAMMcYT9Fof+qvq7eakw==",
+      "type": "package",
+      "path": "plugin.sqlite/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/MonoAndroid10/SQLite/SQLite_Android.cs",
+        "content/UAP10/SQLite/SQLite_Uwp.cs",
+        "content/Xamarin.iOS10/SQLite/SQLite_iOS.cs",
+        "content/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/SQLite-AppSample/SQLiteSamplePage.cs",
+        "content/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/SQLite-AppSample/TodoItem.cs",
+        "content/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/SQLite-AppSample/readme.txt",
+        "content/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/SQLite/ISQLite.cs",
+        "content/win8/SQLite/SQLite_Windows.cs",
+        "content/wpa81/SQLite/SQLite_WindowsPhone.cs",
+        "plugin.sqlite.1.0.4.nupkg.sha512",
+        "plugin.sqlite.nuspec"
+      ]
+    },
+    "SkiaSharp/1.59.1": {
+      "sha512": "Pyq7tiXrysvxIlY2ddD/WSFR1EA0qCwMQIYQpCMVWKdA8Zy0aGqh5zcLALsR6rMlc3W4/0NdZR+B7xDtGuP2rg==",
+      "type": "package",
+      "path": "skiasharp/1.59.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/SkiaSharp.dll.config",
+        "build/net45/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/XamarinMac/SkiaSharp.dll",
+        "lib/XamarinMac/SkiaSharp.xml",
+        "lib/XamariniOS/SkiaSharp.dll",
+        "lib/XamariniOS/SkiaSharp.xml",
+        "lib/XamarintvOS/SkiaSharp.dll",
+        "lib/XamarintvOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.dll.config",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win7-x64/native/libSkiaSharp.dll",
+        "runtimes/win7-x86/native/libSkiaSharp.dll",
+        "skiasharp.1.59.1.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.Views/1.59.1.1": {
+      "sha512": "DHXi8tefhCjip/zQqhVqx475poNmSWORqza84xR0CDpcJHz/DOr2Iy42aQQSi0TW0kB6CJkqc8r476SzHGrqiw==",
+      "type": "package",
+      "path": "skiasharp.views/1.59.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SkiaSharp.Views.Android.dll",
+        "lib/XamarinMac/SkiaSharp.Views.Mac.dll",
+        "lib/XamariniOS/SkiaSharp.Views.iOS.dll",
+        "lib/XamarintvOS/SkiaSharp.Views.tvOS.dll",
+        "lib/net45/SkiaSharp.Views.Desktop.dll",
+        "lib/net45/SkiaSharp.Views.WPF.dll",
+        "lib/uap10.0/SkiaSharp.Views.UWP.dll",
+        "skiasharp.views.1.59.1.1.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Forms/1.59.1.1": {
+      "sha512": "KeIn+4JYFQDdxRj/e6vC+ftuPe4ez+KOGV7PFJn/7rivv+YoAb9QzJ1RDofM1pDmZRYOzyw3ve22DtW3isbbRQ==",
+      "type": "package",
+      "path": "skiasharp.views.forms/1.59.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SkiaSharp.Views.Forms.dll",
+        "lib/XamarinMac/SkiaSharp.Views.Forms.dll",
+        "lib/XamariniOS/SkiaSharp.Views.Forms.dll",
+        "lib/netstandard1.3/SkiaSharp.Views.Forms.dll",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll",
+        "lib/uap10.0/SkiaSharp.Views.Forms.dll",
+        "skiasharp.views.forms.1.59.1.1.nupkg.sha512",
+        "skiasharp.views.forms.nuspec"
+      ]
+    },
+    "sqlite-net-pcl/1.6.258-beta": {
+      "sha512": "U9dWZceRvo9h6lbJ6xWq1A2bv7lPZTlGDdN7rTRYgXPJ4wkNa0JCH3It5a80IBbjUWzKbOEz11MPpdblZdpNnA==",
+      "type": "package",
+      "path": "sqlite-net-pcl/1.6.258-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/SQLite-net.deps.json",
+        "lib/netstandard1.1/SQLite-net.dll",
+        "lib/netstandard1.1/SQLite-net.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.xml",
+        "sqlite-net-pcl.1.6.258-beta.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/1.1.13": {
+      "sha512": "LHm53C/Imhtn9SMxQX2USt3ULkznQ47fRZg6o16hI4AIX/MIEuI8Zy40yJoDimZTBpkaxbDnScDjKz9M3ARqZQ==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/wp8/SQLitePCLRaw.bundle_green.targets",
+        "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/arm/SQLitePCLRaw.batteries_v2.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_v2.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net35/SQLitePCLRaw.batteries_green.dll",
+        "lib/net35/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net40/SQLitePCLRaw.batteries_green.dll",
+        "lib/net40/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net45/SQLitePCLRaw.batteries_green.dll",
+        "lib/net45/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_green.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win8/SQLitePCLRaw.batteries_green.dll",
+        "lib/win8/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win81/SQLitePCLRaw.batteries_green.dll",
+        "lib/win81/SQLitePCLRaw.batteries_v2.dll",
+        "lib/wp8/_._",
+        "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
+        "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/1.1.13": {
+      "sha512": "UcP955bF6FtgzSu6S9jcC4FUzOqn5/E6dxby5CzzSxLYZHvGfDntfUzgwm/HD3nJgSpCi9VDNwU7TWVPICJdiQ==",
+      "type": "package",
+      "path": "sqlitepclraw.core/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/net35/SQLitePCLRaw.core.dll",
+        "lib/net40/SQLitePCLRaw.core.dll",
+        "lib/net45/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.0/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.core.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/uap10.0/SQLitePCLRaw.core.dll",
+        "lib/win8/SQLitePCLRaw.core.dll",
+        "lib/win81/SQLitePCLRaw.core.dll",
+        "lib/wpa81/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.1.1.13.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.13": {
+      "sha512": "Lb4J3pw0XuwU+D8uxwjaNLjUGKKa8BKGjbFXbsIJY/vBR+ic/Oqh1x9NQL1Xgnz4a6hbu9KLV/Bt0SQz1gQxOg==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.sqlite3.ios_unified/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll",
+        "sqlitepclraw.provider.sqlite3.ios_unified.1.1.13.nupkg.sha512",
+        "sqlitepclraw.provider.sqlite3.ios_unified.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.4.0": {
+      "sha512": "hBl0/yPqtMnwrsqCYSxYr4Abvo9hSVYmf+55EniEMyCEPJRM1VGr8o+kHeHJdEqgr6wrQMhZ7HowYmejruXStg==",
+      "type": "package",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {
@@ -1121,10 +1937,14 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Microcharts >= 0.8.3-pre",
+      "Microcharts.Forms >= 0.8.3-pre",
+      "Plugin.SQLite >= 1.0.4",
       "Xamarin.Forms >= 3.4.0.1008975",
       "Xamarin.Forms.Theme.Base >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Dark >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Light >= 1.0.0.43-pre1",
+      "sqlite-net-pcl >= 1.6.258-beta",
       "xamarinFitnessApp >= 1.0.0"
     ]
   },
@@ -1165,6 +1985,18 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Microcharts": {
+            "target": "Package",
+            "version": "[0.8.3-pre, )"
+          },
+          "Microcharts.Forms": {
+            "target": "Package",
+            "version": "[0.8.3-pre, )"
+          },
+          "Plugin.SQLite": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.4.0.1008975, )"
@@ -1180,6 +2012,10 @@
           "Xamarin.Forms.Theme.Light": {
             "target": "Package",
             "version": "[1.0.0.43-pre1, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.6.258-beta, )"
           }
         }
       }

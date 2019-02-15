@@ -30,13 +30,25 @@
     <AppXManifest Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-28T03:06:58.125</Modified>
+      <Modified>2019-02-14T21:11:39.969</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\xamarinFitnessApp.UWP.exe">
       <PackagePath>entrypoint\xamarinFitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-01-28T03:06:57.518</Modified>
+      <Modified>2019-02-14T21:11:39.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts\0.8.3-pre\lib\uap\Microcharts.Uwp.dll">
+      <PackagePath>Microcharts.Uwp.dll</PackagePath>
+      <Modified>2017-10-23T21:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts\0.8.3-pre\lib\uap\Microcharts.dll">
+      <PackagePath>Microcharts.dll</PackagePath>
+      <Modified>2017-10-23T21:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts.forms\0.8.3-pre\lib\netstandard1.3\Microcharts.Forms.dll">
+      <PackagePath>Microcharts.Forms.dll</PackagePath>
+      <Modified>2017-10-23T21:52:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\modernhttpclient\2.4.2\lib\Portable-Net45+WinRT45+WP8+WPA81\ModernHttpClient.dll">
       <PackagePath>ModernHttpClient.dll</PackagePath>
@@ -702,6 +714,54 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-05-16T17:28:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp\1.59.1\runtimes\win10-x86\nativeassets\uap10.0\libEGL.dll">
+      <PackagePath>libEGL.dll</PackagePath>
+      <Modified>2017-07-17T17:14:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp\1.59.1\runtimes\win10-x86\nativeassets\uap10.0\libGLESv2.dll">
+      <PackagePath>libGLESv2.dll</PackagePath>
+      <Modified>2017-07-17T17:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp\1.59.1\runtimes\win10-x86\nativeassets\uap10.0\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+      <Modified>2017-07-17T17:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp\1.59.1\lib\uap10.0\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+      <Modified>2017-07-17T17:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp.views\1.59.1.1\lib\uap10.0\SkiaSharp.Views.UWP.dll">
+      <PackagePath>SkiaSharp.Views.UWP.dll</PackagePath>
+      <Modified>2017-09-12T16:06:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp.views.forms\1.59.1.1\lib\uap10.0\SkiaSharp.Views.Forms.dll">
+      <PackagePath>SkiaSharp.Views.Forms.dll</PackagePath>
+      <Modified>2017-09-12T16:06:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlite-net-pcl\1.6.258-beta\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2019-01-25T20:00:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.bundle_green\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+      <Modified>2019-01-24T15:30:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.bundle_green\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2019-01-24T15:30:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.core\1.1.13\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2019-01-24T15:30:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.13\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2018-12-18T02:23:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.13\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2019-01-24T15:30:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-11-13T20:15:30.000</Modified>
@@ -736,7 +796,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll">
       <PackagePath>xamarinFitnessApp.dll</PackagePath>
-      <Modified>2019-01-28T03:06:52.592</Modified>
+      <Modified>2019-02-14T21:11:34.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -901,6 +961,10 @@
       <PackagePath>mainScreen.jpg</PackagePath>
       <Modified>2019-01-28T03:04:21.078</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen2.jpg">
+      <PackagePath>mainScreen2.jpg</PackagePath>
+      <Modified>2019-01-28T03:10:28.968</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-01-24T01:05:45.638</Modified>
@@ -911,11 +975,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-01-28T03:06:57.361</Modified>
+      <Modified>2019-02-14T21:11:39.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-01-28T03:06:57.361</Modified>
+      <Modified>2019-02-14T21:11:39.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -927,11 +991,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-01-28T03:04:33.452</Modified>
+      <Modified>2019-02-14T00:12:51.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\xamarinFitnessApp.UWP.exe">
       <PackagePath>xamarinFitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-01-28T03:06:58.121</Modified>
+      <Modified>2019-02-14T21:11:39.963</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

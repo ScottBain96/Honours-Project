@@ -108,9 +108,21 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "xamarinFitnessApp.Android.dll" comes first in this list. */
 		"xamarinFitnessApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Microcharts.dll",
+		"Microcharts.Droid.dll",
+		"Microcharts.Forms.dll",
 		"ModernHttpClient.dll",
 		"Newtonsoft.Json.dll",
 		"OkHttp.dll",
+		"SkiaSharp.dll",
+		"SkiaSharp.Views.Android.dll",
+		"SkiaSharp.Views.Forms.dll",
+		"SQLite-net.dll",
+		"SQLitePCLRaw.batteries_green.dll",
+		"SQLitePCLRaw.batteries_v2.dll",
+		"SQLitePCLRaw.core.dll",
+		"SQLitePCLRaw.lib.e_sqlite3.dll",
+		"SQLitePCLRaw.provider.e_sqlite3.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -143,5 +155,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = null;
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_27";
 }

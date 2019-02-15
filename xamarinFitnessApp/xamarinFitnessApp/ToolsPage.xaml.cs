@@ -16,5 +16,16 @@ namespace xamarinFitnessApp
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button_Clicked_BMI(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new BmiPage());
+        }
+
+        private void Button_Clicked_profile(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new profilesView());
+            //changeback to profile page
+        }
+    }
 }

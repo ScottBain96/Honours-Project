@@ -10,8 +10,8 @@
             <StackLayout Padding="20">
 
 
-                <Button Text="Profile" />
-                <Button Text="BMI Calculator" StyleClass="Info" />
+                <Button Text="Profile" Clicked="Button_Clicked_profile" />
+                <Button Text="BMI Calculator" Clicked="Button_Clicked_BMI" StyleClass="Info" />
                 <Button Text="Daily Calorie Calculator" />
                 <Button Text="Button Default" />
                 <Button Text="Button Class Info" StyleClass="Info" />

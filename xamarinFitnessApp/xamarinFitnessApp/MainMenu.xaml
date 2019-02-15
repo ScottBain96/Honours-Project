@@ -15,7 +15,7 @@
             </Grid.RowDefinitions>
             <ImageButton  Aspect="Fill" Source="weight.jpg" Grid.Row="0" Clicked="ImageButton_Clicked" ></ImageButton>
             <ImageButton  Aspect="Fill" Source="mypic.jpg" Grid.Row="1" Clicked="ImageButton_Clicked"></ImageButton>
-            <ImageButton  Aspect="Fill" Source="weight.jpg" Grid.Row="2" Clicked="ImageButton_Clicked_Tools"></ImageButton>
+            <ImageButton  Aspect="Fill" Source="greyTools.jpg" Grid.Row="2" Clicked="ImageButton_Clicked_Tools"></ImageButton>
 
                         <!--<ScrollView IsVisible="True">
             Aspect="AspectFit"

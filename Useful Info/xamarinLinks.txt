@@ -2,3 +2,11 @@ Grid:
 https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/grid
 
 https://stackoverflow.com/questions/36262395/display-items-using-grid-in-xamarin-forms
+
+
+https://www.youtube.com/watch?v=I812z08ld8c
+
+
+CONTENT PAGE (BUTTON NAV)
+https://www.youtube.com/watch?v=Cp_2F621Az0
+

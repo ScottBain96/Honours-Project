@@ -28,6 +28,15 @@
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\xamarinFitnessApp.UWP.exe">
       <PackagePath>entrypoint\xamarinFitnessApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts\0.8.3-pre\lib\uap\Microcharts.Uwp.dll">
+      <PackagePath>Microcharts.Uwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts\0.8.3-pre\lib\uap\Microcharts.dll">
+      <PackagePath>Microcharts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts.forms\0.8.3-pre\lib\netstandard1.3\Microcharts.Forms.dll">
+      <PackagePath>Microcharts.Forms.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\modernhttpclient\2.4.2\lib\Portable-Net45+WinRT45+WP8+WPA81\ModernHttpClient.dll">
       <PackagePath>ModernHttpClient.dll</PackagePath>
     </AppxPackagedFile>
@@ -526,6 +535,42 @@
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp\1.59.1\runtimes\win10-x86\nativeassets\uap10.0\libEGL.dll">
+      <PackagePath>libEGL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp\1.59.1\runtimes\win10-x86\nativeassets\uap10.0\libGLESv2.dll">
+      <PackagePath>libGLESv2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp\1.59.1\runtimes\win10-x86\nativeassets\uap10.0\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp\1.59.1\lib\uap10.0\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp.views\1.59.1.1\lib\uap10.0\SkiaSharp.Views.UWP.dll">
+      <PackagePath>SkiaSharp.Views.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\skiasharp.views.forms\1.59.1.1\lib\uap10.0\SkiaSharp.Views.Forms.dll">
+      <PackagePath>SkiaSharp.Views.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlite-net-pcl\1.6.258-beta\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.bundle_green\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.bundle_green\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.core\1.1.13\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.13\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.13\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -681,6 +726,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen.jpg">
       <PackagePath>mainScreen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen2.jpg">
+      <PackagePath>mainScreen2.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
