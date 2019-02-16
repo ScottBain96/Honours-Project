@@ -10,3 +10,6 @@ https://www.youtube.com/watch?v=I812z08ld8c
 CONTENT PAGE (BUTTON NAV)
 https://www.youtube.com/watch?v=Cp_2F621Az0
 
+
+APP THEMES CHANGER
+ https://blog.xamarin.com/easy-app-theming-with-xamarin-forms-styles/

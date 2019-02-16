@@ -10,7 +10,7 @@
         <StackLayout >
 
                 
-                <Label Text="BMI Calculation"></Label>
+                <Label Text="BMI and daily calories calculator"></Label>
                 <Label Text="USE A DIFFERENT PROFILE HERE"></Label>
                 <Label Text=" Current profile 'Scott'"></Label>
                 <Picker x:Name="pickerUnit" Title="Select unit system" SelectedIndexChanged="Picker_SelectedIndexChanged">
@@ -27,6 +27,11 @@
                     <Entry x:Name="txtAge" Keyboard="Numeric" Placeholder="22"></Entry>
                      
                 </StackLayout>
+
+
+               
+
+
 
                 <StackLayout Orientation="Horizontal" Spacing="09">
                     
@@ -53,62 +58,50 @@
                     <Entry x:Name="lblLbs" Placeholder="Lbs" IsEnabled="False" IsVisible="False"></Entry>
                 </StackLayout>
 
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Picker x:Name="pickerGender" Title="Select Gender">
+                        <Picker.Items>
+                            <x:String>Male</x:String>
+                            <x:String>Female</x:String>
+                        </Picker.Items>
+
+                    </Picker>
+
+
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Picker x:Name="pickerActivity" Title="Select Activity Level">
+                        <Picker.Items>
+                            <x:String>Little to no exercise</x:String>
+                            <x:String>1–3 days per week</x:String>
+                            <x:String>3–5 days per week</x:String>
+                            <x:String>6–7 days per week</x:String>
+                           
+                        </Picker.Items>
+
+                    </Picker>
+
+                </StackLayout>
+
                 <StackLayout>
                     <Label x:Name="numberBMI"></Label>
                     <Label x:Name="Results"></Label>
                     
                 </StackLayout>
-            
-            
-            
-            
-            
+
+
+
+                <Entry x:Name="setAge" WidthRequest="50"></Entry>
+                <Entry x:Name="setAct" WidthRequest="50"></Entry>
                 <Entry x:Name="age3" WidthRequest="50"></Entry>
                 <Entry x:Name="age4" WidthRequest="50"></Entry>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <!--<StackLayout Orientation="Horizontal" Spacing="75">
-                    <Label Text="Age"></Label>
-                   
-                    <Label x:Name="lblKg" Text="Weight (Kg)"></Label>
-                </StackLayout>
-
-                <StackLayout Orientation="Horizontal" Spacing="50">
-                    <Entry x:Name="txtAge" Keyboard="Numeric" Placeholder="22" WidthRequest="50"></Entry>
-                    <Entry x:Name="txtWeightKg" Keyboard="Numeric" Placeholder="88"  WidthRequest="50"></Entry>
-                    <Entry x:Name="txtWeightLbs" Keyboard="Numeric" Placeholder="185"  WidthRequest="50" IsEnabled="False" IsVisible="False"></Entry>
-                    <Entry x:Name="age3" WidthRequest="50"></Entry>
-                </StackLayout>
-
-                <StackLayout Orientation="Horizontal" Spacing="75">
-                    <Label x:Name="lblCm" Text="Height(cm)" IsVisible="True" ></Label>
-                    <Label x:Name="lblFt" Text="Ft" IsVisible="False"></Label>
-                    <Label x:Name="lblInch" Text="Inch" IsVisible="False"></Label>
-                </StackLayout>
-
-                <StackLayout Orientation="Horizontal" Spacing="50">
-                    <Entry x:Name="txtCm" Placeholder="cm"  WidthRequest="50"></Entry>
-                    <Entry x:Name="txtFt" Placeholder="Feet" IsEnabled="False" IsVisible="False"></Entry>
-                    <Entry x:Name="txtInch" Placeholder="Inch" IsEnabled="False" IsVisible="False"></Entry>
-                </StackLayout>-->
-
-
-
-
-       
+      
             <Button Text="Calculate!" Clicked="Button_Calculate_Clicked"></Button>
                 
 

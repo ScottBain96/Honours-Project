@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-02-16T00:10:50.927</Modified>
+      <Modified>2019-02-16T20:23:38.942</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\xamarinFitnessApp.UWP.exe">
       <PackagePath>entrypoint\xamarinFitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-02-16T00:10:50.224</Modified>
+      <Modified>2019-02-16T20:23:38.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts\0.8.3-pre\lib\uap\Microcharts.Uwp.dll">
       <PackagePath>Microcharts.Uwp.dll</PackagePath>
@@ -796,7 +796,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll">
       <PackagePath>xamarinFitnessApp.dll</PackagePath>
-      <Modified>2019-02-16T00:10:44.864</Modified>
+      <Modified>2019-02-16T20:22:48.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -937,25 +937,13 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-01-24T01:05:45.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\dumbellpic.png">
-      <PackagePath>dumbellpic.png</PackagePath>
-      <Modified>2019-01-24T01:15:43.722</Modified>
+    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\weight.jpg">
+      <PackagePath>weight.jpg</PackagePath>
+      <Modified>2019-02-16T20:22:23.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\placeholder1.png">
-      <PackagePath>placeholder1.png</PackagePath>
-      <Modified>2019-01-24T01:15:37.993</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\placeholder2.png">
-      <PackagePath>placeholder2.png</PackagePath>
-      <Modified>2019-01-24T01:15:37.996</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\placeholder3.png">
-      <PackagePath>placeholder3.png</PackagePath>
-      <Modified>2019-01-24T01:15:38.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\calis.jpg">
-      <PackagePath>calis.jpg</PackagePath>
-      <Modified>2019-01-24T02:43:06.266</Modified>
+    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\greyTools.jpg">
+      <PackagePath>greyTools.jpg</PackagePath>
+      <Modified>2019-02-16T20:22:44.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen.jpg">
       <PackagePath>mainScreen.jpg</PackagePath>
@@ -964,6 +952,10 @@
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen2.jpg">
       <PackagePath>mainScreen2.jpg</PackagePath>
       <Modified>2019-01-28T03:10:28.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mypic.jpg">
+      <PackagePath>mypic.jpg</PackagePath>
+      <Modified>2019-02-16T20:22:33.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -975,11 +967,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-02-16T00:10:50.037</Modified>
+      <Modified>2019-02-16T20:23:37.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-02-16T00:10:50.038</Modified>
+      <Modified>2019-02-16T20:23:37.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -991,11 +983,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-02-14T00:12:51.788</Modified>
+      <Modified>2019-02-16T20:23:38.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\xamarinFitnessApp.UWP.exe">
       <PackagePath>xamarinFitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-02-16T00:10:50.920</Modified>
+      <Modified>2019-02-16T20:23:38.936</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

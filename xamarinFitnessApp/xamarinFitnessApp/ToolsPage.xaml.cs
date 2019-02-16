@@ -27,5 +27,10 @@ namespace xamarinFitnessApp
             Navigation.PushAsync(new profilesView());
             //changeback to profile page
         }
+
+        private void Button_Clicked_Cals(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

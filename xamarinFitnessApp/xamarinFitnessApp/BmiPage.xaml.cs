@@ -20,7 +20,11 @@ namespace xamarinFitnessApp
         double bmi;
         double weight;
         double height;
-        double test;
+       
+        int gender;
+        double intensity;
+        int results;
+        
 
 
         List < Entry> entries = new List<Entry>
@@ -55,6 +59,7 @@ namespace xamarinFitnessApp
 			InitializeComponent ();
             Chart1.Chart = new RadialGaugeChart { Entries = entries};
             pickerUnit.SelectedIndex = 0;
+            pickerGender.SelectedIndex = 0;
 
         
 
@@ -110,6 +115,63 @@ namespace xamarinFitnessApp
         }
 
 
+        public void setGenderValue()
+        {
+            if (pickerGender.SelectedIndex == 0)
+            {
+
+                gender = 5;
+
+            }
+            
+            else
+            {
+                gender = -161;
+
+            }
+
+            setAge.Text = gender.ToString();
+
+        }
+
+       
+
+        public void setActivityLevel()
+        {
+
+           // string pickerValue;
+           // pickerValue = pickerActivity.SelectedItem.ToString();
+
+            
+
+            switch (pickerActivity.SelectedIndex)
+            {
+
+                case 0:
+                    intensity = 1.2;
+                    break;
+
+
+                case 1:
+                    intensity = 1.375;
+                    break;
+
+                case 2:
+                    intensity = 1.55;
+                    break;
+
+                case 3:
+                    intensity = 1.725;
+                    break;
+
+            }
+
+            setAct.Text = intensity.ToString("0.000");
+
+
+        }
+
+
         public void convert_Imperial_BMI()
         {
 
@@ -142,6 +204,21 @@ namespace xamarinFitnessApp
 
 
         }
+
+
+        public void calculateFormulaCals()
+        {
+            setGenderValue();
+            setActivityLevel();
+            int age = Int32.Parse(txtAge.Text.ToString());
+            height = height * 100;
+            results = (int) ((10 * weight + 6.25 * height - 5 * age + gender) * intensity);
+            setAge.Text = results.ToString("0,00");
+           
+
+        }
+
+
 
         public void info_results_BMI()
         {
@@ -176,10 +253,10 @@ namespace xamarinFitnessApp
 
         }
 
+       
 
 
-
-            private void Button_Calculate_Clicked(object sender, EventArgs e)
+        private void Button_Calculate_Clicked(object sender, EventArgs e)
         {
 
 
@@ -197,21 +274,25 @@ namespace xamarinFitnessApp
 
             }
 
-            else {
+            if (pickerUnit.SelectedIndex == 1)
+                {
 
 
                 convert_Imperial_BMI();
 
+
             }
 
 
-            calculateFormulaBMI();
-            info_results_BMI();
+                calculateFormulaBMI();
+                info_results_BMI();
+                calculateFormulaCals();
+               
 
             }
             catch
             {
-                
+                DisplayAlert("Missing Details", "Please fill in all details", "OK");
 
             }
 
