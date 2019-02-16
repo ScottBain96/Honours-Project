@@ -116,9 +116,18 @@ namespace xamarinFitnessApp
             if (pickerUnit.SelectedIndex == 1)
             {
 
-                weight = 5;
-                height = 5;
-                age3.Text = "SEKECTED";
+               // height = Double.parseDouble(txtHeight2.getText().toString()) * 2.54;
+
+                //ft and inches to meters
+                height = Double.Parse(txtInch.Text.ToString()) * 2.54;
+                height = height + Double.Parse(txtFt.Text.ToString()) * 30.48;
+
+                //Height to CM
+                height = height / 100;
+
+                //Lbs to Kg
+                weight = Double.Parse(txtWeightLbs.Text.ToString()) / 2.20;
+
 
 
             }
@@ -134,12 +143,48 @@ namespace xamarinFitnessApp
 
         }
 
+        public void info_results_BMI()
+        {
+
+            if (bmi < 18.5)
+
+
+            {
+
+                Results.Text = "You are in the Underweight range";
+            }
+
+
+            if (bmi > 18.5 && bmi < 25)
+
+
+            {
+                Results.Text = "You are in the Normal range";
+
+            }
+
+
+            if (bmi > 25)
+
+
+            {
+
+                Results.Text = "You are in the Overweight range";
+
+            }
+
+
+        }
+
 
 
 
             private void Button_Calculate_Clicked(object sender, EventArgs e)
         {
 
+
+            try { 
+            
 
             if (pickerUnit.SelectedIndex == 0)
             {
@@ -161,59 +206,19 @@ namespace xamarinFitnessApp
 
 
             calculateFormulaBMI();
+            info_results_BMI();
+
+            }
+            catch
+            {
+                
+
+            }
 
 
 
 
-
-            //if (pickerUnit.SelectedIndex == 0)
-            //{
-            //    weight = Double.Parse(txtWeightKg.Text.ToString());
-            //    //Heigh is CM so divide by 100 for meters
-            //    height = Double.Parse(txtCm.Text.ToString());
-
-
-            //}
-
-            //height = height / 100;
-            //bmi = weight / height;
-            //bmi = bmi / height;
-
-            //age3.Text = bmi.ToString("0.00");
-
-
-
-            if (bmi < 18.5)
-                    {
-
-                        Results.Text = "You are in the Underweight range";
-                    }
-                    if (bmi > 18.5 && bmi < 25)
-                    {
-                        Results.Text = "You are in the Normal range";
-             
-                    }
-
-                    if (bmi > 25)
-                    {
-
-                        Results.Text = "You are in the Overweight range";
-               
-                    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //age = txtAge.Text;
+         
 
         }
 
@@ -256,9 +261,7 @@ namespace xamarinFitnessApp
 
                 
 
-
-
-                // age3.Text = "index" + pickerUnit.SelectedIndex.ToString();
+              
             } 
 
             //Imperial Entries

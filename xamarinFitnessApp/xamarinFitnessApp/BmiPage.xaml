@@ -31,11 +31,11 @@
                 <StackLayout Orientation="Horizontal" Spacing="09">
                     
                     <Label Text="Height"></Label>
-                    <Entry x:Name="txtCm" Text="183" IsEnabled="True"></Entry>
+                    <Entry x:Name="txtCm"  IsEnabled="True"></Entry>
                     <Entry x:Name="lblCm"  Placeholder="cm" IsEnabled="False"></Entry>
-                    <Entry x:Name="txtFt" Placeholder="Feet" IsEnabled="False" IsVisible="False"></Entry>
-                    <Entry x:Name="lblFt"  Text="6" IsEnabled="False" IsVisible="False"></Entry>
-                    <Entry x:Name="txtInch" Text="2" IsEnabled="False" IsVisible="False"></Entry>
+                    <Entry x:Name="txtFt"   Keyboard="Numeric" IsEnabled="False" IsVisible="False"></Entry>
+                    <Entry x:Name="lblFt"  Placeholder="Feet"  IsEnabled="False" IsVisible="False"></Entry>
+                    <Entry x:Name="txtInch" Keyboard="Numeric"  IsEnabled="False" IsVisible="False"></Entry>
                     <Entry x:Name="lblInch" Placeholder="Inch" IsEnabled="False" IsVisible="False"></Entry>
 
 
@@ -47,9 +47,9 @@
                 <StackLayout Orientation="Horizontal" Spacing="06">
 
                     <Label Text="Weight"></Label>
-                    <Entry x:Name="txtWeightKg" Keyboard="Numeric" Text="88"></Entry>
+                    <Entry x:Name="txtWeightKg" Keyboard="Numeric"></Entry>
                     <Entry x:Name="lblKg" Placeholder="Kg" IsEnabled="False"></Entry>
-                    <Entry x:Name="txtWeightLbs" Keyboard="Numeric" Placeholder="185" IsEnabled="False" IsVisible="False"></Entry>
+                    <Entry x:Name="txtWeightLbs" Keyboard="Numeric"  IsEnabled="False" IsVisible="False"></Entry>
                     <Entry x:Name="lblLbs" Placeholder="Lbs" IsEnabled="False" IsVisible="False"></Entry>
                 </StackLayout>
 
