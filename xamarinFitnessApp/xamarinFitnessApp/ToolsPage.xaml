@@ -12,7 +12,7 @@
 
                 <Button Text="Profile" Clicked="Button_Clicked_profile" StyleClass="Info"/>
                 <Button Text="BMI Calculator" Clicked="Button_Clicked_BMI" StyleClass="Info" />
-                <Button Text="Daily Calorie Calculator" Clicked="Button_Clicked_Cals" StyleClass="Info"/>
+                <Button Text="Daily Calorie Calculator" Clicked="Button_Clicked_macroNutrients" StyleClass="Info"/>
                 <Button Text="Button Default" StyleClass="Info"/>
                 <Button Text="Button Class Info" StyleClass="Info" />
                 <Button Text="Button Class Info" StyleClass="Info" />

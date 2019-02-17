@@ -57,3 +57,4 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\profilesView.xaml.g.cs
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csprojAssemblyReference.cache
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\macroNutrientsPage.xaml.g.cs

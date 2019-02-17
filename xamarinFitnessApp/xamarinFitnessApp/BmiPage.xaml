@@ -24,31 +24,23 @@
                 <StackLayout Orientation="Horizontal" Spacing="27">
 
                     <Label Text="Age"></Label>
-                    <Entry x:Name="txtAge" Keyboard="Numeric" Placeholder="22"></Entry>
+                    <Entry x:Name="txtAge" Keyboard="Numeric"></Entry>
                      
                 </StackLayout>
 
-
-               
-
-
-
                 <StackLayout Orientation="Horizontal" Spacing="09">
-                    
+
                     <Label Text="Height"></Label>
                     <Entry x:Name="txtCm"  IsEnabled="True"></Entry>
                     <Entry x:Name="lblCm"  Placeholder="cm" IsEnabled="False"></Entry>
-                    <Entry x:Name="txtFt"   Keyboard="Numeric" IsEnabled="False" IsVisible="False"></Entry>
+                    <Entry x:Name="txtFt"  Keyboard="Numeric" IsEnabled="False" IsVisible="False"></Entry>
                     <Entry x:Name="lblFt"  Placeholder="Feet"  IsEnabled="False" IsVisible="False"></Entry>
                     <Entry x:Name="txtInch" Keyboard="Numeric"  IsEnabled="False" IsVisible="False"></Entry>
                     <Entry x:Name="lblInch" Placeholder="Inch" IsEnabled="False" IsVisible="False"></Entry>
 
-
                 </StackLayout>
-
-
-
-
+            
+            
                 <StackLayout Orientation="Horizontal" Spacing="06">
 
                     <Label Text="Weight"></Label>

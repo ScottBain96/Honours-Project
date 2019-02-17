@@ -17,33 +17,7 @@
             <ImageButton  Aspect="Fill" Source="mypic.jpg" Grid.Row="1" Clicked="ImageButton_Clicked"></ImageButton>
             <ImageButton  Aspect="Fill" Source="greyTools.jpg" Grid.Row="2" Clicked="ImageButton_Clicked_Tools"></ImageButton>
 
-                        <!--<ScrollView IsVisible="True">
-            Aspect="AspectFit"
-            <StackLayout>
-          
-                <ImageButton Aspect="AspectFit" Source="weight.jpg"
-              HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand" 
-                   Clicked="ImageButton_Clicked"
-                         />
-
-                <ImageButton Aspect="AspectFit" Source="calisresize.jpg"
-                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"
-                   Clicked="ImageButton_Clicked"
-                         />
-
-
-                <ImageButton Aspect="AspectFit" Source="weight.jpg"
-                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"
-                   Clicked="ImageButton_Clicked_Tools"
-                             
-                         />
-
-   </ScrollView>
-            </StackLayout>-->
-
+     
 
         </Grid>
 

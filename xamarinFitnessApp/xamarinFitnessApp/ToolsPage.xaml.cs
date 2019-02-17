@@ -28,9 +28,9 @@ namespace xamarinFitnessApp
             //changeback to profile page
         }
 
-        private void Button_Clicked_Cals(object sender, EventArgs e)
+        private void Button_Clicked_macroNutrients(object sender, EventArgs e)
         {
-           
+            Navigation.PushAsync(new macroNutrientsPage());
         }
     }
 }

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinFitnessApp.macroNutrientsPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            
+            <Label Text="Daily intake calorie calculator"></Label>
+            <Label Text="Carbs, Proteins, Fats" HorizontalOptions="CenterAndExpand"></Label>
+
+                <StackLayout Orientation="Horizontal" Padding="50">
+                    
+                <Picker x:Name="pickerDiets" Title="Select macronutrients split" HorizontalOptions="CenterAndExpand">
+                    
+                    <Picker.Items>
+                        <x:String>50/30/20(Moderate)</x:String>
+                        <x:String>60/25/15(High Carb)</x:String>
+                        <x:String>40/30/30(Zone Diet)</x:String>
+                        <x:String>25/45/30(Low Carb)</x:String>
+                    </Picker.Items>
+
+
+                </Picker>
+
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Enter your daily calories"></Label>
+                <Button Text="help" WidthRequest="5"></Button>
+                <Entry x:Name="txtCalories"></Entry>
+                <Button Text="Calculate!" Clicked="Button_Clicked_Split"></Button>
+            </StackLayout>
+            <Label x:Name="lblResults" Text="Results here"></Label>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

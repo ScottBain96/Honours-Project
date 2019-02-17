@@ -17,6 +17,9 @@ namespace xamarinFitnessApp
 	public partial class BmiPage : ContentPage
 	{
 
+
+        //variables to be used in the functions
+
         double bmi;
         double weight;
         double height;
@@ -53,6 +56,9 @@ namespace xamarinFitnessApp
                 ValueLabel = "200"
             }
         };
+
+
+
 		public BmiPage ()
 		{
 
@@ -60,8 +66,9 @@ namespace xamarinFitnessApp
             Chart1.Chart = new RadialGaugeChart { Entries = entries};
             pickerUnit.SelectedIndex = 0;
             pickerGender.SelectedIndex = 0;
+            pickerActivity.SelectedIndex = 0;
 
-        
+
 
             //    //android
             //    string dbPath = Path.Combine(
@@ -104,7 +111,7 @@ namespace xamarinFitnessApp
 
 
 
-        public void convert_Metric_BMI() {
+        public void Convert_Metric_BMI() {
 
          
                 weight = Double.Parse(txtWeightKg.Text.ToString());
@@ -114,8 +121,9 @@ namespace xamarinFitnessApp
 
         }
 
+        //Set variable gender to the values required for the formula (5 for male, -161 for female)
 
-        public void setGenderValue()
+        public void SetGenderValue()
         {
             if (pickerGender.SelectedIndex == 0)
             {
@@ -136,7 +144,8 @@ namespace xamarinFitnessApp
 
        
 
-        public void setActivityLevel()
+        //Set variable intensity depending on the activity level, values provided by the formula
+        public void SetActivityLevel()
         {
 
            // string pickerValue;
@@ -171,15 +180,13 @@ namespace xamarinFitnessApp
 
         }
 
-
-        public void convert_Imperial_BMI()
+        //Conversions to imperial units
+        public void Convert_Imperial_BMI()
         {
 
             if (pickerUnit.SelectedIndex == 1)
             {
-
-               // height = Double.parseDouble(txtHeight2.getText().toString()) * 2.54;
-
+                
                 //ft and inches to meters
                 height = Double.Parse(txtInch.Text.ToString()) * 2.54;
                 height = height + Double.Parse(txtFt.Text.ToString()) * 30.48;
@@ -195,8 +202,10 @@ namespace xamarinFitnessApp
             }
         }
 
+
+        //BMI formula calculation
         
-        public void calculateFormulaBMI()
+        public void CalculateFormulaBMI()
         {
             bmi = weight / height;
             bmi = bmi / height;
@@ -205,11 +214,12 @@ namespace xamarinFitnessApp
 
         }
 
+        //Daily calorie formula
 
-        public void calculateFormulaCals()
+        public void CalculateFormulaCals()
         {
-            setGenderValue();
-            setActivityLevel();
+            SetGenderValue();
+            SetActivityLevel();
             int age = Int32.Parse(txtAge.Text.ToString());
             height = height * 100;
             results = (int) ((10 * weight + 6.25 * height - 5 * age + gender) * intensity);
@@ -218,9 +228,9 @@ namespace xamarinFitnessApp
 
         }
 
+        //Determin range of weight with BMI, Might change to case statements
 
-
-        public void info_results_BMI()
+        public void Info_results_BMI()
         {
 
             if (bmi < 18.5)
@@ -254,7 +264,7 @@ namespace xamarinFitnessApp
         }
 
        
-
+        //Run all the functions required, try-catch for error handling
 
         private void Button_Calculate_Clicked(object sender, EventArgs e)
         {
@@ -268,7 +278,7 @@ namespace xamarinFitnessApp
 
 
 
-                convert_Metric_BMI();
+                Convert_Metric_BMI();
 
 
 
@@ -278,16 +288,17 @@ namespace xamarinFitnessApp
                 {
 
 
-                convert_Imperial_BMI();
+                Convert_Imperial_BMI();
 
 
             }
 
 
-                calculateFormulaBMI();
-                info_results_BMI();
-                calculateFormulaCals();
+                CalculateFormulaBMI();
+                Info_results_BMI();
+                CalculateFormulaCals();
                
+
 
             }
             catch
@@ -296,20 +307,17 @@ namespace xamarinFitnessApp
 
             }
 
-
-
-
-         
-
         }
 
     
+        //Enabling and disabling controls regarding the selection of Unit system 
 
         private void Picker_SelectedIndexChanged(object sender, EventArgs e)
         {
 
             
             //Metric entries
+
             if (pickerUnit.SelectedIndex == 0)
             {
 
@@ -337,11 +345,7 @@ namespace xamarinFitnessApp
                 //height inch
                 txtInch.IsEnabled = false;
                 txtInch.IsVisible = false;
-                lblInch.IsVisible = false;
-
-
-                
-
+                lblInch.IsVisible = false;         
               
             } 
 
