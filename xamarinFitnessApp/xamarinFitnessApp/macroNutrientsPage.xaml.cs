@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Microcharts;
+using SkiaSharp;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Entry = Microcharts.Entry;
 
 namespace xamarinFitnessApp
 {
@@ -22,6 +24,7 @@ namespace xamarinFitnessApp
         public macroNutrientsPage ()
 		{
 			InitializeComponent ();
+            pickerDiets.SelectedIndex = 0;
            
         }
 
@@ -72,12 +75,54 @@ namespace xamarinFitnessApp
             
         }
 
+
+
+        public void Create_Donut_Graph()
+        {
+
+
+            List<Entry> entries = new List<Entry>
+        {
+            new Entry(carbs)
+            {
+                Color = SKColor.Parse("#a256ff"),
+                Label = "Carbs",
+                ValueLabel = carbs.ToString()
+            },
+
+
+             new Entry(fats)
+            {
+                Color = SKColor.Parse("#f44141"),
+                Label = "Fats",
+                ValueLabel = fats.ToString()
+            },
+
+
+
+              new Entry(protein)
+            {
+                Color = SKColor.Parse("#429ef4"),
+                Label = "Proteins",
+                ValueLabel = protein.ToString()
+            }
+        };
+            Chart2.Chart = new DonutChart { Entries = entries };
+
+
+
+
+        }
+
+
+
         private void Button_Clicked_Split(object sender, EventArgs e)
         {
             try
             {
                 PickerSelectedSplit();
-                lblResults.Text = ("You Require \n" + carbs + " grams of carbs\n" + protein + " grams of protein\n" + fats + " grams of fat");
+                lblResults.Text = ("You Require: \n" + carbs + " grams of carbs\n" + protein + " grams of protein\n" + fats + " grams of fat");
+                Create_Donut_Graph();
 
 
             }
@@ -91,6 +136,11 @@ namespace xamarinFitnessApp
 
 
 
+
+        }
+
+        private void Button_Clicked_Help(object sender, EventArgs e)
+        {
 
         }
     }

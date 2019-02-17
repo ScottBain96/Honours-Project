@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="xamarinFitnessApp.macroNutrientsPage">
     <ContentPage.Content>
+
+        <ScrollView>
         <StackLayout Margin="20">
             
             <Label Text="Daily intake calorie calculator"></Label>
@@ -25,12 +28,19 @@
             </StackLayout>
             <StackLayout>
                 <Label Text="Enter your daily calories"></Label>
-                <Button Text="help" WidthRequest="5"></Button>
-                <Entry x:Name="txtCalories"></Entry>
+               
+                <Entry x:Name="txtCalories" Keyboard="Numeric"></Entry>
                 <Button Text="Calculate!" Clicked="Button_Clicked_Split"></Button>
-            </StackLayout>
+                    <Button Text="help" Clicked="Button_Clicked_Help"></Button>
+
+                </StackLayout>
             <Label x:Name="lblResults" Text="Results here"></Label>
-            
+
+
+            <forms:ChartView x:Name="Chart2" HeightRequest="150"/>
+
         </StackLayout>
+
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
