@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinFitnessApp.ListExercises">
+    <ContentPage.Content>
+
+
+        <ScrollView>
+            <StackLayout>
+                <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*" />
+                        <RowDefinition Height="20*" />
+                        <RowDefinition Height="20*" />
+                        <RowDefinition Height="20*" />
+                        <RowDefinition Height="20*" />
+
+
+                    </Grid.RowDefinitions>
+                    <ImageButton  Aspect="Fill" Source="weight.jpg" Grid.Row="0"></ImageButton>
+                    <ImageButton  Aspect="Fill" Source="mypic.jpg" Grid.Row="1"></ImageButton>
+                    <ImageButton  Aspect="Fill" Source="greyTools.jpg" Grid.Row="2" ></ImageButton>
+                    <ImageButton  Aspect="Fill" Source="weight.jpg" Grid.Row="3"></ImageButton>
+                    <ImageButton  Aspect="Fill" Source="greyTools.jpg" Grid.Row="4" ></ImageButton>
+
+
+                </Grid>
+
+
+            </StackLayout>
+        </ScrollView>
+
+
+
+
+
+
+    </ContentPage.Content>
+</ContentPage>

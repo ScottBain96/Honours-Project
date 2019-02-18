@@ -141,7 +141,7 @@ namespace xamarinFitnessApp
 
         private void Button_Clicked_Help(object sender, EventArgs e)
         {
-
+            DisplayAlert("Help info", "Calories can be obtained from the BMI calculator from the previous page. Splits options are % of carbs, proteins, fats in that order", "Ok");
         }
     }
 }

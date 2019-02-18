@@ -6,41 +6,52 @@
     <ContentPage.Content>
 
         <ScrollView>
-        <StackLayout Margin="20">
-            
-            <Label Text="Daily intake calorie calculator"></Label>
-            <Label Text="Carbs, Proteins, Fats" HorizontalOptions="CenterAndExpand"></Label>
-
-                <StackLayout Orientation="Horizontal" Padding="50">
-                    
-                <Picker x:Name="pickerDiets" Title="Select macronutrients split" HorizontalOptions="CenterAndExpand">
-                    
-                    <Picker.Items>
-                        <x:String>50/30/20(Moderate)</x:String>
-                        <x:String>60/25/15(High Carb)</x:String>
-                        <x:String>40/30/30(Zone Diet)</x:String>
-                        <x:String>25/45/30(Low Carb)</x:String>
-                    </Picker.Items>
-
-
-                </Picker>
-
-            </StackLayout>
             <StackLayout>
-                <Label Text="Enter your daily calories"></Label>
-               
-                <Entry x:Name="txtCalories" Keyboard="Numeric"></Entry>
-                <Button Text="Calculate!" Clicked="Button_Clicked_Split"></Button>
-                    <Button Text="help" Clicked="Button_Clicked_Help"></Button>
+                <StackLayout Padding="20">
+                    <Label Text="Daily intake calorie calculator"></Label>
+                    <Label Text="Carbs, Proteins, Fats" HorizontalOptions="CenterAndExpand"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Picker x:Name="pickerDiets" Title="Select macronutrients split" HorizontalOptions="CenterAndExpand">
+
+                        <Picker.Items>
+                            <x:String>50/30/20(Moderate)</x:String>
+                            <x:String>60/25/15(High Carb)</x:String>
+                            <x:String>40/30/30(Zone Diet)</x:String>
+                            <x:String>25/45/30(Low Carb)</x:String>
+                        </Picker.Items>
+
+
+                    </Picker>
+
 
                 </StackLayout>
-            <Label x:Name="lblResults" Text="Results here"></Label>
+                <Label>
+                    <!--Empty label to style-->
+                </Label>
+                <StackLayout>
+                    <Label Text="Enter your daily calories"></Label>
+
+                    <Entry x:Name="txtCalories" Keyboard="Numeric"></Entry>
+
+                    <Label x:Name="lblResults" HeightRequest="80"></Label>
+                    <forms:ChartView x:Name="Chart2" HeightRequest= "200"/>
+                    <Button Text="Calculate!" Clicked="Button_Clicked_Split"></Button>
+                    <Button Text="Help!" Clicked="Button_Clicked_Help"></Button>
 
 
-            <forms:ChartView x:Name="Chart2" HeightRequest="150"/>
 
-        </StackLayout>
+
+                </StackLayout>
+
+
+            </StackLayout>
 
         </ScrollView>
+
+
+
     </ContentPage.Content>
 </ContentPage>

@@ -44,13 +44,3 @@ Xamarin.Forms.Theme.Dark
 Xamarin.Forms.Theme.Light
 Xamarin.Forms.Xaml
 xamarinFitnessApp
-netstandard
-System.ObjectModel
-System.Threading.Tasks
-System.Collections
-System.Diagnostics.Debug
-System.Threading
-System.Reflection.Extensions
-System.Diagnostics.Tools
-System.Resources.ResourceManager
-System.ComponentModel
