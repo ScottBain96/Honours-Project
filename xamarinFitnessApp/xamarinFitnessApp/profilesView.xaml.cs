@@ -15,28 +15,33 @@ namespace xamarinFitnessApp
 	public partial class profilesView : ContentPage
 	{
 
-        private ListView _listView;
+  //      private ListView _listView;
 
 
-        string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal),
-  "database.db3");
+  //      string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal),
+  //"database.db3");
 
         public profilesView ()
 		{
 
-            var db = new SQLiteConnection(dbPath);
+            //var db = new SQLiteConnection(dbPath);
 
 
-            StackLayout stackLayout = new StackLayout();
-            _listView = new ListView();
+            //StackLayout stackLayout = new StackLayout();
+            //_listView = new ListView();
 
-            _listView.ItemsSource = db.Table<Test>().OrderBy(x => x.Name).ToList();
+            //_listView.ItemsSource = db.Table<Test>().OrderBy(x => x.Name).ToList();
 
-            stackLayout.Children.Add(_listView);
+            //stackLayout.Children.Add(_listView);
 
-            Content = stackLayout;
+            //Content = stackLayout;
 
-            //    var db = new SQLiteConnection(dbPath);
+            ////    var db = new SQLiteConnection(dbPath);
+            ///
+
+
+
+
 
            
 

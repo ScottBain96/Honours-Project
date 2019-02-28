@@ -595,6 +595,9 @@
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\xamarin.forms.theme.light\1.0.0.43-pre1\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Theme.Light.dll">
       <PackagePath>Xamarin.Forms.Theme.Light.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\xamarinforms.cardview\1.1.1.5\lib\portable45-net45+win8+wp8+wpa81\CardView.dll">
+      <PackagePath>CardView.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll">
       <PackagePath>xamarinFitnessApp.dll</PackagePath>
     </AppxPackagedFile>

@@ -4,20 +4,7 @@
              x:Class="xamarinFitnessApp.Profile">
     <ContentPage.Content>
         <ScrollView IsVisible="True">
-            <StackLayout>
-                <Label Text="Profile Settings"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-                <Label Text="Profile Name"></Label>
-                <Entry Placeholder="Scott"></Entry>
-                <Label Text="Weight"></Label>
-                <Entry Placeholder="90"></Entry>
-                <Label Text="Height"></Label>
-                <Entry Placeholder="183"></Entry>
-                <Label Text="Age"></Label>
-                <Entry Placeholder="22"></Entry>
-
-            </StackLayout>
+        
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

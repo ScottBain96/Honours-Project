@@ -75,6 +75,9 @@
     <PackageReference Include="Xamarin.Forms.Theme.Light">
       <Version>1.0.0.43-pre1</Version>
     </PackageReference>
+    <PackageReference Include="XamarinForms.CardView">
+      <Version>1.1.1.5</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

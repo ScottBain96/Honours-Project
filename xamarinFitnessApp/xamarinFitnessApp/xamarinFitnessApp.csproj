@@ -18,6 +18,7 @@
     <PackageReference Include="Xamarin.Forms.Theme.Base" Version="1.0.0.43-pre1" />
     <PackageReference Include="Xamarin.Forms.Theme.Dark" Version="1.0.0.43-pre1" />
     <PackageReference Include="Xamarin.Forms.Theme.Light" Version="1.0.0.43-pre1" />
+    <PackageReference Include="XamarinForms.CardView" Version="1.1.1.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +32,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MainMenu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="myProfile.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Profile.xaml">

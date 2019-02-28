@@ -566,6 +566,18 @@
           "lib/MonoAndroid10/Xamarin.Forms.Theme.Light.dll": {}
         }
       },
+      "XamarinForms.CardView/1.1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        }
+      },
       "xamarinFitnessApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -577,6 +589,7 @@
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
+          "XamarinForms.CardView": "1.1.1.5",
           "sqlite-net-pcl": "1.6.258-beta"
         },
         "compile": {
@@ -1411,6 +1424,18 @@
         "xamarin.forms.theme.light.nuspec"
       ]
     },
+    "XamarinForms.CardView/1.1.1.5": {
+      "sha512": "v0Km8qjwOO/TXoHEp0QvlzAS1bl6vJiVtyojYInT2a1pb0cjK/I4V8bWCHWFbXdZVO/vPonA5wW1l+9ByPL4ug==",
+      "type": "package",
+      "path": "xamarinforms.cardview/1.1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable45-net45+win8+wp8+wpa81/CardView.dll",
+        "xamarinforms.cardview.1.1.1.5.nupkg.sha512",
+        "xamarinforms.cardview.nuspec"
+      ]
+    },
     "xamarinFitnessApp/1.0.0": {
       "type": "project",
       "path": "../xamarinFitnessApp/xamarinFitnessApp.csproj",
@@ -1430,6 +1455,7 @@
       "Xamarin.Forms.Theme.Base >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Dark >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Light >= 1.0.0.43-pre1",
+      "XamarinForms.CardView >= 1.1.1.5",
       "sqlite-net-pcl >= 1.6.258-beta",
       "xamarinFitnessApp >= 1.0.0"
     ]
@@ -1514,6 +1540,10 @@
           "Xamarin.Forms.Theme.Light": {
             "target": "Package",
             "version": "[1.0.0.43-pre1, )"
+          },
+          "XamarinForms.CardView": {
+            "target": "Package",
+            "version": "[1.1.1.5, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

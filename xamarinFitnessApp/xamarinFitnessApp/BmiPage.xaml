@@ -97,9 +97,6 @@
             <Button Text="Calculate!" Clicked="Button_Calculate_Clicked"></Button>
                 
 
-                    <forms:ChartView x:Name="Chart1" HeightRequest="150"/>
-
-
             </StackLayout>
             </ScrollView>
     </ContentPage.Content>

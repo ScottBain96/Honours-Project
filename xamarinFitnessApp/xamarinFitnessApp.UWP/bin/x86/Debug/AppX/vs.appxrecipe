@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-02-18T06:26:45.465</Modified>
+      <Modified>2019-02-28T16:36:07.481</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\xamarinFitnessApp.UWP.exe">
       <PackagePath>entrypoint\xamarinFitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-02-18T06:26:42.980</Modified>
+      <Modified>2019-02-28T16:36:06.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts\0.8.3-pre\lib\uap\Microcharts.Uwp.dll">
       <PackagePath>Microcharts.Uwp.dll</PackagePath>
@@ -794,9 +794,13 @@
       <PackagePath>Xamarin.Forms.Theme.Light.dll</PackagePath>
       <Modified>2016-04-27T17:39:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\xamarinforms.cardview\1.1.1.5\lib\portable45-net45+win8+wp8+wpa81\CardView.dll">
+      <PackagePath>CardView.dll</PackagePath>
+      <Modified>2018-02-10T12:11:04.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll">
       <PackagePath>xamarinFitnessApp.dll</PackagePath>
-      <Modified>2019-02-18T06:26:36.511</Modified>
+      <Modified>2019-02-28T16:36:01.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -967,11 +971,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-02-18T06:26:42.811</Modified>
+      <Modified>2019-02-28T16:36:06.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-02-18T06:26:42.811</Modified>
+      <Modified>2019-02-28T16:36:06.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -983,11 +987,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-02-18T06:26:44.831</Modified>
+      <Modified>2019-02-27T13:05:49.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\xamarinFitnessApp.UWP.exe">
       <PackagePath>xamarinFitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-02-18T06:26:45.461</Modified>
+      <Modified>2019-02-28T16:36:07.476</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

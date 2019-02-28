@@ -231,6 +231,18 @@
         "runtime": {
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
         }
+      },
+      "XamarinForms.CardView/1.1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        }
       }
     }
   },
@@ -883,6 +895,18 @@
         "xamarin.forms.theme.light.1.0.0.43-pre1.nupkg.sha512",
         "xamarin.forms.theme.light.nuspec"
       ]
+    },
+    "XamarinForms.CardView/1.1.1.5": {
+      "sha512": "v0Km8qjwOO/TXoHEp0QvlzAS1bl6vJiVtyojYInT2a1pb0cjK/I4V8bWCHWFbXdZVO/vPonA5wW1l+9ByPL4ug==",
+      "type": "package",
+      "path": "xamarinforms.cardview/1.1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable45-net45+win8+wp8+wpa81/CardView.dll",
+        "xamarinforms.cardview.1.1.1.5.nupkg.sha512",
+        "xamarinforms.cardview.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -895,6 +919,7 @@
       "Xamarin.Forms.Theme.Base >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Dark >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Light >= 1.0.0.43-pre1",
+      "XamarinForms.CardView >= 1.1.1.5",
       "sqlite-net-pcl >= 1.6.258-beta"
     ]
   },
@@ -973,6 +998,10 @@
             "target": "Package",
             "version": "[1.0.0.43-pre1, )"
           },
+          "XamarinForms.CardView": {
+            "target": "Package",
+            "version": "[1.1.1.5, )"
+          },
           "sqlite-net-pcl": {
             "target": "Package",
             "version": "[1.6.258-beta, )"
@@ -1043,6 +1072,16 @@
       "warningLevel": 1,
       "message": "Package 'Xamarin.Forms.Theme.Light 1.0.0.43-pre1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "Xamarin.Forms.Theme.Light",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'XamarinForms.CardView 1.1.1.5' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "XamarinForms.CardView",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
       ]

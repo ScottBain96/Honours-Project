@@ -30,40 +30,12 @@ namespace xamarinFitnessApp
         
 
 
-        List < Entry> entries = new List<Entry>
-        {
-            new Entry(200)
-            {
-                Color = SKColor.Parse("#FF1493"),
-                Label = "January",
-                ValueLabel = "200"
-            },
-
-
-             new Entry(400)
-            {
-                Color = SKColor.Parse("#FF1493"),
-                Label = "February",
-                ValueLabel = "200"
-            },
-
-
-
-              new Entry(-100)
-            {
-                Color = SKColor.Parse("#FF1493"),
-                Label = "March",
-                ValueLabel = "200"
-            }
-        };
-
 
 
 		public BmiPage ()
 		{
 
 			InitializeComponent ();
-            Chart1.Chart = new RadialGaugeChart { Entries = entries};
             pickerUnit.SelectedIndex = 0;
             pickerGender.SelectedIndex = 0;
             pickerActivity.SelectedIndex = 0;

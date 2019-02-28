@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "a51c50b0f67442f1a5e72d85c2f20b6b0dbd032e"
+    "signature": "d1f6d7a6dacd2ee48acb3cee73cf75b331461208"
   },
   "compilationOptions": {},
   "targets": {
@@ -17,6 +17,7 @@
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
+          "XamarinForms.CardView": "1.1.1.5",
           "sqlite-net-pcl": "1.6.258-beta"
         },
         "runtime": {
@@ -199,6 +200,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "XamarinForms.CardView/1.1.1.5": {
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {
+            "assemblyVersion": "1.1.1.5",
+            "fileVersion": "1.1.1.5"
+          }
+        }
       }
     }
   },
@@ -333,6 +345,13 @@
       "sha512": "sha512-6Sz9uwaJ7ddQywcgwdQuRr8xcILYHHl0hldoVgN4w/aZsZxDUAo3uPH4zBS7jr1UynVIjJq5TR+8L6RKK1A7fg==",
       "path": "xamarin.forms.theme.light/1.0.0.43-pre1",
       "hashPath": "xamarin.forms.theme.light.1.0.0.43-pre1.nupkg.sha512"
+    },
+    "XamarinForms.CardView/1.1.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v0Km8qjwOO/TXoHEp0QvlzAS1bl6vJiVtyojYInT2a1pb0cjK/I4V8bWCHWFbXdZVO/vPonA5wW1l+9ByPL4ug==",
+      "path": "xamarinforms.cardview/1.1.1.5",
+      "hashPath": "xamarinforms.cardview.1.1.1.5.nupkg.sha512"
     }
   }
 }
