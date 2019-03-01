@@ -7,8 +7,11 @@
     <ContentPage.Content>
         
             <ScrollView IsVisible="True">
-        <StackLayout >
-
+                
+        <StackLayout>
+                <StackLayout  x:Name="sl">
+                    
+                </StackLayout>
                 
                 <Label Text="BMI and daily calories calculator"></Label>
                 <Label Text="USE A DIFFERENT PROFILE HERE"></Label>
@@ -19,6 +22,8 @@
                         <x:String>Imperial</x:String>
                     </Picker.Items>
                 </Picker>
+
+       
 
 
                 <StackLayout Orientation="Horizontal" Spacing="27">

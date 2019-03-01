@@ -2,9 +2,51 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="xamarinFitnessApp.Profile">
-    <ContentPage.Content>
-        <ScrollView IsVisible="True">
-        
-        </ScrollView>
-    </ContentPage.Content>
+
+
+
+
+    <StackLayout>
+        <ListView x:Name="UsersView"
+            ItemsSource="{Binding Path=Users}"
+            ListView.RowHeight="200">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Entry  Text="{Binding Id}" IsEnabled="False"/>
+                            <Entry Placeholder="Username" Text="{Binding UserName}" />
+                            <Entry Text="{Binding Age}" />
+                            <Entry Text="{Binding HeightCM}"/>
+                            <Entry Text="{Binding WeightKG}"/>
+
+                            <!--<Entry Placeholder="Username" />
+                            <Entry Placeholder="Age" />
+                            <Entry Placeholder="Height (cm)"/>
+                            <Entry Placeholder="Weight (kg)"/>-->
+
+
+
+                        </StackLayout>
+                        
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+        <Entry x:Name="txtTest"></Entry>
+
+    </StackLayout>
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Activated="OnAddClick"
+               Priority="0" Order="Secondary" />
+        <ToolbarItem Name="Remove" Activated="OnRemoveClick"
+               Priority="1" Order="Secondary" />
+        <ToolbarItem Name="Remove all" Activated="OnRemoveAllClick"
+               Priority="2" Order="Secondary" />
+        <ToolbarItem Name="Save" Activated="OnSaveClick"
+               Priority="3" Order="Secondary" />
+    </ContentPage.ToolbarItems>
 </ContentPage>

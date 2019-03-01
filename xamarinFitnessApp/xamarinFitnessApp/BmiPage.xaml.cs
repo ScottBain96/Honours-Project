@@ -14,28 +14,57 @@ using System.IO;
 namespace xamarinFitnessApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
+
 	public partial class BmiPage : ContentPage
+
 	{
 
+        private UserDataAccess dataAccess;
 
         //variables to be used in the functions
 
         double bmi;
         double weight;
         double height;
-       
+      
         int gender;
         double intensity;
         int results;
         
-
+     
 
 
 
 		public BmiPage ()
 		{
+            
 
-			InitializeComponent ();
+            InitializeComponent ();
+            this.dataAccess = new UserDataAccess();
+            int myId =1;
+            var picker = new Picker { Title = "Select a Profile" };
+            picker.SelectedIndexChanged += picker_SelectedIndexChanged;
+            try
+            {
+               
+                picker.Items.Add(this.dataAccess.GetCustomer(1).UserName);
+                picker.Items.Add(this.dataAccess.GetCustomer(2).UserName);
+               // picker.Items.Add(this.dataAccess.GetCustomer(3).UserName);
+
+
+             
+
+            }
+            catch
+            {
+                
+            }
+            sl.Children.Add(picker);
+
+
+            // If select
+
+            //  txtAge.Text = this.dataAccess.GetCustomer(myId).CompanyName;
             pickerUnit.SelectedIndex = 0;
             pickerGender.SelectedIndex = 0;
             pickerActivity.SelectedIndex = 0;
@@ -53,28 +82,17 @@ namespace xamarinFitnessApp
 
         }
 
-       // private async void Button_Clicked(object sender, EventArgs e)
-       // {
-       //     string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal),
-       //"database.db3");
-       //     var db = new SQLiteConnection(dbPath);
-       //     db.CreateTable<Test>();
-       //     var maxPK = db.Table<Test>().OrderByDescending(c => c.Id).FirstOrDefault();
-       //     Test test = new Test();
-       //     test.Name = Name.Text;
-       //     test.Address = Address.Text;
-       //     test.Id = (maxPK == null ? 1 : maxPK.Id + 1);
-       //     //{
-       //     //    Id = (maxPK == null ? 1 : maxPK.Id + 1),
-       //     //    Name = Name.Text,
-       //     //    Address = Address.Text
-       //     //};
-       //     db.Insert(test);
-            
-       //    // db.Close();
-            
-           
-       // }
+
+
+        private void picker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+         
+
+       
+
+        }
 
         private  async void  Button_Clicked_1(object sender, EventArgs e)
         {
@@ -92,6 +110,9 @@ namespace xamarinFitnessApp
                 height = height / 100;
 
         }
+
+
+      
 
         //Set variable gender to the values required for the formula (5 for male, -161 for female)
 
