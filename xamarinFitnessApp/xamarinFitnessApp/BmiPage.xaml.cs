@@ -30,18 +30,16 @@ namespace xamarinFitnessApp
         int gender;
         double intensity;
         int results;
-        
-     
+        int myProfile;
 
-
-
-		public BmiPage ()
+        public BmiPage ()
 		{
             
 
             InitializeComponent ();
             this.dataAccess = new UserDataAccess();
-            int myId =1;
+        
+            
             var picker = new Picker { Title = "Select a Profile" };
             picker.SelectedIndexChanged += picker_SelectedIndexChanged;
             try
@@ -49,10 +47,7 @@ namespace xamarinFitnessApp
                
                 picker.Items.Add(this.dataAccess.GetCustomer(1).UserName);
                 picker.Items.Add(this.dataAccess.GetCustomer(2).UserName);
-               // picker.Items.Add(this.dataAccess.GetCustomer(3).UserName);
-
-
-             
+                picker.Items.Add(this.dataAccess.GetCustomer(3).UserName);             
 
             }
             catch
@@ -61,27 +56,50 @@ namespace xamarinFitnessApp
             }
             sl.Children.Add(picker);
 
+            picker.SelectedIndexChanged += (sender, args) =>
+            {
+                if (picker.SelectedIndex == 0)
+                {
+                    myProfile = 1;
+                    //RetrieveProfileData();
 
-            // If select
 
-            //  txtAge.Text = this.dataAccess.GetCustomer(myId).CompanyName;
+                }
+                if (picker.SelectedIndex == 1)
+                {
+                    myProfile = 2;
+                    txtAge.Text = this.dataAccess.GetCustomer(myProfile).Age;
+
+
+                }
+
+                if (picker.SelectedIndex == 2)
+                {
+                    myProfile = 3;
+                    txtAge.Text = this.dataAccess.GetCustomer(myProfile).Age;
+
+                }
+                RetrieveProfileData();
+                lbltest.Text = myProfile.ToString();
+            };
+
+
             pickerUnit.SelectedIndex = 0;
             pickerGender.SelectedIndex = 0;
             pickerActivity.SelectedIndex = 0;
 
 
+        }
 
-            //    //android
-            //    string dbPath = Path.Combine(
-            //Environment.GetFolderPath(Environment.SpecialFolder.Personal),
-            //"database.db3");
-
-
-            //    var db = new SQLiteConnection(dbPath);
+        public void RetrieveProfileData()
+        {
+            // txtAge.Text = myProfile.ToString();
+            txtAge.Text = this.dataAccess.GetCustomer(myProfile).Age;
+            txtWeightKg.Text = this.dataAccess.GetCustomer(myProfile).WeightKG;
+            txtCm.Text = this.dataAccess.GetCustomer(myProfile).HeightCM;
 
 
         }
-
 
 
         private void picker_SelectedIndexChanged(object sender, EventArgs e)
@@ -92,11 +110,6 @@ namespace xamarinFitnessApp
 
        
 
-        }
-
-        private  async void  Button_Clicked_1(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new profilesView());
         }
 
 
@@ -131,7 +144,7 @@ namespace xamarinFitnessApp
 
             }
 
-            setAge.Text = gender.ToString();
+            //setAge.Text = gender.ToString();
 
         }
 
@@ -168,7 +181,7 @@ namespace xamarinFitnessApp
 
             }
 
-            setAct.Text = intensity.ToString("0.000");
+            //setAct.Text = intensity.ToString("0.000");
 
 
         }
@@ -216,7 +229,7 @@ namespace xamarinFitnessApp
             int age = Int32.Parse(txtAge.Text.ToString());
             height = height * 100;
             results = (int) ((10 * weight + 6.25 * height - 5 * age + gender) * intensity);
-            setAge.Text = results.ToString("0,00");
+            //setAge.Text = results.ToString("0,00");
            
 
         }
@@ -367,6 +380,16 @@ namespace xamarinFitnessApp
 
 
             }
+        }
+
+        private void Help_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Help info", "BMI and Daily Calories calculator, Profile is not required", "View More Information", "Continue");
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            RetrieveProfileData();
         }
     }
 }

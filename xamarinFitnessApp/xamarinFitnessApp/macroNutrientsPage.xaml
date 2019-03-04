@@ -7,9 +7,9 @@
 
         <ScrollView>
             <StackLayout>
-                <StackLayout Padding="20">
-                    <Label Text="Daily intake calorie calculator"></Label>
-                    <Label Text="Carbs, Proteins, Fats" HorizontalOptions="CenterAndExpand"></Label>
+                <StackLayout>
+                    <Label Text="Daily intake calorie calculator"  FontSize="Large"></Label>
+                    <Label Text="Carbs, Proteins, Fats" HorizontalOptions="CenterAndExpand"  FontSize="Medium"></Label>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
@@ -22,8 +22,6 @@
                             <x:String>40/30/30(Zone Diet)</x:String>
                             <x:String>25/45/30(Low Carb)</x:String>
                         </Picker.Items>
-
-
                     </Picker>
 
 
@@ -33,25 +31,19 @@
                 </Label>
                 <StackLayout>
                     <Label Text="Enter your daily calories"></Label>
-
-                    <Entry x:Name="txtCalories" Keyboard="Numeric"></Entry>
-
+                    <Entry x:Name="txtCalories" Keyboard="Numeric" WidthRequest="80"></Entry>
                     <Label x:Name="lblResults" HeightRequest="80"></Label>
                     <forms:ChartView x:Name="Chart2" HeightRequest= "200"/>
-                    <Button Text="Calculate!" Clicked="Button_Clicked_Split"></Button>
-                    <Button Text="Help!" Clicked="Button_Clicked_Help"></Button>
-
-
-
-
+                    <Button Text="Calculate!" Clicked="Button_Clicked_Split" StyleClass="Info"></Button>
                 </StackLayout>
-
-
             </StackLayout>
-
         </ScrollView>
-
-
-
     </ContentPage.Content>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Help"  Priority="0" Order="Secondary" Activated="Button_Clicked_Help">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+
 </ContentPage>

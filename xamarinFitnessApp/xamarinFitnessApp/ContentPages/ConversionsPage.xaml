@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinFitnessApp.ConversionsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Unit Conversions" FontSize="Large"></Label>
+            <Label Text="Basic height/weight unit conversions" FontSize="Medium"></Label>
+            <Label></Label>
+            <StackLayout>
+
+                <Picker x:Name="pickerWeight" Title="Select Units" HorizontalOptions="CenterAndExpand">
+
+                    <Picker.Items>
+                        <x:String>Kg to Lbs</x:String>
+                        <x:String>Lbs to Kg</x:String>
+                    </Picker.Items>
+                </Picker>
+
+
+                <Label x:Name="lblunit" Text="Enter Weight:"></Label>
+                <Entry WidthRequest="80" x:Name="txtWeight" TextChanged="TxtWeight_TextChanged"></Entry>
+                <Label x:Name="lblWeight"></Label>
+                
+               
+
+
+            </StackLayout>
+
+            <StackLayout>
+            <Picker x:Name="pickerHeight" Title="Select Units" HorizontalOptions="CenterAndExpand" SelectedIndexChanged="PickerHeight_SelectedIndexChanged">
+
+                <Picker.Items>
+                    <x:String>Cm to Feet</x:String>
+                    <x:String>Feet to Cm</x:String>
+                </Picker.Items>
+            </Picker>
+                <Label Text="Enter Height Details"></Label>
+            <Entry x:Name="txtHeightCm" TextChanged="TxtHeightCm_TextChanged"></Entry>
+            <Entry x:Name="txtHeightFeet" Placeholder="Feet" IsVisible="false" TextChanged="TxtHeightFeet_TextChanged"></Entry>
+            <Entry x:Name="txtHeightInches" Placeholder="Inches" IsVisible="false" TextChanged="TxtHeightInches_TextChanged"></Entry>
+            <Label x:Name="lblHeight"></Label>
+            </StackLayout>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

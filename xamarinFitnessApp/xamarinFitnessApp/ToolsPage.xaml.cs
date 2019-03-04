@@ -32,5 +32,10 @@ namespace xamarinFitnessApp
         {
             Navigation.PushAsync(new macroNutrientsPage());
         }
+
+        private void Button_Clicked_Conversion(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ConversionsPage());
+        }
     }
 }

@@ -106,6 +106,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "xamarinFitnessApp.Android.dll" comes first in this list. */
+		"xamarinFitnessApp.Android.dll",
 		"CardView.dll",
 		"FormsViewGroup.dll",
 		"Microcharts.dll",
@@ -155,5 +156,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_27";
+	public static final String ApiPackageName = null;
 }

@@ -81,5 +81,10 @@ namespace xamarinFitnessApp
 
 
         }
+
+        private void Help_Activated(object sender, EventArgs e)
+        {
+            DisplayAlert("Help info", "Create a Profile that can be used for inputting data fast into other calculators!", "Ok");
+        }
     }
 }

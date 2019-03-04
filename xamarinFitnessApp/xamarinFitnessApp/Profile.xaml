@@ -6,47 +6,78 @@
 
 
 
-    <StackLayout>
+    <StackLayout Padding="20">
+
+        <Label Text="Enter Your Profile Details" HorizontalOptions="Center"  FontSize="Large" ></Label>
         <ListView x:Name="UsersView"
             ItemsSource="{Binding Path=Users}"
-            ListView.RowHeight="200">
+            ListView.RowHeight= "300">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Orientation="Vertical">
-                            <Entry  Text="{Binding Id}" IsEnabled="False"/>
-                            <Entry Placeholder="Username" Text="{Binding UserName}" />
-                            <Entry Text="{Binding Age}" />
-                            <Entry Text="{Binding HeightCM}"/>
-                            <Entry Text="{Binding WeightKG}"/>
+                        <StackLayout Orientation="Vertical" Margin="20">
 
-                            <!--<Entry Placeholder="Username" />
-                            <Entry Placeholder="Age" />
-                            <Entry Placeholder="Height (cm)"/>
-                            <Entry Placeholder="Weight (kg)"/>-->
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
+                                <Label Text="Name:" WidthRequest="75"></Label>
+                                <Entry  Text="{Binding UserName} " WidthRequest="120" />
+                                <Entry  Text="{Binding Id}" IsEnabled="False"/>
+                               
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
+                                <Label Text="Age:" WidthRequest="75"></Label>
+                                <Entry  Text="{Binding Age}" WidthRequest="80" Keyboard="Numeric"/>
+                               
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
+                                <Label Text="Height (cm):" WidthRequest="75"></Label>
+                                <Entry Text="{Binding HeightCM}" Keyboard="Numeric" WidthRequest="80"/>
+                                
+
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
+                                <Label Text="Weight (Kg):" WidthRequest="75"></Label>
+                                <Entry Text="{Binding WeightKG}" Keyboard="Numeric" WidthRequest="80"/>
+                               
+
+                            </StackLayout>
+                            
 
 
 
                         </StackLayout>
+
+                     
                         
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
             
         </ListView>
-        <Entry x:Name="txtTest"></Entry>
+        <StackLayout>
+
+            <Button Text="Save Profiles" Clicked="OnSaveClick" StyleClass="Info"></Button>
+            <Button Text="Add New Profile" Clicked="OnAddClick" StyleClass="Info"></Button>
+            <Button Text="Remove Selected Profile" Clicked="OnRemoveClick" StyleClass="Info"></Button>
+            <Button Text="Remove All Profiles" Clicked="OnRemoveAllClick" StyleClass="Info"></Button>
+
+
+        </StackLayout>
+       
 
     </StackLayout>
 
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Name="Add" Activated="OnAddClick"
+        <ToolbarItem Name="Help" Activated="Help_Activated"
                Priority="0" Order="Secondary" />
-        <ToolbarItem Name="Remove" Activated="OnRemoveClick"
+        <ToolbarItem Name="Add" Activated="OnAddClick"
                Priority="1" Order="Secondary" />
-        <ToolbarItem Name="Remove all" Activated="OnRemoveAllClick"
+        <ToolbarItem Name="Remove" Activated="OnRemoveClick"
                Priority="2" Order="Secondary" />
-        <ToolbarItem Name="Save" Activated="OnSaveClick"
+        <ToolbarItem Name="Remove all" Activated="OnRemoveAllClick"
                Priority="3" Order="Secondary" />
+        <ToolbarItem Name="Save" Activated="OnSaveClick"
+               Priority="4" Order="Secondary" />
     </ContentPage.ToolbarItems>
 </ContentPage>

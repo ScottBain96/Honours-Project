@@ -13,18 +13,22 @@
                 
                 <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
-                        <StackLayout Orientation="Horizontal"  BackgroundColor="White" HorizontalOptions="End">
-                            <ImageButton Source="weight.jpg" HeightRequest="100"></ImageButton>
-                            <Label>CardView1</Label>
+                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" HorizontalOptions="End">
+                            <ImageButton Source="weight.jpg" HeightRequest="150"></ImageButton>
+                            <Label Text="Workout 1 Name" FontSize="Medium"></Label>
+                        
+                            
+
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
                 </cardView:CardView>
 
                 <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
-                        <StackLayout Orientation="Horizontal" BackgroundColor="White">
-                            <Image Source="mypic.jpg" HeightRequest="100"></Image>
-                            <Label HorizontalOptions="Center">CardView2</Label>
+                        <StackLayout Orientation="Horizontal" BackgroundColor="Black">
+                            <ImageButton Source="mypic.jpg" HeightRequest="150"></ImageButton>
+                            <Label Text="Workout 2 Name" FontSize="Medium"></Label>
+                   
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
                 </cardView:CardView>

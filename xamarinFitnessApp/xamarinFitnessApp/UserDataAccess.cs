@@ -40,7 +40,7 @@ namespace xamarinFitnessApp
                   UserName = "",
                   Age = "",
                   HeightCM = "",
-                  WeightKG = ""
+                  WeightKG = "",
               });
         }
 

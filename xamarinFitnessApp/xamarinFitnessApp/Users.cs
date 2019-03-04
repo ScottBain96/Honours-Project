@@ -20,7 +20,7 @@ namespace xamarinFitnessApp
             }
         }
         private string _userName;
-        [NotNull]
+        //[NotNull]
         public string UserName
         {
             get

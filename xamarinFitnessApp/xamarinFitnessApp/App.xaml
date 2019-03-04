@@ -5,6 +5,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="xamarinFitnessApp.App">
     <Application.Resources>
-        <ResourceDictionary MergedWith="dark:DarkThemeResources" />
+        <!--<ResourceDictionary MergedWith="dark:DarkThemeResources" />-->
+        <ResourceDictionary MergedWith="light:LightThemeResources" />
     </Application.Resources>
 </Application>
