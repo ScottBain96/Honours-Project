@@ -16,5 +16,10 @@ namespace xamarinFitnessApp
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void ImageButton_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new WorkoutPages.Workout1());
+        }
+    }
 }

@@ -105,6 +105,7 @@ namespace xamarinFitnessApp
                 Color = SKColor.Parse("#429ef4"),
                 Label = "Proteins",
                 ValueLabel = protein.ToString()
+                
             }
         };
             Chart2.Chart = new DonutChart { Entries = entries };

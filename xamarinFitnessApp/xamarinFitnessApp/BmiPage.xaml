@@ -24,10 +24,7 @@
                     </Picker.Items>
                 </Picker>
 
-                <Label x:Name="lbltest"></Label>
-                <Button Clicked="Button_Clicked"></Button>
-
-
+          
                 <StackLayout Orientation="Horizontal"  >
 
                     <Label Text="Age" WidthRequest="75"></Label>

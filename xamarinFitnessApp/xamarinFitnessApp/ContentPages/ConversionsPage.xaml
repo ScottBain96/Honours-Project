@@ -9,7 +9,7 @@
             <Label></Label>
             <StackLayout>
 
-                <Picker x:Name="pickerWeight" Title="Select Units" HorizontalOptions="CenterAndExpand">
+                <Picker x:Name="pickerWeight" Title="Select Units" HorizontalOptions="CenterAndExpand" SelectedIndexChanged="PickerWeight_SelectedIndexChanged">
 
                     <Picker.Items>
                         <x:String>Kg to Lbs</x:String>
@@ -19,7 +19,7 @@
 
 
                 <Label x:Name="lblunit" Text="Enter Weight:"></Label>
-                <Entry WidthRequest="80" x:Name="txtWeight" TextChanged="TxtWeight_TextChanged"></Entry>
+                <Entry WidthRequest="80" x:Name="txtWeight" Keyboard="Numeric" TextChanged="TxtWeight_TextChanged"></Entry>
                 <Label x:Name="lblWeight"></Label>
                 
                
@@ -35,11 +35,11 @@
                     <x:String>Feet to Cm</x:String>
                 </Picker.Items>
             </Picker>
-                <Label Text="Enter Height Details"></Label>
-            <Entry x:Name="txtHeightCm" TextChanged="TxtHeightCm_TextChanged"></Entry>
-            <Entry x:Name="txtHeightFeet" Placeholder="Feet" IsVisible="false" TextChanged="TxtHeightFeet_TextChanged"></Entry>
-            <Entry x:Name="txtHeightInches" Placeholder="Inches" IsVisible="false" TextChanged="TxtHeightInches_TextChanged"></Entry>
-            <Label x:Name="lblHeight"></Label>
+                <Label x:Name="lblHeightUnit" Text="Enter Height Details"></Label>
+                <Entry x:Name="txtHeightCm" Placeholder="cm" Keyboard="Numeric" TextChanged="TxtHeightCm_TextChanged"></Entry>
+                <Entry x:Name="txtHeightFeet" Placeholder="Feet" Keyboard="Numeric" IsVisible="false" TextChanged="TxtHeightFeet_TextChanged"></Entry>
+                <Entry x:Name="txtHeightInches" Placeholder="Inches" Keyboard="Numeric" IsVisible="false" TextChanged="TxtHeightInches_TextChanged"></Entry>
+                <Label x:Name="lblHeight"></Label>
             </StackLayout>
             
 

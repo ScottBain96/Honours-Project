@@ -5,7 +5,7 @@
              BackgroundImage="mainScreen2.jpg" 
              x:Class="xamarinFitnessApp.MainPage">
              
-    <StackLayout>
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
         <!-- Place new controls here -->
 
 
@@ -15,17 +15,22 @@
  
 
 
-        <Button Text="Start"
+        <Button Text="Start Me up!" 
+                HorizontalOptions="Center"
+                VerticalOptions="EndAndExpand"
+                StyleClass="Info"
+                Clicked="Button_Clicked_1"></Button>
+
+
+
+
+
+        <Button Text="Next"
                 HorizontalOptions="Center"
                 VerticalOptions="EndAndExpand"
                 Clicked="Button_Clicked"
                 StyleClass="Info"
                 />
-
-
-
-
-
 
 
 

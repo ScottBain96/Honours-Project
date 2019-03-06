@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using xamarinFitnessApp.ContentPages;
 
 namespace xamarinFitnessApp
 {
@@ -22,5 +23,9 @@ namespace xamarinFitnessApp
 
         }
 
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new StartMeUp());
+        }
     }
 }

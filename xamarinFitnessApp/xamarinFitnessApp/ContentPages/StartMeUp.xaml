@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinFitnessApp.ContentPages.StartMeUp">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome To Training Buddy!" FontSize="Large"></Label>
+            <Label Text="Lets get you Started!" FontSize="Medium"></Label>
+            <Label Text="First of all, we will need to know your goals."></Label>
+            <Label Text="||||Selection of gain weight or lose weight here||||"></Label>
+            
+    
+        <StackLayout Orientation="Horizontal">
+                <Button Text="Exit" Clicked="Button_Clicked_Exit"></Button>
+                <Button Text="Next"></Button>
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

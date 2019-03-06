@@ -80,7 +80,7 @@ namespace xamarinFitnessApp
 
                 }
                 RetrieveProfileData();
-                lbltest.Text = myProfile.ToString();
+                //lbltest.Text = myProfile.ToString();
             };
 
 
@@ -387,9 +387,6 @@ namespace xamarinFitnessApp
             DisplayAlert("Help info", "BMI and Daily Calories calculator, Profile is not required", "View More Information", "Continue");
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            RetrieveProfileData();
-        }
+ 
     }
 }

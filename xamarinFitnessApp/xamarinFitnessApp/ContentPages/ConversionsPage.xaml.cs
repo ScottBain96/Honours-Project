@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace xamarinFitnessApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
@@ -23,44 +24,7 @@ namespace xamarinFitnessApp
             pickerHeight.SelectedIndex = 0;
         }
 
-        public void Convert_Weight()
-        {
-
-
-            //Lbs to Kg
-
-            if (pickerWeight.SelectedIndex == 1)
-            {             
-                weight = Double.Parse(txtWeight.Text.ToString()) / 2.20;
-            }
-
-            else
-                weight = Double.Parse(txtWeight.Text.ToString()) * 2.20;
-                lblWeight.Text = weight.ToString("0,00");
-
-        }
-
-        public void Convert_Height()
-        {
-            if (pickerHeight.SelectedIndex == 0)
-            {
-                txtHeightFeet.IsVisible = false;
-                txtHeightInches.IsVisible = false;
-                txtHeightCm.IsVisible = true;
-            }
-            else
-            {
-                txtHeightFeet.IsVisible = true;
-                txtHeightInches.IsVisible = true;
-                txtHeightCm.IsVisible = false ;
-
-            }
-
-        }
-
- 
-
-  
+    
 
         private void TxtWeight_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -69,12 +33,14 @@ namespace xamarinFitnessApp
 
                 if (pickerWeight.SelectedIndex == 1)
                 {
+                  
                     weight = Double.Parse(txtWeight.Text.ToString()) / 2.20;
                 }
 
                 else
-                   weight = Double.Parse(txtWeight.Text.ToString()) * 2.20;
-                lblWeight.Text = weight.ToString("0,00");
+                  
+                weight = Double.Parse(txtWeight.Text.ToString()) * 2.20;
+                lblWeight.Text = "Your weight converted is : " + weight.ToString("0,00");
 
             
             }
@@ -91,6 +57,7 @@ namespace xamarinFitnessApp
                 txtHeightCm.IsVisible = false;
                 txtHeightFeet.IsVisible = true;
                 txtHeightInches.IsVisible = true;
+                lblHeightUnit.Text = "Enter Height Details (Feet and Inches)";
 
             }
             else
@@ -98,7 +65,7 @@ namespace xamarinFitnessApp
                 txtHeightCm.IsVisible = true;
                 txtHeightFeet.IsVisible = false;
                 txtHeightInches.IsVisible = false;
-
+                lblHeightUnit.Text = "Enter Height Details (cm)";
             }
 
 
@@ -126,7 +93,7 @@ namespace xamarinFitnessApp
                     myHeight = result.Split('.').Last();
                     result = result.Split('.').First();
 
-                    lblHeight.Text = result + "' " + myHeight;
+                    lblHeight.Text = "Your Height converted is : " + result + "' " + myHeight;
 
                 }
                 else
@@ -148,6 +115,7 @@ namespace xamarinFitnessApp
             Set_Textboxes();
         }
 
+        
         private void TxtHeightFeet_TextChanged(object sender, TextChangedEventArgs e)
         {
 
@@ -199,17 +167,19 @@ namespace xamarinFitnessApp
             }
         }
 
+        private void PickerWeight_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (pickerWeight.SelectedIndex == 0)
+            {
+                lblunit.Text = "Enter Weight (kg):";
+                txtWeight.Placeholder = "kg";
+            }
+            else
+            {
+                lblunit.Text = "Enter Weight (lbs):";
+                txtWeight.Placeholder = "lbs";
+            }
 
-
-
-
-        //ft and inches to meters
-        // height = Double.Parse(txtInch.Text.ToString()) * 2.54;
-        // height = height + Double.Parse(txtFt.Text.ToString()) * 30.48;
-
-        //Height to CM
-        //height = height / 100;
-
-
+        }
     }
 }

@@ -33,7 +33,7 @@
                     <Label Text="Enter your daily calories"></Label>
                     <Entry x:Name="txtCalories" Keyboard="Numeric" WidthRequest="80"></Entry>
                     <Label x:Name="lblResults" HeightRequest="80"></Label>
-                    <forms:ChartView x:Name="Chart2" HeightRequest= "200"/>
+                    <forms:ChartView x:Name="Chart2"  HeightRequest= "200"/>
                     <Button Text="Calculate!" Clicked="Button_Clicked_Split" StyleClass="Info"></Button>
                 </StackLayout>
             </StackLayout>
