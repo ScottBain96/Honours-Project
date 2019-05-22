@@ -5,7 +5,6 @@ import java.lang.String;
 import java.util.Locale;
 import java.util.HashSet;
 import java.util.zip.*;
-import java.util.Arrays;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -31,7 +30,8 @@ public class MonoPackageManager {
 						android.content.Intent.ACTION_TIMEZONE_CHANGED
 				);
 				context.registerReceiver (new mono.android.app.NotifyTimeZoneChanges (), timezoneChangedFilter);
-
+				
+				System.loadLibrary("monodroid");
 				Locale locale       = Locale.getDefault ();
 				String language     = locale.getLanguage () + "-" + locale.getCountry ();
 				String filesDir     = context.getFilesDir ().getAbsolutePath ();
@@ -45,8 +45,6 @@ public class MonoPackageManager {
 				String externalLegacyDir = new java.io.File (
 							external0,
 							"../legacy/Android/data/" + context.getPackageName () + "/files/.__override__").getAbsolutePath ();
-
-				System.loadLibrary("monodroid");
 
 				Runtime.init (
 						language,
@@ -63,9 +61,7 @@ public class MonoPackageManager {
 							externalLegacyDir
 						},
 						MonoPackageManager_Resources.Assemblies,
-						context.getPackageName (),
-						android.os.Build.VERSION.SDK_INT,
-						mono.android.app.XamarinAndroidEnvironmentVariables.Variables);
+						context.getPackageName ());
 				
 				mono.android.app.ApplicationRegistration.registerApplications ();
 				
