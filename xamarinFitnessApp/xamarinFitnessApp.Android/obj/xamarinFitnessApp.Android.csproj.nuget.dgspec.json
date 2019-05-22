@@ -44,15 +44,11 @@
           "dependencies": {
             "Microcharts": {
               "target": "Package",
-              "version": "[0.8.5-pre, )"
+              "version": "[0.8.3-pre, )"
             },
             "Microcharts.Forms": {
               "target": "Package",
               "version": "[0.8.3-pre, )"
-            },
-            "Microsoft.NETCore.UniversalWindowsPlatform": {
-              "target": "Package",
-              "version": "[6.2.8, )"
             },
             "Xamarin.Android.Support.Design": {
               "target": "Package",
@@ -64,7 +60,7 @@
             },
             "Xamarin.Android.Support.v7.AppCompat": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[27.0.2.1, )"
             },
             "Xamarin.Android.Support.v7.CardView": {
               "target": "Package",
@@ -143,15 +139,11 @@
           "dependencies": {
             "Microcharts": {
               "target": "Package",
-              "version": "[0.8.5-pre, )"
+              "version": "[0.8.3-pre, )"
             },
             "Microcharts.Forms": {
               "target": "Package",
               "version": "[0.8.3-pre, )"
-            },
-            "Microsoft.NETCore.UniversalWindowsPlatform": {
-              "target": "Package",
-              "version": "[6.2.8, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -165,7 +157,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[4.0.0.394984-pre10, )"
             },
             "Xamarin.Forms.Theme.Base": {
               "target": "Package",
