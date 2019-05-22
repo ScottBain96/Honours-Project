@@ -1,4 +1,4 @@
-
+https://blog.xamarin.com/easy-app-theming-with-xamarin-forms-styles/
 https://msdn.microsoft.com/en-us/magazine/mt736454.aspx DB
 
 

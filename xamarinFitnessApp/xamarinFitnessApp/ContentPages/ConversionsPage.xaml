@@ -4,8 +4,8 @@
              x:Class="xamarinFitnessApp.ConversionsPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Unit Conversions" FontSize="Large"></Label>
-            <Label Text="Basic height/weight unit conversions" FontSize="Medium"></Label>
+            <Label Text="Unit Conversions" TextColor="White" FontSize="Large"></Label>
+            <Label Text="Basic height/weight unit conversions" TextColor="White" FontSize="Medium"></Label>
             <Label></Label>
             <StackLayout>
 
@@ -18,9 +18,9 @@
                 </Picker>
 
 
-                <Label x:Name="lblunit" Text="Enter Weight:"></Label>
+                <Label x:Name="lblunit" TextColor="White" Text="Enter Weight:"></Label>
                 <Entry WidthRequest="80" x:Name="txtWeight" Keyboard="Numeric" TextChanged="TxtWeight_TextChanged"></Entry>
-                <Label x:Name="lblWeight"></Label>
+                <Label x:Name="lblWeight" TextColor="White"></Label>
                 
                
 
@@ -35,11 +35,11 @@
                     <x:String>Feet to Cm</x:String>
                 </Picker.Items>
             </Picker>
-                <Label x:Name="lblHeightUnit" Text="Enter Height Details"></Label>
+                <Label x:Name="lblHeightUnit" Text="Enter Height Details" TextColor="White"></Label>
                 <Entry x:Name="txtHeightCm" Placeholder="cm" Keyboard="Numeric" TextChanged="TxtHeightCm_TextChanged"></Entry>
                 <Entry x:Name="txtHeightFeet" Placeholder="Feet" Keyboard="Numeric" IsVisible="false" TextChanged="TxtHeightFeet_TextChanged"></Entry>
                 <Entry x:Name="txtHeightInches" Placeholder="Inches" Keyboard="Numeric" IsVisible="false" TextChanged="TxtHeightInches_TextChanged"></Entry>
-                <Label x:Name="lblHeight"></Label>
+                <Label x:Name="lblHeight" TextColor="White"></Label>
             </StackLayout>
             
 

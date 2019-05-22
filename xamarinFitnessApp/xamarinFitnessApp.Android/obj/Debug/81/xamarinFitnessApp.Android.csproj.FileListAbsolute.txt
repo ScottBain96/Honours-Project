@@ -110,7 +110,6 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\bin\Debug\xamarinFitnessApp.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\bin\Debug\xamarinFitnessApp.pdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\xamarinFitnessApp.Android.nuget.stamp
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\xamarinFitnessApp.Android.csprojAssemblyReference.cache
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\libraryimports.cache.stamp
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res.flag
@@ -136,19 +135,12 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\dumbellpic.png
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\placeholder1.png
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\placeholder2.png
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\placeholder3.png
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\calis.jpg
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\weight.jpg
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\calisresize.jpg
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\mypic.jpg
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\mainscreen.jpg
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\mainscreen2.jpg
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\gear.jpg
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\gearresize.jpg
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\greytools.jpg
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\R.cs.flag
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\R.txt
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\uploadflags.txt
@@ -199,8 +191,6 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\bin\Debug\ModernHttpClient.dll.mdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\bin\Debug\xamarinFitnessApp.dll.mdb
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\linksrc\ModernHttpClient.dll.mdb
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\linksrc\xamarinFitnessApp.dll.mdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\android\assets\ModernHttpClient.dll.mdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\android\assets\xamarinFitnessApp.dll.mdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
@@ -226,5 +216,10 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\android\assets\xamarinFitnessApp.Android.pdb
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\tools.jpg
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\res\drawable\training.jpg
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\xamarinFitnessApp.Android.nuget.stamp
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\linksrc\ModernHttpClient.dll.mdb
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\linksrc\xamarinFitnessApp.dll.mdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\linksrc\ModernHttpClient.dll.mdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.Android\obj\Debug\81\linksrc\xamarinFitnessApp.dll.mdb

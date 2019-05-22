@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d1f6d7a6dacd2ee48acb3cee73cf75b331461208"
+    "signature": "e2752b8c142af014df99557525cc263ce14c41cd"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,7 +13,7 @@
           "Microcharts.Forms": "0.8.3-pre",
           "NETStandard.Library": "2.0.3",
           "Plugin.SQLite": "1.0.4",
-          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms": "4.0.0.394984-pre10",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
@@ -41,7 +41,7 @@
           "Microcharts": "0.8.3-pre",
           "SkiaSharp.Views.Forms": "1.59.1.1",
           "System.ValueTuple": "4.4.0",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "4.0.0.394984-pre10"
         },
         "runtime": {
           "lib/netstandard1.3/Microcharts.Forms.dll": {
@@ -88,7 +88,7 @@
       "SkiaSharp.Views.Forms/1.59.1.1": {
         "dependencies": {
           "SkiaSharp": "1.59.1",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "4.0.0.394984-pre10"
         },
         "runtime": {
           "lib/netstandard1.3/SkiaSharp.Views.Forms.dll": {
@@ -137,7 +137,7 @@
         }
       },
       "System.ValueTuple/4.4.0": {},
-      "Xamarin.Forms/3.4.0.1008975": {
+      "Xamarin.Forms/4.0.0.394984-pre10": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -156,7 +156,7 @@
       "Xamarin.Forms.Pages/2.3.0.38-pre2": {
         "dependencies": {
           "Newtonsoft.Json": "6.0.4",
-          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms": "4.0.0.394984-pre10",
           "modernhttpclient": "2.4.2"
         },
         "runtime": {
@@ -203,7 +203,7 @@
       },
       "XamarinForms.CardView/1.1.1.5": {
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "4.0.0.394984-pre10"
         },
         "runtime": {
           "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {
@@ -311,12 +311,12 @@
       "path": "system.valuetuple/4.4.0",
       "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
     },
-    "Xamarin.Forms/3.4.0.1008975": {
+    "Xamarin.Forms/4.0.0.394984-pre10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
-      "path": "xamarin.forms/3.4.0.1008975",
-      "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
+      "sha512": "sha512-ht4HEfWgA5FLBCdc4N/ylc8Ctd7DXW9ipVS6+OWVP0lmVMsY+/FwAjCqP2JGqO29iVAYjEpITzp9OjskBRT3+g==",
+      "path": "xamarin.forms/4.0.0.394984-pre10",
+      "hashPath": "xamarin.forms.4.0.0.394984-pre10.nupkg.sha512"
     },
     "Xamarin.Forms.Pages/2.3.0.38-pre2": {
       "type": "package",

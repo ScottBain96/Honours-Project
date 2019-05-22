@@ -108,7 +108,7 @@ namespace xamarinFitnessApp
                 
             }
         };
-            Chart2.Chart = new DonutChart { Entries = entries };
+            Chart2.Chart = new BarChart { Entries = entries };
 
 
 

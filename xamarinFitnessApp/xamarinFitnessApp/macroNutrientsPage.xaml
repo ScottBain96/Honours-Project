@@ -8,8 +8,8 @@
         <ScrollView>
             <StackLayout>
                 <StackLayout>
-                    <Label Text="Daily intake calorie calculator"  FontSize="Large"></Label>
-                    <Label Text="Carbs, Proteins, Fats" HorizontalOptions="CenterAndExpand"  FontSize="Medium"></Label>
+                    <Label Text="Daily intake calorie calculator"  FontSize="Large" TextColor="White"></Label>
+                    <Label Text="Carbs, Proteins, Fats" HorizontalOptions="CenterAndExpand"  FontSize="Medium" TextColor="White"></Label>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
@@ -30,9 +30,9 @@
                     <!--Empty label to style-->
                 </Label>
                 <StackLayout>
-                    <Label Text="Enter your daily calories"></Label>
+                    <Label Text="Enter your daily calories" TextColor="White"></Label>
                     <Entry x:Name="txtCalories" Keyboard="Numeric" WidthRequest="80"></Entry>
-                    <Label x:Name="lblResults" HeightRequest="80"></Label>
+                    <Label x:Name="lblResults" HeightRequest="80" TextColor="White"></Label>
                     <forms:ChartView x:Name="Chart2"  HeightRequest= "200"/>
                     <Button Text="Calculate!" Clicked="Button_Clicked_Split" StyleClass="Info"></Button>
                 </StackLayout>

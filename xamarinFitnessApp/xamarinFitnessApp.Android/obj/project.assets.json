@@ -585,7 +585,7 @@
           "Microcharts": "0.8.3-pre",
           "Microcharts.Forms": "0.8.3-pre",
           "Plugin.SQLite": "1.0.4",
-          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms": "4.0.0.394984-pre10",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
@@ -1461,7 +1461,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Scott\\.nuget\\packages\\": {}
+    "C:\\Users\\Scott\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1473,9 +1474,13 @@
       "outputPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
@@ -1552,5 +1557,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.394984-pre10 to 3.4.0.1008975. Reference the package directly from the project to select a different version. \r\n xamarinFitnessApp.Android -> xamarinFitnessApp -> Xamarin.Forms (>= 4.0.0.394984-pre10) \r\n xamarinFitnessApp.Android -> Xamarin.Forms (>= 3.4.0.1008975)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    }
+  ]
 }

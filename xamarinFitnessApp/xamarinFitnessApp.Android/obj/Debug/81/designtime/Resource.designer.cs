@@ -2371,18 +2371,6 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010004
-			public const int dumbellpic = 2130771972;
-			
-			// aapt resource value: 0x7F010005
-			public const int gear = 2130771973;
-			
-			// aapt resource value: 0x7F010006
-			public const int gearResize = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int greyTools = 2130771975;
-			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
 			
@@ -2914,11 +2902,11 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010008
-			public const int mainScreen = 2130771976;
+			// aapt resource value: 0x7F010004
+			public const int mainScreen = 2130771972;
 			
-			// aapt resource value: 0x7F010009
-			public const int mainScreen2 = 2130771977;
+			// aapt resource value: 0x7F010005
+			public const int mainScreen2 = 2130771973;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -2980,8 +2968,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F090118
 			public const int mr_vol_type_audiotrack_light = 2131296536;
 			
-			// aapt resource value: 0x7F010010
-			public const int mypic = 2130771984;
+			// aapt resource value: 0x7F010006
+			public const int mypic = 2130771974;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -3022,14 +3010,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010011
-			public const int placeholder1 = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int placeholder2 = 2130771986;
-			
-			// aapt resource value: 0x7F010013
-			public const int placeholder3 = 2130771987;
+			// aapt resource value: 0x7F010007
+			public const int tools = 2130771975;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3037,8 +3019,11 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010014
-			public const int weight = 2130771988;
+			// aapt resource value: 0x7F010008
+			public const int training = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int weight = 2130771977;
 			
 			static Drawable()
 			{
