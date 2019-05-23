@@ -20,6 +20,9 @@ namespace xamarinFitnessApp
         int carbs;
         int fats;
         int calories;
+        int percentagecarbs;
+        int percentagefats;
+        int percentageprot;
 
         public macroNutrientsPage ()
 		{
@@ -47,24 +50,36 @@ namespace xamarinFitnessApp
                     carbs = calories * 50 / 100 / 4;
                     protein = calories * 30 / 100 / 4;
                     fats = calories * 20 / 100 / 9;
+                    percentagecarbs = 50;
+                    percentageprot = 30;
+                    percentagefats = 20;
                     break;
 
                 case 1:
                     carbs = calories * 60 / 100 / 4;
                     protein = calories * 25 / 100 / 4;
                     fats = calories * 15 / 100 / 9;
+                    percentagecarbs = 60;
+                    percentageprot = 25;
+                    percentagefats = 15;
                     break;
 
                 case 2:
                     carbs = calories * 40 / 100 / 4;
                     protein = calories * 30 / 100 / 4;
                     fats = calories * 30 / 100 / 9;
+                    percentagecarbs = 40;
+                    percentageprot = 30;
+                    percentagefats = 30;
                     break;
 
                 case 3:
                     carbs = calories * 25 / 100 / 4;
                     protein = calories * 45 / 100 / 4;
                     fats = calories * 30 / 100 / 9;
+                    percentagecarbs = 25;
+                    percentageprot = 45;
+                    percentagefats = 30;
                     break;
 
 
@@ -83,7 +98,7 @@ namespace xamarinFitnessApp
 
             List<Entry> entries = new List<Entry>
         {
-            new Entry(carbs)
+            new Entry(percentagecarbs)
             {
                 Color = SKColor.Parse("#a256ff"),
                 Label = "Carbs",
@@ -91,7 +106,7 @@ namespace xamarinFitnessApp
             },
 
 
-             new Entry(fats)
+             new Entry(percentagefats)
             {
                 Color = SKColor.Parse("#f44141"),
                 Label = "Fats",
@@ -100,7 +115,7 @@ namespace xamarinFitnessApp
 
 
 
-              new Entry(protein)
+              new Entry(percentageprot)
             {
                 Color = SKColor.Parse("#429ef4"),
                 Label = "Proteins",
@@ -108,7 +123,7 @@ namespace xamarinFitnessApp
                 
             }
         };
-            Chart2.Chart = new BarChart { Entries = entries };
+            Chart2.Chart = new DonutChart { Entries = entries };
 
 
 

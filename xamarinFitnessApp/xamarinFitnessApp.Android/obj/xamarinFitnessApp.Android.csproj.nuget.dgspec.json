@@ -50,6 +50,14 @@
               "target": "Package",
               "version": "[0.8.3-pre, )"
             },
+            "Xamarin.Android.Support.Annotations": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
             "Xamarin.Android.Support.Design": {
               "target": "Package",
               "version": "[27.0.2.1, )"
@@ -70,9 +78,17 @@
               "target": "Package",
               "version": "[27.0.2.1, )"
             },
+            "Xamarin.Android.Support.v7.Palette": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.4.0.1008975, )"
+              "version": "[3.4.0.1039999, )"
+            },
+            "Xamarin.Forms.Pages": {
+              "target": "Package",
+              "version": "[3.4.0.1039999, )"
             },
             "Xamarin.Forms.Theme.Base": {
               "target": "Package",
@@ -157,7 +173,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.394984-pre10, )"
+              "version": "[3.4.0.1039999, )"
+            },
+            "Xamarin.Forms.Pages": {
+              "target": "Package",
+              "version": "[3.4.0.1039999, )"
             },
             "Xamarin.Forms.Theme.Base": {
               "target": "Package",

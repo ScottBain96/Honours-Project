@@ -61,7 +61,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.344457, )"
+              "version": "[3.4.0.1039999, )"
+            },
+            "Xamarin.Forms.Pages": {
+              "target": "Package",
+              "version": "[3.4.0.1039999, )"
             },
             "Xamarin.Forms.Theme.Base": {
               "target": "Package",
@@ -174,7 +178,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.394984-pre10, )"
+              "version": "[3.4.0.1039999, )"
+            },
+            "Xamarin.Forms.Pages": {
+              "target": "Package",
+              "version": "[3.4.0.1039999, )"
             },
             "Xamarin.Forms.Theme.Base": {
               "target": "Package",
