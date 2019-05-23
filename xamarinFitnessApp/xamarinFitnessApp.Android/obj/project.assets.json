@@ -1209,7 +1209,7 @@
       ]
     },
     "Microsoft.CSharp/4.3.0": {
-      "sha512": "P+MBhIM0YX+JqROuf7i306ZLJEjQYA9uUyRDE+OqwUI5sh41e2ZbPQV3LfAPh+29cmceE1pUffXsGfR4eMY3KA==",
+      "sha512": "MMRAs0ZSyK8ABVelAoa3VXndUxG/W52iTo5XL0ajEadHzUa34CeWBwEPNOLF7oOTBBtTY2bAdwrqipfBAeLZGg==",
       "type": "package",
       "path": "microsoft.csharp/4.3.0",
       "files": [
@@ -1356,12 +1356,13 @@
       ]
     },
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
+      "sha512": "MoATFm6YJyk5OdqDdxDWfKe5dkY3Cygu0wrpKPH/LbWtMmSuD/3G/JIInt9sIJN7hKQOFYCIb2UjLc2vO5byQQ==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -1787,7 +1788,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "sha512": "CisvPCXeSmQpxsufuzdAnoYWiSHqcexYiJkSdC454bZ/XL52Sv/DWAqg7xZ8f3OlUzKgq/ewQ+iRhSkwKdiwhw==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -3540,7 +3541,7 @@
       ]
     },
     "System.Runtime.Serialization.Formatters/4.3.0": {
-      "sha512": "KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
+      "sha512": "W4UqymabiCb1xxuKrspJCzCHW95VZQ3GCmzpDYHvJxVUvPY2siwU4A5rPu8ERaRPUvQRaO3jdX8Gr+oe5Y4JCA==",
       "type": "package",
       "path": "system.runtime.serialization.formatters/4.3.0",
       "files": [
@@ -3569,7 +3570,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "sha512": "/Pc7qt9WdQKekfLm5KccMF7s42ce9p9JRA+cbaFg17M/CnOSPWUvKYf3ZoCT907YPecrGF3izm7Gs3xughIXrg==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
@@ -4410,7 +4411,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.3.0": {
-      "sha512": "lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
+      "sha512": "IiUbPxbemqBuCRskuuobjJV1Lw0iJm+vNOH7drNHsj95EM2vVnBY4j0GtweZYQkMpwgFBwokka3V2k0Cca/RMw==",
       "type": "package",
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
@@ -4723,7 +4724,7 @@
       ]
     },
     "Xamarin.Forms/3.4.0.1039999": {
-      "sha512": "F2J4qrN+Z1LSFnvuSQIezugL3x9bIeNO9phfeH6/BGsofLi+IZH3iA9VcSDxP4F7Lk0118VOb0ZGSaTbdQd69Q==",
+      "sha512": "XdGH8FFFH50/6/tJyFe5murtCI7CeS8Si7hwjWpu/1KeLhMcBSeHzKnc2T4rI3pbHPjIpLz/hPofZqdLLcDBiQ==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1039999",
       "files": [
@@ -4872,7 +4873,7 @@
       ]
     },
     "Xamarin.Forms.Pages/3.4.0.1039999": {
-      "sha512": "xRDMx0SMhQfjiB/b/WEt84TaPiLigkv/SnesJdJaWF1A64yHk7YpqUrMO3BUYTVTV3GvNxt49CAKZV97cA21Zw==",
+      "sha512": "cEQH1a9/5DcVyb6E/Cn5U1S608NNq4cHfwE7M+ZX303QVOcdlHaoO+z88kGgjeFFoOFIG4O1pFMQpcXT9I578w==",
       "type": "package",
       "path": "xamarin.forms.pages/3.4.0.1039999",
       "files": [
@@ -4969,20 +4970,20 @@
   },
   "packageFolders": {
     "C:\\Users\\Scott\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.Android\\xamarinFitnessApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.Android\\xamarinFitnessApp.Android.csproj",
       "projectName": "xamarinFitnessApp.Android",
-      "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.Android\\xamarinFitnessApp.Android.csproj",
+      "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.Android\\xamarinFitnessApp.Android.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4999,8 +5000,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
-              "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
+            "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
+              "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
             }
           }
         }

@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj": {}
+    "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj": {
+    "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj",
         "projectName": "xamarinFitnessApp.UWP",
-        "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj",
+        "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj",
         "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\obj\\",
+        "outputPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
-                "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
+              "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
+                "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
               }
             }
           }
@@ -119,17 +119,17 @@
         }
       }
     },
-    "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
+    "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj",
+        "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj",
         "projectName": "xamarinFitnessApp",
-        "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj",
+        "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj",
         "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\obj\\",
+        "outputPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [

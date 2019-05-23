@@ -5,7 +5,7 @@ public class XamarinAndroidEnvironmentVariables
 	// Variables are specified the in "name", "value" pairs
 	public static final String[] Variables = new String[] {
 		"MONO_LOG_LEVEL", "info",
-		"XAMARIN_BUILD_ID", "41e643f8-415e-48de-bc69-bdb0b51fe143",
+		"XAMARIN_BUILD_ID", "9ec01abb-7e74-476f-89be-ff6a82e05d93",
 		"XA_HTTP_CLIENT_HANDLER_TYPE", "Xamarin.Android.Net.AndroidClientHandler",
 		"XA_TLS_PROVIDER", "btls",
 		"MONO_GC_PARAMS", "major=marksweep",
