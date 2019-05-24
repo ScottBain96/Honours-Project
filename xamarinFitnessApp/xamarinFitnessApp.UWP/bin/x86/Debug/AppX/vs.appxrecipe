@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=4bcf690c-4129-4938-87be-27b2d54f5879</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>65E08D0164668FDBAACA0077622B705C24183E87005E1E0425D822B44A63996E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3926de42-b54d-4c11-b558-d4b24a212166_1.0.0.0_x86__kv3ed8w7knkpm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3926de42-b54d-4c11-b558-d4b24a212166_kv3ed8w7knkpm!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-23T09:29:53.767</Modified>
+      <Modified>2019-05-24T15:11:24.652</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\xamarinFitnessApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\xamarinFitnessApp.UWP.exe">
       <PackagePath>entrypoint\xamarinFitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-05-23T09:29:49.015</Modified>
+      <Modified>2019-05-24T15:11:23.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\microcharts\0.8.3-pre\lib\uap\Microcharts.Uwp.dll">
       <PackagePath>Microcharts.Uwp.dll</PackagePath>
@@ -798,192 +798,196 @@
       <PackagePath>CardView.dll</PackagePath>
       <Modified>2018-02-10T12:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll">
       <PackagePath>xamarinFitnessApp.dll</PackagePath>
-      <Modified>2019-05-23T09:29:41.780</Modified>
+      <Modified>2019-05-24T15:09:48.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-23T01:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.359</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.448</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.465</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.654</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.694</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.888</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:01.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:02.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:02.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-23T08:26:02.147</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Calis.jpg">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Calis.jpg">
       <PackagePath>Calis.jpg</PackagePath>
       <Modified>2019-05-23T08:26:00.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\tools.jpg">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\tools.jpg">
       <PackagePath>tools.jpg</PackagePath>
       <Modified>2019-05-23T08:26:01.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\training.jpg">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\tools2.jpg">
+      <PackagePath>tools2.jpg</PackagePath>
+      <Modified>2019-05-24T13:11:10.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\training.jpg">
       <PackagePath>training.jpg</PackagePath>
       <Modified>2019-05-23T08:26:01.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\weight.jpg">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\weight.jpg">
       <PackagePath>weight.jpg</PackagePath>
       <Modified>2019-05-23T08:26:01.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen.jpg">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen.jpg">
       <PackagePath>mainScreen.jpg</PackagePath>
       <Modified>2019-05-23T08:26:01.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen2.jpg">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mainScreen2.jpg">
       <PackagePath>mainScreen2.jpg</PackagePath>
       <Modified>2019-05-23T08:26:01.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\mypic.jpg">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\mypic.jpg">
       <PackagePath>mypic.jpg</PackagePath>
       <Modified>2019-05-23T08:26:01.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-05-23T08:26:02.286</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\xamarinFitnessApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\xamarinFitnessApp.UWP.xr.xml">
       <PackagePath>xamarinFitnessApp.UWP.xr.xml</PackagePath>
       <Modified>2019-05-23T09:29:48.485</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-05-23T09:29:48.553</Modified>
+      <Modified>2019-05-24T15:11:22.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-05-23T09:29:48.554</Modified>
+      <Modified>2019-05-24T15:11:22.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -993,13 +997,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2019-03-22T20:06:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-05-23T09:29:52.473</Modified>
+      <Modified>2019-05-24T15:11:24.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\xamarinFitnessApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Core\xamarinFitnessApp.UWP.exe">
       <PackagePath>xamarinFitnessApp.UWP.exe</PackagePath>
-      <Modified>2019-05-23T09:29:53.731</Modified>
+      <Modified>2019-05-24T15:11:24.643</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

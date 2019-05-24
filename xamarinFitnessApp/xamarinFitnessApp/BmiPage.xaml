@@ -11,7 +11,7 @@
             <StackLayout>
 
                 <Label Text="BMI and daily calories calculator" FontSize="Large" TextColor="White"></Label>
-                <StackLayout  x:Name="sl">
+                <StackLayout  x:Name="sl" >
                     
                 </StackLayout>
 
@@ -28,19 +28,19 @@
                 <StackLayout Orientation="Horizontal"  >
 
                     <Label Text="Age" WidthRequest="75" TextColor="White" ></Label>
-                    <Entry x:Name="txtAge" Keyboard="Numeric" WidthRequest="60"></Entry>
+                    <Entry x:Name="txtAge" Keyboard="Numeric" WidthRequest="60" TextColor="White"></Entry>
 
                 </StackLayout>
                     
                 <StackLayout Orientation="Horizontal" >
 
                     <Label Text="Height" WidthRequest="75" TextColor="White"></Label>
-                    <Entry x:Name="txtCm"  IsEnabled="True" WidthRequest="60" Keyboard="Numeric"></Entry>
-                    <Entry x:Name="lblCm"  Placeholder="cm" IsEnabled="False" WidthRequest="60"></Entry>
-                    <Entry x:Name="txtFt"  Keyboard="Numeric" IsEnabled="False" IsVisible="False" WidthRequest="60"></Entry>
-                    <Entry x:Name="lblFt"  Placeholder="Feet"  IsEnabled="False" IsVisible="False" WidthRequest="50"></Entry>
-                    <Entry x:Name="txtInch" Keyboard="Numeric"  IsEnabled="False" IsVisible="False" WidthRequest="60"></Entry>
-                    <Entry x:Name="lblInch" Placeholder="Inch" IsEnabled="False" IsVisible="False" WidthRequest="50"></Entry>
+                    <Entry x:Name="txtCm"  IsEnabled="True" WidthRequest="60" Keyboard="Numeric" TextColor="White"></Entry>
+                    <Entry x:Name="lblCm"  Placeholder="cm" IsEnabled="False" WidthRequest="60" TextColor="White"></Entry>
+                    <Entry x:Name="txtFt"  Keyboard="Numeric" IsEnabled="False" IsVisible="False" TextColor="White" WidthRequest="60"></Entry>
+                    <Entry x:Name="lblFt"  Placeholder="Feet"  IsEnabled="False" IsVisible="False" TextColor="White" WidthRequest="50"></Entry>
+                    <Entry x:Name="txtInch" Keyboard="Numeric"  IsEnabled="False" IsVisible="False" TextColor="White" WidthRequest="60"></Entry>
+                    <Entry x:Name="lblInch" Placeholder="Inch" IsEnabled="False" IsVisible="False" TextColor="White" WidthRequest="50"></Entry>
 
                 </StackLayout>
 
@@ -48,10 +48,10 @@
                 <StackLayout Orientation="Horizontal" >
 
                     <Label Text="Weight" WidthRequest="75" TextColor="White"></Label>
-                    <Entry x:Name="txtWeightKg" Keyboard="Numeric" WidthRequest="60"></Entry>
-                    <Entry x:Name="lblKg" Placeholder="Kg" IsEnabled="False" WidthRequest="50"></Entry>
-                    <Entry x:Name="txtWeightLbs" Keyboard="Numeric"  IsEnabled="False" IsVisible="False" WidthRequest="60"></Entry>
-                    <Entry x:Name="lblLbs" Placeholder="Lbs" IsEnabled="False" IsVisible="False" WidthRequest="50"></Entry>
+                    <Entry x:Name="txtWeightKg" Keyboard="Numeric" WidthRequest="60" TextColor="White"></Entry>
+                    <Entry x:Name="lblKg" Placeholder="Kg" IsEnabled="False" WidthRequest="50" TextColor="White"></Entry>
+                    <Entry x:Name="txtWeightLbs" Keyboard="Numeric"  IsEnabled="False" IsVisible="False" TextColor="White" WidthRequest="60"></Entry>
+                    <Entry x:Name="lblLbs" Placeholder="Lbs" IsEnabled="False" IsVisible="False" TextColor="White" WidthRequest="50"></Entry>
                 </StackLayout>
 
 

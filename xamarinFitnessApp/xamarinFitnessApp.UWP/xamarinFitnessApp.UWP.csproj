@@ -109,6 +109,7 @@
     <Content Include="Assets\LargeTile.scale-400.png" />
     <Content Include="Calis.jpg" />
     <Content Include="tools.jpg" />
+    <Content Include="tools2.jpg" />
     <Content Include="training.jpg" />
     <Content Include="weight.jpg">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>

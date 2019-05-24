@@ -19238,11 +19238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj",
       "projectName": "xamarinFitnessApp.UWP",
-      "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj",
+      "projectPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\xamarinFitnessApp.UWP.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -19264,8 +19264,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
-              "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
+            "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
+              "projectPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
             }
           }
         }

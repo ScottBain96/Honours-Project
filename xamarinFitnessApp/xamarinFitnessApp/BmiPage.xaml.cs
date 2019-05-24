@@ -38,9 +38,9 @@ namespace xamarinFitnessApp
 
             InitializeComponent ();
             this.dataAccess = new UserDataAccess();
-        
-            
-            var picker = new Picker { Title = "Select a Profile" };
+
+
+            var picker = new Picker { Title = "Select a Profile"};
             picker.SelectedIndexChanged += picker_SelectedIndexChanged;
             try
             {

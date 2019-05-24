@@ -4975,11 +4975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.Android\\xamarinFitnessApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.Android\\xamarinFitnessApp.Android.csproj",
       "projectName": "xamarinFitnessApp.Android",
-      "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.Android\\xamarinFitnessApp.Android.csproj",
+      "projectPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.Android\\xamarinFitnessApp.Android.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -5000,8 +5000,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
-              "projectPath": "C:\\Users\\Scott\\OneDrive\\Desktop\\sss\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
+            "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
+              "projectPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
             }
           }
         }

@@ -22,7 +22,7 @@
 
                                 <ImageButton Source="weight.jpg" HeightRequest="150" Clicked="ImageButton_Clicked_1"></ImageButton>
                             <Button BackgroundColor="Transparent" Padding="0" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: 10mins" Clicked="ImageButton_Clicked_1"   FontSize="Medium"></Button>
-                            <Label Text="Times Done:" TextColor="White"></Label>
+                            
 
 
 
@@ -39,7 +39,7 @@
                         <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" HorizontalOptions="End">
                             <ImageButton Source="mypic.jpg" HeightRequest="150" Clicked="ImageButton_Clicked_1"></ImageButton>
                             <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: 10mins" Clicked="ImageButton_Clicked_1"  FontSize="Medium"></Button>
-                            <Label Text="Times Done:" TextColor="White"></Label>
+                            
 
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
@@ -50,7 +50,7 @@
                         <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" HorizontalOptions="End">
                             <ImageButton Source="weight.jpg" HeightRequest="150" Clicked="ImageButton_Clicked_1"></ImageButton>
                             <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: 10mins" Clicked="ImageButton_Clicked_1"  FontSize="Medium"></Button>
-                            <Label Text="Times Done:" TextColor="White"></Label>
+                           
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
                 </cardView:CardView>

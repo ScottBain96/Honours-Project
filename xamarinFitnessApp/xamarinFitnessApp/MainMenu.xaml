@@ -14,16 +14,14 @@
                 
             </Grid.RowDefinitions>
 
-            <ImageButton  Aspect="Fill" Source="weight.jpg"  Grid.Row="0" Clicked="ImageButton_Clicked" ></ImageButton>
+            <ImageButton  Aspect="Fill" Source="training.jpg"  Grid.Row="0" Clicked="ImageButton_Clicked" ></ImageButton>
             <Label  TextColor="White" BackgroundColor="Transparent" Text="Weight Training" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0"></Label>
-            <ImageButton  Aspect="Fill" Source="weight.jpg"   Grid.Row="1" Clicked="ImageButton_Clicked"></ImageButton>
+            <ImageButton  Aspect="Fill" Source="calis.jpg"   Grid.Row="1" Clicked="ImageButton_Clicked"></ImageButton>
             <Label TextColor="White" BackgroundColor="Transparent" Text="Bodyweight Training" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1"></Label>
 
-            <ImageButton  Aspect="Fill" Source="weight.jpg"   Grid.Row="2" Clicked="ImageButton_Clicked_Tools"></ImageButton>
+            <ImageButton  Aspect="Fill" Source="tools.jpg"   Grid.Row="2" Clicked="ImageButton_Clicked_Tools"></ImageButton>
             <Label TextColor="White" BackgroundColor="Transparent"  Text="Tools and Help" FontSize="Large" HorizontalOptions="Center"  VerticalOptions="Center" Grid.Row="2"></Label>
-            
-            <!--<Button  Grid.Row="2" Clicked="ImageButton_Clicked_Tools" ></Button>
-            <Label  TextColor="White" BackgroundColor="Transparent" Text="Tools and Help" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="2"></Label>-->
+
 
      
 

@@ -14,7 +14,7 @@
 
                 <StackLayout Orientation="Horizontal">
 
-                    <Picker x:Name="pickerDiets" Title="Select macronutrients split" HorizontalOptions="CenterAndExpand">
+                    <Picker x:Name="pickerDiets" Title="Select macronutrients split" HorizontalOptions="CenterAndExpand" FontSize="Medium" TextColor="White">
 
                         <Picker.Items>
                             <x:String>50/30/20(Moderate)</x:String>
