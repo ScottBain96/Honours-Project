@@ -183,3 +183,4 @@ C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamar
 C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.dll
 C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.pdb
+C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csprojAssemblyReference.cache

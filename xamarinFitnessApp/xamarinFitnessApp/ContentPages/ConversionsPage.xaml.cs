@@ -17,6 +17,8 @@ namespace xamarinFitnessApp
 
         double weight;
         double height;
+        string unitWeight;
+        string myHeight;
         public ConversionsPage ()
 		{
 			InitializeComponent ();
@@ -33,14 +35,24 @@ namespace xamarinFitnessApp
 
                 if (pickerWeight.SelectedIndex == 1)
                 {
-                  
+
                     weight = Double.Parse(txtWeight.Text.ToString()) / 2.20;
+                    unitWeight = "Kg";
+                    weight = Math.Round(weight, 3);
                 }
 
-                else
-                  
-                weight = Double.Parse(txtWeight.Text.ToString()) * 2.20;
-                lblWeight.Text = "Your weight converted is : " + weight.ToString("0,00");
+                if (pickerWeight.SelectedIndex == 0)
+                {
+                   
+                    weight = Double.Parse(txtWeight.Text.ToString()) * 2.20;
+                    unitWeight = "Lbs";
+                    //weight = Math.Round(weight, 1);
+
+
+                }
+                
+               
+                lblWeight.Text = "Your weight converted is : " + weight.ToString("") + unitWeight;
 
             
             }
@@ -87,13 +99,16 @@ namespace xamarinFitnessApp
 
                     height = Double.Parse(txtHeightCm.Text.ToString()) * 0.3937;
                     height = height / 12;
-
+                    height = Math.Round(height, 3);
                     string result = height.ToString();
-                    string myHeight;
+                    
                     myHeight = result.Split('.').Last();
                     result = result.Split('.').First();
 
-                    lblHeight.Text = "Your Height converted is : " + result + "' " + myHeight;
+
+
+                   
+                    lblHeight.Text = "Your Height converted is : " + result + "'" + myHeight + " (feet and inches)";
 
                 }
                 else
