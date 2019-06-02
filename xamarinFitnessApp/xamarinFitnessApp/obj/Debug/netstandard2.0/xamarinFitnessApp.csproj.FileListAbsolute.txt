@@ -115,29 +115,6 @@ C:\Users\Scott\Desktop\Honours-Project-master (1)\Honours-Project-master\xamarin
 C:\Users\Scott\Desktop\Honours-Project-master (1)\Honours-Project-master\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Scott\Desktop\Honours-Project-master (1)\Honours-Project-master\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.dll
 C:\Users\Scott\Desktop\Honours-Project-master (1)\Honours-Project-master\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.pdb
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.deps.json
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.pdb
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csprojAssemblyReference.cache
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\BmiPage.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ContentPages\ConversionsPage.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ContentPages\StartMeUp.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ListExercises.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\macroNutrientsPage.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\MainMenu.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\myProfile.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\Profile.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\profilesView.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ToolsPage.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\WorkoutPages\Workout1.xaml.g.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csproj.CoreCompileInputs.cache
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.AssemblyInfoInputs.cache
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.AssemblyInfo.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.dll
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.pdb
 C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.deps.json
 C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll
 C:\Users\Scott\OneDrive\Desktop\sss\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.pdb
@@ -184,3 +161,26 @@ C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamar
 C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.dll
 C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.pdb
 C:\Users\Scott\OneDrive\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csprojAssemblyReference.cache
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.deps.json
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.dll
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\bin\Debug\netstandard2.0\xamarinFitnessApp.pdb
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\BmiPage.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ContentPages\ConversionsPage.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ContentPages\StartMeUp.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ListExercises.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\macroNutrientsPage.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\MainMenu.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\myProfile.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\profilesView.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ToolsPage.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\WorkoutPages\Workout1.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csproj.CoreCompileInputs.cache
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.AssemblyInfoInputs.cache
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.AssemblyInfo.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.dll
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.pdb
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csprojAssemblyReference.cache

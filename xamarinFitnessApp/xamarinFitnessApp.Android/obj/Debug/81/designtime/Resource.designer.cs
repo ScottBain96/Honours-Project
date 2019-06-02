@@ -2347,8 +2347,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
-			// aapt resource value: 0x7F010003
-			public const int calis = 2130771971;
+			// aapt resource value: 0x7F010005
+			public const int calis = 2130771973;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -2899,8 +2899,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010004
-			public const int mainScreen = 2130771972;
+			// aapt resource value: 0x7F010006
+			public const int mainScreen = 2130771974;
 			
 			// aapt resource value: 0x7F010002
 			public const int mainScreen2 = 2130771970;
@@ -2965,6 +2965,9 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F090118
 			public const int mr_vol_type_audiotrack_light = 2131296536;
 			
+			// aapt resource value: 0x7F010003
+			public const int mypic = 2130771971;
+			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
@@ -3004,8 +3007,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010005
-			public const int tools = 2130771973;
+			// aapt resource value: 0x7F010007
+			public const int tools = 2130771975;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3013,8 +3016,11 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010006
-			public const int training = 2130771974;
+			// aapt resource value: 0x7F010008
+			public const int training = 2130771976;
+			
+			// aapt resource value: 0x7F010004
+			public const int weight = 2130771972;
 			
 			static Drawable()
 			{

@@ -37,5 +37,10 @@ namespace xamarinFitnessApp
         {
             Navigation.PushAsync(new ConversionsPage());
         }
+
+        private void Button_Clicked_Start(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ContentPages.StartMeUp());
+        }
     }
 }

@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
            
              xmlns:cardView="clr-namespace:CardView;assembly=CardView"
+             
              x:Class="xamarinFitnessApp.ListExercises">
     <ContentPage.Content>
 
@@ -10,71 +11,73 @@
         <ScrollView>
             <StackLayout>
 
-                <Label Text="Workouts Available" FontSize="Large" TextColor="White" ></Label>
-          
+                <Label></Label>
+                <Label Text="Workouts Available" HorizontalOptions="Center" FontSize="Large" TextColor="White" ></Label>
+                <Label></Label>
+               
 
-
-                    <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
-
-                        
-                        <cardView:CardView.CardViewContent>
+                <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
+                    <cardView:CardView.CardViewContent>
                         <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
-
-                                <ImageButton Source="weight.jpg" HeightRequest="150" Clicked="ImageButton_Clicked_1"></ImageButton>
-                            <Button BackgroundColor="Transparent" Padding="0" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: 10mins" Clicked="ImageButton_Clicked_1"   FontSize="Medium"></Button>
-                            
-
-
-
-
-                            </StackLayout>
-                        </cardView:CardView.CardViewContent>
-                    </cardView:CardView>
-
-           
-                
-
-                <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
-                    <cardView:CardView.CardViewContent>
-                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" HorizontalOptions="End">
-                            <ImageButton Source="mypic.jpg" HeightRequest="150" Clicked="ImageButton_Clicked_1"></ImageButton>
-                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: 10mins" Clicked="ImageButton_Clicked_1"  FontSize="Medium"></Button>
-                            
-
+                            <ImageButton Source="weight.jpg" HeightRequest="150"  Clicked="ImageButton_Clicked_1"></ImageButton>
+                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: &#10; 10mins" Clicked="ImageButton_Clicked_1" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
                 </cardView:CardView>
 
-                <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
+                <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
-                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" HorizontalOptions="End">
-                            <ImageButton Source="weight.jpg" HeightRequest="150" Clicked="ImageButton_Clicked_1"></ImageButton>
-                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: 10mins" Clicked="ImageButton_Clicked_1"  FontSize="Medium"></Button>
-                           
+                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
+                            <ImageButton Source="weight.jpg" HeightRequest="150"  Clicked="ImageButton_Clicked_1"></ImageButton>
+                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: &#10; 10mins" Clicked="ImageButton_Clicked_1" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
                 </cardView:CardView>
 
-                <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
+                <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
-                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" HorizontalOptions="End">
-                            <ImageButton Source="mypic.jpg" HeightRequest="150" Clicked="ImageButton_Clicked_1"></ImageButton>
-                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: 10mins" Clicked="ImageButton_Clicked_1"  FontSize="Medium"></Button>
-                            <Label Text="Times Done:" TextColor="White"></Label>
+                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
+                            <ImageButton Source="weight.jpg" HeightRequest="150"  Clicked="ImageButton_Clicked_1"></ImageButton>
+                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: &#10; 10mins" Clicked="ImageButton_Clicked_1" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
                 </cardView:CardView>
 
-                <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
+                <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
-                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" HorizontalOptions="End">
-                            <ImageButton Source="mypic.jpg" HeightRequest="150" Clicked="ImageButton_Clicked_1"></ImageButton>
-                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 4 &#10; Average Time: 10mins" Clicked="ImageButton_Clicked_1"  FontSize="Medium"></Button>
-                            <Label Text="Times Done:" TextColor="White"></Label>
+                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
+                            <ImageButton Source="weight.jpg" HeightRequest="150"  Clicked="ImageButton_Clicked_1"></ImageButton>
+                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: &#10; 10mins" Clicked="ImageButton_Clicked_1" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
                 </cardView:CardView>
 
+                <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
+                    <cardView:CardView.CardViewContent>
+                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
+                            <ImageButton Source="weight.jpg" HeightRequest="150"  Clicked="ImageButton_Clicked_1"></ImageButton>
+                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: &#10; 10mins" Clicked="ImageButton_Clicked_1" ></Button>
+                        </StackLayout>
+                    </cardView:CardView.CardViewContent>
+                </cardView:CardView>
+
+                <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
+                    <cardView:CardView.CardViewContent>
+                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
+                            <ImageButton Source="weight.jpg" HeightRequest="150"  Clicked="ImageButton_Clicked_1"></ImageButton>
+                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: &#10; 10mins" Clicked="ImageButton_Clicked_1" ></Button>
+                        </StackLayout>
+                    </cardView:CardView.CardViewContent>
+                </cardView:CardView>
+
+                <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
+                    <cardView:CardView.CardViewContent>
+                        <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
+                            <ImageButton Source="weight.jpg" HeightRequest="150"  Clicked="ImageButton_Clicked_1"></ImageButton>
+                            <Button BackgroundColor="Transparent" Text="Workout 1 &#10; Exercises: 3 &#10; Average Time: &#10; 10mins" Clicked="ImageButton_Clicked_1" ></Button>
+                        </StackLayout>
+                    </cardView:CardView.CardViewContent>
+                </cardView:CardView>
 
 
                 <!--<Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
@@ -96,7 +99,7 @@
 
                 </Grid>-->
 
-
+    
             </StackLayout>
         </ScrollView>
 

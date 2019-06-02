@@ -123,7 +123,8 @@ namespace xamarinFitnessApp
                 
             }
         };
-            Chart2.Chart = new DonutChart { Entries = entries };
+            
+            Chart2.Chart = new DonutChart { Entries = entries, LabelTextSize = 15 };
 
 
 
@@ -138,6 +139,7 @@ namespace xamarinFitnessApp
             {
                 PickerSelectedSplit();
                 lblResults.Text = ("You Require: \n" + carbs + " grams of carbs\n" + protein + " grams of protein\n" + fats + " grams of fat");
+                Chart2.IsVisible = true;
                 Create_Donut_Graph();
 
 

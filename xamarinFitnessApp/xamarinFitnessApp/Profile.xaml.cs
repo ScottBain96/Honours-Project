@@ -18,7 +18,7 @@ namespace xamarinFitnessApp
         {
             InitializeComponent();
             this.dataAccess = new UserDataAccess();
-            //txtTest.Text = this.dataAccess.GetCustomer(2).CompanyName;
+            
         }
 
     
@@ -27,24 +27,20 @@ namespace xamarinFitnessApp
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            // The instance of CustomersDataAccess
-            // is the data binding source
             this.BindingContext = this.dataAccess;
         }
 
-        // Save any pending changes
+      
         private void OnSaveClick(object sender, EventArgs e)
         {
             this.dataAccess.SaveAllCustomers();
         }
-        // Add a new customer to the Customers collection
+    
         private void OnAddClick(object sender, EventArgs e)
         {
             this.dataAccess.AddNewCustomer();
         }
-        // Remove the current customer
-        // If it exist in the database, it will be removed
-        // from there too
+    
         private void OnRemoveClick(object sender, EventArgs e)
         {
             var currentCustomer =
@@ -67,7 +63,8 @@ namespace xamarinFitnessApp
                 if (result == true)
                 {
                     this.dataAccess.DeleteAllCustomers();
-                    this.BindingContext = this.dataAccess;
+                    //this.BindingContext = this.dataAccess;
+                    OnAppearing();
                 }
             }
         }

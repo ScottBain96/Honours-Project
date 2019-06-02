@@ -1,21 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="xamarinFitnessApp.ContentPages.StartMeUp">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome To Training Buddy!" FontSize="Large"></Label>
-            <Label Text="Lets get you Started!" FontSize="Medium"></Label>
-            <Label Text="First of all, we will need to know your goals."></Label>
-            <Label Text="||||Selection of gain weight or lose weight here||||"></Label>
+        <ScrollView IsVisible="True">
+            <StackLayout>
+
+               
+                <Label Text="Welcome To Training Buddy!" FontSize="Large" TextColor="White"></Label>
+            <Label Text="Lets get you Started!" FontSize="Medium" TextColor="White"></Label>
+            <Label Text="First of all, we will need to know your goals." TextColor="White"></Label>
+            <Label></Label>
             
-    
-        <StackLayout Orientation="Horizontal">
-                <Button Text="Exit" Clicked="Button_Clicked_Exit"></Button>
-                <Button Text="Next"></Button>
+            <!--goal picker layout--> 
+            <StackLayout  x:Name="sl" >
+            </StackLayout>
+            <Label></Label>
+            <!--weeks calculator layout-->
+                <StackLayout x:Name="sl2" IsVisible="false">
+                <Label Text="Next, we will calculate an estimate of weeks required to achieve your goal" TextColor="White"></Label>
+                <Label></Label>
+                <Label Text="We will will use Kilograms, Unit conversions are available at the end of this page" TextColor="White"></Label>
+                <Label></Label>
+                <Label Text="Enter your current weight (Kg) " TextColor="White"></Label>
+                <Entry x:Name="txtInitialWeigh" Keyboard="Numeric" TextColor="White"></Entry>
+                <Label Text="Enter your goal weight (Kg)" TextColor="White"></Label>
+                <Entry x:Name="txtFinalWeight" Keyboard="Numeric" TextColor="White" ></Entry>
+                <Label x:Name="lblResult" TextColor="White"></Label>
+                <forms:ChartView x:Name="Chart2"  HeightRequest= "200" IsVisible="False"/>
+                    <Button Text="Calculate" Clicked="Button_Clicked_Calculate" VerticalOptions="EndAndExpand" HorizontalOptions="Center" StyleClass="Info"></Button>
+                </StackLayout>
+            <StackLayout  x:Name="sl3" IsVisible="false" >
+                <Label Text="In order to maintain your weight, you will require to consume as many calories as you burn." TextColor="White"></Label>
+                <Label Text="To do this, use the daily calories calculator provided to obtain the number of calories you require. You can either use the button or navigate to the tools section." TextColor="White"></Label>
+                <Button Text="Daily Calories" Clicked="Button_Clicked_Daily" VerticalOptions="EndAndExpand" HorizontalOptions="Center" StyleClass="Info"></Button>
             </StackLayout>
 
-        </StackLayout>
+            <!--Might use at some point-->
+            <!--<Label Text="What is your current level of fitness?" TextColor="White"></Label>-->
+            <!--<Picker x:Name="pickerFitnessLevel">
+                <Picker.Items>
+                    <x:String>Inexperienced/untrained</x:String>
+                    <x:String>Average fitness level</x:String>
+                    <x:String>Over average fitness level</x:String>
+                </Picker.Items>
+            </Picker>-->
+            
+     
 
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center">
+                    <Button Text="Exit" Clicked="Button_Clicked_Exit" StyleClass="Info"></Button>
+                    <Button Text="Unit conversion" Clicked="Button_Clicked_Unit" StyleClass="Info"></Button>
+                    <Button Text="Next" Clicked="Button_Clicked_Next" StyleClass="Info"></Button>
+            </StackLayout>
+            
+
+        </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
+        
 </ContentPage>

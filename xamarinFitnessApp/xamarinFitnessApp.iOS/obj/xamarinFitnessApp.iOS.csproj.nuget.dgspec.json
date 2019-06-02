@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\xamarinFitnessApp.iOS.csproj": {}
+    "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\xamarinFitnessApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\xamarinFitnessApp.iOS.csproj": {
+    "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\xamarinFitnessApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\xamarinFitnessApp.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\xamarinFitnessApp.iOS.csproj",
         "projectName": "xamarinFitnessApp.iOS",
-        "projectPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\xamarinFitnessApp.iOS.csproj",
+        "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\xamarinFitnessApp.iOS.csproj",
         "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\obj\\",
+        "outputPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
-                "projectPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
+              "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
+                "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj"
               }
             }
           }
@@ -97,17 +97,17 @@
         }
       }
     },
-    "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
+    "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj",
+        "projectUniqueName": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj",
         "projectName": "xamarinFitnessApp",
-        "projectPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj",
+        "projectPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\xamarinFitnessApp.csproj",
         "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Scott\\OneDrive\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\obj\\",
+        "outputPath": "C:\\Users\\Scott\\Documents\\GitHub\\Honours-Project\\xamarinFitnessApp\\xamarinFitnessApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [

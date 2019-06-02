@@ -224,12 +224,15 @@ namespace xamarinFitnessApp
 
         public void CalculateFormulaCals()
         {
+           
             SetGenderValue();
             SetActivityLevel();
             int age = Int32.Parse(txtAge.Text.ToString());
+            int myNumber;
             height = height * 100;
             results = (int) ((10 * weight + 6.25 * height - 5 * age + gender) * intensity);
-            //setAge.Text = results.ToString("0,00");
+            myNumber = results;
+            calsRes.Text = "You require " + results.ToString("0,00")+ " calories in order to maintain your weight, "+ (myNumber - 500) + " in order to lose 0.5kg per week and " + (myNumber +500) + " in order to gain 0.5kg per week.";
            
 
         }
