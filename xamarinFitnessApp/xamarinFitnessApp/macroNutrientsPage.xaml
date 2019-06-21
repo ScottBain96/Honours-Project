@@ -31,7 +31,7 @@
                 </Label>
                 <StackLayout>
                     <Label Text="Enter your daily calories" TextColor="White"></Label>
-                    <Entry x:Name="txtCalories" Keyboard="Numeric" WidthRequest="80"></Entry>
+                    <Entry x:Name="txtCalories" Keyboard="Numeric" WidthRequest="80" TextColor="White"></Entry>
                     <Label x:Name="lblResults" HeightRequest="80" TextColor="White"></Label>
                     <forms:ChartView x:Name="Chart2"  HeightRequest= "300" IsVisible="False"/>
                     <Button Text="Calculate!" Clicked="Button_Clicked_Split" StyleClass="Info"  VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Button>

@@ -168,6 +168,7 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\BmiPage.xaml.g.cs
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ContentPages\ConversionsPage.xaml.g.cs
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ContentPages\StartMeUp.xaml.g.cs
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\dietPlans.xaml.g.cs
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\ListExercises.xaml.g.cs
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\macroNutrientsPage.xaml.g.cs
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\MainMenu.xaml.g.cs

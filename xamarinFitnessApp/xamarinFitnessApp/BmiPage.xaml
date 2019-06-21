@@ -88,7 +88,7 @@
                     <Label x:Name="numberBMI" TextColor="White"></Label>
                     <Label x:Name="Results" TextColor="White"></Label>
                     <Label x:Name="calsRes" TextColor="White"></Label>
-                    <Button Text="Calculate!" Clicked="Button_Calculate_Clicked" StyleClass="Info"></Button>
+                    <Button Text="Calculate!" Clicked="Button_Calculate_Clicked" StyleClass="Info" VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Button>
                 </StackLayout>
 
             </StackLayout>

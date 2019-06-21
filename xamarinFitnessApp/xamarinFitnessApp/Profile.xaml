@@ -19,25 +19,25 @@
 
                             <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
                                 <Label Text="Name:" WidthRequest="75" TextColor="White"></Label>
-                                <Entry  Text="{Binding UserName} " WidthRequest="120" />
+                                <Entry  Text="{Binding UserName} " WidthRequest="120" TextColor="White" />
                                 
                                
                             </StackLayout>
                             <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
                                 <Label Text="Age:" WidthRequest="75" TextColor="White"></Label>
-                                <Entry  Text="{Binding Age}" WidthRequest="80" Keyboard="Numeric"/>
+                                <Entry  Text="{Binding Age}" WidthRequest="80" TextColor="White" Keyboard="Numeric"/>
                                
                             </StackLayout>
                             <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
                                 <Label Text="Height (cm):" TextColor="White" WidthRequest="75"></Label>
-                                <Entry Text="{Binding HeightCM}" Keyboard="Numeric" WidthRequest="80"/>
+                                <Entry Text="{Binding HeightCM}" Keyboard="Numeric" TextColor="White" WidthRequest="80"/>
                                 
 
                             </StackLayout>
 
                             <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
                                 <Label Text="Weight (Kg):" TextColor="White" WidthRequest="75"></Label>
-                                <Entry Text="{Binding WeightKG}" Keyboard="Numeric" WidthRequest="80"/>
+                                <Entry Text="{Binding WeightKG}" Keyboard="Numeric" TextColor="White" WidthRequest="80"/>
                                
 
                             </StackLayout>

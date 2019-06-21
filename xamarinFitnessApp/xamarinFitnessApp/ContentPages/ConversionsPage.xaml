@@ -19,7 +19,7 @@
 
 
                 <Label x:Name="lblunit" TextColor="White" Text="Enter Weight:"></Label>
-                <Entry WidthRequest="80" x:Name="txtWeight" Keyboard="Numeric" TextChanged="TxtWeight_TextChanged"></Entry>
+                <Entry WidthRequest="80" x:Name="txtWeight" Keyboard="Numeric" TextColor="White" TextChanged="TxtWeight_TextChanged"></Entry>
                 <Label x:Name="lblWeight" TextColor="White"></Label>
                 
                
@@ -36,9 +36,9 @@
                 </Picker.Items>
             </Picker>
                 <Label x:Name="lblHeightUnit" Text="Enter Height Details" TextColor="White"></Label>
-                <Entry x:Name="txtHeightCm" Placeholder="cm" Keyboard="Numeric" TextChanged="TxtHeightCm_TextChanged"></Entry>
-                <Entry x:Name="txtHeightFeet" Placeholder="Feet" Keyboard="Numeric" IsVisible="false" TextChanged="TxtHeightFeet_TextChanged"></Entry>
-                <Entry x:Name="txtHeightInches" Placeholder="Inches" Keyboard="Numeric" IsVisible="false" TextChanged="TxtHeightInches_TextChanged"></Entry>
+                <Entry x:Name="txtHeightCm" TextColor="White" Placeholder="cm" Keyboard="Numeric" TextChanged="TxtHeightCm_TextChanged"></Entry>
+                <Entry x:Name="txtHeightFeet" TextColor="White" Placeholder="Feet" Keyboard="Numeric" IsVisible="false" TextChanged="TxtHeightFeet_TextChanged"></Entry>
+                <Entry x:Name="txtHeightInches" TextColor="White" Placeholder="Inches" Keyboard="Numeric" IsVisible="false" TextChanged="TxtHeightInches_TextChanged"></Entry>
                 <Label x:Name="lblHeight" TextColor="White"></Label>
             </StackLayout>
             
