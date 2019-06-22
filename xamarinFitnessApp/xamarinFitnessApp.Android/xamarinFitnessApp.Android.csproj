@@ -66,6 +66,9 @@
     <PackageReference Include="sqlite-net-pcl">
       <Version>1.6.258-beta</Version>
     </PackageReference>
+    <PackageReference Include="Xam.Plugins.Notifier">
+      <Version>3.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Annotations">
       <Version>27.0.2.1</Version>
     </PackageReference>

@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[0.8.3-pre, )"
             },
+            "Xam.Plugins.Notifier": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Xamarin.Android.Support.Annotations": {
               "target": "Package",
               "version": "[27.0.2.1, )"
@@ -170,6 +174,10 @@
             "Plugin.SQLite": {
               "target": "Package",
               "version": "[1.0.4, )"
+            },
+            "Xam.Plugins.Notifier": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

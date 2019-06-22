@@ -42,5 +42,9 @@ namespace xamarinFitnessApp
         {
             Navigation.PushAsync(new ContentPages.StartMeUp());
         }
+        private void Button_Clicked_reminder(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new notificationPage());
+        }
     }
 }

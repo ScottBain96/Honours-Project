@@ -571,6 +571,12 @@
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.13\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\xam.plugins.notifier\3.0.1\lib\UAP10\Plugin.LocalNotifications.Abstractions.dll">
+      <PackagePath>Plugin.LocalNotifications.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\xam.plugins.notifier\3.0.1\lib\UAP10\Plugin.LocalNotifications.dll">
+      <PackagePath>Plugin.LocalNotifications.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\.nuget\packages\xamarin.forms\3.4.0.1039999\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>

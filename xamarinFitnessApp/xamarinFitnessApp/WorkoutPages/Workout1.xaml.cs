@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Plugin.LocalNotifications;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -18,6 +20,7 @@ namespace xamarinFitnessApp.WorkoutPages
 		{
 			InitializeComponent ();
             WorkoutValue = parameter;
+          
             setWorkout();
           //  timerx.Text = timer.ToString();
 
@@ -79,21 +82,22 @@ namespace xamarinFitnessApp.WorkoutPages
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            // CrossLocalNotifications.Current.Show("Did you workout today?", "Try one of the workouts available, every exercise counts!");
+            
 
-           
-                Device.StartTimer(TimeSpan.FromSeconds(5), () =>
-                {
-                    // Do something
-                    
-                    
+            //Device.StartTimer(TimeSpan.FromSeconds(5), () =>
+            //{
+            //    // Do something
 
-                   Navigation.PushAsync(new MainMenu());
-                
-                    return false ; // True = Repeat again, False = Stop the timer
-                  
-                });
 
-             
+
+            //   Navigation.PushAsync(new MainMenu());
+
+            //    return false ; // True = Repeat again, False = Stop the timer
+
+            //});
+
+
 
 
         }

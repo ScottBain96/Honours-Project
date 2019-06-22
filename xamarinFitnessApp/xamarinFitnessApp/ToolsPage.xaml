@@ -11,6 +11,7 @@
 
 
                 <Button Text="Profile" Clicked="Button_Clicked_profile" StyleClass="Info"/>
+                <Button Text="Reminders" Clicked="Button_Clicked_reminder" StyleClass="Info"/>
                 <Button Text="BMI and Daily Calories Calculator" Clicked="Button_Clicked_BMI" StyleClass="Info" />
                 <Button Text="Macronutrients Calculator" Clicked="Button_Clicked_macroNutrients" StyleClass="Info"/>
                 <Button Text="Unit Conversions" Clicked="Button_Clicked_Conversion" StyleClass="Info"/>

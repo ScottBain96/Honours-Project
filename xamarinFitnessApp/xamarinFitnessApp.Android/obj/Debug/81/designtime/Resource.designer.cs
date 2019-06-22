@@ -28,6 +28,7 @@ namespace xamarinFitnessApp.Droid
 		{
 			global::Microcharts.Droid.Resource.String.library_name = global::xamarinFitnessApp.Droid.Resource.String.library_name;
 			global::ModernHttpClient.Resource.String.library_name = global::xamarinFitnessApp.Droid.Resource.String.library_name;
+			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::xamarinFitnessApp.Droid.Resource.Drawable.plugin_lc_smallicon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3006,6 +3007,9 @@ namespace xamarinFitnessApp.Droid
 			
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0x7F010009
+			public const int plugin_lc_smallicon = 2130771977;
 			
 			// aapt resource value: 0x7F010007
 			public const int tools = 2130771975;

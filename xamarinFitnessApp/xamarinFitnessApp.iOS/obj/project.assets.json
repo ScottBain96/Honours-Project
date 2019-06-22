@@ -732,6 +732,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1039999": {
         "type": "package",
         "compile": {
@@ -928,6 +939,7 @@
           "Microcharts": "0.8.3-pre",
           "Microcharts.Forms": "0.8.3-pre",
           "Plugin.SQLite": "1.0.4",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Forms": "3.4.0.1039999",
           "Xamarin.Forms.Pages": "3.4.0.1039999",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
@@ -1597,6 +1609,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1039999": {
         "type": "package",
         "compile": {
@@ -1793,6 +1816,7 @@
           "Microcharts": "0.8.3-pre",
           "Microcharts.Forms": "0.8.3-pre",
           "Plugin.SQLite": "1.0.4",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Forms": "3.4.0.1039999",
           "Xamarin.Forms.Pages": "3.4.0.1039999",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
@@ -2462,6 +2486,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1039999": {
         "type": "package",
         "compile": {
@@ -2658,6 +2693,7 @@
           "Microcharts": "0.8.3-pre",
           "Microcharts.Forms": "0.8.3-pre",
           "Plugin.SQLite": "1.0.4",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Forms": "3.4.0.1039999",
           "Xamarin.Forms.Pages": "3.4.0.1039999",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
@@ -3327,6 +3363,17 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1039999": {
         "type": "package",
         "compile": {
@@ -3523,6 +3570,7 @@
           "Microcharts": "0.8.3-pre",
           "Microcharts.Forms": "0.8.3-pre",
           "Plugin.SQLite": "1.0.4",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Forms": "3.4.0.1039999",
           "Xamarin.Forms.Pages": "3.4.0.1039999",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
@@ -6803,6 +6851,41 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "Xam.Plugins.Notifier/3.0.1": {
+      "sha512": "QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
+      "type": "package",
+      "path": "xam.plugins.notifier/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.XML",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/UAP10/Plugin.LocalNotifications.XML",
+        "lib/UAP10/Plugin.LocalNotifications.dll",
+        "lib/UAP10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.pri",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.XML",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.LocalNotifications.deps.json",
+        "lib/netstandard1.0/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.xml",
+        "xam.plugins.notifier.3.0.1.nupkg.sha512",
+        "xam.plugins.notifier.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.4.0.1039999": {
       "sha512": "F2J4qrN+Z1LSFnvuSQIezugL3x9bIeNO9phfeH6/BGsofLi+IZH3iA9VcSDxP4F7Lk0118VOb0ZGSaTbdQd69Q==",
       "type": "package",
@@ -7031,6 +7114,7 @@
       "Microcharts >= 0.8.3-pre",
       "Microcharts.Forms >= 0.8.3-pre",
       "Plugin.SQLite >= 1.0.4",
+      "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Forms >= 3.4.0.1039999",
       "Xamarin.Forms.Pages >= 3.4.0.1039999",
       "Xamarin.Forms.Theme.Base >= 1.0.0.43-pre1",
@@ -7094,6 +7178,10 @@
           "Plugin.SQLite": {
             "target": "Package",
             "version": "[1.0.4, )"
+          },
+          "Xam.Plugins.Notifier": {
+            "target": "Package",
+            "version": "[3.0.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "b61732206bc37379edb3c106fdc0c64e8a4f12f8"
+    "signature": "732b6c6e9675795300b39684840bd87b8b373238"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,6 +13,7 @@
           "Microcharts.Forms": "0.8.3-pre",
           "NETStandard.Library": "2.0.3",
           "Plugin.SQLite": "1.0.4",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Forms": "3.4.0.1039999",
           "Xamarin.Forms.Pages": "3.4.0.1039999",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
@@ -651,6 +652,18 @@
           }
         }
       },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "runtime": {
+          "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Plugin.LocalNotifications.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Xamarin.Forms/3.4.0.1039999": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -1104,6 +1117,13 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "Xam.Plugins.Notifier/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
+      "path": "xam.plugins.notifier/3.0.1",
+      "hashPath": "xam.plugins.notifier.3.0.1.nupkg.sha512"
     },
     "Xamarin.Forms/3.4.0.1039999": {
       "type": "package",

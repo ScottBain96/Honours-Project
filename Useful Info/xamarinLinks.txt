@@ -22,3 +22,9 @@ APP THEMES CHANGER
 TO DO:
 
 Add graphs for macro split and BMI
+
+
+
+https://www.nuget.org/packages/Xam.Plugins.Notifier/
+
+https://www.youtube.com/watch?v=Tp10mphOm1Y

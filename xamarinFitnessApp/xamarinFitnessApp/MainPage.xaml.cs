@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.LocalNotifications;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace xamarinFitnessApp
         public MainPage()
         {
             InitializeComponent();
-            
+         
         }
 
 

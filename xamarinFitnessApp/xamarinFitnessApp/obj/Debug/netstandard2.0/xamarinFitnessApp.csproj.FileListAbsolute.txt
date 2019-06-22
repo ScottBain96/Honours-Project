@@ -181,7 +181,8 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csproj.CoreCompileInputs.cache
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.AssemblyInfoInputs.cache
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.AssemblyInfo.cs
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.pdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\xamarinFitnessApp.csprojAssemblyReference.cache
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp\obj\Debug\netstandard2.0\notificationPage.xaml.g.cs
