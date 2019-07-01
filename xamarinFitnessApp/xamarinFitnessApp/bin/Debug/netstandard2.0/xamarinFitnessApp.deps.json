@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "732b6c6e9675795300b39684840bd87b8b373238"
+    "signature": "bf81d2fa7b0f6c031a77d4754b86bcc85a1c5200"
   },
   "compilationOptions": {},
   "targets": {
@@ -15,6 +15,7 @@
           "Plugin.SQLite": "1.0.4",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Forms": "3.4.0.1039999",
+          "Xamarin.Forms.Maps": "3.4.0.1039999",
           "Xamarin.Forms.Pages": "3.4.0.1039999",
           "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
           "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
@@ -680,6 +681,21 @@
           }
         }
       },
+      "Xamarin.Forms.Maps/3.4.0.1039999": {
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1039999"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "Xamarin.Forms.Pages/3.4.0.1039999": {
         "dependencies": {
           "Newtonsoft.Json": "10.0.3",
@@ -1131,6 +1147,13 @@
       "sha512": "sha512-F2J4qrN+Z1LSFnvuSQIezugL3x9bIeNO9phfeH6/BGsofLi+IZH3iA9VcSDxP4F7Lk0118VOb0ZGSaTbdQd69Q==",
       "path": "xamarin.forms/3.4.0.1039999",
       "hashPath": "xamarin.forms.3.4.0.1039999.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/3.4.0.1039999": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0H0WT/96quTeNIYZEdjjU4VpU32wXayQaJtW2dNkMdNYJvtyb1LrPo51d+rEOR91ixf5/qsXM7WSRkk2EmJd1w==",
+      "path": "xamarin.forms.maps/3.4.0.1039999",
+      "hashPath": "xamarin.forms.maps.3.4.0.1039999.nupkg.sha512"
     },
     "Xamarin.Forms.Pages/3.4.0.1039999": {
       "type": "package",

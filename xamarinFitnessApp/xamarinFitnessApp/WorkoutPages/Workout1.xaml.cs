@@ -33,44 +33,45 @@ namespace xamarinFitnessApp.WorkoutPages
             {
 
                 case 1:
-                    lblWorkout.Text = "Poisedon";
-                    lblw1.Text = "Exercise 1";
-                    lblw2.Text = "Exercise 2";
-                    lblw3.Text = "Exercise 3";
-                    lblw4.Text = "Exercise 4";
+                    lblWorkout.Text = "Poisedon Workout: 3 sets, 4 exercises";
+                    lblw1.Text = "Pushups x12";
+                    lblw2.Text = "SitUps x30";
+                    lblw3.Text = "Squats x30";
+                    lblw4.Text = "Planks 90seconds";
                     break;
 
 
                 case 2:
-                    lblWorkout.Text = "Zeus";
-                    lblw1.Text = "Exercise 1";
-                    lblw2.Text = "Exercise 2";
-                    lblw3.Text = "Exercise 3";
-                    lblw4.Text = "Exercise 4";
+                    lblWorkout.Text = "Zeus Workout: 3 sets, 4 exercises";
+                    lblw1.Text = "Pushups x30";
+                    lblw2.Text = "Mountain Climbers x30";
+                    lblw3.Text = "Burpees x30";
+                    lblw4.Text = "Squats x90";
                     break;
 
                 case 3:
-                    lblWorkout.Text = "Hades";
-                    lblw1.Text = "Exercise 1";
-                    lblw2.Text = "Exercise 2";
-                    lblw3.Text = "Exercise 3";
-                    lblw4.Text = "Exercise 4";
+                    lblWorkout.Text = "Hades Workout: 5 sets, 5 exercises";
+                    lblw1.Text = "PushUps x100";
+                    lblw2.Text = "SitUps x100";
+                    lblw3.Text = "Mountain Climbers x100";
+                    lblw4.Text = "Burpees x100";
+                    lblw5.Text = "Squats x100";
                     break;
 
                 case 4:
-                    lblWorkout.Text = "Ares";
-                    lblw1.Text = "Exercise 1";
-                    lblw2.Text = "Exercise 2";
-                    lblw3.Text = "Exercise 3";
-                    lblw4.Text = "Exercise 4";
+                    lblWorkout.Text = "Ares Workout: 3 sets, 4 exercises";
+                    lblw1.Text = "Pullups x30";
+                    lblw2.Text = "Chinups x30";
+                    lblw3.Text = "Pushups x30";
+                    lblw4.Text = "Planks 90seconds";
                     break;
 
                 case 5:
-                    lblWorkout.Text = "Thor";
-                    lblw1.Text = "Exercise 1";
-                    lblw2.Text = "Exercise 2";
-                    lblw3.Text = "Exercise 3";
-                    lblw4.Text = "Exercise 4";
+                    lblWorkout.Text = "Thor Workout: 3 sets, 4 exercises";
+                    lblw1.Text = "Pushups x60";
+                    lblw2.Text = "Situps x60";
+                    lblw3.Text = "PullUps x30";
+                    lblw4.Text = "Mountain Climbers x60";
                     break;
 
             }
@@ -82,22 +83,9 @@ namespace xamarinFitnessApp.WorkoutPages
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            // CrossLocalNotifications.Current.Show("Did you workout today?", "Try one of the workouts available, every exercise counts!");
-            
+      
 
-            //Device.StartTimer(TimeSpan.FromSeconds(5), () =>
-            //{
-            //    // Do something
-
-
-
-            //   Navigation.PushAsync(new MainMenu());
-
-            //    return false ; // True = Repeat again, False = Stop the timer
-
-            //});
-
-
+            Navigation.PushAsync(new WorkoutPages.Workout1Started(WorkoutValue));
 
 
         }

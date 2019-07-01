@@ -104,13 +104,19 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ares.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
     <Content Include="Calis.jpg" />
+    <Content Include="hades.png" />
+    <Content Include="thor.png" />
     <Content Include="tools.jpg" />
     <Content Include="tools2.jpg" />
     <Content Include="training.jpg" />
+    <Content Include="trident.png" />
     <Content Include="weight.jpg">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
@@ -146,6 +152,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="zeus.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -175,6 +182,9 @@
       <Version>3.0.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
+      <Version>3.4.0.1039999</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms.Maps">
       <Version>3.4.0.1039999</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms.Pages">

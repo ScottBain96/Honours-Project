@@ -33,68 +33,75 @@ namespace xamarinFitnessApp
 
 
 
-      
 
 
 
+        private static int id;
         private void Button_Clicked(object sender, EventArgs e)
             {
-
-            //Calculate hours between current Date and time and selected Date, EXACT HOURS not 24 per day, converted to minutes.
-            var hours = (datePicker.Date - DateTime.Today).TotalHours * 60;
-            var myTime = DateTime.Now.ToShortTimeString();
-            string replace = myTime.ToString();
-            replace = replace.Replace(':', '.');
-            //Splitting hours and minutes
-            string[] parts = replace.Split('.');
-            int i1 = int.Parse(parts[0]);
-            int i2 = int.Parse(parts[1]);
-
-            int minutes = (i1 * 60) + i2;
-
-
-
-            double todaysHours = Convert.ToDouble(minutes);
-
-            //substract the total hours of the days difference and the current hour of the day to get the exact hours till selected date.
-            double dayDifferenceHours = hours - todaysHours;
-
-            //            txtToDo.Text = totalHours.ToString();
-
-
-
-            //PICKER HOURS
-
-            string pickerValue = timePicker.Time.ToString();
-          
-            //int pos = 1 + pickerValue.IndexOf(':');
-            //pickerValue = pickerValue.Substring(0, pos) + pickerValue.Substring(pos).Replace(":", string.Empty);
-            //pickerValue = pickerValue.Replace(':', '.');
             
+            id++;
+
+
+            if (!String.IsNullOrEmpty(txtToDo.Text)) { 
+
+                //Calculate hours between current Date and time and selected Date, EXACT HOURS not 24 per day, converted to minutes.
+                var hours = (datePicker.Date - DateTime.Today).TotalHours * 60;
+                var myTime = DateTime.Now.ToShortTimeString();
+                string replace = myTime.ToString();
+                replace = replace.Replace(':', '.');
+                //Splitting hours and minutes
+                string[] parts = replace.Split('.');
+                int i1 = int.Parse(parts[0]);
+                int i2 = int.Parse(parts[1]);
+
+                int minutes = (i1 * 60) + i2;
+
+
+
+                double todaysHours = Convert.ToDouble(minutes);
+
+                //substract the total hours of the days difference and the current hour of the day to get the exact hours till selected date.
+                double dayDifferenceHours = hours - todaysHours;
+
+                //PICKER HOURS
+
+                string pickerValue = timePicker.Time.ToString();
+                
+                //convert pickerHours to minutes
+                //Splitting hours and minutes
+
+                string[] parts2 = pickerValue.Split(':');
+                int i3 = int.Parse(parts2[0]);
+                int i4 = int.Parse(parts2[1]);
+                //txtToDo.Text = pickerValue;
+                //txtdayDiff.Text = i3.ToString();
+                //txtTimeDiff.Text = i4.ToString();
+                int minutes2 = (i3 * 60) + i4;
            
-            //convert pickerHours to minutes
-            //Splitting hours and minutes
+                double pickerHours = Convert.ToDouble(minutes2);
+                double totalhours = dayDifferenceHours + pickerHours;
 
-            string[] parts2 = pickerValue.Split(':');
-            int i3 = int.Parse(parts2[0]);
-            int i4 = int.Parse(parts2[1]);
-            //txtToDo.Text = pickerValue;
-            //txtdayDiff.Text = i3.ToString();
-            //txtTimeDiff.Text = i4.ToString();
-            int minutes2 = (i3 * 60) + i4;
+               
+                string myNotification = txtToDo.Text;
+                if(totalhours > 0)
+                {
+                  
+                    CrossLocalNotifications.Current.Show("Your reminder:", myNotification, id, DateTime.Now.AddMinutes(totalhours));
+                    DisplayAlert("Succesful!", "You will be reminded in " + totalhours.ToString() + " minutes", "OK");
+                }
+                else
+                {
+                    DisplayAlert("Error!", "That time already passed, make sure time and date is correct.", "OK");
+                }
+                
+
+                }
+            else
+            {
+                DisplayAlert("Missing Details", "Please fill in all details", "OK");
+            }
            
-            double pickerHours = Convert.ToDouble(minutes2);
-            double totalhours = dayDifferenceHours + pickerHours;
-            txtdayDiff.Text = dayDifferenceHours.ToString();
-            txtTimeDiff.Text = pickerHours.ToString();
-            txtToDo.Text = totalhours.ToString();
-
-
-
-
-
-            string myNotification = "this is a test";
-            CrossLocalNotifications.Current.Show("Your reminder:", myNotification, 101, DateTime.Now.AddMinutes(totalhours));
         }
         }
 }

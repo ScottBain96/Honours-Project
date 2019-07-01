@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="xamarinFitnessApp.ConversionsPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Unit Conversions" TextColor="White" FontSize="Large"></Label>
+        <StackLayout Padding="20">
+            <Label Text="Unit Conversions" TextColor="White" HorizontalOptions="Center" FontSize="Large"></Label>
+            <Label></Label>
             <Label Text="Basic height/weight unit conversions" TextColor="White" FontSize="Medium"></Label>
             <Label></Label>
             <StackLayout>
@@ -26,8 +27,10 @@
 
 
             </StackLayout>
+            <Label></Label>
+            
 
-            <StackLayout>
+                <StackLayout>
             <Picker x:Name="pickerHeight" Title="Select Units" HorizontalOptions="CenterAndExpand" SelectedIndexChanged="PickerHeight_SelectedIndexChanged">
 
                 <Picker.Items>

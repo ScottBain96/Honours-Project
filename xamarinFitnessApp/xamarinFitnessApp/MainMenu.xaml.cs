@@ -29,7 +29,7 @@ namespace xamarinFitnessApp
         private void ImageButton_Clicked_Food(object sender, EventArgs e)
         {
             //myLabel.Text = "Changed";
-            Navigation.PushAsync(new dietPlans());
+            Navigation.PushAsync(new ListExercises());
         }
 
        

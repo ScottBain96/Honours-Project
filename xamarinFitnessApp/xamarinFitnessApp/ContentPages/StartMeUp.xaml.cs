@@ -107,7 +107,7 @@ namespace xamarinFitnessApp.ContentPages
 
         private void Button_Clicked_Exit(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MainPage());
+            Navigation.PushAsync(new MainMenu());
         }
 
         private void Button_Clicked_Unit(object sender, EventArgs e)
@@ -130,6 +130,9 @@ namespace xamarinFitnessApp.ContentPages
 
         public void calculateWeeks()
         {
+            try {
+
+            btnNext.IsEnabled = true;
             Double initialWeight = Convert.ToDouble(txtInitialWeigh.Text);
             Double finalWeight = Convert.ToDouble(txtFinalWeight.Text);
             double test = initialWeight - ((initialWeight - finalWeight)/2);
@@ -141,8 +144,10 @@ namespace xamarinFitnessApp.ContentPages
             {
                 TotalWeeks = (initialWeight - finalWeight) / 0.5;
                 lblResult.Text = "You require an estimate maximum of " + TotalWeeks.ToString() + " weeks in order to achieve your weight goal, losing a total ammount of: " + (initialWeight - finalWeight).ToString() + " Kilograms";
+                    lblNext.Text = "The next you need to do is calculate your daily calories using the Daily Calories calculator in order to be able to consume less calories than you burn. Press " +
+               "the Next Button to go there";
 
-                List<Entry> entries = new List<Entry>
+                    List<Entry> entries = new List<Entry>
                 {
                     new Entry(Convert.ToInt32(initialWeight))
                     {
@@ -178,17 +183,24 @@ namespace xamarinFitnessApp.ContentPages
             {
                 TotalWeeks = (finalWeight - initialWeight) / 0.5;
                 lblResult.Text = "You require an estimate maximum of " + TotalWeeks.ToString() + " weeks in order to achieve your weight goal, gaining a total ammount of: " + (finalWeight - initialWeight).ToString() + " Kilograms";
+                    lblNext.Text = "The next you need to do is calculate your daily calories using the Daily Calories calculator in order to be able to consume more calories than you burn. Press " +
+                        "the Next Button to go there";
+                    
             }
             else
             {
                 DisplayAlert("Incorrect details", "Your weight details are incorrect, please submit them again. Also check the goal selector incase you have the wrong type selected", "Okay");
             }
-
+            }
+            catch
+            {
+                DisplayAlert("Incorrect details", "You are missing details or wrong format", "OK");
+            }
         }
 
         private void Button_Clicked_Next(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MainMenu());
+            Navigation.PushAsync(new BmiPage());
 
         }
     }

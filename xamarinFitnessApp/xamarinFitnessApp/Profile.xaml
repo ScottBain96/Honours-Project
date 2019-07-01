@@ -19,7 +19,7 @@
 
                             <StackLayout Orientation="Horizontal"  HorizontalOptions="Start">
                                 <Label Text="Name:" WidthRequest="75" TextColor="White"></Label>
-                                <Entry  Text="{Binding UserName} " WidthRequest="120" TextColor="White" />
+                                <Entry Text="{Binding UserName} " WidthRequest="120" TextColor="White" />
                                 
                                
                             </StackLayout>
@@ -58,8 +58,8 @@
 
             <Button Text="Save Profiles" Clicked="OnSaveClick" StyleClass="Info"></Button>
             <Button Text="Add New Profile" Clicked="OnAddClick" StyleClass="Info"></Button>
-            <Button Text="Remove Selected Profile" Clicked="OnRemoveClick" StyleClass="Info"></Button>
-            <!--<Button Text="Remove All Profiles" Clicked="OnRemoveAllClick" StyleClass="Info"></Button>-->
+            <!--<Button Text="Remove Selected Profile" Clicked="OnRemoveClick" StyleClass="Info"></Button>-->
+            <Button Text="Remove All Profiles" Clicked="OnRemoveAllClick" StyleClass="Info"></Button>
 
         </StackLayout>
        
@@ -72,10 +72,10 @@
                Priority="0" Order="Secondary" />
         <ToolbarItem Name="Add" Activated="OnAddClick"
                Priority="1" Order="Secondary" />
-        <ToolbarItem Name="Remove" Activated="OnRemoveClick"
-               Priority="2" Order="Secondary" />
-        <!--<ToolbarItem Name="Remove all" Activated="OnRemoveAllClick"
-               Priority="3" Order="Secondary" />-->
+        <!--<ToolbarItem Name="Remove" Activated="OnRemoveClick"
+               Priority="2" Order="Secondary" />-->
+        <ToolbarItem Name="Remove all" Activated="OnRemoveAllClick"
+               Priority="3" Order="Secondary" />
         <ToolbarItem Name="Save" Activated="OnSaveClick"
                Priority="4" Order="Secondary" />
     </ContentPage.ToolbarItems>

@@ -37,13 +37,14 @@ namespace xamarinFitnessApp
             
 
             InitializeComponent ();
+            //this.dataAccess = new UserDataAccess();
             this.dataAccess = new UserDataAccess();
-
 
             var picker = new Picker { Title = "Select a Profile"};
             picker.SelectedIndexChanged += picker_SelectedIndexChanged;
             try
             {
+
                
                 picker.Items.Add(this.dataAccess.GetCustomer(1).UserName);
                 picker.Items.Add(this.dataAccess.GetCustomer(2).UserName);
@@ -215,7 +216,7 @@ namespace xamarinFitnessApp
         {
             bmi = weight / height;
             bmi = bmi / height;
-            numberBMI.Text = bmi.ToString("0.00");
+            numberBMI.Text = "Your BMI is: " + bmi.ToString("0.00");
 
 
         }
@@ -390,6 +391,9 @@ namespace xamarinFitnessApp
             DisplayAlert("Help info", "BMI and Daily Calories calculator, Profile is not required", "View More Information", "Continue");
         }
 
- 
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainMenu());
+        }
     }
 }

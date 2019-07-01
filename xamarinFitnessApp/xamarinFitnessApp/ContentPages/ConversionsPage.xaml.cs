@@ -162,10 +162,11 @@ namespace xamarinFitnessApp
                 //ft and inches to meters
                 height = Double.Parse(txtHeightInches.Text.ToString()) * 2.54;
                 height = height + Double.Parse(txtHeightFeet.Text.ToString()) * 30.48;
-            
-                
 
-                lblHeight.Text = height.ToString();
+
+
+                lblHeight.Text = "Your Height converted is : " + height.ToString() + " cm";
+                
 
             }
         }

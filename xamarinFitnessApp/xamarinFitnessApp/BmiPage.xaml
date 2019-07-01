@@ -8,9 +8,9 @@
 
         <ScrollView IsVisible="True">
 
-            <StackLayout>
+            <StackLayout Padding="20">
 
-                <Label Text="BMI and daily calories calculator" FontSize="Large" TextColor="White"></Label>
+                <Label Text="BMI and daily calories calculator"  HorizontalOptions="Center" FontSize="Large" TextColor="White"></Label>
                 <StackLayout  x:Name="sl" >
                     
                 </StackLayout>
@@ -88,7 +88,14 @@
                     <Label x:Name="numberBMI" TextColor="White"></Label>
                     <Label x:Name="Results" TextColor="White"></Label>
                     <Label x:Name="calsRes" TextColor="White"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        
+                        
+                        
                     <Button Text="Calculate!" Clicked="Button_Calculate_Clicked" StyleClass="Info" VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Button>
+                        
+                    <Button Text="Main Menu" Clicked="Button_Clicked" StyleClass="Info" VerticalOptions="EndAndExpand" HorizontalOptions="End"></Button>
+                    </StackLayout>
                 </StackLayout>
 
             </StackLayout>

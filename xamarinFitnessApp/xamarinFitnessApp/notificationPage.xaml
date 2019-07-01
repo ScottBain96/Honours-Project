@@ -4,20 +4,17 @@
              xmlns:system="clr-namespace:System;assembly=mscorlib"
              x:Class="xamarinFitnessApp.notificationPage">
     <ContentPage.Content>
-        <StackLayout x:Name="sl">
-            <Label Text="Set up some notifications!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-                   TextColor="White"/>
+        <StackLayout Padding="20">
 
-            <Label TextColor="White">What do you need to remind?</Label>
+            <Label TextColor="White" Text="My Reminders!" FontSize="Large" HorizontalOptions="Center"></Label>
+            <Label></Label>
+            <Label TextColor="White">What do you need to remember?</Label>
             <Entry x:Name="txtToDo" TextColor="White"></Entry>
-            <Button TextColor="White" Text="Remind me!" Clicked="Button_Clicked"></Button>
-            <DatePicker x:Name="datePicker" Date="{x:Static system:DateTime.Today}" />
-            <TimePicker x:Name="timePicker" Time="4:15:26" />
-            <Entry x:Name="txtdayDiff" TextColor="White"></Entry>
-            <Entry x:Name="txtTimeDiff" TextColor="White"></Entry>
-            
+            <Label TextColor="White">Select when you need to be notified!</Label>
+            <DatePicker TextColor="White" x:Name="datePicker" Date="{x:Static system:DateTime.Today}" />
+            <TimePicker TextColor="White" x:Name="timePicker" Time="16:00:00" />
+            <Button TextColor="White" StyleClass="Info" Text="Remind me!" Clicked="Button_Clicked" VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Button>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

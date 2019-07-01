@@ -37,6 +37,7 @@ namespace xamarinFitnessApp
             this.Users.
               Add(new Users
               {
+                  
                   UserName = "",
                   Age = "",
                   HeightCM = "",

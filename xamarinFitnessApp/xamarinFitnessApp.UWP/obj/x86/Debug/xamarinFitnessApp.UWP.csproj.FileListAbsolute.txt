@@ -1484,6 +1484,9 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Plugin.LocalNotifications.dll
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Plugin.LocalNotifications.pdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Core.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Core.pdb
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
@@ -1491,6 +1494,8 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Maps.UWP.dll
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Maps.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Pages.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Theme.Base.dll
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Xamarin.Forms.Theme.Dark.dll
@@ -1617,10 +1622,8 @@ C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitness
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\qualifiers.txt
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\Plugin.LocalNotifications.pri.xml
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\Xamarin.Forms.Maps.UWP.pri.xml
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758552200000000.json
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Plugin.LocalNotifications.Abstractions.dll
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Plugin.LocalNotifications.dll
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\bin\x86\Debug\Plugin.LocalNotifications.pdb
-C:\Users\Scott\Documents\GitHub\Honours-Project\xamarinFitnessApp\xamarinFitnessApp.UWP\obj\x86\Debug\Plugin.LocalNotifications.pri.xml

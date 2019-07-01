@@ -1,5 +1,6 @@
 WinMetadata\Windows.winmd
 e_sqlite3.dll
+ares.png
 Assets\LargeTile.scale-100.png
 Assets\LargeTile.scale-200.png
 Assets\LargeTile.scale-400.png
@@ -7,6 +8,8 @@ Assets\SmallTile.scale-100.png
 Assets\SmallTile.scale-200.png
 Assets\SmallTile.scale-400.png
 Assets\SplashScreen.scale-100.png
+Assets\SplashScreen.scale-125.png
+Assets\SplashScreen.scale-150.png
 Assets\SplashScreen.scale-200.png
 Assets\SplashScreen.scale-400.png
 Assets\Square150x150Logo.scale-100.png
@@ -31,11 +34,15 @@ App.xbf
 MainPage.xbf
 xamarinFitnessApp.UWP.xr.xml
 Calis.jpg
+hades.png
 mainScreen.jpg
 mainScreen2.jpg
 mypic.jpg
 Properties\Default.rd.xml
+thor.png
 tools.jpg
 tools2.jpg
 training.jpg
+trident.png
 weight.jpg
+zeus.png

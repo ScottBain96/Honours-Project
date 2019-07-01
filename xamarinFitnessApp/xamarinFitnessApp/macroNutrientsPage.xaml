@@ -7,8 +7,8 @@
 
         <ScrollView>
             <StackLayout>
-                <StackLayout>
-                    <Label Text="Daily intake calorie calculator"  FontSize="Large" TextColor="White"></Label>
+                <StackLayout Padding="20">
+                    <Label Text="Macronutrients calculator"  HorizontalOptions="Center" FontSize="Large" TextColor="White"></Label>
                     <Label Text="Carbs, Proteins, Fats" HorizontalOptions="CenterAndExpand"  FontSize="Medium" TextColor="White"></Label>
                 </StackLayout>
 
@@ -34,9 +34,10 @@
                     <Entry x:Name="txtCalories" Keyboard="Numeric" WidthRequest="80" TextColor="White"></Entry>
                     <Label x:Name="lblResults" HeightRequest="80" TextColor="White"></Label>
                     <forms:ChartView x:Name="Chart2"  HeightRequest= "300" IsVisible="False"/>
-                    <Button Text="Calculate!" Clicked="Button_Clicked_Split" StyleClass="Info"  VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Button>
+                    
 
                 </StackLayout>
+                <Button Text="Calculate!" Clicked="Button_Clicked_Split" StyleClass="Info"  VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

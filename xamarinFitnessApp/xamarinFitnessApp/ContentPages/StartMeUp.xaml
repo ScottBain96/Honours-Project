@@ -5,19 +5,20 @@
              x:Class="xamarinFitnessApp.ContentPages.StartMeUp">
     <ContentPage.Content>
         <ScrollView IsVisible="True">
-            <StackLayout>
+            <StackLayout Padding="20">
 
                
-                <Label Text="Welcome To Training Buddy!" FontSize="Large" TextColor="White"></Label>
-            <Label Text="Lets get you Started!" FontSize="Medium" TextColor="White"></Label>
-            <Label Text="First of all, we will need to know your goals." TextColor="White"></Label>
+                <Label Text="Welcome To Training Buddy!" HorizontalOptions="Center" FontSize="Large" TextColor="White"></Label>
+            
             <Label></Label>
             
-            <!--goal picker layout--> 
-            <StackLayout  x:Name="sl" >
+            <!--goal picker layout-->
+                <Label Text="Lets get you Started!" FontSize="Medium" TextColor="White"></Label>
+                <Label Text="First of all, we will need to know your goals." TextColor="White"></Label>
+                <StackLayout  x:Name="sl" >
             </StackLayout>
-            <Label></Label>
-            <!--weeks calculator layout-->
+                
+                <!--weeks calculator layout-->
                 <StackLayout x:Name="sl2" IsVisible="false">
                 <Label Text="Next, we will calculate an estimate of weeks required to achieve your goal" TextColor="White"></Label>
                 <Label></Label>
@@ -28,6 +29,7 @@
                 <Label Text="Enter your goal weight (Kg)" TextColor="White"></Label>
                 <Entry x:Name="txtFinalWeight" Keyboard="Numeric" TextColor="White" ></Entry>
                 <Label x:Name="lblResult" TextColor="White"></Label>
+                <Label x:Name="lblNext" TextColor="White"></Label>
                 <forms:ChartView x:Name="Chart2"  HeightRequest= "200" IsVisible="False"/>
                     <Button Text="Calculate" Clicked="Button_Clicked_Calculate" VerticalOptions="EndAndExpand" HorizontalOptions="Center" StyleClass="Info"></Button>
                 </StackLayout>
@@ -52,7 +54,7 @@
             <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center">
                     <Button Text="Exit" Clicked="Button_Clicked_Exit" StyleClass="Info"></Button>
                     <Button Text="Unit conversion" Clicked="Button_Clicked_Unit" StyleClass="Info"></Button>
-                    <Button Text="Next" Clicked="Button_Clicked_Next" StyleClass="Info"></Button>
+                    <Button x:Name="btnNext" Text="Next" IsEnabled="False" Clicked="Button_Clicked_Next" StyleClass="Info"></Button>
             </StackLayout>
             
 

@@ -34,22 +34,25 @@ namespace xamarinFitnessApp
         private void OnSaveClick(object sender, EventArgs e)
         {
             this.dataAccess.SaveAllCustomers();
+            //DisplayAlert("Success!", "Your profile was saved!", "OK");
         }
     
         private void OnAddClick(object sender, EventArgs e)
         {
+        
             this.dataAccess.AddNewCustomer();
         }
     
-        private void OnRemoveClick(object sender, EventArgs e)
-        {
-            var currentCustomer =
-              this.UsersView.SelectedItem as Users;
-            if (currentCustomer != null)
-            {
-                this.dataAccess.DeleteCustomer(currentCustomer);
-            }
-        }
+        //private void OnRemoveClick(object sender, EventArgs e)
+        //{
+        //    var currentCustomer =
+        //      this.UsersView.SelectedItem as Users;
+        //    if (currentCustomer != null)
+        //    {
+        //        this.dataAccess.DeleteCustomer(currentCustomer);
+        //        DisplayAlert("Sucess!", "The selected profile was deleted", "OK");
+        //    }
+        //}
         // Remove all customers
         // Use a DisplayAlert object to ask the user's confirmation
         private async void OnRemoveAllClick(object sender, EventArgs e)
