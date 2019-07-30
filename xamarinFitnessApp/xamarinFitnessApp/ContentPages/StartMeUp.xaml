@@ -39,16 +39,6 @@
                 <Button Text="Daily Calories" Clicked="Button_Clicked_Daily" VerticalOptions="EndAndExpand" HorizontalOptions="Center" StyleClass="Info"></Button>
             </StackLayout>
 
-            <!--Might use at some point-->
-            <!--<Label Text="What is your current level of fitness?" TextColor="White"></Label>-->
-            <!--<Picker x:Name="pickerFitnessLevel">
-                <Picker.Items>
-                    <x:String>Inexperienced/untrained</x:String>
-                    <x:String>Average fitness level</x:String>
-                    <x:String>Over average fitness level</x:String>
-                </Picker.Items>
-            </Picker>-->
-            
      
 
             <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center">

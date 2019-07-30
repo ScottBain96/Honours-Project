@@ -13,8 +13,8 @@
             </StackLayout>
             <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="25*" />
-                    <RowDefinition Height="50*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="65*" />
                     <RowDefinition Height="25*" />
 
                 </Grid.RowDefinitions>

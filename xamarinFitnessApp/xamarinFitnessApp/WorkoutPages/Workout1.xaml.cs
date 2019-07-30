@@ -15,15 +15,14 @@ namespace xamarinFitnessApp.WorkoutPages
 	public partial class Workout1 : ContentPage
 	{
         int WorkoutValue;
-        //int timer = 5;
+  
         public Workout1 (int parameter)
 		{
 			InitializeComponent ();
             WorkoutValue = parameter;
           
             setWorkout();
-          //  timerx.Text = timer.ToString();
-
+   
         }
 
         public void setWorkout()
@@ -34,8 +33,8 @@ namespace xamarinFitnessApp.WorkoutPages
 
                 case 1:
                     lblWorkout.Text = "Poisedon Workout: 3 sets, 4 exercises";
-                    lblw1.Text = "Pushups x12";
-                    lblw2.Text = "SitUps x30";
+                    lblw1.Text = "Push-ups x12";
+                    lblw2.Text = "Sit-ups x30";
                     lblw3.Text = "Squats x30";
                     lblw4.Text = "Planks 90seconds";
                     break;
@@ -43,7 +42,7 @@ namespace xamarinFitnessApp.WorkoutPages
 
                 case 2:
                     lblWorkout.Text = "Zeus Workout: 3 sets, 4 exercises";
-                    lblw1.Text = "Pushups x30";
+                    lblw1.Text = "Push-ups x30";
                     lblw2.Text = "Mountain Climbers x30";
                     lblw3.Text = "Burpees x30";
                     lblw4.Text = "Squats x90";
@@ -51,8 +50,8 @@ namespace xamarinFitnessApp.WorkoutPages
 
                 case 3:
                     lblWorkout.Text = "Hades Workout: 5 sets, 5 exercises";
-                    lblw1.Text = "PushUps x100";
-                    lblw2.Text = "SitUps x100";
+                    lblw1.Text = "Push-ups x100";
+                    lblw2.Text = "Sit-ups x100";
                     lblw3.Text = "Mountain Climbers x100";
                     lblw4.Text = "Burpees x100";
                     lblw5.Text = "Squats x100";
@@ -60,17 +59,17 @@ namespace xamarinFitnessApp.WorkoutPages
 
                 case 4:
                     lblWorkout.Text = "Ares Workout: 3 sets, 4 exercises";
-                    lblw1.Text = "Pullups x30";
-                    lblw2.Text = "Chinups x30";
-                    lblw3.Text = "Pushups x30";
+                    lblw1.Text = "Pull-ups x30";
+                    lblw2.Text = "Chin-ups x30";
+                    lblw3.Text = "Push-ups x30";
                     lblw4.Text = "Planks 90seconds";
                     break;
 
                 case 5:
                     lblWorkout.Text = "Thor Workout: 3 sets, 4 exercises";
-                    lblw1.Text = "Pushups x60";
-                    lblw2.Text = "Situps x60";
-                    lblw3.Text = "PullUps x30";
+                    lblw1.Text = "Push-ups x60";
+                    lblw2.Text = "Sit-ups x60";
+                    lblw3.Text = "Pull-Ups x30";
                     lblw4.Text = "Mountain Climbers x60";
                     break;
 

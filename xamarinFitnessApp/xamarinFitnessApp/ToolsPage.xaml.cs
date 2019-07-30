@@ -25,7 +25,7 @@ namespace xamarinFitnessApp
         private void Button_Clicked_profile(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Profile());
-            //changeback to profile page
+        
         }
 
         private void Button_Clicked_macroNutrients(object sender, EventArgs e)

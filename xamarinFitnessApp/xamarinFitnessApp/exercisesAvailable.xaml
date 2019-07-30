@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinFitnessApp.exercisesAvailable">
+    <ContentPage.Content>
+        <ScrollView IsVisible="True">
+            <StackLayout>
+            <StackLayout Padding="20">
+
+                <Label Text="Chest Exercises:"  HorizontalOptions="Center" FontSize="Large" TextColor="White"></Label>
+
+                    <Label TextColor="White" FontSize="Medium">Push-ups</Label>
+                    <Label TextColor="White" FontSize="Medium">Barbell Bench presse</Label>
+                    <Label TextColor="White" FontSize="Medium">Cable Flyes</Label>
+                    <Label TextColor="White" FontSize="Medium">Inclined Bench Press</Label>
+               
+                </StackLayout>
+
+          
+            <StackLayout Padding="20">
+
+                <Label Text="Leg Exercises:"  HorizontalOptions="Center" FontSize="Large" TextColor="White"></Label>
+
+                    <Label TextColor="White" FontSize="Medium">Squats</Label>
+                    <Label TextColor="White" FontSize="Medium">Leg Extensions</Label>
+                    <Label TextColor="White" FontSize="Medium">Lunges</Label>
+                    <Label TextColor="White" FontSize="Medium">Deadlifts</Label>
+          
+                </StackLayout>
+
+            
+                
+            <StackLayout Padding="20">
+
+                <Label Text="Back Exercises:"  HorizontalOptions="Center" FontSize="Large" TextColor="White"></Label>
+
+                    <Label TextColor="White" FontSize="Medium">Pull-Ups</Label>
+                    <Label TextColor="White" FontSize="Medium">Barbell Bent-Over Row</Label>
+                    <Label TextColor="White" FontSize="Medium">Lat-Pulldowns</Label>
+                    <Label TextColor="White" FontSize="Medium">Inverted Row</Label>
+                   
+                </StackLayout>
+
+
+
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -50,7 +50,7 @@ namespace xamarinFitnessApp.WorkoutPages
             CounterEnd++;
             activateTime++;
 
-            lblTitle.Text = "";
+            lblTitle.Text = "Goodluck!";
 
             //if first time clicking next, save current time for Stopwatch
 
@@ -103,12 +103,9 @@ namespace xamarinFitnessApp.WorkoutPages
 
             time2 = DateTime.Now.ToLongTimeString();
             TimeSpan timespan = DateTime.Parse(time2) - DateTime.Parse(time1);
-           
-
-           //NEED TO ADD BACK
+        
             DisplayAlert("Workout Ended", "Your time for completition was: " + timespan.ToString(), "Ok");
-
-            //Navigation.PushAsync(new MainMenu());
+            Navigation.PushAsync(new MainMenu());
         }
 
 
@@ -126,13 +123,13 @@ namespace xamarinFitnessApp.WorkoutPages
 
             if (CounterCurrent == 1)
             {
-                lblCurrentExercise.Text = "4 pushups";
-                currentImage.Source = "mypic.jpg";
+                lblCurrentExercise.Text = "4 push-ups";
+                currentImage.Source = "Pushups.jpg";
             }
             else if (CounterCurrent == 2)
             {
-                lblCurrentExercise.Text = "10 situps";
-                currentImage.Source = "weight.jpg";
+                lblCurrentExercise.Text = "10 sit-ups";
+                currentImage.Source = "situps.jpg";
                
 
 
@@ -141,12 +138,12 @@ namespace xamarinFitnessApp.WorkoutPages
             {
 
                 lblCurrentExercise.Text = "10 Squats";
-                currentImage.Source = "thor.png";
+                currentImage.Source = "squats.jpg";
             }
             else if (CounterCurrent == 4)
             {
                 lblCurrentExercise.Text = "30 seconds plank";
-                currentImage.Source = "zeus.png";
+                currentImage.Source = "plank.jpg";
             }
           
             if (CounterEnd == 12)
@@ -167,20 +164,24 @@ namespace xamarinFitnessApp.WorkoutPages
 
             if (CounterCurrent == 1)
             {
-                lblCurrentExercise.Text = "10 pushups";
+                lblCurrentExercise.Text = "10 push-ups";
+                currentImage.Source = "Pushups.jpg";
             }
             else if (CounterCurrent == 2)
             {
                 lblCurrentExercise.Text = "10 Mountain Climbers";
+                currentImage.Source = "mountain.jpg";
             }
             else if (CounterCurrent == 3)
             {
 
                 lblCurrentExercise.Text = "10 Burpees";
+                currentImage.Source = "burpees.jpg";
             }
             else if (CounterCurrent == 4)
             {
                 lblCurrentExercise.Text = "30 Squats";
+                currentImage.Source = "squats.jpg";
             }
             if (CounterEnd == 12)
             {
@@ -199,25 +200,30 @@ namespace xamarinFitnessApp.WorkoutPages
 
             if (CounterCurrent == 1)
             {
-                lblCurrentExercise.Text = "20 pushups";
+                lblCurrentExercise.Text = "20 push-ups";
+                currentImage.Source = "Pushups.jpg";
             }
             else if (CounterCurrent == 2)
             {
-                lblCurrentExercise.Text = "20 situps";
+                lblCurrentExercise.Text = "20 sit-ups";
+                currentImage.Source = "situps.jpg";
             }
             else if (CounterCurrent == 3)
             {
 
                 lblCurrentExercise.Text = "20 Mountain Climbers";
+                currentImage.Source = "mountain.jpg";
             }
             else if (CounterCurrent == 4)
             {
                 lblCurrentExercise.Text = "20 Burpees";
+                currentImage.Source = "burpees.jpg";
             }
 
             else if (CounterCurrent == 5)
             {
                 lblCurrentExercise.Text = "20 Squats";
+                currentImage.Source = "squats.jpg";
             }
 
 
@@ -237,20 +243,24 @@ namespace xamarinFitnessApp.WorkoutPages
 
             if (CounterCurrent == 1)
             {
-                lblCurrentExercise.Text = "10 pullups";
+                lblCurrentExercise.Text = "10 pull-ups";
+                currentImage.Source = "pullups.jpg";
             }
             else if (CounterCurrent == 2)
             {
-                lblCurrentExercise.Text = "10 chinups";
+                lblCurrentExercise.Text = "10 chin-ups";
+                currentImage.Source = "chinups.jpg";
             }
             else if (CounterCurrent == 3)
             {
 
-                lblCurrentExercise.Text = "10 pushups";
+                lblCurrentExercise.Text = "10 push-ups";
+                currentImage.Source = "Pushups.jpg";
             }
             else if (CounterCurrent == 4)
             {
                 lblCurrentExercise.Text = "30 seconds plank";
+                currentImage.Source = "plank.jpg";
             }
             if (CounterEnd == 12)
             {
@@ -268,20 +278,24 @@ namespace xamarinFitnessApp.WorkoutPages
 
             if (CounterCurrent == 1)
             {
-                lblCurrentExercise.Text = "20 pushups";
+                lblCurrentExercise.Text = "20 push-ups";
+                currentImage.Source = "Pushups.jpg";
             }
             else if (CounterCurrent == 2)
             {
-                lblCurrentExercise.Text = "20 situps";
+                lblCurrentExercise.Text = "20 sit-ups";
+                currentImage.Source = "situps.jpg";
             }
             else if (CounterCurrent == 3)
             {
 
-                lblCurrentExercise.Text = "10 pullups";
+                lblCurrentExercise.Text = "10 pull-ups";
+                currentImage.Source = "pullups.jpg";
             }
             else if (CounterCurrent == 4)
             {
                 lblCurrentExercise.Text = "20 mountain climbers";
+                currentImage.Source = "mountain.jpg";
             }
             if (CounterEnd == 12)
             {

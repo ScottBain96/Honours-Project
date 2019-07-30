@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>xamarinFitnessApp</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -14,6 +15,7 @@
     <PackageReference Include="Microcharts.Forms" Version="0.8.3-pre" />
     <PackageReference Include="Plugin.SQLite" Version="1.0.4" />
     <PackageReference Include="sqlite-net-pcl" Version="1.6.258-beta" />
+    <PackageReference Include="ThriveGmbH.BottomNavigationBar.LATEST" Version="1.0.6" />
     <PackageReference Include="Xam.Plugins.Notifier" Version="3.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1039999" />
     <PackageReference Include="Xamarin.Forms.Maps" Version="3.4.0.1039999" />
@@ -32,6 +34,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ContentPages\StartMeUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="exercisesAvailable.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ListExercises.xaml">

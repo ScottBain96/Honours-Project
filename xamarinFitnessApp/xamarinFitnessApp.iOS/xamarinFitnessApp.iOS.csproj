@@ -161,6 +161,9 @@
     <PackageReference Include="sqlite-net-pcl">
       <Version>1.6.258-beta</Version>
     </PackageReference>
+    <PackageReference Include="ThriveGmbH.BottomNavigationBar.LATEST">
+      <Version>1.0.6</Version>
+    </PackageReference>
     <PackageReference Include="Xam.Plugins.Notifier">
       <Version>3.0.1</Version>
     </PackageReference>

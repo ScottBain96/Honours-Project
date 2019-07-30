@@ -34,7 +34,7 @@ namespace xamarinFitnessApp
         private void OnSaveClick(object sender, EventArgs e)
         {
             this.dataAccess.SaveAllCustomers();
-            //DisplayAlert("Success!", "Your profile was saved!", "OK");
+      
         }
     
         private void OnAddClick(object sender, EventArgs e)
@@ -43,18 +43,8 @@ namespace xamarinFitnessApp
             this.dataAccess.AddNewCustomer();
         }
     
-        //private void OnRemoveClick(object sender, EventArgs e)
-        //{
-        //    var currentCustomer =
-        //      this.UsersView.SelectedItem as Users;
-        //    if (currentCustomer != null)
-        //    {
-        //        this.dataAccess.DeleteCustomer(currentCustomer);
-        //        DisplayAlert("Sucess!", "The selected profile was deleted", "OK");
-        //    }
-        //}
-        // Remove all customers
-        // Use a DisplayAlert object to ask the user's confirmation
+
+        // Remove all
         private async void OnRemoveAllClick(object sender, EventArgs e)
         {
             if (this.dataAccess.Users.Any())
@@ -66,7 +56,6 @@ namespace xamarinFitnessApp
                 if (result == true)
                 {
                     this.dataAccess.DeleteAllCustomers();
-                    //this.BindingContext = this.dataAccess;
                     OnAppearing();
                 }
             }
@@ -77,8 +66,7 @@ namespace xamarinFitnessApp
 
             Navigation.PushAsync(new BmiPage());
 
-            //txtView.Text = this.dataAccess.GetCustomer(1).CompanyName;
-
+          
 
         }
 

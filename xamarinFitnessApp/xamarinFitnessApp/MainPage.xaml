@@ -4,15 +4,11 @@
              xmlns:local="clr-namespace:xamarinFitnessApp"
              BackgroundImage="mainScreen.jpg" 
              x:Class="xamarinFitnessApp.MainPage">
+        
              
     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-        <!-- Place new controls here -->
+    
 
-
-
-
-       
- 
 
 
         <Button Text="Start Me up!" 

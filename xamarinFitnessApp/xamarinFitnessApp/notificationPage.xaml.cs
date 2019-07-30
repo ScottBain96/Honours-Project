@@ -22,10 +22,6 @@ namespace xamarinFitnessApp
         {
             InitializeComponent();
 
-          
-
-
-
 
 
 
@@ -74,9 +70,6 @@ namespace xamarinFitnessApp
                 string[] parts2 = pickerValue.Split(':');
                 int i3 = int.Parse(parts2[0]);
                 int i4 = int.Parse(parts2[1]);
-                //txtToDo.Text = pickerValue;
-                //txtdayDiff.Text = i3.ToString();
-                //txtTimeDiff.Text = i4.ToString();
                 int minutes2 = (i3 * 60) + i4;
            
                 double pickerHours = Convert.ToDouble(minutes2);

@@ -21,15 +21,15 @@ namespace xamarinFitnessApp
 
         private void ImageButton_Clicked(object sender, EventArgs e)
         {
-            //myLabel.Text = "Changed";
+            
             Navigation.PushAsync(new ListExercises());
         }
 
 
-        private void ImageButton_Clicked_Food(object sender, EventArgs e)
+        private void ImageButton_Clicked_exercises(object sender, EventArgs e)
         {
-            //myLabel.Text = "Changed";
-            Navigation.PushAsync(new ListExercises());
+            
+            Navigation.PushAsync(new exercisesAvailable());
         }
 
        

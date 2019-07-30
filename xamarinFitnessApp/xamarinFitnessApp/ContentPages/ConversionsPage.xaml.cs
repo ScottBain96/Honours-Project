@@ -46,11 +46,9 @@ namespace xamarinFitnessApp
                    
                     weight = Double.Parse(txtWeight.Text.ToString()) * 2.20;
                     unitWeight = "Lbs";
-                    //weight = Math.Round(weight, 1);
-
+               
 
                 }
-                
                
                 lblWeight.Text = "Your weight converted is : " + weight.ToString("") + unitWeight;
 

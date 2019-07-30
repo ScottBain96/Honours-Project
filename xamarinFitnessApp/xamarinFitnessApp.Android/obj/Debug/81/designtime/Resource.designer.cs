@@ -26,6 +26,3154 @@ namespace xamarinFitnessApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::BottomBar.Droid.Resource.Animation.abc_fade_in = global::xamarinFitnessApp.Droid.Resource.Animation.abc_fade_in;
+			global::BottomBar.Droid.Resource.Animation.abc_fade_out = global::xamarinFitnessApp.Droid.Resource.Animation.abc_fade_out;
+			global::BottomBar.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::xamarinFitnessApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::BottomBar.Droid.Resource.Animation.abc_popup_enter = global::xamarinFitnessApp.Droid.Resource.Animation.abc_popup_enter;
+			global::BottomBar.Droid.Resource.Animation.abc_popup_exit = global::xamarinFitnessApp.Droid.Resource.Animation.abc_popup_exit;
+			global::BottomBar.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::xamarinFitnessApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::BottomBar.Droid.Resource.Animation.abc_slide_in_bottom = global::xamarinFitnessApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::BottomBar.Droid.Resource.Animation.abc_slide_in_top = global::xamarinFitnessApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::BottomBar.Droid.Resource.Animation.abc_slide_out_bottom = global::xamarinFitnessApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::BottomBar.Droid.Resource.Animation.abc_slide_out_top = global::xamarinFitnessApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::BottomBar.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::xamarinFitnessApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::BottomBar.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::xamarinFitnessApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::BottomBar.Droid.Resource.Animation.design_snackbar_in = global::xamarinFitnessApp.Droid.Resource.Animation.design_snackbar_in;
+			global::BottomBar.Droid.Resource.Animation.design_snackbar_out = global::xamarinFitnessApp.Droid.Resource.Animation.design_snackbar_out;
+			global::BottomBar.Droid.Resource.Attribute.actionBarDivider = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarDivider;
+			global::BottomBar.Droid.Resource.Attribute.actionBarItemBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::BottomBar.Droid.Resource.Attribute.actionBarPopupTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::BottomBar.Droid.Resource.Attribute.actionBarSize = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarSize;
+			global::BottomBar.Droid.Resource.Attribute.actionBarSplitStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarTabBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarTabStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarTabTextStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarTheme;
+			global::BottomBar.Droid.Resource.Attribute.actionBarWidgetTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::BottomBar.Droid.Resource.Attribute.actionButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionDropDownStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.actionLayout;
+			global::BottomBar.Droid.Resource.Attribute.actionMenuTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.actionMenuTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::BottomBar.Droid.Resource.Attribute.actionModeBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeBackground;
+			global::BottomBar.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionModeCloseDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeCopyDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeCutDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeFindDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModePasteDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModePopupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeShareDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeSplitBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::BottomBar.Droid.Resource.Attribute.actionModeStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionOverflowButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionOverflowMenuStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionProviderClass = global::xamarinFitnessApp.Droid.Resource.Attribute.actionProviderClass;
+			global::BottomBar.Droid.Resource.Attribute.actionViewClass = global::xamarinFitnessApp.Droid.Resource.Attribute.actionViewClass;
+			global::BottomBar.Droid.Resource.Attribute.activityChooserViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::BottomBar.Droid.Resource.Attribute.alertDialogCenterButtons = global::xamarinFitnessApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::BottomBar.Droid.Resource.Attribute.alertDialogStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::BottomBar.Droid.Resource.Attribute.alertDialogTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::BottomBar.Droid.Resource.Attribute.allowStacking = global::xamarinFitnessApp.Droid.Resource.Attribute.allowStacking;
+			global::BottomBar.Droid.Resource.Attribute.arrowHeadLength = global::xamarinFitnessApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::BottomBar.Droid.Resource.Attribute.arrowShaftLength = global::xamarinFitnessApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::BottomBar.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.background = global::xamarinFitnessApp.Droid.Resource.Attribute.background;
+			global::BottomBar.Droid.Resource.Attribute.backgroundSplit = global::xamarinFitnessApp.Droid.Resource.Attribute.backgroundSplit;
+			global::BottomBar.Droid.Resource.Attribute.backgroundStacked = global::xamarinFitnessApp.Droid.Resource.Attribute.backgroundStacked;
+			global::BottomBar.Droid.Resource.Attribute.backgroundTint = global::xamarinFitnessApp.Droid.Resource.Attribute.backgroundTint;
+			global::BottomBar.Droid.Resource.Attribute.backgroundTintMode = global::xamarinFitnessApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::BottomBar.Droid.Resource.Attribute.barLength = global::xamarinFitnessApp.Droid.Resource.Attribute.barLength;
+			global::BottomBar.Droid.Resource.Attribute.behavior_hideable = global::xamarinFitnessApp.Droid.Resource.Attribute.behavior_hideable;
+			global::BottomBar.Droid.Resource.Attribute.behavior_overlapTop = global::xamarinFitnessApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::BottomBar.Droid.Resource.Attribute.behavior_peekHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::BottomBar.Droid.Resource.Attribute.borderWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.borderWidth;
+			global::BottomBar.Droid.Resource.Attribute.borderlessButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.bottomSheetDialogTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::BottomBar.Droid.Resource.Attribute.bottomSheetStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonPanelSideLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::BottomBar.Droid.Resource.Attribute.buttonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonStyleSmall = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::BottomBar.Droid.Resource.Attribute.buttonTint = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonTint;
+			global::BottomBar.Droid.Resource.Attribute.buttonTintMode = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonTintMode;
+			global::BottomBar.Droid.Resource.Attribute.cardBackgroundColor = global::xamarinFitnessApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::BottomBar.Droid.Resource.Attribute.cardCornerRadius = global::xamarinFitnessApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::BottomBar.Droid.Resource.Attribute.cardElevation = global::xamarinFitnessApp.Droid.Resource.Attribute.cardElevation;
+			global::BottomBar.Droid.Resource.Attribute.cardMaxElevation = global::xamarinFitnessApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::BottomBar.Droid.Resource.Attribute.cardPreventCornerOverlap = global::xamarinFitnessApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::BottomBar.Droid.Resource.Attribute.cardUseCompatPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::BottomBar.Droid.Resource.Attribute.checkboxStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.checkboxStyle;
+			global::BottomBar.Droid.Resource.Attribute.checkedTextViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.closeIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.closeIcon;
+			global::BottomBar.Droid.Resource.Attribute.closeItemLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.closeItemLayout;
+			global::BottomBar.Droid.Resource.Attribute.collapseContentDescription = global::xamarinFitnessApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::BottomBar.Droid.Resource.Attribute.collapseIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.collapseIcon;
+			global::BottomBar.Droid.Resource.Attribute.collapsedTitleGravity = global::xamarinFitnessApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::BottomBar.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.color = global::xamarinFitnessApp.Droid.Resource.Attribute.color;
+			global::BottomBar.Droid.Resource.Attribute.colorAccent = global::xamarinFitnessApp.Droid.Resource.Attribute.colorAccent;
+			global::BottomBar.Droid.Resource.Attribute.colorButtonNormal = global::xamarinFitnessApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::BottomBar.Droid.Resource.Attribute.colorControlActivated = global::xamarinFitnessApp.Droid.Resource.Attribute.colorControlActivated;
+			global::BottomBar.Droid.Resource.Attribute.colorControlHighlight = global::xamarinFitnessApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::BottomBar.Droid.Resource.Attribute.colorControlNormal = global::xamarinFitnessApp.Droid.Resource.Attribute.colorControlNormal;
+			global::BottomBar.Droid.Resource.Attribute.colorPrimary = global::xamarinFitnessApp.Droid.Resource.Attribute.colorPrimary;
+			global::BottomBar.Droid.Resource.Attribute.colorPrimaryDark = global::xamarinFitnessApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::BottomBar.Droid.Resource.Attribute.colorSwitchThumbNormal = global::xamarinFitnessApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::BottomBar.Droid.Resource.Attribute.commitIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.commitIcon;
+			global::BottomBar.Droid.Resource.Attribute.contentInsetEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::BottomBar.Droid.Resource.Attribute.contentInsetLeft = global::xamarinFitnessApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::BottomBar.Droid.Resource.Attribute.contentInsetRight = global::xamarinFitnessApp.Droid.Resource.Attribute.contentInsetRight;
+			global::BottomBar.Droid.Resource.Attribute.contentInsetStart = global::xamarinFitnessApp.Droid.Resource.Attribute.contentInsetStart;
+			global::BottomBar.Droid.Resource.Attribute.contentPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.contentPadding;
+			global::BottomBar.Droid.Resource.Attribute.contentPaddingBottom = global::xamarinFitnessApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::BottomBar.Droid.Resource.Attribute.contentPaddingLeft = global::xamarinFitnessApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::BottomBar.Droid.Resource.Attribute.contentPaddingRight = global::xamarinFitnessApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::BottomBar.Droid.Resource.Attribute.contentPaddingTop = global::xamarinFitnessApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::BottomBar.Droid.Resource.Attribute.contentScrim = global::xamarinFitnessApp.Droid.Resource.Attribute.contentScrim;
+			global::BottomBar.Droid.Resource.Attribute.controlBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.controlBackground;
+			global::BottomBar.Droid.Resource.Attribute.counterEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.counterEnabled;
+			global::BottomBar.Droid.Resource.Attribute.counterMaxLength = global::xamarinFitnessApp.Droid.Resource.Attribute.counterMaxLength;
+			global::BottomBar.Droid.Resource.Attribute.counterOverflowTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.counterTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.customNavigationLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::BottomBar.Droid.Resource.Attribute.defaultQueryHint = global::xamarinFitnessApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::BottomBar.Droid.Resource.Attribute.dialogPreferredPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::BottomBar.Droid.Resource.Attribute.dialogTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.dialogTheme;
+			global::BottomBar.Droid.Resource.Attribute.displayOptions = global::xamarinFitnessApp.Droid.Resource.Attribute.displayOptions;
+			global::BottomBar.Droid.Resource.Attribute.divider = global::xamarinFitnessApp.Droid.Resource.Attribute.divider;
+			global::BottomBar.Droid.Resource.Attribute.dividerHorizontal = global::xamarinFitnessApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::BottomBar.Droid.Resource.Attribute.dividerPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.dividerPadding;
+			global::BottomBar.Droid.Resource.Attribute.dividerVertical = global::xamarinFitnessApp.Droid.Resource.Attribute.dividerVertical;
+			global::BottomBar.Droid.Resource.Attribute.drawableSize = global::xamarinFitnessApp.Droid.Resource.Attribute.drawableSize;
+			global::BottomBar.Droid.Resource.Attribute.drawerArrowStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::BottomBar.Droid.Resource.Attribute.dropDownListViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::BottomBar.Droid.Resource.Attribute.editTextBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.editTextBackground;
+			global::BottomBar.Droid.Resource.Attribute.editTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.editTextColor;
+			global::BottomBar.Droid.Resource.Attribute.editTextStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.editTextStyle;
+			global::BottomBar.Droid.Resource.Attribute.elevation = global::xamarinFitnessApp.Droid.Resource.Attribute.elevation;
+			global::BottomBar.Droid.Resource.Attribute.errorEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.errorEnabled;
+			global::BottomBar.Droid.Resource.Attribute.errorTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::BottomBar.Droid.Resource.Attribute.expanded = global::xamarinFitnessApp.Droid.Resource.Attribute.expanded;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleGravity = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMargin = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMarginBottom = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMarginEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMarginStart = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMarginTop = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::BottomBar.Droid.Resource.Attribute.fabSize = global::xamarinFitnessApp.Droid.Resource.Attribute.fabSize;
+			global::BottomBar.Droid.Resource.Attribute.foregroundInsidePadding = global::xamarinFitnessApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::BottomBar.Droid.Resource.Attribute.gapBetweenBars = global::xamarinFitnessApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::BottomBar.Droid.Resource.Attribute.goIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.goIcon;
+			global::BottomBar.Droid.Resource.Attribute.headerLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.headerLayout;
+			global::BottomBar.Droid.Resource.Attribute.height = global::xamarinFitnessApp.Droid.Resource.Attribute.height;
+			global::BottomBar.Droid.Resource.Attribute.hideOnContentScroll = global::xamarinFitnessApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::BottomBar.Droid.Resource.Attribute.hintAnimationEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::BottomBar.Droid.Resource.Attribute.hintEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.hintEnabled;
+			global::BottomBar.Droid.Resource.Attribute.hintTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.homeAsUpIndicator = global::xamarinFitnessApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::BottomBar.Droid.Resource.Attribute.homeLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.homeLayout;
+			global::BottomBar.Droid.Resource.Attribute.icon = global::xamarinFitnessApp.Droid.Resource.Attribute.icon;
+			global::BottomBar.Droid.Resource.Attribute.iconifiedByDefault = global::xamarinFitnessApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::BottomBar.Droid.Resource.Attribute.imageButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.indeterminateProgressStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::BottomBar.Droid.Resource.Attribute.initialActivityCount = global::xamarinFitnessApp.Droid.Resource.Attribute.initialActivityCount;
+			global::BottomBar.Droid.Resource.Attribute.insetForeground = global::xamarinFitnessApp.Droid.Resource.Attribute.insetForeground;
+			global::BottomBar.Droid.Resource.Attribute.isLightTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.isLightTheme;
+			global::BottomBar.Droid.Resource.Attribute.itemBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.itemBackground;
+			global::BottomBar.Droid.Resource.Attribute.itemIconTint = global::xamarinFitnessApp.Droid.Resource.Attribute.itemIconTint;
+			global::BottomBar.Droid.Resource.Attribute.itemPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.itemPadding;
+			global::BottomBar.Droid.Resource.Attribute.itemTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.itemTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.itemTextColor;
+			global::BottomBar.Droid.Resource.Attribute.keylines = global::xamarinFitnessApp.Droid.Resource.Attribute.keylines;
+			global::BottomBar.Droid.Resource.Attribute.layout = global::xamarinFitnessApp.Droid.Resource.Attribute.layout;
+			global::BottomBar.Droid.Resource.Attribute.layoutManager = global::xamarinFitnessApp.Droid.Resource.Attribute.layoutManager;
+			global::BottomBar.Droid.Resource.Attribute.layout_anchor = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_anchor;
+			global::BottomBar.Droid.Resource.Attribute.layout_anchorGravity = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::BottomBar.Droid.Resource.Attribute.layout_behavior = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_behavior;
+			global::BottomBar.Droid.Resource.Attribute.layout_collapseMode = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::BottomBar.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::BottomBar.Droid.Resource.Attribute.layout_keyline = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_keyline;
+			global::BottomBar.Droid.Resource.Attribute.layout_scrollFlags = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::BottomBar.Droid.Resource.Attribute.layout_scrollInterpolator = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::BottomBar.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::xamarinFitnessApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::BottomBar.Droid.Resource.Attribute.listDividerAlertDialog = global::xamarinFitnessApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::BottomBar.Droid.Resource.Attribute.listItemLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.listItemLayout;
+			global::BottomBar.Droid.Resource.Attribute.listLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.listLayout;
+			global::BottomBar.Droid.Resource.Attribute.listPopupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::BottomBar.Droid.Resource.Attribute.logo = global::xamarinFitnessApp.Droid.Resource.Attribute.logo;
+			global::BottomBar.Droid.Resource.Attribute.logoDescription = global::xamarinFitnessApp.Droid.Resource.Attribute.logoDescription;
+			global::BottomBar.Droid.Resource.Attribute.maxActionInlineWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::BottomBar.Droid.Resource.Attribute.maxButtonHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::BottomBar.Droid.Resource.Attribute.measureWithLargestChild = global::xamarinFitnessApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::BottomBar.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::BottomBar.Droid.Resource.Attribute.mediaRouteButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::BottomBar.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::BottomBar.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::BottomBar.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::BottomBar.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::BottomBar.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::BottomBar.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::BottomBar.Droid.Resource.Attribute.menu = global::xamarinFitnessApp.Droid.Resource.Attribute.menu;
+			global::BottomBar.Droid.Resource.Attribute.multiChoiceItemLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::BottomBar.Droid.Resource.Attribute.navigationContentDescription = global::xamarinFitnessApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::BottomBar.Droid.Resource.Attribute.navigationIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.navigationIcon;
+			global::BottomBar.Droid.Resource.Attribute.navigationMode = global::xamarinFitnessApp.Droid.Resource.Attribute.navigationMode;
+			global::BottomBar.Droid.Resource.Attribute.overlapAnchor = global::xamarinFitnessApp.Droid.Resource.Attribute.overlapAnchor;
+			global::BottomBar.Droid.Resource.Attribute.paddingEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.paddingEnd;
+			global::BottomBar.Droid.Resource.Attribute.paddingStart = global::xamarinFitnessApp.Droid.Resource.Attribute.paddingStart;
+			global::BottomBar.Droid.Resource.Attribute.panelBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.panelBackground;
+			global::BottomBar.Droid.Resource.Attribute.panelMenuListTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::BottomBar.Droid.Resource.Attribute.panelMenuListWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::BottomBar.Droid.Resource.Attribute.popupMenuStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::BottomBar.Droid.Resource.Attribute.popupTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.popupTheme;
+			global::BottomBar.Droid.Resource.Attribute.popupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::BottomBar.Droid.Resource.Attribute.preserveIconSpacing = global::xamarinFitnessApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::BottomBar.Droid.Resource.Attribute.pressedTranslationZ = global::xamarinFitnessApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::BottomBar.Droid.Resource.Attribute.progressBarPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.progressBarPadding;
+			global::BottomBar.Droid.Resource.Attribute.progressBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.progressBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.queryBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.queryBackground;
+			global::BottomBar.Droid.Resource.Attribute.queryHint = global::xamarinFitnessApp.Droid.Resource.Attribute.queryHint;
+			global::BottomBar.Droid.Resource.Attribute.radioButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.ratingBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.ratingBarStyleIndicator = global::xamarinFitnessApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::BottomBar.Droid.Resource.Attribute.ratingBarStyleSmall = global::xamarinFitnessApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::BottomBar.Droid.Resource.Attribute.reverseLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.reverseLayout;
+			global::BottomBar.Droid.Resource.Attribute.rippleColor = global::xamarinFitnessApp.Droid.Resource.Attribute.rippleColor;
+			global::BottomBar.Droid.Resource.Attribute.searchHintIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.searchHintIcon;
+			global::BottomBar.Droid.Resource.Attribute.searchIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.searchIcon;
+			global::BottomBar.Droid.Resource.Attribute.searchViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.searchViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.seekBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.seekBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.selectableItemBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::BottomBar.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::xamarinFitnessApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::BottomBar.Droid.Resource.Attribute.showAsAction = global::xamarinFitnessApp.Droid.Resource.Attribute.showAsAction;
+			global::BottomBar.Droid.Resource.Attribute.showDividers = global::xamarinFitnessApp.Droid.Resource.Attribute.showDividers;
+			global::BottomBar.Droid.Resource.Attribute.showText = global::xamarinFitnessApp.Droid.Resource.Attribute.showText;
+			global::BottomBar.Droid.Resource.Attribute.singleChoiceItemLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::BottomBar.Droid.Resource.Attribute.spanCount = global::xamarinFitnessApp.Droid.Resource.Attribute.spanCount;
+			global::BottomBar.Droid.Resource.Attribute.spinBars = global::xamarinFitnessApp.Droid.Resource.Attribute.spinBars;
+			global::BottomBar.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::BottomBar.Droid.Resource.Attribute.spinnerStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.spinnerStyle;
+			global::BottomBar.Droid.Resource.Attribute.splitTrack = global::xamarinFitnessApp.Droid.Resource.Attribute.splitTrack;
+			global::BottomBar.Droid.Resource.Attribute.srcCompat = global::xamarinFitnessApp.Droid.Resource.Attribute.srcCompat;
+			global::BottomBar.Droid.Resource.Attribute.stackFromEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.stackFromEnd;
+			global::BottomBar.Droid.Resource.Attribute.state_above_anchor = global::xamarinFitnessApp.Droid.Resource.Attribute.state_above_anchor;
+			global::BottomBar.Droid.Resource.Attribute.statusBarBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.statusBarBackground;
+			global::BottomBar.Droid.Resource.Attribute.statusBarScrim = global::xamarinFitnessApp.Droid.Resource.Attribute.statusBarScrim;
+			global::BottomBar.Droid.Resource.Attribute.submitBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.submitBackground;
+			global::BottomBar.Droid.Resource.Attribute.subtitle = global::xamarinFitnessApp.Droid.Resource.Attribute.subtitle;
+			global::BottomBar.Droid.Resource.Attribute.subtitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.subtitleTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::BottomBar.Droid.Resource.Attribute.subtitleTextStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::BottomBar.Droid.Resource.Attribute.suggestionRowLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::BottomBar.Droid.Resource.Attribute.switchMinWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.switchMinWidth;
+			global::BottomBar.Droid.Resource.Attribute.switchPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.switchPadding;
+			global::BottomBar.Droid.Resource.Attribute.switchStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.switchStyle;
+			global::BottomBar.Droid.Resource.Attribute.switchTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.tabBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.tabBackground;
+			global::BottomBar.Droid.Resource.Attribute.tabContentStart = global::xamarinFitnessApp.Droid.Resource.Attribute.tabContentStart;
+			global::BottomBar.Droid.Resource.Attribute.tabGravity = global::xamarinFitnessApp.Droid.Resource.Attribute.tabGravity;
+			global::BottomBar.Droid.Resource.Attribute.tabIndicatorColor = global::xamarinFitnessApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::BottomBar.Droid.Resource.Attribute.tabIndicatorHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::BottomBar.Droid.Resource.Attribute.tabMaxWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::BottomBar.Droid.Resource.Attribute.tabMinWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.tabMinWidth;
+			global::BottomBar.Droid.Resource.Attribute.tabMode = global::xamarinFitnessApp.Droid.Resource.Attribute.tabMode;
+			global::BottomBar.Droid.Resource.Attribute.tabPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPadding;
+			global::BottomBar.Droid.Resource.Attribute.tabPaddingBottom = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::BottomBar.Droid.Resource.Attribute.tabPaddingEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::BottomBar.Droid.Resource.Attribute.tabPaddingStart = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::BottomBar.Droid.Resource.Attribute.tabPaddingTop = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::BottomBar.Droid.Resource.Attribute.tabSelectedTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::BottomBar.Droid.Resource.Attribute.tabTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.tabTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.tabTextColor;
+			global::BottomBar.Droid.Resource.Attribute.textAllCaps = global::xamarinFitnessApp.Droid.Resource.Attribute.textAllCaps;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceListItem = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceListItemSmall = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::BottomBar.Droid.Resource.Attribute.textColorAlertDialogListItem = global::xamarinFitnessApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::BottomBar.Droid.Resource.Attribute.textColorError = global::xamarinFitnessApp.Droid.Resource.Attribute.textColorError;
+			global::BottomBar.Droid.Resource.Attribute.textColorSearchUrl = global::xamarinFitnessApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::BottomBar.Droid.Resource.Attribute.theme = global::xamarinFitnessApp.Droid.Resource.Attribute.theme;
+			global::BottomBar.Droid.Resource.Attribute.thickness = global::xamarinFitnessApp.Droid.Resource.Attribute.thickness;
+			global::BottomBar.Droid.Resource.Attribute.thumbTextPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::BottomBar.Droid.Resource.Attribute.title = global::xamarinFitnessApp.Droid.Resource.Attribute.title;
+			global::BottomBar.Droid.Resource.Attribute.titleEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.titleEnabled;
+			global::BottomBar.Droid.Resource.Attribute.titleMarginBottom = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::BottomBar.Droid.Resource.Attribute.titleMarginEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::BottomBar.Droid.Resource.Attribute.titleMarginStart = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMarginStart;
+			global::BottomBar.Droid.Resource.Attribute.titleMarginTop = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMarginTop;
+			global::BottomBar.Droid.Resource.Attribute.titleMargins = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMargins;
+			global::BottomBar.Droid.Resource.Attribute.titleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.titleTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.titleTextColor;
+			global::BottomBar.Droid.Resource.Attribute.titleTextStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.titleTextStyle;
+			global::BottomBar.Droid.Resource.Attribute.toolbarId = global::xamarinFitnessApp.Droid.Resource.Attribute.toolbarId;
+			global::BottomBar.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.toolbarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.toolbarStyle;
+			global::BottomBar.Droid.Resource.Attribute.track = global::xamarinFitnessApp.Droid.Resource.Attribute.track;
+			global::BottomBar.Droid.Resource.Attribute.useCompatPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.useCompatPadding;
+			global::BottomBar.Droid.Resource.Attribute.voiceIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.voiceIcon;
+			global::BottomBar.Droid.Resource.Attribute.windowActionBar = global::xamarinFitnessApp.Droid.Resource.Attribute.windowActionBar;
+			global::BottomBar.Droid.Resource.Attribute.windowActionBarOverlay = global::xamarinFitnessApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::BottomBar.Droid.Resource.Attribute.windowActionModeOverlay = global::xamarinFitnessApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::BottomBar.Droid.Resource.Attribute.windowFixedHeightMajor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::BottomBar.Droid.Resource.Attribute.windowFixedHeightMinor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::BottomBar.Droid.Resource.Attribute.windowFixedWidthMajor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::BottomBar.Droid.Resource.Attribute.windowFixedWidthMinor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::BottomBar.Droid.Resource.Attribute.windowMinWidthMajor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::BottomBar.Droid.Resource.Attribute.windowMinWidthMinor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::BottomBar.Droid.Resource.Attribute.windowNoTitle = global::xamarinFitnessApp.Droid.Resource.Attribute.windowNoTitle;
+			global::BottomBar.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::BottomBar.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::BottomBar.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::BottomBar.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::BottomBar.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::BottomBar.Droid.Resource.Boolean.bb_bottom_bar_is_tablet_mode = global::xamarinFitnessApp.Droid.Resource.Boolean.bb_bottom_bar_is_tablet_mode;
+			global::BottomBar.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::BottomBar.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::xamarinFitnessApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::BottomBar.Droid.Resource.Color.abc_color_highlight_material = global::xamarinFitnessApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::BottomBar.Droid.Resource.Color.abc_input_method_navigation_guard = global::xamarinFitnessApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::BottomBar.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::BottomBar.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::xamarinFitnessApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::BottomBar.Droid.Resource.Color.abc_primary_text_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::BottomBar.Droid.Resource.Color.abc_primary_text_material_light = global::xamarinFitnessApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::BottomBar.Droid.Resource.Color.abc_search_url_text = global::xamarinFitnessApp.Droid.Resource.Color.abc_search_url_text;
+			global::BottomBar.Droid.Resource.Color.abc_search_url_text_normal = global::xamarinFitnessApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::BottomBar.Droid.Resource.Color.abc_search_url_text_pressed = global::xamarinFitnessApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::BottomBar.Droid.Resource.Color.abc_search_url_text_selected = global::xamarinFitnessApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::BottomBar.Droid.Resource.Color.abc_secondary_text_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::BottomBar.Droid.Resource.Color.abc_secondary_text_material_light = global::xamarinFitnessApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::BottomBar.Droid.Resource.Color.accent_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.accent_material_dark;
+			global::BottomBar.Droid.Resource.Color.accent_material_light = global::xamarinFitnessApp.Droid.Resource.Color.accent_material_light;
+			global::BottomBar.Droid.Resource.Color.background_floating_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.background_floating_material_dark;
+			global::BottomBar.Droid.Resource.Color.background_floating_material_light = global::xamarinFitnessApp.Droid.Resource.Color.background_floating_material_light;
+			global::BottomBar.Droid.Resource.Color.background_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.background_material_dark;
+			global::BottomBar.Droid.Resource.Color.background_material_light = global::xamarinFitnessApp.Droid.Resource.Color.background_material_light;
+			global::BottomBar.Droid.Resource.Color.bb_darkBackgroundColor = global::xamarinFitnessApp.Droid.Resource.Color.bb_darkBackgroundColor;
+			global::BottomBar.Droid.Resource.Color.bb_inActiveBottomBarItemColor = global::xamarinFitnessApp.Droid.Resource.Color.bb_inActiveBottomBarItemColor;
+			global::BottomBar.Droid.Resource.Color.bb_tabletRightBorderDark = global::xamarinFitnessApp.Droid.Resource.Color.bb_tabletRightBorderDark;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_inverse_material_light = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_material_light = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::BottomBar.Droid.Resource.Color.button_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.button_material_dark;
+			global::BottomBar.Droid.Resource.Color.button_material_light = global::xamarinFitnessApp.Droid.Resource.Color.button_material_light;
+			global::BottomBar.Droid.Resource.Color.cardview_dark_background = global::xamarinFitnessApp.Droid.Resource.Color.cardview_dark_background;
+			global::BottomBar.Droid.Resource.Color.cardview_light_background = global::xamarinFitnessApp.Droid.Resource.Color.cardview_light_background;
+			global::BottomBar.Droid.Resource.Color.cardview_shadow_end_color = global::xamarinFitnessApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::BottomBar.Droid.Resource.Color.cardview_shadow_start_color = global::xamarinFitnessApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_shadow_end_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_shadow_mid_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_shadow_start_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::BottomBar.Droid.Resource.Color.design_snackbar_background_color = global::xamarinFitnessApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::BottomBar.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.dim_foreground_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.dim_foreground_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::BottomBar.Droid.Resource.Color.dim_foreground_material_light = global::xamarinFitnessApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::BottomBar.Droid.Resource.Color.foreground_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.foreground_material_dark;
+			global::BottomBar.Droid.Resource.Color.foreground_material_light = global::xamarinFitnessApp.Droid.Resource.Color.foreground_material_light;
+			global::BottomBar.Droid.Resource.Color.highlighted_text_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::BottomBar.Droid.Resource.Color.highlighted_text_material_light = global::xamarinFitnessApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::BottomBar.Droid.Resource.Color.material_blue_grey_800 = global::xamarinFitnessApp.Droid.Resource.Color.material_blue_grey_800;
+			global::BottomBar.Droid.Resource.Color.material_blue_grey_900 = global::xamarinFitnessApp.Droid.Resource.Color.material_blue_grey_900;
+			global::BottomBar.Droid.Resource.Color.material_blue_grey_950 = global::xamarinFitnessApp.Droid.Resource.Color.material_blue_grey_950;
+			global::BottomBar.Droid.Resource.Color.material_deep_teal_200 = global::xamarinFitnessApp.Droid.Resource.Color.material_deep_teal_200;
+			global::BottomBar.Droid.Resource.Color.material_deep_teal_500 = global::xamarinFitnessApp.Droid.Resource.Color.material_deep_teal_500;
+			global::BottomBar.Droid.Resource.Color.material_grey_100 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_100;
+			global::BottomBar.Droid.Resource.Color.material_grey_300 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_300;
+			global::BottomBar.Droid.Resource.Color.material_grey_50 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_50;
+			global::BottomBar.Droid.Resource.Color.material_grey_600 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_600;
+			global::BottomBar.Droid.Resource.Color.material_grey_800 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_800;
+			global::BottomBar.Droid.Resource.Color.material_grey_850 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_850;
+			global::BottomBar.Droid.Resource.Color.material_grey_900 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_900;
+			global::BottomBar.Droid.Resource.Color.primary_dark_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::BottomBar.Droid.Resource.Color.primary_dark_material_light = global::xamarinFitnessApp.Droid.Resource.Color.primary_dark_material_light;
+			global::BottomBar.Droid.Resource.Color.primary_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.primary_material_dark;
+			global::BottomBar.Droid.Resource.Color.primary_material_light = global::xamarinFitnessApp.Droid.Resource.Color.primary_material_light;
+			global::BottomBar.Droid.Resource.Color.primary_text_default_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::BottomBar.Droid.Resource.Color.primary_text_default_material_light = global::xamarinFitnessApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::BottomBar.Droid.Resource.Color.primary_text_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.primary_text_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.ripple_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.ripple_material_dark;
+			global::BottomBar.Droid.Resource.Color.ripple_material_light = global::xamarinFitnessApp.Droid.Resource.Color.ripple_material_light;
+			global::BottomBar.Droid.Resource.Color.secondary_text_default_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::BottomBar.Droid.Resource.Color.secondary_text_default_material_light = global::xamarinFitnessApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::BottomBar.Droid.Resource.Color.secondary_text_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.secondary_text_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_material_light = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_normal_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_normal_material_light = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::BottomBar.Droid.Resource.Color.white = global::xamarinFitnessApp.Droid.Resource.Color.white;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_button_min_height_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_button_min_width_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::BottomBar.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::BottomBar.Droid.Resource.Dimension.abc_control_corner_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_control_inset_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_control_padding_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_min_width_major = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_padding_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::BottomBar.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::BottomBar.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::BottomBar.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::BottomBar.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::BottomBar.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_floating_window_z = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::BottomBar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_panel_menu_list_width = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::BottomBar.Droid.Resource.Dimension.abc_search_view_preferred_width = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::BottomBar.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_switch_padding = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_body_1_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_body_2_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_button_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_caption_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_display_1_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_display_2_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_display_3_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_display_4_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_headline_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_large_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_medium_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_menu_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_small_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_subhead_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_title_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::BottomBar.Droid.Resource.Dimension.activity_horizontal_margin = global::xamarinFitnessApp.Droid.Resource.Dimension.activity_horizontal_margin;
+			global::BottomBar.Droid.Resource.Dimension.activity_vertical_margin = global::xamarinFitnessApp.Droid.Resource.Dimension.activity_vertical_margin;
+			global::BottomBar.Droid.Resource.Dimension.bb_height = global::xamarinFitnessApp.Droid.Resource.Dimension.bb_height;
+			global::BottomBar.Droid.Resource.Dimension.bottom_bar_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.bottom_bar_elevation;
+			global::BottomBar.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::xamarinFitnessApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::BottomBar.Droid.Resource.Dimension.cardview_default_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::BottomBar.Droid.Resource.Dimension.cardview_default_radius = global::xamarinFitnessApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::BottomBar.Droid.Resource.Dimension.design_appbar_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_border_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_image_size = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_size_mini = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_size_normal = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_icon_padding = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_icon_size = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_padding_bottom = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_min_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_text_size = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::BottomBar.Droid.Resource.Dimension.design_tab_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::BottomBar.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::BottomBar.Droid.Resource.Dimension.design_tab_text_size = global::xamarinFitnessApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::BottomBar.Droid.Resource.Dimension.design_tab_text_size_2line = global::xamarinFitnessApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::BottomBar.Droid.Resource.Dimension.disabled_alpha_material_dark = global::xamarinFitnessApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::BottomBar.Droid.Resource.Dimension.disabled_alpha_material_light = global::xamarinFitnessApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::BottomBar.Droid.Resource.Dimension.highlight_alpha_material_colored = global::xamarinFitnessApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::BottomBar.Droid.Resource.Dimension.highlight_alpha_material_dark = global::xamarinFitnessApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::BottomBar.Droid.Resource.Dimension.highlight_alpha_material_light = global::xamarinFitnessApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::BottomBar.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::xamarinFitnessApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::BottomBar.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::xamarinFitnessApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::BottomBar.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::xamarinFitnessApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::BottomBar.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::xamarinFitnessApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::BottomBar.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::xamarinFitnessApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::BottomBar.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::xamarinFitnessApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::BottomBar.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::xamarinFitnessApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::BottomBar.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::xamarinFitnessApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::BottomBar.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::xamarinFitnessApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::BottomBar.Droid.Resource.Dimension.notification_large_icon_height = global::xamarinFitnessApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::BottomBar.Droid.Resource.Dimension.notification_large_icon_width = global::xamarinFitnessApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::BottomBar.Droid.Resource.Dimension.notification_subtext_size = global::xamarinFitnessApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::BottomBar.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_borderless_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_check_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_colored_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_radio_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::BottomBar.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::BottomBar.Droid.Resource.Drawable.abc_cab_background_top_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_control_background_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_edit_text_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::BottomBar.Droid.Resource.Drawable.abc_item_background_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_item_background_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_focused_holo = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_longpressed_holo = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::BottomBar.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::BottomBar.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_ratingbar_small_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_seekbar_track_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_switch_thumb_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_tab_indicator_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_text_cursor_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_search_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::BottomBar.Droid.Resource.Drawable.bb_bottom_bar_top_shadow = global::xamarinFitnessApp.Droid.Resource.Drawable.bb_bottom_bar_top_shadow;
+			global::BottomBar.Droid.Resource.Drawable.design_fab_background = global::xamarinFitnessApp.Droid.Resource.Drawable.design_fab_background;
+			global::BottomBar.Droid.Resource.Drawable.design_snackbar_background = global::xamarinFitnessApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::BottomBar.Droid.Resource.Drawable.ic_audiotrack_light = global::xamarinFitnessApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::BottomBar.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::BottomBar.Droid.Resource.Drawable.mr_dialog_material_background_light = global::xamarinFitnessApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::BottomBar.Droid.Resource.Drawable.notification_template_icon_bg = global::xamarinFitnessApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::BottomBar.Droid.Resource.Id.action0 = global::xamarinFitnessApp.Droid.Resource.Id.action0;
+			global::BottomBar.Droid.Resource.Id.action_bar = global::xamarinFitnessApp.Droid.Resource.Id.action_bar;
+			global::BottomBar.Droid.Resource.Id.action_bar_activity_content = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_activity_content;
+			global::BottomBar.Droid.Resource.Id.action_bar_container = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_container;
+			global::BottomBar.Droid.Resource.Id.action_bar_root = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_root;
+			global::BottomBar.Droid.Resource.Id.action_bar_spinner = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_spinner;
+			global::BottomBar.Droid.Resource.Id.action_bar_subtitle = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_subtitle;
+			global::BottomBar.Droid.Resource.Id.action_bar_title = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_title;
+			global::BottomBar.Droid.Resource.Id.action_context_bar = global::xamarinFitnessApp.Droid.Resource.Id.action_context_bar;
+			global::BottomBar.Droid.Resource.Id.action_divider = global::xamarinFitnessApp.Droid.Resource.Id.action_divider;
+			global::BottomBar.Droid.Resource.Id.action_menu_divider = global::xamarinFitnessApp.Droid.Resource.Id.action_menu_divider;
+			global::BottomBar.Droid.Resource.Id.action_menu_presenter = global::xamarinFitnessApp.Droid.Resource.Id.action_menu_presenter;
+			global::BottomBar.Droid.Resource.Id.action_mode_bar = global::xamarinFitnessApp.Droid.Resource.Id.action_mode_bar;
+			global::BottomBar.Droid.Resource.Id.action_mode_bar_stub = global::xamarinFitnessApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::BottomBar.Droid.Resource.Id.action_mode_close_button = global::xamarinFitnessApp.Droid.Resource.Id.action_mode_close_button;
+			global::BottomBar.Droid.Resource.Id.activity_chooser_view_content = global::xamarinFitnessApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::BottomBar.Droid.Resource.Id.alertTitle = global::xamarinFitnessApp.Droid.Resource.Id.alertTitle;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_background_overlay = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_background_overlay;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_background_view = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_background_view;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_icon = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_icon;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_item_container = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_item_container;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_outer_container = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_outer_container;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_shadow = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_shadow;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_title = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_title;
+			global::BottomBar.Droid.Resource.Id.bb_tablet_right_border = global::xamarinFitnessApp.Droid.Resource.Id.bb_tablet_right_border;
+			global::BottomBar.Droid.Resource.Id.bb_user_content_container = global::xamarinFitnessApp.Droid.Resource.Id.bb_user_content_container;
+			global::BottomBar.Droid.Resource.Id.bottom = global::xamarinFitnessApp.Droid.Resource.Id.bottom;
+			global::BottomBar.Droid.Resource.Id.buttonPanel = global::xamarinFitnessApp.Droid.Resource.Id.buttonPanel;
+			global::BottomBar.Droid.Resource.Id.cancel_action = global::xamarinFitnessApp.Droid.Resource.Id.cancel_action;
+			global::BottomBar.Droid.Resource.Id.center = global::xamarinFitnessApp.Droid.Resource.Id.center;
+			global::BottomBar.Droid.Resource.Id.checkbox = global::xamarinFitnessApp.Droid.Resource.Id.checkbox;
+			global::BottomBar.Droid.Resource.Id.chronometer = global::xamarinFitnessApp.Droid.Resource.Id.chronometer;
+			global::BottomBar.Droid.Resource.Id.contentPanel = global::xamarinFitnessApp.Droid.Resource.Id.contentPanel;
+			global::BottomBar.Droid.Resource.Id.custom = global::xamarinFitnessApp.Droid.Resource.Id.custom;
+			global::BottomBar.Droid.Resource.Id.customPanel = global::xamarinFitnessApp.Droid.Resource.Id.customPanel;
+			global::BottomBar.Droid.Resource.Id.decor_content_parent = global::xamarinFitnessApp.Droid.Resource.Id.decor_content_parent;
+			global::BottomBar.Droid.Resource.Id.default_activity_button = global::xamarinFitnessApp.Droid.Resource.Id.default_activity_button;
+			global::BottomBar.Droid.Resource.Id.design_bottom_sheet = global::xamarinFitnessApp.Droid.Resource.Id.design_bottom_sheet;
+			global::BottomBar.Droid.Resource.Id.design_menu_item_action_area = global::xamarinFitnessApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::BottomBar.Droid.Resource.Id.design_menu_item_action_area_stub = global::xamarinFitnessApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::BottomBar.Droid.Resource.Id.design_menu_item_text = global::xamarinFitnessApp.Droid.Resource.Id.design_menu_item_text;
+			global::BottomBar.Droid.Resource.Id.design_navigation_view = global::xamarinFitnessApp.Droid.Resource.Id.design_navigation_view;
+			global::BottomBar.Droid.Resource.Id.edit_query = global::xamarinFitnessApp.Droid.Resource.Id.edit_query;
+			global::BottomBar.Droid.Resource.Id.end = global::xamarinFitnessApp.Droid.Resource.Id.end;
+			global::BottomBar.Droid.Resource.Id.end_padder = global::xamarinFitnessApp.Droid.Resource.Id.end_padder;
+			global::BottomBar.Droid.Resource.Id.expand_activities_button = global::xamarinFitnessApp.Droid.Resource.Id.expand_activities_button;
+			global::BottomBar.Droid.Resource.Id.expanded_menu = global::xamarinFitnessApp.Droid.Resource.Id.expanded_menu;
+			global::BottomBar.Droid.Resource.Id.fill = global::xamarinFitnessApp.Droid.Resource.Id.fill;
+			global::BottomBar.Droid.Resource.Id.@fixed = global::xamarinFitnessApp.Droid.Resource.Id.@fixed;
+			global::BottomBar.Droid.Resource.Id.home = global::xamarinFitnessApp.Droid.Resource.Id.home;
+			global::BottomBar.Droid.Resource.Id.icon = global::xamarinFitnessApp.Droid.Resource.Id.icon;
+			global::BottomBar.Droid.Resource.Id.image = global::xamarinFitnessApp.Droid.Resource.Id.image;
+			global::BottomBar.Droid.Resource.Id.info = global::xamarinFitnessApp.Droid.Resource.Id.info;
+			global::BottomBar.Droid.Resource.Id.item_touch_helper_previous_elevation = global::xamarinFitnessApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::BottomBar.Droid.Resource.Id.left = global::xamarinFitnessApp.Droid.Resource.Id.left;
+			global::BottomBar.Droid.Resource.Id.line1 = global::xamarinFitnessApp.Droid.Resource.Id.line1;
+			global::BottomBar.Droid.Resource.Id.line3 = global::xamarinFitnessApp.Droid.Resource.Id.line3;
+			global::BottomBar.Droid.Resource.Id.listMode = global::xamarinFitnessApp.Droid.Resource.Id.listMode;
+			global::BottomBar.Droid.Resource.Id.list_item = global::xamarinFitnessApp.Droid.Resource.Id.list_item;
+			global::BottomBar.Droid.Resource.Id.media_actions = global::xamarinFitnessApp.Droid.Resource.Id.media_actions;
+			global::BottomBar.Droid.Resource.Id.mini = global::xamarinFitnessApp.Droid.Resource.Id.mini;
+			global::BottomBar.Droid.Resource.Id.mr_art = global::xamarinFitnessApp.Droid.Resource.Id.mr_art;
+			global::BottomBar.Droid.Resource.Id.mr_chooser_list = global::xamarinFitnessApp.Droid.Resource.Id.mr_chooser_list;
+			global::BottomBar.Droid.Resource.Id.mr_chooser_route_desc = global::xamarinFitnessApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::BottomBar.Droid.Resource.Id.mr_chooser_route_icon = global::xamarinFitnessApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::BottomBar.Droid.Resource.Id.mr_chooser_route_name = global::xamarinFitnessApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::BottomBar.Droid.Resource.Id.mr_close = global::xamarinFitnessApp.Droid.Resource.Id.mr_close;
+			global::BottomBar.Droid.Resource.Id.mr_control_divider = global::xamarinFitnessApp.Droid.Resource.Id.mr_control_divider;
+			global::BottomBar.Droid.Resource.Id.mr_control_subtitle = global::xamarinFitnessApp.Droid.Resource.Id.mr_control_subtitle;
+			global::BottomBar.Droid.Resource.Id.mr_control_title = global::xamarinFitnessApp.Droid.Resource.Id.mr_control_title;
+			global::BottomBar.Droid.Resource.Id.mr_control_title_container = global::xamarinFitnessApp.Droid.Resource.Id.mr_control_title_container;
+			global::BottomBar.Droid.Resource.Id.mr_custom_control = global::xamarinFitnessApp.Droid.Resource.Id.mr_custom_control;
+			global::BottomBar.Droid.Resource.Id.mr_default_control = global::xamarinFitnessApp.Droid.Resource.Id.mr_default_control;
+			global::BottomBar.Droid.Resource.Id.mr_dialog_area = global::xamarinFitnessApp.Droid.Resource.Id.mr_dialog_area;
+			global::BottomBar.Droid.Resource.Id.mr_expandable_area = global::xamarinFitnessApp.Droid.Resource.Id.mr_expandable_area;
+			global::BottomBar.Droid.Resource.Id.mr_group_expand_collapse = global::xamarinFitnessApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::BottomBar.Droid.Resource.Id.mr_media_main_control = global::xamarinFitnessApp.Droid.Resource.Id.mr_media_main_control;
+			global::BottomBar.Droid.Resource.Id.mr_name = global::xamarinFitnessApp.Droid.Resource.Id.mr_name;
+			global::BottomBar.Droid.Resource.Id.mr_playback_control = global::xamarinFitnessApp.Droid.Resource.Id.mr_playback_control;
+			global::BottomBar.Droid.Resource.Id.mr_title_bar = global::xamarinFitnessApp.Droid.Resource.Id.mr_title_bar;
+			global::BottomBar.Droid.Resource.Id.mr_volume_control = global::xamarinFitnessApp.Droid.Resource.Id.mr_volume_control;
+			global::BottomBar.Droid.Resource.Id.mr_volume_group_list = global::xamarinFitnessApp.Droid.Resource.Id.mr_volume_group_list;
+			global::BottomBar.Droid.Resource.Id.mr_volume_item_icon = global::xamarinFitnessApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::BottomBar.Droid.Resource.Id.mr_volume_slider = global::xamarinFitnessApp.Droid.Resource.Id.mr_volume_slider;
+			global::BottomBar.Droid.Resource.Id.multiply = global::xamarinFitnessApp.Droid.Resource.Id.multiply;
+			global::BottomBar.Droid.Resource.Id.navigation_header_container = global::xamarinFitnessApp.Droid.Resource.Id.navigation_header_container;
+			global::BottomBar.Droid.Resource.Id.none = global::xamarinFitnessApp.Droid.Resource.Id.none;
+			global::BottomBar.Droid.Resource.Id.normal = global::xamarinFitnessApp.Droid.Resource.Id.normal;
+			global::BottomBar.Droid.Resource.Id.parallax = global::xamarinFitnessApp.Droid.Resource.Id.parallax;
+			global::BottomBar.Droid.Resource.Id.parentPanel = global::xamarinFitnessApp.Droid.Resource.Id.parentPanel;
+			global::BottomBar.Droid.Resource.Id.pin = global::xamarinFitnessApp.Droid.Resource.Id.pin;
+			global::BottomBar.Droid.Resource.Id.progress_circular = global::xamarinFitnessApp.Droid.Resource.Id.progress_circular;
+			global::BottomBar.Droid.Resource.Id.progress_horizontal = global::xamarinFitnessApp.Droid.Resource.Id.progress_horizontal;
+			global::BottomBar.Droid.Resource.Id.radio = global::xamarinFitnessApp.Droid.Resource.Id.radio;
+			global::BottomBar.Droid.Resource.Id.right = global::xamarinFitnessApp.Droid.Resource.Id.right;
+			global::BottomBar.Droid.Resource.Id.screen = global::xamarinFitnessApp.Droid.Resource.Id.screen;
+			global::BottomBar.Droid.Resource.Id.scrollIndicatorDown = global::xamarinFitnessApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::BottomBar.Droid.Resource.Id.scrollIndicatorUp = global::xamarinFitnessApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::BottomBar.Droid.Resource.Id.scrollView = global::xamarinFitnessApp.Droid.Resource.Id.scrollView;
+			global::BottomBar.Droid.Resource.Id.scrollable = global::xamarinFitnessApp.Droid.Resource.Id.scrollable;
+			global::BottomBar.Droid.Resource.Id.search_badge = global::xamarinFitnessApp.Droid.Resource.Id.search_badge;
+			global::BottomBar.Droid.Resource.Id.search_bar = global::xamarinFitnessApp.Droid.Resource.Id.search_bar;
+			global::BottomBar.Droid.Resource.Id.search_button = global::xamarinFitnessApp.Droid.Resource.Id.search_button;
+			global::BottomBar.Droid.Resource.Id.search_close_btn = global::xamarinFitnessApp.Droid.Resource.Id.search_close_btn;
+			global::BottomBar.Droid.Resource.Id.search_edit_frame = global::xamarinFitnessApp.Droid.Resource.Id.search_edit_frame;
+			global::BottomBar.Droid.Resource.Id.search_go_btn = global::xamarinFitnessApp.Droid.Resource.Id.search_go_btn;
+			global::BottomBar.Droid.Resource.Id.search_mag_icon = global::xamarinFitnessApp.Droid.Resource.Id.search_mag_icon;
+			global::BottomBar.Droid.Resource.Id.search_plate = global::xamarinFitnessApp.Droid.Resource.Id.search_plate;
+			global::BottomBar.Droid.Resource.Id.search_src_text = global::xamarinFitnessApp.Droid.Resource.Id.search_src_text;
+			global::BottomBar.Droid.Resource.Id.search_voice_btn = global::xamarinFitnessApp.Droid.Resource.Id.search_voice_btn;
+			global::BottomBar.Droid.Resource.Id.select_dialog_listview = global::xamarinFitnessApp.Droid.Resource.Id.select_dialog_listview;
+			global::BottomBar.Droid.Resource.Id.shortcut = global::xamarinFitnessApp.Droid.Resource.Id.shortcut;
+			global::BottomBar.Droid.Resource.Id.snackbar_action = global::xamarinFitnessApp.Droid.Resource.Id.snackbar_action;
+			global::BottomBar.Droid.Resource.Id.snackbar_text = global::xamarinFitnessApp.Droid.Resource.Id.snackbar_text;
+			global::BottomBar.Droid.Resource.Id.spacer = global::xamarinFitnessApp.Droid.Resource.Id.spacer;
+			global::BottomBar.Droid.Resource.Id.split_action_bar = global::xamarinFitnessApp.Droid.Resource.Id.split_action_bar;
+			global::BottomBar.Droid.Resource.Id.src_atop = global::xamarinFitnessApp.Droid.Resource.Id.src_atop;
+			global::BottomBar.Droid.Resource.Id.src_in = global::xamarinFitnessApp.Droid.Resource.Id.src_in;
+			global::BottomBar.Droid.Resource.Id.src_over = global::xamarinFitnessApp.Droid.Resource.Id.src_over;
+			global::BottomBar.Droid.Resource.Id.start = global::xamarinFitnessApp.Droid.Resource.Id.start;
+			global::BottomBar.Droid.Resource.Id.status_bar_latest_event_content = global::xamarinFitnessApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::BottomBar.Droid.Resource.Id.submit_area = global::xamarinFitnessApp.Droid.Resource.Id.submit_area;
+			global::BottomBar.Droid.Resource.Id.tabMode = global::xamarinFitnessApp.Droid.Resource.Id.tabMode;
+			global::BottomBar.Droid.Resource.Id.text = global::xamarinFitnessApp.Droid.Resource.Id.text;
+			global::BottomBar.Droid.Resource.Id.text2 = global::xamarinFitnessApp.Droid.Resource.Id.text2;
+			global::BottomBar.Droid.Resource.Id.textSpacerNoButtons = global::xamarinFitnessApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::BottomBar.Droid.Resource.Id.time = global::xamarinFitnessApp.Droid.Resource.Id.time;
+			global::BottomBar.Droid.Resource.Id.title = global::xamarinFitnessApp.Droid.Resource.Id.title;
+			global::BottomBar.Droid.Resource.Id.title_template = global::xamarinFitnessApp.Droid.Resource.Id.title_template;
+			global::BottomBar.Droid.Resource.Id.top = global::xamarinFitnessApp.Droid.Resource.Id.top;
+			global::BottomBar.Droid.Resource.Id.topPanel = global::xamarinFitnessApp.Droid.Resource.Id.topPanel;
+			global::BottomBar.Droid.Resource.Id.touch_outside = global::xamarinFitnessApp.Droid.Resource.Id.touch_outside;
+			global::BottomBar.Droid.Resource.Id.up = global::xamarinFitnessApp.Droid.Resource.Id.up;
+			global::BottomBar.Droid.Resource.Id.view_offset_helper = global::xamarinFitnessApp.Droid.Resource.Id.view_offset_helper;
+			global::BottomBar.Droid.Resource.Id.volume_item_container = global::xamarinFitnessApp.Droid.Resource.Id.volume_item_container;
+			global::BottomBar.Droid.Resource.Id.wrap_content = global::xamarinFitnessApp.Droid.Resource.Id.wrap_content;
+			global::BottomBar.Droid.Resource.Integer.abc_config_activityDefaultDur = global::xamarinFitnessApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::BottomBar.Droid.Resource.Integer.abc_config_activityShortDur = global::xamarinFitnessApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::BottomBar.Droid.Resource.Integer.bottom_sheet_slide_duration = global::xamarinFitnessApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::BottomBar.Droid.Resource.Integer.cancel_button_image_alpha = global::xamarinFitnessApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::BottomBar.Droid.Resource.Integer.design_snackbar_text_max_lines = global::xamarinFitnessApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::BottomBar.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::xamarinFitnessApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::BottomBar.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::xamarinFitnessApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::BottomBar.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::xamarinFitnessApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::BottomBar.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::xamarinFitnessApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::BottomBar.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::xamarinFitnessApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::BottomBar.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::xamarinFitnessApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::BottomBar.Droid.Resource.Layout.abc_action_bar_title_item = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::BottomBar.Droid.Resource.Layout.abc_action_bar_up_container = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::BottomBar.Droid.Resource.Layout.abc_action_menu_item_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_action_menu_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_action_mode_bar = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::BottomBar.Droid.Resource.Layout.abc_action_mode_close_item_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::BottomBar.Droid.Resource.Layout.abc_activity_chooser_view = global::xamarinFitnessApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::BottomBar.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::xamarinFitnessApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::BottomBar.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::BottomBar.Droid.Resource.Layout.abc_alert_dialog_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::BottomBar.Droid.Resource.Layout.abc_dialog_title_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::BottomBar.Droid.Resource.Layout.abc_expanded_menu_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::xamarinFitnessApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::BottomBar.Droid.Resource.Layout.abc_list_menu_item_icon = global::xamarinFitnessApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::BottomBar.Droid.Resource.Layout.abc_list_menu_item_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_list_menu_item_radio = global::xamarinFitnessApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::BottomBar.Droid.Resource.Layout.abc_popup_menu_item_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_screen_content_include = global::xamarinFitnessApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::BottomBar.Droid.Resource.Layout.abc_screen_simple = global::xamarinFitnessApp.Droid.Resource.Layout.abc_screen_simple;
+			global::BottomBar.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::xamarinFitnessApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::BottomBar.Droid.Resource.Layout.abc_screen_toolbar = global::xamarinFitnessApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::BottomBar.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::xamarinFitnessApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::BottomBar.Droid.Resource.Layout.abc_search_view = global::xamarinFitnessApp.Droid.Resource.Layout.abc_search_view;
+			global::BottomBar.Droid.Resource.Layout.abc_select_dialog_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_container = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_container;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_container_tablet = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_container_tablet;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_fixed = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_fixed;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_fixed_tablet = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_fixed_tablet;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_shifting = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_shifting;
+			global::BottomBar.Droid.Resource.Layout.design_bottom_sheet_dialog = global::xamarinFitnessApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::BottomBar.Droid.Resource.Layout.design_layout_snackbar = global::xamarinFitnessApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::BottomBar.Droid.Resource.Layout.design_layout_snackbar_include = global::xamarinFitnessApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::BottomBar.Droid.Resource.Layout.design_layout_tab_icon = global::xamarinFitnessApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::BottomBar.Droid.Resource.Layout.design_layout_tab_text = global::xamarinFitnessApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::BottomBar.Droid.Resource.Layout.design_menu_item_action_area = global::xamarinFitnessApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_item = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_item;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_item_header = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_item_separator = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_item_subheader = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_menu = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_menu;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_menu_item = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::BottomBar.Droid.Resource.Layout.mr_chooser_dialog = global::xamarinFitnessApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::BottomBar.Droid.Resource.Layout.mr_chooser_list_item = global::xamarinFitnessApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::BottomBar.Droid.Resource.Layout.mr_controller_material_dialog_b = global::xamarinFitnessApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::BottomBar.Droid.Resource.Layout.mr_controller_volume_item = global::xamarinFitnessApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::BottomBar.Droid.Resource.Layout.mr_playback_control = global::xamarinFitnessApp.Droid.Resource.Layout.mr_playback_control;
+			global::BottomBar.Droid.Resource.Layout.mr_volume_control = global::xamarinFitnessApp.Droid.Resource.Layout.mr_volume_control;
+			global::BottomBar.Droid.Resource.Layout.notification_media_action = global::xamarinFitnessApp.Droid.Resource.Layout.notification_media_action;
+			global::BottomBar.Droid.Resource.Layout.notification_media_cancel_action = global::xamarinFitnessApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::BottomBar.Droid.Resource.Layout.notification_template_big_media = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_big_media;
+			global::BottomBar.Droid.Resource.Layout.notification_template_big_media_narrow = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::BottomBar.Droid.Resource.Layout.notification_template_media = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_media;
+			global::BottomBar.Droid.Resource.Layout.notification_template_part_chronometer = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::BottomBar.Droid.Resource.Layout.notification_template_part_time = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_part_time;
+			global::BottomBar.Droid.Resource.Layout.select_dialog_item_material = global::xamarinFitnessApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::BottomBar.Droid.Resource.Layout.select_dialog_multichoice_material = global::xamarinFitnessApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::BottomBar.Droid.Resource.Layout.select_dialog_singlechoice_material = global::xamarinFitnessApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::BottomBar.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::xamarinFitnessApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::BottomBar.Droid.Resource.String.abc_action_bar_home_description = global::xamarinFitnessApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::BottomBar.Droid.Resource.String.abc_action_bar_up_description = global::xamarinFitnessApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::BottomBar.Droid.Resource.String.abc_action_menu_overflow_description = global::xamarinFitnessApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::BottomBar.Droid.Resource.String.abc_action_mode_done = global::xamarinFitnessApp.Droid.Resource.String.abc_action_mode_done;
+			global::BottomBar.Droid.Resource.String.abc_activity_chooser_view_see_all = global::xamarinFitnessApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::BottomBar.Droid.Resource.String.abc_activitychooserview_choose_application = global::xamarinFitnessApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::BottomBar.Droid.Resource.String.abc_capital_off = global::xamarinFitnessApp.Droid.Resource.String.abc_capital_off;
+			global::BottomBar.Droid.Resource.String.abc_capital_on = global::xamarinFitnessApp.Droid.Resource.String.abc_capital_on;
+			global::BottomBar.Droid.Resource.String.abc_search_hint = global::xamarinFitnessApp.Droid.Resource.String.abc_search_hint;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_clear = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_query = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_query;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_search = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_search;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_submit = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_voice = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::BottomBar.Droid.Resource.String.abc_shareactionprovider_share_with = global::xamarinFitnessApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::BottomBar.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::xamarinFitnessApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::BottomBar.Droid.Resource.String.abc_toolbar_collapse_description = global::xamarinFitnessApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::BottomBar.Droid.Resource.String.app_name = global::xamarinFitnessApp.Droid.Resource.String.app_name;
+			global::BottomBar.Droid.Resource.String.appbar_scrolling_view_behavior = global::xamarinFitnessApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::BottomBar.Droid.Resource.String.bottom_sheet_behavior = global::xamarinFitnessApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::BottomBar.Droid.Resource.String.character_counter_pattern = global::xamarinFitnessApp.Droid.Resource.String.character_counter_pattern;
+			global::BottomBar.Droid.Resource.String.library_name = global::xamarinFitnessApp.Droid.Resource.String.library_name;
+			global::BottomBar.Droid.Resource.String.mr_button_content_description = global::xamarinFitnessApp.Droid.Resource.String.mr_button_content_description;
+			global::BottomBar.Droid.Resource.String.mr_chooser_searching = global::xamarinFitnessApp.Droid.Resource.String.mr_chooser_searching;
+			global::BottomBar.Droid.Resource.String.mr_chooser_title = global::xamarinFitnessApp.Droid.Resource.String.mr_chooser_title;
+			global::BottomBar.Droid.Resource.String.mr_controller_casting_screen = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::BottomBar.Droid.Resource.String.mr_controller_close_description = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_close_description;
+			global::BottomBar.Droid.Resource.String.mr_controller_collapse_group = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::BottomBar.Droid.Resource.String.mr_controller_disconnect = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_disconnect;
+			global::BottomBar.Droid.Resource.String.mr_controller_expand_group = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_expand_group;
+			global::BottomBar.Droid.Resource.String.mr_controller_no_info_available = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::BottomBar.Droid.Resource.String.mr_controller_no_media_selected = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::BottomBar.Droid.Resource.String.mr_controller_pause = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_pause;
+			global::BottomBar.Droid.Resource.String.mr_controller_play = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_play;
+			global::BottomBar.Droid.Resource.String.mr_controller_stop = global::xamarinFitnessApp.Droid.Resource.String.mr_controller_stop;
+			global::BottomBar.Droid.Resource.String.mr_system_route_name = global::xamarinFitnessApp.Droid.Resource.String.mr_system_route_name;
+			global::BottomBar.Droid.Resource.String.mr_user_route_category_name = global::xamarinFitnessApp.Droid.Resource.String.mr_user_route_category_name;
+			global::BottomBar.Droid.Resource.String.status_bar_notification_info_overflow = global::xamarinFitnessApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::BottomBar.Droid.Resource.Style.AlertDialog_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::BottomBar.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Animation_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::xamarinFitnessApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::BottomBar.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::xamarinFitnessApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarBadge_Text = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarBadge_Text;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Fixed = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Fixed;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Shifting = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Shifting;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Tablet = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Tablet;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_TitleStyle = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_TitleStyle;
+			global::BottomBar.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::xamarinFitnessApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::BottomBar.Droid.Resource.Style.Base_CardView = global::xamarinFitnessApp.Droid.Resource.Style.Base_CardView;
+			global::BottomBar.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::xamarinFitnessApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::BottomBar.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::BottomBar.Droid.Resource.Style.CardView = global::xamarinFitnessApp.Droid.Resource.Style.CardView;
+			global::BottomBar.Droid.Resource.Style.CardView_Dark = global::xamarinFitnessApp.Droid.Resource.Style.CardView_Dark;
+			global::BottomBar.Droid.Resource.Style.CardView_Light = global::xamarinFitnessApp.Droid.Resource.Style.CardView_Light;
+			global::BottomBar.Droid.Resource.Style.Platform_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Platform_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Platform_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::xamarinFitnessApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::BottomBar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Platform_V11_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Platform_V14_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::BottomBar.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::xamarinFitnessApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::BottomBar.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Counter = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Error = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Hint = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Tab = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_Design = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_Light = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_Light;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_MediaRouter = global::xamarinFitnessApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::BottomBar.Droid.Resource.Style.Theme_MediaRouter_Light = global::xamarinFitnessApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::BottomBar.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::xamarinFitnessApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::BottomBar.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::xamarinFitnessApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_EditText = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ListView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_SearchView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_AppBarLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_NavigationView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_Snackbar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_TabLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_TextInputLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::BottomBar.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::BottomBar.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_background = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_background;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_displayOptions = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_divider = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_height = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_height;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_homeLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_icon = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_itemPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_logo = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_navigationMode = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_popupTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_subtitle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_title = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_title;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::BottomBar.Droid.Resource.Styleable.ActionMenuItemView = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::BottomBar.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_background = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_background;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_height = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_height;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActivityChooserView = global::xamarinFitnessApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::BottomBar.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::BottomBar.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::xamarinFitnessApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_android_layout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_listLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::BottomBar.Droid.Resource.Styleable.AppBarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AppBarLayout;
+			global::BottomBar.Droid.Resource.Styleable.AppBarLayout_android_background = global::xamarinFitnessApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::BottomBar.Droid.Resource.Styleable.AppBarLayout_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::BottomBar.Droid.Resource.Styleable.AppBarLayout_expanded = global::xamarinFitnessApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatImageView = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatImageView_android_src = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTextView = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::BottomBar.Droid.Resource.Styleable.ButtonBarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::BottomBar.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::xamarinFitnessApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::BottomBar.Droid.Resource.Styleable.CardView = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView;
+			global::BottomBar.Droid.Resource.Styleable.CardView_android_minHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::BottomBar.Droid.Resource.Styleable.CardView_android_minWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardCornerRadius = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardElevation = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardMaxElevation = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPaddingRight = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPaddingTop = global::xamarinFitnessApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::BottomBar.Droid.Resource.Styleable.CompoundButton = global::xamarinFitnessApp.Droid.Resource.Styleable.CompoundButton;
+			global::BottomBar.Droid.Resource.Styleable.CompoundButton_android_button = global::xamarinFitnessApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::BottomBar.Droid.Resource.Styleable.CompoundButton_buttonTint = global::xamarinFitnessApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::BottomBar.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::xamarinFitnessApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::BottomBar.Droid.Resource.Styleable.CoordinatorLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::BottomBar.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::xamarinFitnessApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::BottomBar.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::BottomBar.Droid.Resource.Styleable.DesignTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.DesignTheme;
+			global::BottomBar.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::BottomBar.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::BottomBar.Droid.Resource.Styleable.DesignTheme_textColorError = global::xamarinFitnessApp.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_color = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::BottomBar.Droid.Resource.Styleable.ForegroundLinearLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::BottomBar.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::xamarinFitnessApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::BottomBar.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::xamarinFitnessApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::BottomBar.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::xamarinFitnessApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::BottomBar.Droid.Resource.Styleable.ListPopupWindow = global::xamarinFitnessApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::BottomBar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::xamarinFitnessApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::BottomBar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::xamarinFitnessApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::BottomBar.Droid.Resource.Styleable.MediaRouteButton = global::xamarinFitnessApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::BottomBar.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::BottomBar.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::BottomBar.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_enabled = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_id = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_visible = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_actionLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_actionViewClass = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_checkable = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_checked = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_enabled = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_icon = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_id = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_onClick = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_title = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_visible = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_showAsAction = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::BottomBar.Droid.Resource.Styleable.MenuView = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_headerBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_itemBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_android_background = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_headerLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_itemBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_itemIconTint = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_itemTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_menu = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindow = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindow;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindowBackgroundState = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_android_orientation = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_layoutManager = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_spanCount = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::BottomBar.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::BottomBar.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::xamarinFitnessApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::BottomBar.Droid.Resource.Styleable.SearchView = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_android_focusable = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_android_imeOptions = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_android_inputType = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_android_maxWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_closeIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_commitIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_goIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_layout = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_layout;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_queryBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_queryHint = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_searchHintIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_searchIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_submitBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_voiceIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::BottomBar.Droid.Resource.Styleable.SnackbarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::BottomBar.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::BottomBar.Droid.Resource.Styleable.SnackbarLayout_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::BottomBar.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::BottomBar.Droid.Resource.Styleable.Spinner = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_android_entries = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_android_popupBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_android_prompt = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_popupTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_showText = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_track = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::BottomBar.Droid.Resource.Styleable.TabItem = global::xamarinFitnessApp.Droid.Resource.Styleable.TabItem;
+			global::BottomBar.Droid.Resource.Styleable.TabItem_android_icon = global::xamarinFitnessApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::BottomBar.Droid.Resource.Styleable.TabItem_android_layout = global::xamarinFitnessApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::BottomBar.Droid.Resource.Styleable.TabItem_android_text = global::xamarinFitnessApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabContentStart = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabGravity = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabMode = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_textColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_textSize = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_typeface = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_android_hint = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_android_gravity = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_android_minHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_collapseIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_logo = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_logoDescription = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_navigationIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_popupTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_subtitle = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_title = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_title;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMargins = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::BottomBar.Droid.Resource.Styleable.View = global::xamarinFitnessApp.Droid.Resource.Styleable.View;
+			global::BottomBar.Droid.Resource.Styleable.View_android_focusable = global::xamarinFitnessApp.Droid.Resource.Styleable.View_android_focusable;
+			global::BottomBar.Droid.Resource.Styleable.View_android_theme = global::xamarinFitnessApp.Droid.Resource.Styleable.View_android_theme;
+			global::BottomBar.Droid.Resource.Styleable.View_paddingEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::BottomBar.Droid.Resource.Styleable.View_paddingStart = global::xamarinFitnessApp.Droid.Resource.Styleable.View_paddingStart;
+			global::BottomBar.Droid.Resource.Styleable.View_theme = global::xamarinFitnessApp.Droid.Resource.Styleable.View_theme;
+			global::BottomBar.Droid.Resource.Styleable.ViewBackgroundHelper = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::BottomBar.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::BottomBar.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::BottomBar.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::BottomBar.Droid.Resource.Styleable.ViewStubCompat = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::BottomBar.Droid.Resource.Styleable.ViewStubCompat_android_id = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::BottomBar.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::BottomBar.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::BottomNavigationBar.Resource.Animation.abc_fade_in = global::xamarinFitnessApp.Droid.Resource.Animation.abc_fade_in;
+			global::BottomNavigationBar.Resource.Animation.abc_fade_out = global::xamarinFitnessApp.Droid.Resource.Animation.abc_fade_out;
+			global::BottomNavigationBar.Resource.Animation.abc_grow_fade_in_from_bottom = global::xamarinFitnessApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::BottomNavigationBar.Resource.Animation.abc_popup_enter = global::xamarinFitnessApp.Droid.Resource.Animation.abc_popup_enter;
+			global::BottomNavigationBar.Resource.Animation.abc_popup_exit = global::xamarinFitnessApp.Droid.Resource.Animation.abc_popup_exit;
+			global::BottomNavigationBar.Resource.Animation.abc_shrink_fade_out_from_bottom = global::xamarinFitnessApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::BottomNavigationBar.Resource.Animation.abc_slide_in_bottom = global::xamarinFitnessApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::BottomNavigationBar.Resource.Animation.abc_slide_in_top = global::xamarinFitnessApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::BottomNavigationBar.Resource.Animation.abc_slide_out_bottom = global::xamarinFitnessApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::BottomNavigationBar.Resource.Animation.abc_slide_out_top = global::xamarinFitnessApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::BottomNavigationBar.Resource.Animation.design_bottom_sheet_slide_in = global::xamarinFitnessApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::BottomNavigationBar.Resource.Animation.design_bottom_sheet_slide_out = global::xamarinFitnessApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::BottomNavigationBar.Resource.Animation.design_snackbar_in = global::xamarinFitnessApp.Droid.Resource.Animation.design_snackbar_in;
+			global::BottomNavigationBar.Resource.Animation.design_snackbar_out = global::xamarinFitnessApp.Droid.Resource.Animation.design_snackbar_out;
+			global::BottomNavigationBar.Resource.Attribute.actionBarDivider = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarDivider;
+			global::BottomNavigationBar.Resource.Attribute.actionBarItemBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::BottomNavigationBar.Resource.Attribute.actionBarPopupTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::BottomNavigationBar.Resource.Attribute.actionBarSize = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarSize;
+			global::BottomNavigationBar.Resource.Attribute.actionBarSplitStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarTabBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarTabStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarTabTextStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarTheme;
+			global::BottomNavigationBar.Resource.Attribute.actionBarWidgetTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::BottomNavigationBar.Resource.Attribute.actionButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionDropDownStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.actionLayout;
+			global::BottomNavigationBar.Resource.Attribute.actionMenuTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.actionMenuTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::BottomNavigationBar.Resource.Attribute.actionModeBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeBackground;
+			global::BottomNavigationBar.Resource.Attribute.actionModeCloseButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionModeCloseDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeCopyDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeCutDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeFindDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModePasteDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModePopupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionModeSelectAllDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeShareDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeSplitBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::BottomNavigationBar.Resource.Attribute.actionModeStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionModeWebSearchDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionOverflowButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionOverflowMenuStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionProviderClass = global::xamarinFitnessApp.Droid.Resource.Attribute.actionProviderClass;
+			global::BottomNavigationBar.Resource.Attribute.actionViewClass = global::xamarinFitnessApp.Droid.Resource.Attribute.actionViewClass;
+			global::BottomNavigationBar.Resource.Attribute.activityChooserViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.alertDialogButtonGroupStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::BottomNavigationBar.Resource.Attribute.alertDialogCenterButtons = global::xamarinFitnessApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::BottomNavigationBar.Resource.Attribute.alertDialogStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::BottomNavigationBar.Resource.Attribute.alertDialogTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::BottomNavigationBar.Resource.Attribute.allowStacking = global::xamarinFitnessApp.Droid.Resource.Attribute.allowStacking;
+			global::BottomNavigationBar.Resource.Attribute.arrowHeadLength = global::xamarinFitnessApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::BottomNavigationBar.Resource.Attribute.arrowShaftLength = global::xamarinFitnessApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::BottomNavigationBar.Resource.Attribute.autoCompleteTextViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.background = global::xamarinFitnessApp.Droid.Resource.Attribute.background;
+			global::BottomNavigationBar.Resource.Attribute.backgroundSplit = global::xamarinFitnessApp.Droid.Resource.Attribute.backgroundSplit;
+			global::BottomNavigationBar.Resource.Attribute.backgroundStacked = global::xamarinFitnessApp.Droid.Resource.Attribute.backgroundStacked;
+			global::BottomNavigationBar.Resource.Attribute.backgroundTint = global::xamarinFitnessApp.Droid.Resource.Attribute.backgroundTint;
+			global::BottomNavigationBar.Resource.Attribute.backgroundTintMode = global::xamarinFitnessApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::BottomNavigationBar.Resource.Attribute.barLength = global::xamarinFitnessApp.Droid.Resource.Attribute.barLength;
+			global::BottomNavigationBar.Resource.Attribute.behavior_hideable = global::xamarinFitnessApp.Droid.Resource.Attribute.behavior_hideable;
+			global::BottomNavigationBar.Resource.Attribute.behavior_overlapTop = global::xamarinFitnessApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::BottomNavigationBar.Resource.Attribute.behavior_peekHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::BottomNavigationBar.Resource.Attribute.borderWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.borderWidth;
+			global::BottomNavigationBar.Resource.Attribute.borderlessButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.bottomSheetDialogTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::BottomNavigationBar.Resource.Attribute.bottomSheetStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarNegativeButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarNeutralButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarPositiveButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonPanelSideLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::BottomNavigationBar.Resource.Attribute.buttonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonStyleSmall = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::BottomNavigationBar.Resource.Attribute.buttonTint = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonTint;
+			global::BottomNavigationBar.Resource.Attribute.buttonTintMode = global::xamarinFitnessApp.Droid.Resource.Attribute.buttonTintMode;
+			global::BottomNavigationBar.Resource.Attribute.checkboxStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.checkboxStyle;
+			global::BottomNavigationBar.Resource.Attribute.checkedTextViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.closeIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.closeIcon;
+			global::BottomNavigationBar.Resource.Attribute.closeItemLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.closeItemLayout;
+			global::BottomNavigationBar.Resource.Attribute.collapseContentDescription = global::xamarinFitnessApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::BottomNavigationBar.Resource.Attribute.collapseIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.collapseIcon;
+			global::BottomNavigationBar.Resource.Attribute.collapsedTitleGravity = global::xamarinFitnessApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::BottomNavigationBar.Resource.Attribute.collapsedTitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.color = global::xamarinFitnessApp.Droid.Resource.Attribute.color;
+			global::BottomNavigationBar.Resource.Attribute.colorAccent = global::xamarinFitnessApp.Droid.Resource.Attribute.colorAccent;
+			global::BottomNavigationBar.Resource.Attribute.colorButtonNormal = global::xamarinFitnessApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::BottomNavigationBar.Resource.Attribute.colorControlActivated = global::xamarinFitnessApp.Droid.Resource.Attribute.colorControlActivated;
+			global::BottomNavigationBar.Resource.Attribute.colorControlHighlight = global::xamarinFitnessApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::BottomNavigationBar.Resource.Attribute.colorControlNormal = global::xamarinFitnessApp.Droid.Resource.Attribute.colorControlNormal;
+			global::BottomNavigationBar.Resource.Attribute.colorPrimary = global::xamarinFitnessApp.Droid.Resource.Attribute.colorPrimary;
+			global::BottomNavigationBar.Resource.Attribute.colorPrimaryDark = global::xamarinFitnessApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::BottomNavigationBar.Resource.Attribute.colorSwitchThumbNormal = global::xamarinFitnessApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::BottomNavigationBar.Resource.Attribute.commitIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.commitIcon;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetLeft = global::xamarinFitnessApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetRight = global::xamarinFitnessApp.Droid.Resource.Attribute.contentInsetRight;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetStart = global::xamarinFitnessApp.Droid.Resource.Attribute.contentInsetStart;
+			global::BottomNavigationBar.Resource.Attribute.contentScrim = global::xamarinFitnessApp.Droid.Resource.Attribute.contentScrim;
+			global::BottomNavigationBar.Resource.Attribute.controlBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.controlBackground;
+			global::BottomNavigationBar.Resource.Attribute.counterEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.counterEnabled;
+			global::BottomNavigationBar.Resource.Attribute.counterMaxLength = global::xamarinFitnessApp.Droid.Resource.Attribute.counterMaxLength;
+			global::BottomNavigationBar.Resource.Attribute.counterOverflowTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.counterTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.customNavigationLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::BottomNavigationBar.Resource.Attribute.defaultQueryHint = global::xamarinFitnessApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::BottomNavigationBar.Resource.Attribute.dialogPreferredPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::BottomNavigationBar.Resource.Attribute.dialogTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.dialogTheme;
+			global::BottomNavigationBar.Resource.Attribute.displayOptions = global::xamarinFitnessApp.Droid.Resource.Attribute.displayOptions;
+			global::BottomNavigationBar.Resource.Attribute.divider = global::xamarinFitnessApp.Droid.Resource.Attribute.divider;
+			global::BottomNavigationBar.Resource.Attribute.dividerHorizontal = global::xamarinFitnessApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::BottomNavigationBar.Resource.Attribute.dividerPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.dividerPadding;
+			global::BottomNavigationBar.Resource.Attribute.dividerVertical = global::xamarinFitnessApp.Droid.Resource.Attribute.dividerVertical;
+			global::BottomNavigationBar.Resource.Attribute.drawableSize = global::xamarinFitnessApp.Droid.Resource.Attribute.drawableSize;
+			global::BottomNavigationBar.Resource.Attribute.drawerArrowStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::BottomNavigationBar.Resource.Attribute.dropDownListViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.dropdownListPreferredItemHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::BottomNavigationBar.Resource.Attribute.editTextBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.editTextBackground;
+			global::BottomNavigationBar.Resource.Attribute.editTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.editTextColor;
+			global::BottomNavigationBar.Resource.Attribute.editTextStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.editTextStyle;
+			global::BottomNavigationBar.Resource.Attribute.elevation = global::xamarinFitnessApp.Droid.Resource.Attribute.elevation;
+			global::BottomNavigationBar.Resource.Attribute.errorEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.errorEnabled;
+			global::BottomNavigationBar.Resource.Attribute.errorTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.expandActivityOverflowButtonDrawable = global::xamarinFitnessApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::BottomNavigationBar.Resource.Attribute.expanded = global::xamarinFitnessApp.Droid.Resource.Attribute.expanded;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleGravity = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMargin = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginBottom = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginStart = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginTop = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.fabSize = global::xamarinFitnessApp.Droid.Resource.Attribute.fabSize;
+			global::BottomNavigationBar.Resource.Attribute.foregroundInsidePadding = global::xamarinFitnessApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::BottomNavigationBar.Resource.Attribute.gapBetweenBars = global::xamarinFitnessApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::BottomNavigationBar.Resource.Attribute.goIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.goIcon;
+			global::BottomNavigationBar.Resource.Attribute.headerLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.headerLayout;
+			global::BottomNavigationBar.Resource.Attribute.height = global::xamarinFitnessApp.Droid.Resource.Attribute.height;
+			global::BottomNavigationBar.Resource.Attribute.hideOnContentScroll = global::xamarinFitnessApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::BottomNavigationBar.Resource.Attribute.hintAnimationEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::BottomNavigationBar.Resource.Attribute.hintEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.hintEnabled;
+			global::BottomNavigationBar.Resource.Attribute.hintTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.homeAsUpIndicator = global::xamarinFitnessApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::BottomNavigationBar.Resource.Attribute.homeLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.homeLayout;
+			global::BottomNavigationBar.Resource.Attribute.icon = global::xamarinFitnessApp.Droid.Resource.Attribute.icon;
+			global::BottomNavigationBar.Resource.Attribute.iconifiedByDefault = global::xamarinFitnessApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::BottomNavigationBar.Resource.Attribute.imageButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.indeterminateProgressStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::BottomNavigationBar.Resource.Attribute.initialActivityCount = global::xamarinFitnessApp.Droid.Resource.Attribute.initialActivityCount;
+			global::BottomNavigationBar.Resource.Attribute.insetForeground = global::xamarinFitnessApp.Droid.Resource.Attribute.insetForeground;
+			global::BottomNavigationBar.Resource.Attribute.isLightTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.isLightTheme;
+			global::BottomNavigationBar.Resource.Attribute.itemBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.itemBackground;
+			global::BottomNavigationBar.Resource.Attribute.itemIconTint = global::xamarinFitnessApp.Droid.Resource.Attribute.itemIconTint;
+			global::BottomNavigationBar.Resource.Attribute.itemPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.itemPadding;
+			global::BottomNavigationBar.Resource.Attribute.itemTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.itemTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.itemTextColor;
+			global::BottomNavigationBar.Resource.Attribute.keylines = global::xamarinFitnessApp.Droid.Resource.Attribute.keylines;
+			global::BottomNavigationBar.Resource.Attribute.layout = global::xamarinFitnessApp.Droid.Resource.Attribute.layout;
+			global::BottomNavigationBar.Resource.Attribute.layoutManager = global::xamarinFitnessApp.Droid.Resource.Attribute.layoutManager;
+			global::BottomNavigationBar.Resource.Attribute.layout_anchor = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_anchor;
+			global::BottomNavigationBar.Resource.Attribute.layout_anchorGravity = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::BottomNavigationBar.Resource.Attribute.layout_behavior = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_behavior;
+			global::BottomNavigationBar.Resource.Attribute.layout_collapseMode = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::BottomNavigationBar.Resource.Attribute.layout_collapseParallaxMultiplier = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::BottomNavigationBar.Resource.Attribute.layout_keyline = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_keyline;
+			global::BottomNavigationBar.Resource.Attribute.layout_scrollFlags = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::BottomNavigationBar.Resource.Attribute.layout_scrollInterpolator = global::xamarinFitnessApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::BottomNavigationBar.Resource.Attribute.listChoiceBackgroundIndicator = global::xamarinFitnessApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::BottomNavigationBar.Resource.Attribute.listDividerAlertDialog = global::xamarinFitnessApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::BottomNavigationBar.Resource.Attribute.listItemLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.listItemLayout;
+			global::BottomNavigationBar.Resource.Attribute.listLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.listLayout;
+			global::BottomNavigationBar.Resource.Attribute.listPopupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightLarge = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightSmall = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemPaddingLeft = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemPaddingRight = global::xamarinFitnessApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::BottomNavigationBar.Resource.Attribute.logo = global::xamarinFitnessApp.Droid.Resource.Attribute.logo;
+			global::BottomNavigationBar.Resource.Attribute.logoDescription = global::xamarinFitnessApp.Droid.Resource.Attribute.logoDescription;
+			global::BottomNavigationBar.Resource.Attribute.maxActionInlineWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::BottomNavigationBar.Resource.Attribute.maxButtonHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::BottomNavigationBar.Resource.Attribute.measureWithLargestChild = global::xamarinFitnessApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::BottomNavigationBar.Resource.Attribute.menu = global::xamarinFitnessApp.Droid.Resource.Attribute.menu;
+			global::BottomNavigationBar.Resource.Attribute.multiChoiceItemLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::BottomNavigationBar.Resource.Attribute.navigationContentDescription = global::xamarinFitnessApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::BottomNavigationBar.Resource.Attribute.navigationIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.navigationIcon;
+			global::BottomNavigationBar.Resource.Attribute.navigationMode = global::xamarinFitnessApp.Droid.Resource.Attribute.navigationMode;
+			global::BottomNavigationBar.Resource.Attribute.overlapAnchor = global::xamarinFitnessApp.Droid.Resource.Attribute.overlapAnchor;
+			global::BottomNavigationBar.Resource.Attribute.paddingEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.paddingEnd;
+			global::BottomNavigationBar.Resource.Attribute.paddingStart = global::xamarinFitnessApp.Droid.Resource.Attribute.paddingStart;
+			global::BottomNavigationBar.Resource.Attribute.panelBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.panelBackground;
+			global::BottomNavigationBar.Resource.Attribute.panelMenuListTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::BottomNavigationBar.Resource.Attribute.panelMenuListWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::BottomNavigationBar.Resource.Attribute.popupMenuStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::BottomNavigationBar.Resource.Attribute.popupTheme = global::xamarinFitnessApp.Droid.Resource.Attribute.popupTheme;
+			global::BottomNavigationBar.Resource.Attribute.popupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::BottomNavigationBar.Resource.Attribute.preserveIconSpacing = global::xamarinFitnessApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::BottomNavigationBar.Resource.Attribute.pressedTranslationZ = global::xamarinFitnessApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::BottomNavigationBar.Resource.Attribute.progressBarPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.progressBarPadding;
+			global::BottomNavigationBar.Resource.Attribute.progressBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.progressBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.queryBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.queryBackground;
+			global::BottomNavigationBar.Resource.Attribute.queryHint = global::xamarinFitnessApp.Droid.Resource.Attribute.queryHint;
+			global::BottomNavigationBar.Resource.Attribute.radioButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.ratingBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleIndicator = global::xamarinFitnessApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleSmall = global::xamarinFitnessApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::BottomNavigationBar.Resource.Attribute.reverseLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.reverseLayout;
+			global::BottomNavigationBar.Resource.Attribute.rippleColor = global::xamarinFitnessApp.Droid.Resource.Attribute.rippleColor;
+			global::BottomNavigationBar.Resource.Attribute.searchHintIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.searchHintIcon;
+			global::BottomNavigationBar.Resource.Attribute.searchIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.searchIcon;
+			global::BottomNavigationBar.Resource.Attribute.searchViewStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.searchViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.seekBarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.seekBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.selectableItemBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::BottomNavigationBar.Resource.Attribute.selectableItemBackgroundBorderless = global::xamarinFitnessApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::BottomNavigationBar.Resource.Attribute.showAsAction = global::xamarinFitnessApp.Droid.Resource.Attribute.showAsAction;
+			global::BottomNavigationBar.Resource.Attribute.showDividers = global::xamarinFitnessApp.Droid.Resource.Attribute.showDividers;
+			global::BottomNavigationBar.Resource.Attribute.showText = global::xamarinFitnessApp.Droid.Resource.Attribute.showText;
+			global::BottomNavigationBar.Resource.Attribute.singleChoiceItemLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::BottomNavigationBar.Resource.Attribute.spanCount = global::xamarinFitnessApp.Droid.Resource.Attribute.spanCount;
+			global::BottomNavigationBar.Resource.Attribute.spinBars = global::xamarinFitnessApp.Droid.Resource.Attribute.spinBars;
+			global::BottomNavigationBar.Resource.Attribute.spinnerDropDownItemStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::BottomNavigationBar.Resource.Attribute.spinnerStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.spinnerStyle;
+			global::BottomNavigationBar.Resource.Attribute.splitTrack = global::xamarinFitnessApp.Droid.Resource.Attribute.splitTrack;
+			global::BottomNavigationBar.Resource.Attribute.srcCompat = global::xamarinFitnessApp.Droid.Resource.Attribute.srcCompat;
+			global::BottomNavigationBar.Resource.Attribute.stackFromEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.stackFromEnd;
+			global::BottomNavigationBar.Resource.Attribute.state_above_anchor = global::xamarinFitnessApp.Droid.Resource.Attribute.state_above_anchor;
+			global::BottomNavigationBar.Resource.Attribute.statusBarBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.statusBarBackground;
+			global::BottomNavigationBar.Resource.Attribute.statusBarScrim = global::xamarinFitnessApp.Droid.Resource.Attribute.statusBarScrim;
+			global::BottomNavigationBar.Resource.Attribute.submitBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.submitBackground;
+			global::BottomNavigationBar.Resource.Attribute.subtitle = global::xamarinFitnessApp.Droid.Resource.Attribute.subtitle;
+			global::BottomNavigationBar.Resource.Attribute.subtitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.subtitleTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::BottomNavigationBar.Resource.Attribute.subtitleTextStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::BottomNavigationBar.Resource.Attribute.suggestionRowLayout = global::xamarinFitnessApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::BottomNavigationBar.Resource.Attribute.switchMinWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.switchMinWidth;
+			global::BottomNavigationBar.Resource.Attribute.switchPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.switchPadding;
+			global::BottomNavigationBar.Resource.Attribute.switchStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.switchStyle;
+			global::BottomNavigationBar.Resource.Attribute.switchTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.tabBackground = global::xamarinFitnessApp.Droid.Resource.Attribute.tabBackground;
+			global::BottomNavigationBar.Resource.Attribute.tabContentStart = global::xamarinFitnessApp.Droid.Resource.Attribute.tabContentStart;
+			global::BottomNavigationBar.Resource.Attribute.tabGravity = global::xamarinFitnessApp.Droid.Resource.Attribute.tabGravity;
+			global::BottomNavigationBar.Resource.Attribute.tabIndicatorColor = global::xamarinFitnessApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::BottomNavigationBar.Resource.Attribute.tabIndicatorHeight = global::xamarinFitnessApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::BottomNavigationBar.Resource.Attribute.tabMaxWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::BottomNavigationBar.Resource.Attribute.tabMinWidth = global::xamarinFitnessApp.Droid.Resource.Attribute.tabMinWidth;
+			global::BottomNavigationBar.Resource.Attribute.tabMode = global::xamarinFitnessApp.Droid.Resource.Attribute.tabMode;
+			global::BottomNavigationBar.Resource.Attribute.tabPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPadding;
+			global::BottomNavigationBar.Resource.Attribute.tabPaddingBottom = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::BottomNavigationBar.Resource.Attribute.tabPaddingEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::BottomNavigationBar.Resource.Attribute.tabPaddingStart = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::BottomNavigationBar.Resource.Attribute.tabPaddingTop = global::xamarinFitnessApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::BottomNavigationBar.Resource.Attribute.tabSelectedTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::BottomNavigationBar.Resource.Attribute.tabTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.tabTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.tabTextColor;
+			global::BottomNavigationBar.Resource.Attribute.textAllCaps = global::xamarinFitnessApp.Droid.Resource.Attribute.textAllCaps;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceLargePopupMenu = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItem = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItemSmall = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultTitle = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceSmallPopupMenu = global::xamarinFitnessApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::BottomNavigationBar.Resource.Attribute.textColorAlertDialogListItem = global::xamarinFitnessApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::BottomNavigationBar.Resource.Attribute.textColorError = global::xamarinFitnessApp.Droid.Resource.Attribute.textColorError;
+			global::BottomNavigationBar.Resource.Attribute.textColorSearchUrl = global::xamarinFitnessApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::BottomNavigationBar.Resource.Attribute.theme = global::xamarinFitnessApp.Droid.Resource.Attribute.theme;
+			global::BottomNavigationBar.Resource.Attribute.thickness = global::xamarinFitnessApp.Droid.Resource.Attribute.thickness;
+			global::BottomNavigationBar.Resource.Attribute.thumbTextPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::BottomNavigationBar.Resource.Attribute.title = global::xamarinFitnessApp.Droid.Resource.Attribute.title;
+			global::BottomNavigationBar.Resource.Attribute.titleEnabled = global::xamarinFitnessApp.Droid.Resource.Attribute.titleEnabled;
+			global::BottomNavigationBar.Resource.Attribute.titleMarginBottom = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::BottomNavigationBar.Resource.Attribute.titleMarginEnd = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::BottomNavigationBar.Resource.Attribute.titleMarginStart = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMarginStart;
+			global::BottomNavigationBar.Resource.Attribute.titleMarginTop = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMarginTop;
+			global::BottomNavigationBar.Resource.Attribute.titleMargins = global::xamarinFitnessApp.Droid.Resource.Attribute.titleMargins;
+			global::BottomNavigationBar.Resource.Attribute.titleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.titleTextColor = global::xamarinFitnessApp.Droid.Resource.Attribute.titleTextColor;
+			global::BottomNavigationBar.Resource.Attribute.titleTextStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.titleTextStyle;
+			global::BottomNavigationBar.Resource.Attribute.toolbarId = global::xamarinFitnessApp.Droid.Resource.Attribute.toolbarId;
+			global::BottomNavigationBar.Resource.Attribute.toolbarNavigationButtonStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.toolbarStyle = global::xamarinFitnessApp.Droid.Resource.Attribute.toolbarStyle;
+			global::BottomNavigationBar.Resource.Attribute.track = global::xamarinFitnessApp.Droid.Resource.Attribute.track;
+			global::BottomNavigationBar.Resource.Attribute.useCompatPadding = global::xamarinFitnessApp.Droid.Resource.Attribute.useCompatPadding;
+			global::BottomNavigationBar.Resource.Attribute.voiceIcon = global::xamarinFitnessApp.Droid.Resource.Attribute.voiceIcon;
+			global::BottomNavigationBar.Resource.Attribute.windowActionBar = global::xamarinFitnessApp.Droid.Resource.Attribute.windowActionBar;
+			global::BottomNavigationBar.Resource.Attribute.windowActionBarOverlay = global::xamarinFitnessApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::BottomNavigationBar.Resource.Attribute.windowActionModeOverlay = global::xamarinFitnessApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::BottomNavigationBar.Resource.Attribute.windowFixedHeightMajor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::BottomNavigationBar.Resource.Attribute.windowFixedHeightMinor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::BottomNavigationBar.Resource.Attribute.windowFixedWidthMajor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::BottomNavigationBar.Resource.Attribute.windowFixedWidthMinor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::BottomNavigationBar.Resource.Attribute.windowMinWidthMajor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::BottomNavigationBar.Resource.Attribute.windowMinWidthMinor = global::xamarinFitnessApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::BottomNavigationBar.Resource.Attribute.windowNoTitle = global::xamarinFitnessApp.Droid.Resource.Attribute.windowNoTitle;
+			global::BottomNavigationBar.Resource.Boolean.abc_action_bar_embed_tabs = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::BottomNavigationBar.Resource.Boolean.abc_allow_stacked_button_bar = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::BottomNavigationBar.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::BottomNavigationBar.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::BottomNavigationBar.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::xamarinFitnessApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::BottomNavigationBar.Resource.Boolean.bb_bottom_bar_is_tablet_mode = global::xamarinFitnessApp.Droid.Resource.Boolean.bb_bottom_bar_is_tablet_mode;
+			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_light = global::xamarinFitnessApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::BottomNavigationBar.Resource.Color.abc_color_highlight_material = global::xamarinFitnessApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::BottomNavigationBar.Resource.Color.abc_input_method_navigation_guard = global::xamarinFitnessApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_light = global::xamarinFitnessApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::BottomNavigationBar.Resource.Color.abc_primary_text_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::BottomNavigationBar.Resource.Color.abc_primary_text_material_light = global::xamarinFitnessApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::BottomNavigationBar.Resource.Color.abc_search_url_text = global::xamarinFitnessApp.Droid.Resource.Color.abc_search_url_text;
+			global::BottomNavigationBar.Resource.Color.abc_search_url_text_normal = global::xamarinFitnessApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::BottomNavigationBar.Resource.Color.abc_search_url_text_pressed = global::xamarinFitnessApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::BottomNavigationBar.Resource.Color.abc_search_url_text_selected = global::xamarinFitnessApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_light = global::xamarinFitnessApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::BottomNavigationBar.Resource.Color.accent_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.accent_material_dark;
+			global::BottomNavigationBar.Resource.Color.accent_material_light = global::xamarinFitnessApp.Droid.Resource.Color.accent_material_light;
+			global::BottomNavigationBar.Resource.Color.background_floating_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.background_floating_material_dark;
+			global::BottomNavigationBar.Resource.Color.background_floating_material_light = global::xamarinFitnessApp.Droid.Resource.Color.background_floating_material_light;
+			global::BottomNavigationBar.Resource.Color.background_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.background_material_dark;
+			global::BottomNavigationBar.Resource.Color.background_material_light = global::xamarinFitnessApp.Droid.Resource.Color.background_material_light;
+			global::BottomNavigationBar.Resource.Color.bb_darkBackgroundColor = global::xamarinFitnessApp.Droid.Resource.Color.bb_darkBackgroundColor;
+			global::BottomNavigationBar.Resource.Color.bb_inActiveBottomBarItemColor = global::xamarinFitnessApp.Droid.Resource.Color.bb_inActiveBottomBarItemColor;
+			global::BottomNavigationBar.Resource.Color.bb_tabletRightBorderDark = global::xamarinFitnessApp.Droid.Resource.Color.bb_tabletRightBorderDark;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_inverse_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_inverse_material_light = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_material_light = global::xamarinFitnessApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::BottomNavigationBar.Resource.Color.button_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.button_material_dark;
+			global::BottomNavigationBar.Resource.Color.button_material_light = global::xamarinFitnessApp.Droid.Resource.Color.button_material_light;
+			global::BottomNavigationBar.Resource.Color.design_fab_shadow_end_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_shadow_mid_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_shadow_start_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_stroke_end_inner_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_stroke_end_outer_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_inner_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_outer_color = global::xamarinFitnessApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::BottomNavigationBar.Resource.Color.design_snackbar_background_color = global::xamarinFitnessApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.dim_foreground_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::BottomNavigationBar.Resource.Color.dim_foreground_material_light = global::xamarinFitnessApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::BottomNavigationBar.Resource.Color.foreground_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.foreground_material_dark;
+			global::BottomNavigationBar.Resource.Color.foreground_material_light = global::xamarinFitnessApp.Droid.Resource.Color.foreground_material_light;
+			global::BottomNavigationBar.Resource.Color.highlighted_text_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::BottomNavigationBar.Resource.Color.highlighted_text_material_light = global::xamarinFitnessApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::BottomNavigationBar.Resource.Color.material_blue_grey_800 = global::xamarinFitnessApp.Droid.Resource.Color.material_blue_grey_800;
+			global::BottomNavigationBar.Resource.Color.material_blue_grey_900 = global::xamarinFitnessApp.Droid.Resource.Color.material_blue_grey_900;
+			global::BottomNavigationBar.Resource.Color.material_blue_grey_950 = global::xamarinFitnessApp.Droid.Resource.Color.material_blue_grey_950;
+			global::BottomNavigationBar.Resource.Color.material_deep_teal_200 = global::xamarinFitnessApp.Droid.Resource.Color.material_deep_teal_200;
+			global::BottomNavigationBar.Resource.Color.material_deep_teal_500 = global::xamarinFitnessApp.Droid.Resource.Color.material_deep_teal_500;
+			global::BottomNavigationBar.Resource.Color.material_grey_100 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_100;
+			global::BottomNavigationBar.Resource.Color.material_grey_300 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_300;
+			global::BottomNavigationBar.Resource.Color.material_grey_50 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_50;
+			global::BottomNavigationBar.Resource.Color.material_grey_600 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_600;
+			global::BottomNavigationBar.Resource.Color.material_grey_800 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_800;
+			global::BottomNavigationBar.Resource.Color.material_grey_850 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_850;
+			global::BottomNavigationBar.Resource.Color.material_grey_900 = global::xamarinFitnessApp.Droid.Resource.Color.material_grey_900;
+			global::BottomNavigationBar.Resource.Color.primary_dark_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::BottomNavigationBar.Resource.Color.primary_dark_material_light = global::xamarinFitnessApp.Droid.Resource.Color.primary_dark_material_light;
+			global::BottomNavigationBar.Resource.Color.primary_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.primary_material_dark;
+			global::BottomNavigationBar.Resource.Color.primary_material_light = global::xamarinFitnessApp.Droid.Resource.Color.primary_material_light;
+			global::BottomNavigationBar.Resource.Color.primary_text_default_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::BottomNavigationBar.Resource.Color.primary_text_default_material_light = global::xamarinFitnessApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::BottomNavigationBar.Resource.Color.primary_text_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.primary_text_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.ripple_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.ripple_material_dark;
+			global::BottomNavigationBar.Resource.Color.ripple_material_light = global::xamarinFitnessApp.Droid.Resource.Color.ripple_material_light;
+			global::BottomNavigationBar.Resource.Color.secondary_text_default_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::BottomNavigationBar.Resource.Color.secondary_text_default_material_light = global::xamarinFitnessApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::BottomNavigationBar.Resource.Color.secondary_text_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.secondary_text_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_disabled_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_disabled_material_light = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_material_light = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_dark = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_light = global::xamarinFitnessApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::BottomNavigationBar.Resource.Color.white = global::xamarinFitnessApp.Droid.Resource.Color.white;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_content_inset_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_height_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_progress_bar_size = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_stacked_max_height = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_height_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_width_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_width_overflow_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_alert_dialog_button_bar_height = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_horizontal_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_vertical_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_horizontal_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_vertical_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_config_prefDialogWidth = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::BottomNavigationBar.Resource.Dimension.abc_control_corner_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_control_inset_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_control_padding_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_height_major = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_height_minor = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_width_major = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_width_minor = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_min_width_major = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_min_width_minor = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_padding_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_padding_top_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_disabled_alpha_material_dark = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::BottomNavigationBar.Resource.Dimension.abc_disabled_alpha_material_light = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_icon_width = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_text_padding_left = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_text_padding_right = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_bottom_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_top_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_floating_window_z = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::BottomNavigationBar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_panel_menu_list_width = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_search_view_preferred_width = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_background_height_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_select_dialog_padding_start_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_switch_padding = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_body_1_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_body_2_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_button_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_caption_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_1_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_2_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_3_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_4_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_headline_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_large_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_medium_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_menu_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_small_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subhead_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_title_material = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_title_material_toolbar = global::xamarinFitnessApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::BottomNavigationBar.Resource.Dimension.activity_horizontal_margin = global::xamarinFitnessApp.Droid.Resource.Dimension.activity_horizontal_margin;
+			global::BottomNavigationBar.Resource.Dimension.activity_vertical_margin = global::xamarinFitnessApp.Droid.Resource.Dimension.activity_vertical_margin;
+			global::BottomNavigationBar.Resource.Dimension.bb_height = global::xamarinFitnessApp.Droid.Resource.Dimension.bb_height;
+			global::BottomNavigationBar.Resource.Dimension.bottom_bar_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.bottom_bar_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_appbar_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_border_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_image_size = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_size_mini = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_size_normal = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_translation_z_pressed = global::xamarinFitnessApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_icon_padding = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_icon_size = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_padding_bottom = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_separator_vertical_padding = global::xamarinFitnessApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_action_inline_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_background_corner_radius = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_elevation = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_min_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_horizontal = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_vertical = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_text_size = global::xamarinFitnessApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::BottomNavigationBar.Resource.Dimension.design_tab_max_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_tab_scrollable_min_width = global::xamarinFitnessApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::BottomNavigationBar.Resource.Dimension.design_tab_text_size = global::xamarinFitnessApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::BottomNavigationBar.Resource.Dimension.design_tab_text_size_2line = global::xamarinFitnessApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::BottomNavigationBar.Resource.Dimension.disabled_alpha_material_dark = global::xamarinFitnessApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::BottomNavigationBar.Resource.Dimension.disabled_alpha_material_light = global::xamarinFitnessApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_colored = global::xamarinFitnessApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_dark = global::xamarinFitnessApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_light = global::xamarinFitnessApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::xamarinFitnessApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::xamarinFitnessApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::xamarinFitnessApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::BottomNavigationBar.Resource.Dimension.notification_large_icon_height = global::xamarinFitnessApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::BottomNavigationBar.Resource.Dimension.notification_large_icon_width = global::xamarinFitnessApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::BottomNavigationBar.Resource.Dimension.notification_subtext_size = global::xamarinFitnessApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::BottomNavigationBar.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_action_bar_item_background_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_borderless_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_colored_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_default_mtrl_shape = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_internal_bg = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_control_background_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_edit_text_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_16dp = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_36dp = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_16dp = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_36dp = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_focused_holo = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_longpressed_holo = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_pressed_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_pressed_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_disabled_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_holo_dark = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_holo_light = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::BottomNavigationBar.Resource.Drawable.abc_popup_background_mtrl_mult = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_indicator_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_small_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_thumb_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_track_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_spinner_textfield_background_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_switch_thumb_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_switch_track_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_text_cursor_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_material = global::xamarinFitnessApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::BottomNavigationBar.Resource.Drawable.bb_bottom_bar_top_shadow = global::xamarinFitnessApp.Droid.Resource.Drawable.bb_bottom_bar_top_shadow;
+			global::BottomNavigationBar.Resource.Drawable.design_fab_background = global::xamarinFitnessApp.Droid.Resource.Drawable.design_fab_background;
+			global::BottomNavigationBar.Resource.Drawable.design_snackbar_background = global::xamarinFitnessApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::BottomNavigationBar.Resource.Drawable.notification_template_icon_bg = global::xamarinFitnessApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::BottomNavigationBar.Resource.Id.action0 = global::xamarinFitnessApp.Droid.Resource.Id.action0;
+			global::BottomNavigationBar.Resource.Id.action_bar = global::xamarinFitnessApp.Droid.Resource.Id.action_bar;
+			global::BottomNavigationBar.Resource.Id.action_bar_activity_content = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_activity_content;
+			global::BottomNavigationBar.Resource.Id.action_bar_container = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_container;
+			global::BottomNavigationBar.Resource.Id.action_bar_root = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_root;
+			global::BottomNavigationBar.Resource.Id.action_bar_spinner = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_spinner;
+			global::BottomNavigationBar.Resource.Id.action_bar_subtitle = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_subtitle;
+			global::BottomNavigationBar.Resource.Id.action_bar_title = global::xamarinFitnessApp.Droid.Resource.Id.action_bar_title;
+			global::BottomNavigationBar.Resource.Id.action_context_bar = global::xamarinFitnessApp.Droid.Resource.Id.action_context_bar;
+			global::BottomNavigationBar.Resource.Id.action_divider = global::xamarinFitnessApp.Droid.Resource.Id.action_divider;
+			global::BottomNavigationBar.Resource.Id.action_menu_divider = global::xamarinFitnessApp.Droid.Resource.Id.action_menu_divider;
+			global::BottomNavigationBar.Resource.Id.action_menu_presenter = global::xamarinFitnessApp.Droid.Resource.Id.action_menu_presenter;
+			global::BottomNavigationBar.Resource.Id.action_mode_bar = global::xamarinFitnessApp.Droid.Resource.Id.action_mode_bar;
+			global::BottomNavigationBar.Resource.Id.action_mode_bar_stub = global::xamarinFitnessApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::BottomNavigationBar.Resource.Id.action_mode_close_button = global::xamarinFitnessApp.Droid.Resource.Id.action_mode_close_button;
+			global::BottomNavigationBar.Resource.Id.activity_chooser_view_content = global::xamarinFitnessApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::BottomNavigationBar.Resource.Id.alertTitle = global::xamarinFitnessApp.Droid.Resource.Id.alertTitle;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_overlay = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_background_overlay;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_view = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_background_view;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_icon = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_icon;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_item_container = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_item_container;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_outer_container = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_outer_container;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_shadow = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_shadow;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_title = global::xamarinFitnessApp.Droid.Resource.Id.bb_bottom_bar_title;
+			global::BottomNavigationBar.Resource.Id.bb_tablet_right_border = global::xamarinFitnessApp.Droid.Resource.Id.bb_tablet_right_border;
+			global::BottomNavigationBar.Resource.Id.bb_user_content_container = global::xamarinFitnessApp.Droid.Resource.Id.bb_user_content_container;
+			global::BottomNavigationBar.Resource.Id.bottom = global::xamarinFitnessApp.Droid.Resource.Id.bottom;
+			global::BottomNavigationBar.Resource.Id.buttonPanel = global::xamarinFitnessApp.Droid.Resource.Id.buttonPanel;
+			global::BottomNavigationBar.Resource.Id.cancel_action = global::xamarinFitnessApp.Droid.Resource.Id.cancel_action;
+			global::BottomNavigationBar.Resource.Id.center = global::xamarinFitnessApp.Droid.Resource.Id.center;
+			global::BottomNavigationBar.Resource.Id.checkbox = global::xamarinFitnessApp.Droid.Resource.Id.checkbox;
+			global::BottomNavigationBar.Resource.Id.chronometer = global::xamarinFitnessApp.Droid.Resource.Id.chronometer;
+			global::BottomNavigationBar.Resource.Id.contentPanel = global::xamarinFitnessApp.Droid.Resource.Id.contentPanel;
+			global::BottomNavigationBar.Resource.Id.custom = global::xamarinFitnessApp.Droid.Resource.Id.custom;
+			global::BottomNavigationBar.Resource.Id.customPanel = global::xamarinFitnessApp.Droid.Resource.Id.customPanel;
+			global::BottomNavigationBar.Resource.Id.decor_content_parent = global::xamarinFitnessApp.Droid.Resource.Id.decor_content_parent;
+			global::BottomNavigationBar.Resource.Id.default_activity_button = global::xamarinFitnessApp.Droid.Resource.Id.default_activity_button;
+			global::BottomNavigationBar.Resource.Id.design_bottom_sheet = global::xamarinFitnessApp.Droid.Resource.Id.design_bottom_sheet;
+			global::BottomNavigationBar.Resource.Id.design_menu_item_action_area = global::xamarinFitnessApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::BottomNavigationBar.Resource.Id.design_menu_item_action_area_stub = global::xamarinFitnessApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::BottomNavigationBar.Resource.Id.design_menu_item_text = global::xamarinFitnessApp.Droid.Resource.Id.design_menu_item_text;
+			global::BottomNavigationBar.Resource.Id.design_navigation_view = global::xamarinFitnessApp.Droid.Resource.Id.design_navigation_view;
+			global::BottomNavigationBar.Resource.Id.edit_query = global::xamarinFitnessApp.Droid.Resource.Id.edit_query;
+			global::BottomNavigationBar.Resource.Id.end = global::xamarinFitnessApp.Droid.Resource.Id.end;
+			global::BottomNavigationBar.Resource.Id.end_padder = global::xamarinFitnessApp.Droid.Resource.Id.end_padder;
+			global::BottomNavigationBar.Resource.Id.expand_activities_button = global::xamarinFitnessApp.Droid.Resource.Id.expand_activities_button;
+			global::BottomNavigationBar.Resource.Id.expanded_menu = global::xamarinFitnessApp.Droid.Resource.Id.expanded_menu;
+			global::BottomNavigationBar.Resource.Id.fill = global::xamarinFitnessApp.Droid.Resource.Id.fill;
+			global::BottomNavigationBar.Resource.Id.@fixed = global::xamarinFitnessApp.Droid.Resource.Id.@fixed;
+			global::BottomNavigationBar.Resource.Id.home = global::xamarinFitnessApp.Droid.Resource.Id.home;
+			global::BottomNavigationBar.Resource.Id.icon = global::xamarinFitnessApp.Droid.Resource.Id.icon;
+			global::BottomNavigationBar.Resource.Id.image = global::xamarinFitnessApp.Droid.Resource.Id.image;
+			global::BottomNavigationBar.Resource.Id.info = global::xamarinFitnessApp.Droid.Resource.Id.info;
+			global::BottomNavigationBar.Resource.Id.item_touch_helper_previous_elevation = global::xamarinFitnessApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::BottomNavigationBar.Resource.Id.left = global::xamarinFitnessApp.Droid.Resource.Id.left;
+			global::BottomNavigationBar.Resource.Id.line1 = global::xamarinFitnessApp.Droid.Resource.Id.line1;
+			global::BottomNavigationBar.Resource.Id.line3 = global::xamarinFitnessApp.Droid.Resource.Id.line3;
+			global::BottomNavigationBar.Resource.Id.listMode = global::xamarinFitnessApp.Droid.Resource.Id.listMode;
+			global::BottomNavigationBar.Resource.Id.list_item = global::xamarinFitnessApp.Droid.Resource.Id.list_item;
+			global::BottomNavigationBar.Resource.Id.media_actions = global::xamarinFitnessApp.Droid.Resource.Id.media_actions;
+			global::BottomNavigationBar.Resource.Id.mini = global::xamarinFitnessApp.Droid.Resource.Id.mini;
+			global::BottomNavigationBar.Resource.Id.multiply = global::xamarinFitnessApp.Droid.Resource.Id.multiply;
+			global::BottomNavigationBar.Resource.Id.navigation_header_container = global::xamarinFitnessApp.Droid.Resource.Id.navigation_header_container;
+			global::BottomNavigationBar.Resource.Id.none = global::xamarinFitnessApp.Droid.Resource.Id.none;
+			global::BottomNavigationBar.Resource.Id.normal = global::xamarinFitnessApp.Droid.Resource.Id.normal;
+			global::BottomNavigationBar.Resource.Id.parallax = global::xamarinFitnessApp.Droid.Resource.Id.parallax;
+			global::BottomNavigationBar.Resource.Id.parentPanel = global::xamarinFitnessApp.Droid.Resource.Id.parentPanel;
+			global::BottomNavigationBar.Resource.Id.pin = global::xamarinFitnessApp.Droid.Resource.Id.pin;
+			global::BottomNavigationBar.Resource.Id.progress_circular = global::xamarinFitnessApp.Droid.Resource.Id.progress_circular;
+			global::BottomNavigationBar.Resource.Id.progress_horizontal = global::xamarinFitnessApp.Droid.Resource.Id.progress_horizontal;
+			global::BottomNavigationBar.Resource.Id.radio = global::xamarinFitnessApp.Droid.Resource.Id.radio;
+			global::BottomNavigationBar.Resource.Id.right = global::xamarinFitnessApp.Droid.Resource.Id.right;
+			global::BottomNavigationBar.Resource.Id.screen = global::xamarinFitnessApp.Droid.Resource.Id.screen;
+			global::BottomNavigationBar.Resource.Id.scrollIndicatorDown = global::xamarinFitnessApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::BottomNavigationBar.Resource.Id.scrollIndicatorUp = global::xamarinFitnessApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::BottomNavigationBar.Resource.Id.scrollView = global::xamarinFitnessApp.Droid.Resource.Id.scrollView;
+			global::BottomNavigationBar.Resource.Id.scrollable = global::xamarinFitnessApp.Droid.Resource.Id.scrollable;
+			global::BottomNavigationBar.Resource.Id.search_badge = global::xamarinFitnessApp.Droid.Resource.Id.search_badge;
+			global::BottomNavigationBar.Resource.Id.search_bar = global::xamarinFitnessApp.Droid.Resource.Id.search_bar;
+			global::BottomNavigationBar.Resource.Id.search_button = global::xamarinFitnessApp.Droid.Resource.Id.search_button;
+			global::BottomNavigationBar.Resource.Id.search_close_btn = global::xamarinFitnessApp.Droid.Resource.Id.search_close_btn;
+			global::BottomNavigationBar.Resource.Id.search_edit_frame = global::xamarinFitnessApp.Droid.Resource.Id.search_edit_frame;
+			global::BottomNavigationBar.Resource.Id.search_go_btn = global::xamarinFitnessApp.Droid.Resource.Id.search_go_btn;
+			global::BottomNavigationBar.Resource.Id.search_mag_icon = global::xamarinFitnessApp.Droid.Resource.Id.search_mag_icon;
+			global::BottomNavigationBar.Resource.Id.search_plate = global::xamarinFitnessApp.Droid.Resource.Id.search_plate;
+			global::BottomNavigationBar.Resource.Id.search_src_text = global::xamarinFitnessApp.Droid.Resource.Id.search_src_text;
+			global::BottomNavigationBar.Resource.Id.search_voice_btn = global::xamarinFitnessApp.Droid.Resource.Id.search_voice_btn;
+			global::BottomNavigationBar.Resource.Id.select_dialog_listview = global::xamarinFitnessApp.Droid.Resource.Id.select_dialog_listview;
+			global::BottomNavigationBar.Resource.Id.shortcut = global::xamarinFitnessApp.Droid.Resource.Id.shortcut;
+			global::BottomNavigationBar.Resource.Id.snackbar_action = global::xamarinFitnessApp.Droid.Resource.Id.snackbar_action;
+			global::BottomNavigationBar.Resource.Id.snackbar_text = global::xamarinFitnessApp.Droid.Resource.Id.snackbar_text;
+			global::BottomNavigationBar.Resource.Id.spacer = global::xamarinFitnessApp.Droid.Resource.Id.spacer;
+			global::BottomNavigationBar.Resource.Id.split_action_bar = global::xamarinFitnessApp.Droid.Resource.Id.split_action_bar;
+			global::BottomNavigationBar.Resource.Id.src_atop = global::xamarinFitnessApp.Droid.Resource.Id.src_atop;
+			global::BottomNavigationBar.Resource.Id.src_in = global::xamarinFitnessApp.Droid.Resource.Id.src_in;
+			global::BottomNavigationBar.Resource.Id.src_over = global::xamarinFitnessApp.Droid.Resource.Id.src_over;
+			global::BottomNavigationBar.Resource.Id.start = global::xamarinFitnessApp.Droid.Resource.Id.start;
+			global::BottomNavigationBar.Resource.Id.status_bar_latest_event_content = global::xamarinFitnessApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::BottomNavigationBar.Resource.Id.submit_area = global::xamarinFitnessApp.Droid.Resource.Id.submit_area;
+			global::BottomNavigationBar.Resource.Id.tabMode = global::xamarinFitnessApp.Droid.Resource.Id.tabMode;
+			global::BottomNavigationBar.Resource.Id.text = global::xamarinFitnessApp.Droid.Resource.Id.text;
+			global::BottomNavigationBar.Resource.Id.text2 = global::xamarinFitnessApp.Droid.Resource.Id.text2;
+			global::BottomNavigationBar.Resource.Id.textSpacerNoButtons = global::xamarinFitnessApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::BottomNavigationBar.Resource.Id.time = global::xamarinFitnessApp.Droid.Resource.Id.time;
+			global::BottomNavigationBar.Resource.Id.title = global::xamarinFitnessApp.Droid.Resource.Id.title;
+			global::BottomNavigationBar.Resource.Id.title_template = global::xamarinFitnessApp.Droid.Resource.Id.title_template;
+			global::BottomNavigationBar.Resource.Id.top = global::xamarinFitnessApp.Droid.Resource.Id.top;
+			global::BottomNavigationBar.Resource.Id.topPanel = global::xamarinFitnessApp.Droid.Resource.Id.topPanel;
+			global::BottomNavigationBar.Resource.Id.touch_outside = global::xamarinFitnessApp.Droid.Resource.Id.touch_outside;
+			global::BottomNavigationBar.Resource.Id.up = global::xamarinFitnessApp.Droid.Resource.Id.up;
+			global::BottomNavigationBar.Resource.Id.view_offset_helper = global::xamarinFitnessApp.Droid.Resource.Id.view_offset_helper;
+			global::BottomNavigationBar.Resource.Id.wrap_content = global::xamarinFitnessApp.Droid.Resource.Id.wrap_content;
+			global::BottomNavigationBar.Resource.Integer.abc_config_activityDefaultDur = global::xamarinFitnessApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::BottomNavigationBar.Resource.Integer.abc_config_activityShortDur = global::xamarinFitnessApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::BottomNavigationBar.Resource.Integer.bottom_sheet_slide_duration = global::xamarinFitnessApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::BottomNavigationBar.Resource.Integer.cancel_button_image_alpha = global::xamarinFitnessApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::BottomNavigationBar.Resource.Integer.design_snackbar_text_max_lines = global::xamarinFitnessApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::BottomNavigationBar.Resource.Integer.status_bar_notification_info_maxnum = global::xamarinFitnessApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::BottomNavigationBar.Resource.Layout.abc_action_bar_title_item = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::BottomNavigationBar.Resource.Layout.abc_action_bar_up_container = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::BottomNavigationBar.Resource.Layout.abc_action_menu_item_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_action_menu_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_action_mode_bar = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::BottomNavigationBar.Resource.Layout.abc_action_mode_close_item_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::BottomNavigationBar.Resource.Layout.abc_activity_chooser_view = global::xamarinFitnessApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::BottomNavigationBar.Resource.Layout.abc_activity_chooser_view_list_item = global::xamarinFitnessApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::BottomNavigationBar.Resource.Layout.abc_alert_dialog_button_bar_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::BottomNavigationBar.Resource.Layout.abc_alert_dialog_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::BottomNavigationBar.Resource.Layout.abc_dialog_title_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::BottomNavigationBar.Resource.Layout.abc_expanded_menu_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_checkbox = global::xamarinFitnessApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_icon = global::xamarinFitnessApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_radio = global::xamarinFitnessApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::BottomNavigationBar.Resource.Layout.abc_popup_menu_item_layout = global::xamarinFitnessApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_screen_content_include = global::xamarinFitnessApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::BottomNavigationBar.Resource.Layout.abc_screen_simple = global::xamarinFitnessApp.Droid.Resource.Layout.abc_screen_simple;
+			global::BottomNavigationBar.Resource.Layout.abc_screen_simple_overlay_action_mode = global::xamarinFitnessApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::BottomNavigationBar.Resource.Layout.abc_screen_toolbar = global::xamarinFitnessApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::BottomNavigationBar.Resource.Layout.abc_search_dropdown_item_icons_2line = global::xamarinFitnessApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::BottomNavigationBar.Resource.Layout.abc_search_view = global::xamarinFitnessApp.Droid.Resource.Layout.abc_search_view;
+			global::BottomNavigationBar.Resource.Layout.abc_select_dialog_material = global::xamarinFitnessApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_container = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_container;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_container_tablet = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_container_tablet;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_fixed = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_fixed;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_fixed_tablet = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_fixed_tablet;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_shifting = global::xamarinFitnessApp.Droid.Resource.Layout.bb_bottom_bar_item_shifting;
+			global::BottomNavigationBar.Resource.Layout.design_bottom_sheet_dialog = global::xamarinFitnessApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::BottomNavigationBar.Resource.Layout.design_layout_snackbar = global::xamarinFitnessApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::BottomNavigationBar.Resource.Layout.design_layout_snackbar_include = global::xamarinFitnessApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::BottomNavigationBar.Resource.Layout.design_layout_tab_icon = global::xamarinFitnessApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::BottomNavigationBar.Resource.Layout.design_layout_tab_text = global::xamarinFitnessApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::BottomNavigationBar.Resource.Layout.design_menu_item_action_area = global::xamarinFitnessApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_item = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_item;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_item_header = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_item_separator = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_item_subheader = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_menu = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_menu;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_menu_item = global::xamarinFitnessApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::BottomNavigationBar.Resource.Layout.notification_media_action = global::xamarinFitnessApp.Droid.Resource.Layout.notification_media_action;
+			global::BottomNavigationBar.Resource.Layout.notification_media_cancel_action = global::xamarinFitnessApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::BottomNavigationBar.Resource.Layout.notification_template_big_media = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_big_media;
+			global::BottomNavigationBar.Resource.Layout.notification_template_big_media_narrow = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::BottomNavigationBar.Resource.Layout.notification_template_media = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_media;
+			global::BottomNavigationBar.Resource.Layout.notification_template_part_chronometer = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::BottomNavigationBar.Resource.Layout.notification_template_part_time = global::xamarinFitnessApp.Droid.Resource.Layout.notification_template_part_time;
+			global::BottomNavigationBar.Resource.Layout.select_dialog_item_material = global::xamarinFitnessApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::BottomNavigationBar.Resource.Layout.select_dialog_multichoice_material = global::xamarinFitnessApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::BottomNavigationBar.Resource.Layout.select_dialog_singlechoice_material = global::xamarinFitnessApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::BottomNavigationBar.Resource.Layout.support_simple_spinner_dropdown_item = global::xamarinFitnessApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::BottomNavigationBar.Resource.String.abc_action_bar_home_description = global::xamarinFitnessApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::BottomNavigationBar.Resource.String.abc_action_bar_up_description = global::xamarinFitnessApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::BottomNavigationBar.Resource.String.abc_action_menu_overflow_description = global::xamarinFitnessApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::BottomNavigationBar.Resource.String.abc_action_mode_done = global::xamarinFitnessApp.Droid.Resource.String.abc_action_mode_done;
+			global::BottomNavigationBar.Resource.String.abc_activity_chooser_view_see_all = global::xamarinFitnessApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::BottomNavigationBar.Resource.String.abc_activitychooserview_choose_application = global::xamarinFitnessApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::BottomNavigationBar.Resource.String.abc_capital_off = global::xamarinFitnessApp.Droid.Resource.String.abc_capital_off;
+			global::BottomNavigationBar.Resource.String.abc_capital_on = global::xamarinFitnessApp.Droid.Resource.String.abc_capital_on;
+			global::BottomNavigationBar.Resource.String.abc_search_hint = global::xamarinFitnessApp.Droid.Resource.String.abc_search_hint;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_clear = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_query = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_query;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_search = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_search;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_submit = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_voice = global::xamarinFitnessApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::BottomNavigationBar.Resource.String.abc_shareactionprovider_share_with = global::xamarinFitnessApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::BottomNavigationBar.Resource.String.abc_shareactionprovider_share_with_application = global::xamarinFitnessApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::BottomNavigationBar.Resource.String.abc_toolbar_collapse_description = global::xamarinFitnessApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::BottomNavigationBar.Resource.String.app_name = global::xamarinFitnessApp.Droid.Resource.String.app_name;
+			global::BottomNavigationBar.Resource.String.appbar_scrolling_view_behavior = global::xamarinFitnessApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::BottomNavigationBar.Resource.String.bottom_sheet_behavior = global::xamarinFitnessApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::BottomNavigationBar.Resource.String.character_counter_pattern = global::xamarinFitnessApp.Droid.Resource.String.character_counter_pattern;
+			global::BottomNavigationBar.Resource.String.status_bar_notification_info_overflow = global::xamarinFitnessApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Animation_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Animation_AppCompat_DropDownUp = global::xamarinFitnessApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::BottomNavigationBar.Resource.Style.Animation_Design_BottomSheetDialog = global::xamarinFitnessApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarBadge_Text = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarBadge_Text;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Fixed = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Fixed;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Shifting = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Shifting;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Tablet = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_Tablet;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_TitleStyle = global::xamarinFitnessApp.Droid.Resource.Style.BB_BottomBarItem_TitleStyle;
+			global::BottomNavigationBar.Resource.Style.Base_AlertDialog_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_AlertDialog_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_Animation_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::xamarinFitnessApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::BottomNavigationBar.Resource.Style.Base_DialogWindowTitle_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Button = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Large = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::xamarinFitnessApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::xamarinFitnessApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::xamarinFitnessApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionMode = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_EditText = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ImageButton = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_Design_TabLayout = global::xamarinFitnessApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::BottomNavigationBar.Resource.Style.Platform_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Platform_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Platform_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::xamarinFitnessApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Platform_V11_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Platform_V11_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Platform_V14_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Platform_V14_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Platform_Widget_AppCompat_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::xamarinFitnessApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::BottomNavigationBar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::xamarinFitnessApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::BottomNavigationBar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Body1 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Body2 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Button = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Caption = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display1 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display2 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display3 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display4 = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Headline = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Large = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Medium = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Menu = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Small = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Subhead = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Counter = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Counter_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Error = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Hint = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Snackbar_Message = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Tab = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::xamarinFitnessApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_CompactMenu = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_Design = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_BottomSheetDialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_Light = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_Light;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_Light_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_NoActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Light = global::xamarinFitnessApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionMode = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActivityChooserView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Borderless = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Colored = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Small = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ButtonBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_EditText = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ImageButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_SearchView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_Menu = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupMenu = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupWindow = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ProgressBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar_Small = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SeekBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Toolbar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::xamarinFitnessApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_AppBarLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_BottomSheet_Modal = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_CollapsingToolbar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_CoordinatorLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_FloatingActionButton = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_NavigationView = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_Snackbar = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_TabLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_TextInputLayout = global::xamarinFitnessApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_background = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_background;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundSplit = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundStacked = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetLeft = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetRight = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetStart = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_customNavigationLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_displayOptions = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_divider = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_height = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_height;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_hideOnContentScroll = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_homeAsUpIndicator = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_homeLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_icon = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_itemPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_logo = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_navigationMode = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_popupTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_progressBarPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_progressBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_subtitle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_subtitleTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_title = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_title;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_titleTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::BottomNavigationBar.Resource.Styleable.ActionMenuItemView = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::BottomNavigationBar.Resource.Styleable.ActionMenuItemView_android_minWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_background = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_background;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_backgroundSplit = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_closeItemLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_height = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_height;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_subtitleTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_titleTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView = global::xamarinFitnessApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView_initialActivityCount = global::xamarinFitnessApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_android_layout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_listItemLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_listLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.AppBarLayout;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_android_background = global::xamarinFitnessApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_expanded = global::xamarinFitnessApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_android_src = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_srcCompat = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_textAllCaps = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarDivider = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarSize = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorAccent = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlNormal = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorPrimary = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_controlBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dialogTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dividerVertical = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_searchViewStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_seekBarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_spinnerStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_switchStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_toolbarStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionBar = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::xamarinFitnessApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout_allowStacking = global::xamarinFitnessApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_title = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::xamarinFitnessApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::BottomNavigationBar.Resource.Styleable.CompoundButton = global::xamarinFitnessApp.Droid.Resource.Styleable.CompoundButton;
+			global::BottomNavigationBar.Resource.Styleable.CompoundButton_android_button = global::xamarinFitnessApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTint = global::xamarinFitnessApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTintMode = global::xamarinFitnessApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_keylines = global::xamarinFitnessApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::BottomNavigationBar.Resource.Styleable.DesignTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.DesignTheme;
+			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::BottomNavigationBar.Resource.Styleable.DesignTheme_textColorError = global::xamarinFitnessApp.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_barLength = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_color = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_drawableSize = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_spinBars = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_thickness = global::xamarinFitnessApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_backgroundTint = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_borderWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_fabSize = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_rippleColor = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::xamarinFitnessApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::xamarinFitnessApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::xamarinFitnessApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_gravity = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_orientation = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_divider = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_showDividers = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::xamarinFitnessApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow = global::xamarinFitnessApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::xamarinFitnessApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::xamarinFitnessApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_checkableBehavior = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_enabled = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_id = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_menuCategory = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_orderInCategory = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_visible = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionProviderClass = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionViewClass = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_checkable = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_checked = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_enabled = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_icon = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_id = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_menuCategory = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_numericShortcut = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_onClick = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_orderInCategory = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_title = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_titleCondensed = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_visible = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_showAsAction = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::BottomNavigationBar.Resource.Styleable.MenuView = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_headerBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_horizontalDivider = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_verticalDivider = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_preserveIconSpacing = global::xamarinFitnessApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_background = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_maxWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_headerLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemIconTint = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_menu = global::xamarinFitnessApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindow = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindow;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindow_android_popupBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindow_overlapAnchor = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::xamarinFitnessApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_android_orientation = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_layoutManager = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_reverseLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_spanCount = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_stackFromEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::xamarinFitnessApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::BottomNavigationBar.Resource.Styleable.SearchView = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_android_focusable = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_android_imeOptions = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_android_inputType = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_android_maxWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_closeIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_commitIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_defaultQueryHint = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_goIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_iconifiedByDefault = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_layout = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_layout;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_queryBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_queryHint = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_searchHintIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_searchIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_submitBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_suggestionRowLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_voiceIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_android_maxWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_elevation = global::xamarinFitnessApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::BottomNavigationBar.Resource.Styleable.Spinner = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_android_dropDownWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_android_entries = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_android_popupBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_android_prompt = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_popupTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_textOff = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_textOn = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_thumb = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_showText = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_splitTrack = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchMinWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_track = global::xamarinFitnessApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::BottomNavigationBar.Resource.Styleable.TabItem = global::xamarinFitnessApp.Droid.Resource.Styleable.TabItem;
+			global::BottomNavigationBar.Resource.Styleable.TabItem_android_icon = global::xamarinFitnessApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::BottomNavigationBar.Resource.Styleable.TabItem_android_layout = global::xamarinFitnessApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::BottomNavigationBar.Resource.Styleable.TabItem_android_text = global::xamarinFitnessApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabBackground = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabContentStart = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabGravity = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabIndicatorColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabIndicatorHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMaxWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMinWidth = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMode = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPadding = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingBottom = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingStart = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingTop = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabSelectedTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowDx = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowDy = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowRadius = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textColor = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textSize = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textStyle = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_typeface = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_textAllCaps = global::xamarinFitnessApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_android_hint = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_android_textColorHint = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterMaxLength = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_errorEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_errorTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintEnabled = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_gravity = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_minHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseContentDescription = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetLeft = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetRight = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetStart = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_logo = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_logoDescription = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_maxButtonHeight = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_navigationContentDescription = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_navigationIcon = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_popupTheme = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitle = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_title = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_title;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginBottom = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginStart = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginTop = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMargins = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleTextAppearance = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleTextColor = global::xamarinFitnessApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::BottomNavigationBar.Resource.Styleable.View = global::xamarinFitnessApp.Droid.Resource.Styleable.View;
+			global::BottomNavigationBar.Resource.Styleable.View_android_focusable = global::xamarinFitnessApp.Droid.Resource.Styleable.View_android_focusable;
+			global::BottomNavigationBar.Resource.Styleable.View_android_theme = global::xamarinFitnessApp.Droid.Resource.Styleable.View_android_theme;
+			global::BottomNavigationBar.Resource.Styleable.View_paddingEnd = global::xamarinFitnessApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::BottomNavigationBar.Resource.Styleable.View_paddingStart = global::xamarinFitnessApp.Droid.Resource.Styleable.View_paddingStart;
+			global::BottomNavigationBar.Resource.Styleable.View_theme = global::xamarinFitnessApp.Droid.Resource.Styleable.View_theme;
+			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_android_background = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_id = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_layout = global::xamarinFitnessApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Microcharts.Droid.Resource.String.library_name = global::xamarinFitnessApp.Droid.Resource.String.library_name;
 			global::ModernHttpClient.Resource.String.library_name = global::xamarinFitnessApp.Droid.Resource.String.library_name;
 			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::xamarinFitnessApp.Droid.Resource.Drawable.plugin_lc_smallicon;
@@ -362,8 +3510,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F040047
 			public const int buttonPanelSideLayout = 2130968647;
 			
-			// aapt resource value: 0x7F090376
-			public const int buttonSize = 2131297142;
+			// aapt resource value: 0x7F110376
+			public const int buttonSize = 2131821430;
 			
 			// aapt resource value: 0x7F040048
 			public const int buttonStyle = 2130968648;
@@ -524,8 +3672,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
 			
-			// aapt resource value: 0x7F090375
-			public const int circleCrop = 2131297141;
+			// aapt resource value: 0x7F110375
+			public const int circleCrop = 2131821429;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -575,8 +3723,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F04005D
 			public const int colorPrimaryDark = 2130968669;
 			
-			// aapt resource value: 0x7F090377
-			public const int colorScheme = 2131297143;
+			// aapt resource value: 0x7F110377
+			public const int colorScheme = 2131821431;
 			
 			// aapt resource value: 0x7F04005E
 			public const int colorSwitchThumbNormal = 2130968670;
@@ -851,11 +3999,11 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
-			// aapt resource value: 0x7F090374
-			public const int imageAspectRatio = 2131297140;
+			// aapt resource value: 0x7F110374
+			public const int imageAspectRatio = 2131821428;
 			
-			// aapt resource value: 0x7F090373
-			public const int imageAspectRatioAdjust = 2131297139;
+			// aapt resource value: 0x7F110373
+			public const int imageAspectRatioAdjust = 2131821427;
 			
 			// aapt resource value: 0x7F0400A8
 			public const int imageButtonStyle = 2130968744;
@@ -1178,8 +4326,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int schemaOrgType = 1;
 			
-			// aapt resource value: 0x7F090378
-			public const int scopeUris = 2131297144;
+			// aapt resource value: 0x7F110378
+			public const int scopeUris = 2131821432;
 			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
@@ -1608,6 +4756,9 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F050005
 			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131034117;
 			
+			// aapt resource value: 0x7F080002
+			public const int bb_bottom_bar_is_tablet_mode = 2131230722;
+			
 			static Boolean()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -1711,6 +4862,15 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F06001E
 			public const int background_material_light = 2131099678;
 			
+			// aapt resource value: 0x7F050008
+			public const int bb_darkBackgroundColor = 2131034120;
+			
+			// aapt resource value: 0x7F050006
+			public const int bb_inActiveBottomBarItemColor = 2131034118;
+			
+			// aapt resource value: 0x7F050009
+			public const int bb_tabletRightBorderDark = 2131034121;
+			
 			// aapt resource value: 0x7F06001F
 			public const int bright_foreground_disabled_material_dark = 2131099679;
 			
@@ -1789,38 +4949,38 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F050004
 			public const int colorPrimaryDark = 2131034116;
 			
-			// aapt resource value: 0x7F050105
-			public const int common_google_signin_btn_text_dark = 2131034373;
-			
-			// aapt resource value: 0x7F050108
-			public const int common_google_signin_btn_text_dark_default = 2131034376;
-			
 			// aapt resource value: 0x7F050109
-			public const int common_google_signin_btn_text_dark_disabled = 2131034377;
-			
-			// aapt resource value: 0x7F050110
-			public const int common_google_signin_btn_text_dark_focused = 2131034384;
-			
-			// aapt resource value: 0x7F050111
-			public const int common_google_signin_btn_text_dark_pressed = 2131034385;
-			
-			// aapt resource value: 0x7F050106
-			public const int common_google_signin_btn_text_light = 2131034374;
+			public const int common_google_signin_btn_text_dark = 2131034377;
 			
 			// aapt resource value: 0x7F050112
-			public const int common_google_signin_btn_text_light_default = 2131034386;
+			public const int common_google_signin_btn_text_dark_default = 2131034386;
 			
 			// aapt resource value: 0x7F050113
-			public const int common_google_signin_btn_text_light_disabled = 2131034387;
+			public const int common_google_signin_btn_text_dark_disabled = 2131034387;
 			
 			// aapt resource value: 0x7F050114
-			public const int common_google_signin_btn_text_light_focused = 2131034388;
+			public const int common_google_signin_btn_text_dark_focused = 2131034388;
 			
 			// aapt resource value: 0x7F050115
-			public const int common_google_signin_btn_text_light_pressed = 2131034389;
+			public const int common_google_signin_btn_text_dark_pressed = 2131034389;
 			
-			// aapt resource value: 0x7F050107
-			public const int common_google_signin_btn_tint = 2131034375;
+			// aapt resource value: 0x7F050110
+			public const int common_google_signin_btn_text_light = 2131034384;
+			
+			// aapt resource value: 0x7F050116
+			public const int common_google_signin_btn_text_light_default = 2131034390;
+			
+			// aapt resource value: 0x7F050117
+			public const int common_google_signin_btn_text_light_disabled = 2131034391;
+			
+			// aapt resource value: 0x7F050118
+			public const int common_google_signin_btn_text_light_focused = 2131034392;
+			
+			// aapt resource value: 0x7F050119
+			public const int common_google_signin_btn_text_light_pressed = 2131034393;
+			
+			// aapt resource value: 0x7F050111
+			public const int common_google_signin_btn_tint = 2131034385;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -2052,6 +5212,9 @@ namespace xamarinFitnessApp.Droid
 			
 			// aapt resource value: 0x1
 			public const int wallet_secondary_text_holo_dark = 1;
+			
+			// aapt resource value: 0x7F050007
+			public const int white = 2131034119;
 			
 			static Color()
 			{
@@ -2287,6 +5450,18 @@ namespace xamarinFitnessApp.Droid
 			
 			// aapt resource value: 0x7F08004A
 			public const int abc_text_size_title_material_toolbar = 2131230794;
+			
+			// aapt resource value: 0x7F090002
+			public const int activity_horizontal_margin = 2131296258;
+			
+			// aapt resource value: 0x7F090003
+			public const int activity_vertical_margin = 2131296259;
+			
+			// aapt resource value: 0x7F090005
+			public const int bb_height = 2131296261;
+			
+			// aapt resource value: 0x7F090004
+			public const int bottom_bar_elevation = 2131296260;
 			
 			// aapt resource value: 0x7F080001
 			public const int cardview_compat_inset_shadow = 2131230721;
@@ -2940,14 +6115,23 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F010002
 			public const int ares = 2130771970;
 			
+			// aapt resource value: 0x7F010003
+			public const int ares1 = 2130771971;
+			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
 			
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
-			// aapt resource value: 0x7F010010
-			public const int calis = 2130771984;
+			// aapt resource value: 0x7F010027
+			public const int bb_bottom_bar_top_shadow = 2130772007;
+			
+			// aapt resource value: 0x7F010004
+			public const int burpees = 2130771972;
+			
+			// aapt resource value: 0x7F010023
+			public const int calis = 2130772003;
 			
 			// aapt resource value: 0x1
 			public const int cast_abc_scrubber_control_off_mtrl_alpha = 1;
@@ -3111,62 +6295,65 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int cast_skip_ad_label_border = 1;
 			
+			// aapt resource value: 0x7F010005
+			public const int chinups = 2130771973;
+			
+			// aapt resource value: 0x7F010346
+			public const int common_full_open_on_phone = 2130772806;
+			
 			// aapt resource value: 0x7F010332
-			public const int common_full_open_on_phone = 2130772786;
-			
-			// aapt resource value: 0x7F010318
-			public const int common_google_signin_btn_icon_dark = 2130772760;
-			
-			// aapt resource value: 0x7F010319
-			public const int common_google_signin_btn_icon_dark_focused = 2130772761;
-			
-			// aapt resource value: 0x7F010320
-			public const int common_google_signin_btn_icon_dark_normal = 2130772768;
+			public const int common_google_signin_btn_icon_dark = 2130772786;
 			
 			// aapt resource value: 0x7F010333
-			public const int common_google_signin_btn_icon_dark_normal_background = 2130772787;
-			
-			// aapt resource value: 0x7F010321
-			public const int common_google_signin_btn_icon_disabled = 2130772769;
-			
-			// aapt resource value: 0x7F010322
-			public const int common_google_signin_btn_icon_light = 2130772770;
-			
-			// aapt resource value: 0x7F010323
-			public const int common_google_signin_btn_icon_light_focused = 2130772771;
-			
-			// aapt resource value: 0x7F010324
-			public const int common_google_signin_btn_icon_light_normal = 2130772772;
+			public const int common_google_signin_btn_icon_dark_focused = 2130772787;
 			
 			// aapt resource value: 0x7F010334
-			public const int common_google_signin_btn_icon_light_normal_background = 2130772788;
+			public const int common_google_signin_btn_icon_dark_normal = 2130772788;
 			
-			// aapt resource value: 0x7F010325
-			public const int common_google_signin_btn_text_dark = 2130772773;
-			
-			// aapt resource value: 0x7F010326
-			public const int common_google_signin_btn_text_dark_focused = 2130772774;
-			
-			// aapt resource value: 0x7F010327
-			public const int common_google_signin_btn_text_dark_normal = 2130772775;
+			// aapt resource value: 0x7F010347
+			public const int common_google_signin_btn_icon_dark_normal_background = 2130772807;
 			
 			// aapt resource value: 0x7F010335
-			public const int common_google_signin_btn_text_dark_normal_background = 2130772789;
-			
-			// aapt resource value: 0x7F010328
-			public const int common_google_signin_btn_text_disabled = 2130772776;
-			
-			// aapt resource value: 0x7F010329
-			public const int common_google_signin_btn_text_light = 2130772777;
-			
-			// aapt resource value: 0x7F010330
-			public const int common_google_signin_btn_text_light_focused = 2130772784;
-			
-			// aapt resource value: 0x7F010331
-			public const int common_google_signin_btn_text_light_normal = 2130772785;
+			public const int common_google_signin_btn_icon_disabled = 2130772789;
 			
 			// aapt resource value: 0x7F010336
-			public const int common_google_signin_btn_text_light_normal_background = 2130772790;
+			public const int common_google_signin_btn_icon_light = 2130772790;
+			
+			// aapt resource value: 0x7F010337
+			public const int common_google_signin_btn_icon_light_focused = 2130772791;
+			
+			// aapt resource value: 0x7F010338
+			public const int common_google_signin_btn_icon_light_normal = 2130772792;
+			
+			// aapt resource value: 0x7F010348
+			public const int common_google_signin_btn_icon_light_normal_background = 2130772808;
+			
+			// aapt resource value: 0x7F010339
+			public const int common_google_signin_btn_text_dark = 2130772793;
+			
+			// aapt resource value: 0x7F010340
+			public const int common_google_signin_btn_text_dark_focused = 2130772800;
+			
+			// aapt resource value: 0x7F010341
+			public const int common_google_signin_btn_text_dark_normal = 2130772801;
+			
+			// aapt resource value: 0x7F010349
+			public const int common_google_signin_btn_text_dark_normal_background = 2130772809;
+			
+			// aapt resource value: 0x7F010342
+			public const int common_google_signin_btn_text_disabled = 2130772802;
+			
+			// aapt resource value: 0x7F010343
+			public const int common_google_signin_btn_text_light = 2130772803;
+			
+			// aapt resource value: 0x7F010344
+			public const int common_google_signin_btn_text_light_focused = 2130772804;
+			
+			// aapt resource value: 0x7F010345
+			public const int common_google_signin_btn_text_light_normal = 2130772805;
+			
+			// aapt resource value: 0x7F010350
+			public const int common_google_signin_btn_text_light_normal_background = 2130772816;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -3186,14 +6373,17 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010337
-			public const int googleg_disabled_color_18 = 2130772791;
+			// aapt resource value: 0x7F010351
+			public const int googleg_disabled_color_18 = 2130772817;
 			
-			// aapt resource value: 0x7F010338
-			public const int googleg_standard_color_18 = 2130772792;
+			// aapt resource value: 0x7F010352
+			public const int googleg_standard_color_18 = 2130772818;
 			
-			// aapt resource value: 0x7F010003
-			public const int hades = 2130771971;
+			// aapt resource value: 0x7F010006
+			public const int hades = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int hades1 = 2130771975;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -3738,11 +6928,14 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010011
-			public const int mainScreen = 2130771985;
+			// aapt resource value: 0x7F010024
+			public const int mainScreen = 2130772004;
 			
-			// aapt resource value: 0x7F010004
-			public const int mainScreen2 = 2130771972;
+			// aapt resource value: 0x7F010008
+			public const int mainScreen2 = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int mountain = 2130771977;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -3804,8 +6997,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F090118
 			public const int mr_vol_type_audiotrack_light = 2131296536;
 			
-			// aapt resource value: 0x7F010005
-			public const int mypic = 2130771973;
+			// aapt resource value: 0x7F010010
+			public const int mypic = 2130771984;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -3852,14 +7045,26 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int places_ic_search = 1;
 			
-			// aapt resource value: 0x7F010014
-			public const int plugin_lc_smallicon = 2130771988;
+			// aapt resource value: 0x7F010011
+			public const int plank = 2130771985;
+			
+			// aapt resource value: 0x7F010028
+			public const int plugin_lc_smallicon = 2130772008;
+			
+			// aapt resource value: 0x7F010012
+			public const int poseidon1 = 2130771986;
 			
 			// aapt resource value: 0x1
 			public const int powered_by_google_dark = 1;
 			
 			// aapt resource value: 0x1
 			public const int powered_by_google_light = 1;
+			
+			// aapt resource value: 0x7F010013
+			public const int pullups = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int Pushups = 2130771988;
 			
 			// aapt resource value: 0x1
 			public const int quantum_ic_art_track_grey600_48 = 1;
@@ -3984,11 +7189,20 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int quantum_ic_volume_up_white_36 = 1;
 			
-			// aapt resource value: 0x7F010006
-			public const int thor = 2130771974;
+			// aapt resource value: 0x7F010015
+			public const int situps = 2130771989;
 			
-			// aapt resource value: 0x7F010012
-			public const int tools = 2130771986;
+			// aapt resource value: 0x7F010016
+			public const int squats = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int thor = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int thor1 = 2130771992;
+			
+			// aapt resource value: 0x7F010025
+			public const int tools = 2130772005;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3996,17 +7210,20 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010013
-			public const int training = 2130771987;
+			// aapt resource value: 0x7F010026
+			public const int training = 2130772006;
 			
-			// aapt resource value: 0x7F010007
-			public const int trident = 2130771975;
+			// aapt resource value: 0x7F010019
+			public const int trident = 2130771993;
 			
-			// aapt resource value: 0x7F010008
-			public const int weight = 2130771976;
+			// aapt resource value: 0x7F010020
+			public const int weight = 2130772000;
 			
-			// aapt resource value: 0x7F010009
-			public const int zeus = 2130771977;
+			// aapt resource value: 0x7F010021
+			public const int zeus = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int zeus1 = 2130772002;
 			
 			static Drawable()
 			{
@@ -4084,11 +7301,11 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F020176
-			public const int adjust_height = 2130837878;
+			// aapt resource value: 0x7F020185
+			public const int adjust_height = 2130837893;
 			
-			// aapt resource value: 0x7F020175
-			public const int adjust_width = 2130837877;
+			// aapt resource value: 0x7F020184
+			public const int adjust_width = 2130837892;
 			
 			// aapt resource value: 0x1
 			public const int ad_container = 1;
@@ -4117,11 +7334,11 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int android_pay_light_with_border = 1;
 			
-			// aapt resource value: 0x7F020182
-			public const int APP_NAME = 2130837890;
+			// aapt resource value: 0x7F020191
+			public const int APP_NAME = 2130837905;
 			
-			// aapt resource value: 0x7F020174
-			public const int app_name = 2130837876;
+			// aapt resource value: 0x7F020183
+			public const int app_name = 2130837891;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -4137,6 +7354,33 @@ namespace xamarinFitnessApp.Droid
 			
 			// aapt resource value: 0x1
 			public const int background_place_holder_image_view = 1;
+			
+			// aapt resource value: 0x7F020007
+			public const int bb_bottom_bar_background_overlay = 2130837511;
+			
+			// aapt resource value: 0x7F020006
+			public const int bb_bottom_bar_background_view = 2130837510;
+			
+			// aapt resource value: 0x7F020011
+			public const int bb_bottom_bar_icon = 2130837521;
+			
+			// aapt resource value: 0x7F020009
+			public const int bb_bottom_bar_item_container = 2130837513;
+			
+			// aapt resource value: 0x7F020008
+			public const int bb_bottom_bar_outer_container = 2130837512;
+			
+			// aapt resource value: 0x7F020005
+			public const int bb_bottom_bar_shadow = 2130837509;
+			
+			// aapt resource value: 0x7F020012
+			public const int bb_bottom_bar_title = 2130837522;
+			
+			// aapt resource value: 0x7F020010
+			public const int bb_tablet_right_border = 2130837520;
+			
+			// aapt resource value: 0x7F020004
+			public const int bb_user_content_container = 2130837508;
 			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
@@ -4267,8 +7511,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F020180
-			public const int dark = 2130837888;
+			// aapt resource value: 0x7F020189
+			public const int dark = 2130837897;
 			
 			// aapt resource value: 0x1
 			public const int date = 1;
@@ -4375,8 +7619,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F020179
-			public const int icon_only = 2130837881;
+			// aapt resource value: 0x7F020188
+			public const int icon_only = 2130837896;
 			
 			// aapt resource value: 0x1
 			public const int icon_uri = 1;
@@ -4438,8 +7682,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int license_list = 1;
 			
-			// aapt resource value: 0x7F020181
-			public const int light = 2130837889;
+			// aapt resource value: 0x7F020190
+			public const int light = 2130837904;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -4762,8 +8006,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F020177
-			public const int standard = 2130837879;
+			// aapt resource value: 0x7F020186
+			public const int standard = 2130837894;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -4897,8 +8141,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F0C007D
 			public const int volume_item_container = 2131492989;
 			
-			// aapt resource value: 0x7F020178
-			public const int wide = 2130837880;
+			// aapt resource value: 0x7F020187
+			public const int wide = 2130837895;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -5070,6 +8314,21 @@ namespace xamarinFitnessApp.Droid
 			
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
+			
+			// aapt resource value: 0x7F030004
+			public const int bb_bottom_bar_item_container = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int bb_bottom_bar_item_container_tablet = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int bb_bottom_bar_item_fixed = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int bb_bottom_bar_item_fixed_tablet = 2130903047;
+			
+			// aapt resource value: 0x7F030008
+			public const int bb_bottom_bar_item_shifting = 2130903048;
 			
 			// aapt resource value: 0x1
 			public const int cast_expanded_controller_activity = 1;
@@ -5383,8 +8642,11 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
-			// aapt resource value: 0x7F070064
-			public const int ApplicationName = 2131165284;
+			// aapt resource value: 0x7F070065
+			public const int ApplicationName = 2131165285;
+			
+			// aapt resource value: 0x7F070003
+			public const int app_name = 2131165187;
 			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
@@ -5512,56 +8774,56 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F070065
-			public const int common_google_play_services_enable_button = 2131165285;
-			
 			// aapt resource value: 0x7F070066
-			public const int common_google_play_services_enable_text = 2131165286;
+			public const int common_google_play_services_enable_button = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int common_google_play_services_enable_title = 2131165287;
+			public const int common_google_play_services_enable_text = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int common_google_play_services_install_button = 2131165288;
+			public const int common_google_play_services_enable_title = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int common_google_play_services_install_text = 2131165289;
+			public const int common_google_play_services_install_button = 2131165289;
 			
 			// aapt resource value: 0x7F070070
-			public const int common_google_play_services_install_title = 2131165296;
+			public const int common_google_play_services_install_text = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int common_google_play_services_notification_ticker = 2131165297;
+			public const int common_google_play_services_install_title = 2131165297;
+			
+			// aapt resource value: 0x7F070072
+			public const int common_google_play_services_notification_ticker = 2131165298;
 			
 			// aapt resource value: 0x1
 			public const int common_google_play_services_unknown_issue = 1;
 			
-			// aapt resource value: 0x7F070072
-			public const int common_google_play_services_unsupported_text = 2131165298;
-			
 			// aapt resource value: 0x7F070073
-			public const int common_google_play_services_update_button = 2131165299;
+			public const int common_google_play_services_unsupported_text = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int common_google_play_services_update_text = 2131165300;
+			public const int common_google_play_services_update_button = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int common_google_play_services_update_title = 2131165301;
+			public const int common_google_play_services_update_text = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int common_google_play_services_updating_text = 2131165302;
+			public const int common_google_play_services_update_title = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int common_google_play_services_wear_update_text = 2131165303;
+			public const int common_google_play_services_updating_text = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int common_open_on_phone = 2131165304;
+			public const int common_google_play_services_wear_update_text = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int common_signin_button_text = 2131165305;
+			public const int common_open_on_phone = 2131165305;
 			
 			// aapt resource value: 0x7F070080
-			public const int common_signin_button_text_long = 2131165312;
+			public const int common_signin_button_text = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int common_signin_button_text_long = 2131165313;
 			
 			// aapt resource value: 0x1
 			public const int fcm_fallback_notification_channel_label = 1;
@@ -5569,8 +8831,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int gcm_fallback_notification_channel_label = 1;
 			
-			// aapt resource value: 0x7F070063
-			public const int Hello = 2131165283;
+			// aapt resource value: 0x7F070064
+			public const int Hello = 2131165284;
 			
 			// aapt resource value: 0x7F070002
 			public const int library_name = 2131165186;
@@ -6232,6 +9494,30 @@ namespace xamarinFitnessApp.Droid
 			
 			// aapt resource value: 0x7F1600A9
 			public const int Base_Widget_Design_TabLayout = 2132148393;
+			
+			// aapt resource value: 0x7F060012
+			public const int BB_BottomBarBadge_Text = 2131099666;
+			
+			// aapt resource value: 0x7F060005
+			public const int BB_BottomBarItem = 2131099653;
+			
+			// aapt resource value: 0x7F060006
+			public const int BB_BottomBarItem_Fixed = 2131099654;
+			
+			// aapt resource value: 0x7F060008
+			public const int BB_BottomBarItem_Fixed_TitleAppearance = 2131099656;
+			
+			// aapt resource value: 0x7F060009
+			public const int BB_BottomBarItem_Shifting = 2131099657;
+			
+			// aapt resource value: 0x7F060010
+			public const int BB_BottomBarItem_Shifting_TitleAppearance = 2131099664;
+			
+			// aapt resource value: 0x7F060011
+			public const int BB_BottomBarItem_Tablet = 2131099665;
+			
+			// aapt resource value: 0x7F060007
+			public const int BB_BottomBarItem_TitleStyle = 2131099655;
 			
 			// aapt resource value: 0x7F160002
 			public const int CardView = 2132148226;
@@ -7018,11 +10304,11 @@ namespace xamarinFitnessApp.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F080047
-			public const int ActionBarLayout_android_layout_gravity = 2131230791;
+			// aapt resource value: 0x7F100047
+			public const int ActionBarLayout_android_layout_gravity = 2131755079;
 			
-			// aapt resource value: 0x7F080017
-			public const int ActionBar_background = 2131230743;
+			// aapt resource value: 0x7F100017
+			public const int ActionBar_background = 2131755031;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -7111,8 +10397,8 @@ namespace xamarinFitnessApp.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F080049
-			public const int ActionMenuItemView_android_minWidth = 2131230793;
+			// aapt resource value: 0x7F100049
+			public const int ActionMenuItemView_android_minWidth = 2131755081;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -7122,8 +10408,8 @@ namespace xamarinFitnessApp.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F080051
-			public const int ActionMode_background = 2131230801;
+			// aapt resource value: 0x7F100051
+			public const int ActionMode_background = 2131755089;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -7144,8 +10430,8 @@ namespace xamarinFitnessApp.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F080058
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230808;
+			// aapt resource value: 0x7F100058
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131755096;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -7155,8 +10441,8 @@ namespace xamarinFitnessApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080568
-			public const int AdsAttrs_adSize = 2131232104;
+			// aapt resource value: 0x7F100568
+			public const int AdsAttrs_adSize = 2131756392;
 			
 			// aapt resource value: 0x1
 			public const int AdsAttrs_adSizes = 1;
@@ -7173,8 +10459,8 @@ namespace xamarinFitnessApp.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F080061
-			public const int AlertDialog_android_layout = 2131230817;
+			// aapt resource value: 0x7F100061
+			public const int AlertDialog_android_layout = 2131755105;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -7205,14 +10491,14 @@ namespace xamarinFitnessApp.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F080075
-			public const int AppBarLayoutStates_state_collapsed = 2131230837;
+			// aapt resource value: 0x7F100075
+			public const int AppBarLayoutStates_state_collapsed = 2131755125;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F080069
-			public const int AppBarLayout_android_background = 2131230825;
+			// aapt resource value: 0x7F100069
+			public const int AppBarLayout_android_background = 2131755113;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -7230,8 +10516,8 @@ namespace xamarinFitnessApp.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F080078
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131230840;
+			// aapt resource value: 0x7F100078
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131755128;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -7242,8 +10528,8 @@ namespace xamarinFitnessApp.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F080081
-			public const int AppCompatImageView_android_src = 2131230849;
+			// aapt resource value: 0x7F100081
+			public const int AppCompatImageView_android_src = 2131755137;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -7260,8 +10546,8 @@ namespace xamarinFitnessApp.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F080086
-			public const int AppCompatSeekBar_android_thumb = 2131230854;
+			// aapt resource value: 0x7F100086
+			public const int AppCompatSeekBar_android_thumb = 2131755142;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -7281,8 +10567,8 @@ namespace xamarinFitnessApp.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F080091
-			public const int AppCompatTextHelper_android_drawableBottom = 2131230865;
+			// aapt resource value: 0x7F100091
+			public const int AppCompatTextHelper_android_drawableBottom = 2131755153;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -7312,8 +10598,8 @@ namespace xamarinFitnessApp.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F080099
-			public const int AppCompatTextView_android_textAppearance = 2131230873;
+			// aapt resource value: 0x7F100099
+			public const int AppCompatTextView_android_textAppearance = 2131755161;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -7457,8 +10743,8 @@ namespace xamarinFitnessApp.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F080108
-			public const int AppCompatTheme_actionBarDivider = 2131230984;
+			// aapt resource value: 0x7F100108
+			public const int AppCompatTheme_actionBarDivider = 2131755272;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -7824,8 +11110,8 @@ namespace xamarinFitnessApp.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F080228
-			public const int BottomNavigationView_elevation = 2131231272;
+			// aapt resource value: 0x7F100228
+			public const int BottomNavigationView_elevation = 2131755560;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -7844,8 +11130,8 @@ namespace xamarinFitnessApp.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F080234
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131231284;
+			// aapt resource value: 0x7F100234
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131755572;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -7856,8 +11142,8 @@ namespace xamarinFitnessApp.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F080238
-			public const int ButtonBarLayout_allowStacking = 2131231288;
+			// aapt resource value: 0x7F100238
+			public const int ButtonBarLayout_allowStacking = 2131755576;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -7874,8 +11160,8 @@ namespace xamarinFitnessApp.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F080541
-			public const int CardView_android_minHeight = 2131232065;
+			// aapt resource value: 0x7F100541
+			public const int CardView_android_minHeight = 2131756353;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -7952,8 +11238,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x9
 			public const int CastExpandedController_castRewind30ButtonDrawable = 9;
 			
-			// aapt resource value: 0x7F080581
-			public const int CastExpandedController_castSeekBarProgressDrawable = 2131232129;
+			// aapt resource value: 0x7F100581
+			public const int CastExpandedController_castSeekBarProgressDrawable = 2131756417;
 			
 			// aapt resource value: 0x1
 			public const int CastExpandedController_castSeekBarThumbDrawable = 1;
@@ -7975,8 +11261,8 @@ namespace xamarinFitnessApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080587
-			public const int CastIntroOverlay_castBackgroundColor = 2131232135;
+			// aapt resource value: 0x7F100587
+			public const int CastIntroOverlay_castBackgroundColor = 2131756423;
 			
 			// aapt resource value: 0x1
 			public const int CastIntroOverlay_castButtonBackgroundColor = 1;
@@ -8068,8 +11354,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x2
 			public const int CastMiniController_castSubtitleTextAppearance = 2;
 			
-			// aapt resource value: 0x7F080612
-			public const int CastMiniController_castTitleTextAppearance = 2131232274;
+			// aapt resource value: 0x7F100612
+			public const int CastMiniController_castTitleTextAppearance = 2131756562;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
@@ -8089,8 +11375,8 @@ namespace xamarinFitnessApp.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F080240
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131231296;
+			// aapt resource value: 0x7F100240
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131755584;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -8123,8 +11409,8 @@ namespace xamarinFitnessApp.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F080257
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231319;
+			// aapt resource value: 0x7F100257
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131755607;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -8152,8 +11438,8 @@ namespace xamarinFitnessApp.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F080260
-			public const int ColorStateListItem_alpha = 2131231328;
+			// aapt resource value: 0x7F100260
+			public const int ColorStateListItem_alpha = 2131755616;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -8166,8 +11452,8 @@ namespace xamarinFitnessApp.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F080264
-			public const int CompoundButton_android_button = 2131231332;
+			// aapt resource value: 0x7F100264
+			public const int CompoundButton_android_button = 2131755620;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -8179,8 +11465,8 @@ namespace xamarinFitnessApp.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F080268
-			public const int CoordinatorLayout_keylines = 2131231336;
+			// aapt resource value: 0x7F100268
+			public const int CoordinatorLayout_keylines = 2131755624;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -8191,8 +11477,8 @@ namespace xamarinFitnessApp.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F080271
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131231345;
+			// aapt resource value: 0x7F100271
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131755633;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -8228,8 +11514,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x2
 			public const int Corpus_contentProviderUri = 2;
 			
-			// aapt resource value: 0x7F080615
-			public const int Corpus_corpusId = 2131232277;
+			// aapt resource value: 0x7F100615
+			public const int Corpus_corpusId = 2131756565;
 			
 			// aapt resource value: 0x1
 			public const int Corpus_corpusVersion = 1;
@@ -8257,8 +11543,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x2
 			public const int CustomCastTheme_castExpandedControllerStyle = 2;
 			
-			// aapt resource value: 0x7F080624
-			public const int CustomCastTheme_castIntroOverlayStyle = 2131232292;
+			// aapt resource value: 0x7F100624
+			public const int CustomCastTheme_castIntroOverlayStyle = 2131756580;
 			
 			// aapt resource value: 0x1
 			public const int CustomCastTheme_castMiniControllerStyle = 1;
@@ -8270,16 +11556,16 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int CustomWalletTheme_toolbarTextColorStyle = 1;
 			
-			// aapt resource value: 0x7F080628
-			public const int CustomWalletTheme_windowTransitionStyle = 2131232296;
+			// aapt resource value: 0x7F100628
+			public const int CustomWalletTheme_windowTransitionStyle = 2131756584;
 			
 			public static int[] DesignTheme = new int[] {
 					2130968639,
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F080279
-			public const int DesignTheme_bottomSheetDialogTheme = 2131231353;
+			// aapt resource value: 0x7F100279
+			public const int DesignTheme_bottomSheetDialogTheme = 2131755641;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -8297,8 +11583,8 @@ namespace xamarinFitnessApp.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F080283
-			public const int DrawerArrowToggle_arrowHeadLength = 2131231363;
+			// aapt resource value: 0x7F100283
+			public const int DrawerArrowToggle_arrowHeadLength = 2131755651;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -8325,8 +11611,8 @@ namespace xamarinFitnessApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080630
-			public const int FeatureParam_paramName = 2131232304;
+			// aapt resource value: 0x7F100630
+			public const int FeatureParam_paramName = 2131756592;
 			
 			// aapt resource value: 0x1
 			public const int FeatureParam_paramValue = 1;
@@ -8341,8 +11627,8 @@ namespace xamarinFitnessApp.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F080292
-			public const int FloatingActionButton_backgroundTint = 2131231378;
+			// aapt resource value: 0x7F100292
+			public const int FloatingActionButton_backgroundTint = 2131755666;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -8350,8 +11636,8 @@ namespace xamarinFitnessApp.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F080301
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231489;
+			// aapt resource value: 0x7F100301
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131755777;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -8387,8 +11673,8 @@ namespace xamarinFitnessApp.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F080010
-			public const int FontFamilyFont_android_font = 2131230736;
+			// aapt resource value: 0x7F100010
+			public const int FontFamilyFont_android_font = 2131755024;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -8405,8 +11691,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F080003
-			public const int FontFamily_fontProviderAuthority = 2131230723;
+			// aapt resource value: 0x7F100003
+			public const int FontFamily_fontProviderAuthority = 2131755011;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -8428,8 +11714,8 @@ namespace xamarinFitnessApp.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F080303
-			public const int ForegroundLinearLayout_android_foreground = 2131231491;
+			// aapt resource value: 0x7F100303
+			public const int ForegroundLinearLayout_android_foreground = 2131755779;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -8448,8 +11734,8 @@ namespace xamarinFitnessApp.Droid
 			public static int[] GlobalSearchCorpus = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F080640
-			public const int GlobalSearchCorpus_allowShortcuts = 2131232320;
+			// aapt resource value: 0x7F100640
+			public const int GlobalSearchCorpus_allowShortcuts = 2131756608;
 			
 			public static int[] GlobalSearchSection = new int[] {
 					1,
@@ -8458,8 +11744,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int GlobalSearchSection_sectionContent = 1;
 			
-			// aapt resource value: 0x7F080643
-			public const int GlobalSearchSection_sectionType = 2131232323;
+			// aapt resource value: 0x7F100643
+			public const int GlobalSearchSection_sectionType = 2131756611;
 			
 			// aapt resource value: 0x3
 			public const int GlobalSearch_defaultIntentAction = 3;
@@ -8470,8 +11756,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x4
 			public const int GlobalSearch_defaultIntentData = 4;
 			
-			// aapt resource value: 0x7F080636
-			public const int GlobalSearch_searchEnabled = 2131232310;
+			// aapt resource value: 0x7F100636
+			public const int GlobalSearch_searchEnabled = 2131756598;
 			
 			// aapt resource value: 0x1
 			public const int GlobalSearch_searchLabel = 1;
@@ -8487,8 +11773,8 @@ namespace xamarinFitnessApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080645
-			public const int IMECorpus_inputEnabled = 2131232325;
+			// aapt resource value: 0x7F100645
+			public const int IMECorpus_inputEnabled = 2131756613;
 			
 			// aapt resource value: 0x1
 			public const int IMECorpus_sourceClass = 1;
@@ -8516,8 +11802,8 @@ namespace xamarinFitnessApp.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F080307
-			public const int LinearLayoutCompat_android_baselineAligned = 2131231495;
+			// aapt resource value: 0x7F100307
+			public const int LinearLayoutCompat_android_baselineAligned = 2131755783;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -8543,8 +11829,8 @@ namespace xamarinFitnessApp.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F080317
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231511;
+			// aapt resource value: 0x7F100317
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131755799;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -8565,8 +11851,8 @@ namespace xamarinFitnessApp.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F080322
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231522;
+			// aapt resource value: 0x7F100322
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131755810;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -8576,14 +11862,14 @@ namespace xamarinFitnessApp.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F080561
-			public const int LoadingImageView_circleCrop = 2131232097;
+			// aapt resource value: 0x7F100561
+			public const int LoadingImageView_circleCrop = 2131756385;
 			
-			// aapt resource value: 0x7F080560
-			public const int LoadingImageView_imageAspectRatio = 2131232096;
+			// aapt resource value: 0x7F100560
+			public const int LoadingImageView_imageAspectRatio = 2131756384;
 			
-			// aapt resource value: 0x7F080559
-			public const int LoadingImageView_imageAspectRatioAdjust = 2131232089;
+			// aapt resource value: 0x7F100559
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131756377;
 			
 			public static int[] MapAttrs = new int[] {
 					1,
@@ -8649,8 +11935,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x6
 			public const int MapAttrs_liteMode = 6;
 			
-			// aapt resource value: 0x7F080665
-			public const int MapAttrs_mapType = 2131232357;
+			// aapt resource value: 0x7F100665
+			public const int MapAttrs_mapType = 2131756645;
 			
 			// aapt resource value: 0x7
 			public const int MapAttrs_uiCompass = 7;
@@ -8685,8 +11971,8 @@ namespace xamarinFitnessApp.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F080555
-			public const int MediaRouteButton_android_minHeight = 2131232085;
+			// aapt resource value: 0x7F100555
+			public const int MediaRouteButton_android_minHeight = 2131756373;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -8705,8 +11991,8 @@ namespace xamarinFitnessApp.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F080325
-			public const int MenuGroup_android_checkableBehavior = 2131231525;
+			// aapt resource value: 0x7F100325
+			public const int MenuGroup_android_checkableBehavior = 2131755813;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -8748,8 +12034,8 @@ namespace xamarinFitnessApp.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F080332
-			public const int MenuItem_actionLayout = 2131231538;
+			// aapt resource value: 0x7F100332
+			public const int MenuItem_actionLayout = 2131755826;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -8828,8 +12114,8 @@ namespace xamarinFitnessApp.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F080356
-			public const int MenuView_android_headerBackground = 2131231574;
+			// aapt resource value: 0x7F100356
+			public const int MenuView_android_headerBackground = 2131755862;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -8867,8 +12153,8 @@ namespace xamarinFitnessApp.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F080366
-			public const int NavigationView_android_background = 2131231590;
+			// aapt resource value: 0x7F100366
+			public const int NavigationView_android_background = 2131755878;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -8905,11 +12191,11 @@ namespace xamarinFitnessApp.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F080381
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131231617;
+			// aapt resource value: 0x7F100381
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131755905;
 			
-			// aapt resource value: 0x7F080377
-			public const int PopupWindow_android_popupAnimationStyle = 2131231607;
+			// aapt resource value: 0x7F100377
+			public const int PopupWindow_android_popupAnimationStyle = 2131755895;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -8921,8 +12207,8 @@ namespace xamarinFitnessApp.Droid
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F080383
-			public const int RecycleListView_paddingBottomNoButtons = 2131231619;
+			// aapt resource value: 0x7F100383
+			public const int RecycleListView_paddingBottomNoButtons = 2131755907;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -8940,8 +12226,8 @@ namespace xamarinFitnessApp.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F080386
-			public const int RecyclerView_android_descendantFocusability = 2131231622;
+			// aapt resource value: 0x7F100386
+			public const int RecyclerView_android_descendantFocusability = 2131755910;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -8976,14 +12262,14 @@ namespace xamarinFitnessApp.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F080398
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131231640;
+			// aapt resource value: 0x7F100398
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131755928;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F080400
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131231744;
+			// aapt resource value: 0x7F100400
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131756032;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -9004,8 +12290,8 @@ namespace xamarinFitnessApp.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F080402
-			public const int SearchView_android_focusable = 2131231746;
+			// aapt resource value: 0x7F100402
+			public const int SearchView_android_focusable = 2131756034;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -9067,8 +12353,8 @@ namespace xamarinFitnessApp.Droid
 			public static int[] SectionFeature = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F080684
-			public const int SectionFeature_featureType = 2131232388;
+			// aapt resource value: 0x7F100684
+			public const int SectionFeature_featureType = 2131756676;
 			
 			// aapt resource value: 0x4
 			public const int Section_indexPrefixes = 4;
@@ -9082,8 +12368,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x1
 			public const int Section_sectionFormat = 1;
 			
-			// aapt resource value: 0x7F080680
-			public const int Section_sectionId = 2131232384;
+			// aapt resource value: 0x7F100680
+			public const int Section_sectionId = 2131756672;
 			
 			// aapt resource value: 0x3
 			public const int Section_sectionWeight = 3;
@@ -9096,22 +12382,22 @@ namespace xamarinFitnessApp.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F080563
-			public const int SignInButton_buttonSize = 2131232099;
+			// aapt resource value: 0x7F100563
+			public const int SignInButton_buttonSize = 2131756387;
 			
-			// aapt resource value: 0x7F080564
-			public const int SignInButton_colorScheme = 2131232100;
+			// aapt resource value: 0x7F100564
+			public const int SignInButton_colorScheme = 2131756388;
 			
-			// aapt resource value: 0x7F080565
-			public const int SignInButton_scopeUris = 2131232101;
+			// aapt resource value: 0x7F100565
+			public const int SignInButton_scopeUris = 2131756389;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F080420
-			public const int SnackbarLayout_android_maxWidth = 2131231776;
+			// aapt resource value: 0x7F100420
+			public const int SnackbarLayout_android_maxWidth = 2131756064;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -9126,8 +12412,8 @@ namespace xamarinFitnessApp.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F080424
-			public const int Spinner_android_dropDownWidth = 2131231780;
+			// aapt resource value: 0x7F100424
+			public const int Spinner_android_dropDownWidth = 2131756068;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -9157,8 +12443,8 @@ namespace xamarinFitnessApp.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F080430
-			public const int SwitchCompat_android_textOff = 2131231792;
+			// aapt resource value: 0x7F100430
+			public const int SwitchCompat_android_textOff = 2131756080;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -9204,8 +12490,8 @@ namespace xamarinFitnessApp.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F080445
-			public const int TabItem_android_icon = 2131231813;
+			// aapt resource value: 0x7F100445
+			public const int TabItem_android_icon = 2131756101;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -9231,8 +12517,8 @@ namespace xamarinFitnessApp.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F080449
-			public const int TabLayout_tabBackground = 2131231817;
+			// aapt resource value: 0x7F100449
+			public const int TabLayout_tabBackground = 2131756105;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -9294,8 +12580,8 @@ namespace xamarinFitnessApp.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F080466
-			public const int TextAppearance_android_fontFamily = 2131231846;
+			// aapt resource value: 0x7F100466
+			public const int TextAppearance_android_fontFamily = 2131756134;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -9351,8 +12637,8 @@ namespace xamarinFitnessApp.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F080480
-			public const int TextInputLayout_android_hint = 2131231872;
+			// aapt resource value: 0x7F100480
+			public const int TextInputLayout_android_hint = 2131756160;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -9430,8 +12716,8 @@ namespace xamarinFitnessApp.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F080497
-			public const int Toolbar_android_gravity = 2131231895;
+			// aapt resource value: 0x7F100497
+			public const int Toolbar_android_gravity = 2131756183;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -9529,8 +12815,8 @@ namespace xamarinFitnessApp.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F080533
-			public const int ViewBackgroundHelper_android_background = 2131232051;
+			// aapt resource value: 0x7F100533
+			public const int ViewBackgroundHelper_android_background = 2131756339;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -9543,8 +12829,8 @@ namespace xamarinFitnessApp.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F080537
-			public const int ViewStubCompat_android_id = 2131232055;
+			// aapt resource value: 0x7F100537
+			public const int ViewStubCompat_android_id = 2131756343;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -9552,8 +12838,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F080527
-			public const int View_android_focusable = 2131232039;
+			// aapt resource value: 0x7F100527
+			public const int View_android_focusable = 2131756327;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
@@ -9573,8 +12859,8 @@ namespace xamarinFitnessApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080686
-			public const int WalletFragmentOptions_appTheme = 2131232390;
+			// aapt resource value: 0x7F100686
+			public const int WalletFragmentOptions_appTheme = 2131756678;
 			
 			// aapt resource value: 0x1
 			public const int WalletFragmentOptions_environment = 1;
@@ -9601,8 +12887,8 @@ namespace xamarinFitnessApp.Droid
 			// aapt resource value: 0x3
 			public const int WalletFragmentStyle_buyButtonAppearance = 3;
 			
-			// aapt resource value: 0x7F080692
-			public const int WalletFragmentStyle_buyButtonHeight = 2131232402;
+			// aapt resource value: 0x7F100692
+			public const int WalletFragmentStyle_buyButtonHeight = 2131756690;
 			
 			// aapt resource value: 0x2
 			public const int WalletFragmentStyle_buyButtonText = 2;

@@ -104,15 +104,31 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ares.jpg" />
     <Content Include="ares.png" />
+    <Content Include="ares1.jpg" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
     <Content Include="Assets\SplashScreen.scale-125.png" />
     <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="burpees.jpg" />
     <Content Include="Calis.jpg" />
+    <Content Include="chinups.jpg" />
+    <Content Include="hades.jpg" />
     <Content Include="hades.png" />
+    <Content Include="hades1.jpg" />
+    <Content Include="mountain.jpg" />
+    <Content Include="plank.jpg" />
+    <Content Include="poseidon.jpg" />
+    <Content Include="poseidon1.jpg" />
+    <Content Include="pullups.jpg" />
+    <Content Include="Pushups.jpg" />
+    <Content Include="situps.jpg" />
+    <Content Include="squats.jpg" />
+    <Content Include="thor.jpg" />
     <Content Include="thor.png" />
+    <Content Include="thor1.jpg" />
     <Content Include="tools.jpg" />
     <Content Include="tools2.jpg" />
     <Content Include="training.jpg" />
@@ -152,7 +168,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="zeus.jpg" />
     <Content Include="zeus.png" />
+    <Content Include="zeus1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -178,6 +196,9 @@
       <Version>1.6.258-beta</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
+    <PackageReference Include="ThriveGmbH.BottomNavigationBar.LATEST">
+      <Version>1.0.6</Version>
+    </PackageReference>
     <PackageReference Include="Xam.Plugins.Notifier">
       <Version>3.0.1</Version>
     </PackageReference>

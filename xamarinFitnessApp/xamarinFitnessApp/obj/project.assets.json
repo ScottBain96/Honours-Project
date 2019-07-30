@@ -784,6 +784,15 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.LATEST/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugins.Notifier/3.0.1": {
         "type": "package",
         "compile": {
@@ -3658,6 +3667,21 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "ThriveGmbH.BottomNavigationBar.LATEST/1.0.6": {
+      "sha512": "KmSI1dUxt5C+1PozocE0azGlXjQhzWBx5MkZt8nCL0s06x6+CkWQUNYQe6hkiKBkuMMHlzHphXogd3BS3aBgtA==",
+      "type": "package",
+      "path": "thrivegmbh.bottomnavigationbar.latest/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/BottomBar.Droid.dll",
+        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
+        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
+        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
+        "thrivegmbh.bottomnavigationbar.latest.1.0.6.nupkg.sha512",
+        "thrivegmbh.bottomnavigationbar.latest.nuspec"
+      ]
+    },
     "Xam.Plugins.Notifier/3.0.1": {
       "sha512": "QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
       "type": "package",
@@ -3949,6 +3973,7 @@
       "Microcharts.Forms >= 0.8.3-pre",
       "NETStandard.Library >= 2.0.3",
       "Plugin.SQLite >= 1.0.4",
+      "ThriveGmbH.BottomNavigationBar.LATEST >= 1.0.6",
       "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Forms >= 3.4.0.1039999",
       "Xamarin.Forms.Maps >= 3.4.0.1039999",
@@ -4022,6 +4047,10 @@
             "target": "Package",
             "version": "[1.0.4, )"
           },
+          "ThriveGmbH.BottomNavigationBar.LATEST": {
+            "target": "Package",
+            "version": "[1.0.6, )"
+          },
           "Xam.Plugins.Notifier": {
             "target": "Package",
             "version": "[3.0.1, )"
@@ -4074,6 +4103,16 @@
       "warningLevel": 1,
       "message": "Package 'modernhttpclient 2.4.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "modernhttpclient",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ThriveGmbH.BottomNavigationBar.LATEST 1.0.6' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ThriveGmbH.BottomNavigationBar.LATEST",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
       ]

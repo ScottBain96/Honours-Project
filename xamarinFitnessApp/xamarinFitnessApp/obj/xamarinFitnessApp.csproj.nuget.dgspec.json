@@ -61,6 +61,10 @@
               "target": "Package",
               "version": "[1.0.4, )"
             },
+            "ThriveGmbH.BottomNavigationBar.LATEST": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
             "Xam.Plugins.Notifier": {
               "target": "Package",
               "version": "[3.0.1, )"

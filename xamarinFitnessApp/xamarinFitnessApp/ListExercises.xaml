@@ -19,7 +19,7 @@
                 <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
                         <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
-                            <ImageButton Source="trident.png"   Clicked="ImageButton_Clicked_1"></ImageButton>
+                            <ImageButton Source="poseidon1.jpg"   Clicked="ImageButton_Clicked_1"></ImageButton>
                             <Button WidthRequest="200" BackgroundColor="Transparent" Text="Poseidon Workout &#10;Level: Easy &#10;No Equipment Required" Clicked="ImageButton_Clicked_1" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
@@ -28,7 +28,7 @@
                 <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
                         <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
-                            <ImageButton Source="zeus.png"   Clicked="ImageButton_Clicked_2"></ImageButton>
+                            <ImageButton Source="zeus1.jpg"    Clicked="ImageButton_Clicked_2"></ImageButton>
                             <Button WidthRequest="200" BackgroundColor="Transparent" Text="Zeus Workout &#10;Level: Medium &#10;No Equipment Required" Clicked="ImageButton_Clicked_2" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
@@ -37,7 +37,7 @@
                 <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
                         <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
-                            <ImageButton Source="hades.png"   Clicked="ImageButton_Clicked_3"></ImageButton>
+                            <ImageButton Source="hades1.jpg"   Clicked="ImageButton_Clicked_3"></ImageButton>
                             <Button WidthRequest="200" BackgroundColor="Transparent" Text="Hades Workout &#10;Level: Hard &#10;No Equipment Required" Clicked="ImageButton_Clicked_3" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
@@ -46,7 +46,7 @@
                 <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
                         <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
-                            <ImageButton Source="ares.png"    Clicked="ImageButton_Clicked_4"></ImageButton>
+                            <ImageButton Source="ares1.jpg"    Clicked="ImageButton_Clicked_4"></ImageButton>
                             <Button WidthRequest="200" BackgroundColor="Transparent" Text="Ares Workout &#10;Level: Hard &#10;Pull Up Bar Required" Clicked="ImageButton_Clicked_4" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
@@ -55,34 +55,12 @@
                 <cardView:CardView CardViewHeightRequest="120"   CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
                     <cardView:CardView.CardViewContent>
                         <StackLayout Orientation="Horizontal"  BackgroundColor="Gray" >
-                            <ImageButton Source="thor.png"  Clicked="ImageButton_Clicked_5"></ImageButton>
+                            <ImageButton Source="thor1.jpg"  Clicked="ImageButton_Clicked_5"></ImageButton>
                             <Button WidthRequest="200" BackgroundColor="Transparent" Text="Thor Workout &#10;Level: Hard &#10;Pull Up Bar Required" Clicked="ImageButton_Clicked_5" ></Button>
                         </StackLayout>
                     </cardView:CardView.CardViewContent>
                 </cardView:CardView>
 
-               
-
-
-
-                <!--<Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="20*" />
-                        <RowDefinition Height="20*" />
-                        <RowDefinition Height="20*" />
-                        <RowDefinition Height="20*" />
-                        <RowDefinition Height="20*" />
-
-
-                    </Grid.RowDefinitions>
-                    <ImageButton  Aspect="Fill" Source="weight.jpg" Grid.Row="0"></ImageButton>
-                    <ImageButton  Aspect="Fill" Source="mypic.jpg" Grid.Row="1"></ImageButton>
-                    <ImageButton  Aspect="Fill" Source="greyTools.jpg" Grid.Row="2" ></ImageButton>
-                    <ImageButton  Aspect="Fill" Source="weight.jpg" Grid.Row="3"></ImageButton>
-                    <ImageButton  Aspect="Fill" Source="greyTools.jpg" Grid.Row="4" ></ImageButton>
-
-
-                </Grid>-->
 
     
             </StackLayout>

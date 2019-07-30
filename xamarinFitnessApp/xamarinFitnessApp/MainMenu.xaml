@@ -11,13 +11,12 @@
                 <RowDefinition Height="33*" />
                 <RowDefinition Height="33*" />
                 <RowDefinition Height="33*" />
-                
             </Grid.RowDefinitions>
 
             <ImageButton  Aspect="Fill" Source="training.jpg"  Grid.Row="0" Clicked="ImageButton_Clicked" ></ImageButton>
             <Label  TextColor="White"  BackgroundColor="Transparent" Text="Workout Selector" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0"></Label>
-            <ImageButton  Aspect="Fill" Source="calis.jpg"   Grid.Row="1" Clicked="ImageButton_Clicked_Food"></ImageButton>
-            <Label TextColor="White" BackgroundColor="Transparent" Text="List of exercises" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1"></Label>
+            <ImageButton  Aspect="Fill" Source="calis.jpg"   Grid.Row="1" Clicked="ImageButton_Clicked_exercises"></ImageButton>
+            <Label TextColor="White" BackgroundColor="Transparent" Text="Exercise Info" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1"></Label>
 
             <ImageButton  Aspect="Fill" Source="tools.jpg"   Grid.Row="2" Clicked="ImageButton_Clicked_Tools"></ImageButton>
             <Label TextColor="White" BackgroundColor="Transparent"  Text="Tools and Help" FontSize="Large" HorizontalOptions="Center"  VerticalOptions="Center" Grid.Row="2"></Label>

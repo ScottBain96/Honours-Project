@@ -37,7 +37,7 @@ namespace xamarinFitnessApp
             
 
             InitializeComponent ();
-            //this.dataAccess = new UserDataAccess();
+     
             this.dataAccess = new UserDataAccess();
 
             var picker = new Picker { Title = "Select a Profile"};
@@ -62,7 +62,7 @@ namespace xamarinFitnessApp
                 if (picker.SelectedIndex == 0)
                 {
                     myProfile = 1;
-                    //RetrieveProfileData();
+                  
 
 
                 }
@@ -81,7 +81,7 @@ namespace xamarinFitnessApp
 
                 }
                 RetrieveProfileData();
-                //lbltest.Text = myProfile.ToString();
+                
             };
 
 
@@ -94,7 +94,7 @@ namespace xamarinFitnessApp
 
         public void RetrieveProfileData()
         {
-            // txtAge.Text = myProfile.ToString();
+           
             txtAge.Text = this.dataAccess.GetCustomer(myProfile).Age;
             txtWeightKg.Text = this.dataAccess.GetCustomer(myProfile).WeightKG;
             txtCm.Text = this.dataAccess.GetCustomer(myProfile).HeightCM;
@@ -145,7 +145,6 @@ namespace xamarinFitnessApp
 
             }
 
-            //setAge.Text = gender.ToString();
 
         }
 
@@ -154,11 +153,6 @@ namespace xamarinFitnessApp
         //Set variable intensity depending on the activity level, values provided by the formula
         public void SetActivityLevel()
         {
-
-           // string pickerValue;
-           // pickerValue = pickerActivity.SelectedItem.ToString();
-
-            
 
             switch (pickerActivity.SelectedIndex)
             {
@@ -181,9 +175,6 @@ namespace xamarinFitnessApp
                     break;
 
             }
-
-            //setAct.Text = intensity.ToString("0.000");
-
 
         }
 
